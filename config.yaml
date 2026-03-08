@@ -1,0 +1,23 @@
+topics:
+  - name: "Geometry and Physics"
+    categories: ["math.AG", "math.SG", "math-ph", "hep-th"]
+    keywords:
+      - "Gromov-Witten invariants"
+      - "Donaldson-Thomas theory"
+      - "Quiver DT invariants"
+      - "Logarithmic curve counting"
+      - "Homological Mirror Symmetry (HMS)"
+      - "Fukaya categories"
+      - "SYZ conjecture"
+      - "Intrinsic Mirror symmetry"
+      - "Landau-Ginzburg models"
+      - "Calabi-Yau threefolds"
+      - "Moduli of sheaves"
+      - "Stability Condition"
+      - "Coulomb branches"
+      - "Affine Grassmannians"
+      - "Categorical aspects of symmetries"
+      - "BPS states"
+      - "Seiberg-Witten"
+      - "F-theory vacua"
+      - "Amplituhedron"
