@@ -75,18 +75,5 @@
     "matched_keywords": [
       "Stability Condition"
     ]
-  },
-  {
-    "title": "KLR-Schur algebra of coherent sheaves on the projective line: Tilting and PBW bases",
-    "authors": [
-      "Olivier Schiffmann",
-      "Fang Yang"
-    ],
-    "published_date": "2026-03-01",
-    "summary": "We begin the study of Khovanov-Lauda-Rouquier type algebras associated to moduli stacks of coherent sheaves on smooth projective curves. We consider the case of $\\mathbb{P}^1$ and define, for any pair $(r,d)$ of a rank and a degree, the KLR and Schur algebras $A_{r,d}, \\mathcal{R}_{r,d}$ as suitable convolution algebras in the Borel-Moore homology of an analog of the Steinberg stack built from the stacks $Coh_{r,d}(\\mathbb{P}^1)$. We use the tilting equivalence and Bridgeland stability conditions to construct an interpolation between the KLR or Schur algebras of the categories of coherent sheaves on $\\mathbb{P}^1$ and the KLR or Schur algebras of the categories of representations of the Kronecker quiver. We also introduce a stratification of the Steinberg stacks into cohomologically pure pieces and use this to construct a PBW basis of the corresponding algebra.",
-    "arxiv_url": "http://arxiv.org/abs/2603.01265v1",
-    "matched_keywords": [
-      "Stability Condition"
-    ]
   }
 ]
