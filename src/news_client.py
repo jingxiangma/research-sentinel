@@ -1,16 +1,17 @@
 """
 news_client.py
 
-Fetches recent entries from hardcoded RSS feeds and saves results to
-data/latest_news.json.
+Fetches recent entries from RSS feeds focused on AI-assisted mathematical
+research and saves keyword-filtered results to data/latest_news.json.
 """
 
+import calendar
 import json
-import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
+import requests
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -21,40 +22,98 @@ OUTPUT_PATH = DATA_DIR / "latest_news.json"
 
 # ---------------------------------------------------------------------------
 # Feed sources
+# Focused on AI + formal mathematics, theorem proving, and ML for math.
 # ---------------------------------------------------------------------------
-FEED_URLS = [
-    "https://openai.com/blog/rss.xml",
-    "https://leanprover-community.github.io/blog/index.xml",
-    "https://bair.berkeley.edu/blog/feed.xml",
+FEEDS = [
+    # Formal theorem proving & Lean ecosystem
+    {
+        "url": "https://leanprover-community.github.io/blog/rss.xml",
+        "name": "Lean Community Blog",
+    },
+    {
+        "url": "https://xenaproject.wordpress.com/feed/",
+        "name": "Xena Project (Kevin Buzzard)",
+    },
+    {
+        "url": "https://math.andrej.com/feed.xml",
+        "name": "Mathematics and Computation (Andrej Bauer)",
+    },
+    # AI labs doing math research
+    {
+        "url": "https://deepmind.google/blog/rss.xml",
+        "name": "Google DeepMind Blog",
+    },
+    {
+        "url": "https://blog.research.google/feeds/posts/default",
+        "name": "Google Research Blog",
+    },
+    {
+        "url": "https://bair.berkeley.edu/blog/feed.xml",
+        "name": "BAIR Blog",
+    },
+    # Notable math researchers blogging on AI
+    {
+        "url": "https://terrytao.wordpress.com/feed/",
+        "name": "Terence Tao — What's New",
+    },
+    # Computational mathematics
+    {
+        "url": "https://blog.wolfram.com/feed/",
+        "name": "Wolfram Blog",
+    },
 ]
 
 CUTOFF_DAYS = 7
+
+# ---------------------------------------------------------------------------
+# Keyword filter — only keep items that mention at least one of these
+# (case-insensitive match against title + summary).
+# ---------------------------------------------------------------------------
+KEYWORDS = [
+    # Formal proof / theorem proving
+    "lean 4", "lean4", "mathlib", "coq", "isabelle", "agda",
+    "formal proof", "formal verification", "theorem proving", "proof assistant",
+    "automated theorem", "interactive theorem",
+    "formalization", "certified proof", "proof search", "proof generation",
+    "proof synthesis",
+    # AI + math intersection
+    "ai for math", "ai in math", "machine learning for math",
+    "neural theorem", "alphaproof", "alphageometry", "minerva",
+    "llm math", "language model math", "reasoning model",
+    "mathematical reasoning", "math reasoning",
+    "ai reasoning", "chain of thought",
+    "mathematical discovery", "scientific discovery",
+    "math olympiad", "imo problem",
+    "deep think",
+    # AI models known for math — use specific phrases to avoid product noise
+    "gemini deep think", "gemini for math", "gemini math",
+    "o3 math", "o4 math",
+    # Relevant math CS topics
+    "sat solver", "smt solver", "type theory", "homotopy type",
+    "constructive math", "computability",
+    # Physics / math AI crossover
+    "amplitude", "graviton", "symbolic computation",
+    "computer algebra", "automated mathematics",
+    # General AI + science
+    "ai-assisted", "ai assisted", "accelerating math", "accelerating science",
+]
 
 
 # ---------------------------------------------------------------------------
 # Date parsing
 # ---------------------------------------------------------------------------
 def parse_entry_date(entry) -> datetime | None:
-    """
-    Try to extract a timezone-aware datetime from a feedparser entry.
-
-    feedparser normalises dates into a 9-tuple (published_parsed or
-    updated_parsed) using time.struct_time.  Falls back to the raw string
-    if the parsed field is absent.
-    """
+    """Try to extract a timezone-aware datetime from a feedparser entry."""
     struct = getattr(entry, "published_parsed", None) or getattr(
         entry, "updated_parsed", None
     )
     if struct:
         try:
-            # time.mktime() assumes local time; use calendar.timegm for UTC
-            import calendar
             ts = calendar.timegm(struct)
             return datetime.fromtimestamp(ts, tz=timezone.utc)
         except Exception:
             pass
 
-    # Fallback: try parsing the raw string
     for attr in ("published", "updated"):
         raw = getattr(entry, attr, None)
         if raw:
@@ -71,7 +130,6 @@ def parse_entry_date(entry) -> datetime | None:
                     return dt
                 except ValueError:
                     continue
-
     return None
 
 
@@ -79,53 +137,78 @@ def parse_entry_date(entry) -> datetime | None:
 # Summary extraction
 # ---------------------------------------------------------------------------
 def extract_summary(entry) -> str:
-    """Return a clean, single-line summary from whichever field is available."""
+    """Return a clean, single-line summary."""
     raw = (
         getattr(entry, "summary", None)
         or getattr(entry, "description", None)
         or ""
     )
-    return " ".join(raw.split())  # collapse whitespace / newlines
+    return " ".join(raw.split())
+
+
+# ---------------------------------------------------------------------------
+# Keyword filter
+# ---------------------------------------------------------------------------
+def matches_keywords(title: str, summary: str) -> list[str]:
+    """Return the list of matched keywords (empty = no match)."""
+    text = (title + " " + summary).lower()
+    return [kw for kw in KEYWORDS if kw in text]
 
 
 # ---------------------------------------------------------------------------
 # Per-feed fetch
 # ---------------------------------------------------------------------------
-def fetch_feed(url: str, cutoff: datetime) -> list[dict]:
-    print(f"  Fetching: {url}")
-    feed = feedparser.parse(url)
+def fetch_feed(feed_cfg: dict, cutoff: datetime) -> list[dict]:
+    url = feed_cfg["url"]
+    name = feed_cfg["name"]
+    print(f"  [{name}] {url}")
 
-    if feed.bozo:
-        # bozo=True means feedparser hit a parse error; surface it but continue
-        print(f"    [warning] Feed parse issue: {feed.bozo_exception}")
+    # Use requests for fetching so that certifi handles SSL correctly on all
+    # platforms, then pass the raw content to feedparser for parsing.
+    try:
+        resp = requests.get(url, timeout=20, headers={"User-Agent": "research-sentinel/1.0"})
+        resp.raise_for_status()
+        feed = feedparser.parse(resp.content)
+    except requests.exceptions.RequestException as e:
+        print(f"    [warning] Could not fetch feed: {e}")
+        return []
 
-    entries_found = 0
+    if feed.bozo and not feed.entries:
+        print(f"    [warning] Parse issue: {feed.bozo_exception}")
+
+    recent = 0
     kept = []
 
     for entry in feed.entries:
         pub_date = parse_entry_date(entry)
 
         if pub_date is None:
-            # Can't determine age — include conservatively
-            print(f"    [warning] Could not parse date for entry: {entry.get('title', '?')!r}")
             date_str = "unknown"
         else:
             if pub_date < cutoff:
                 continue
             date_str = pub_date.strftime("%Y-%m-%d")
 
-        entries_found += 1
-        kept.append(
-            {
-                "title": entry.get("title", "").strip(),
-                "link": entry.get("link", "").strip(),
-                "published_date": date_str,
-                "summary": extract_summary(entry),
-                "source_feed": url,
-            }
-        )
+        recent += 1
+        title = entry.get("title", "").strip()
+        summary = extract_summary(entry)
+        matched = matches_keywords(title, summary)
 
-    print(f"    -> {entries_found} recent article(s) found.")
+        if not matched:
+            continue
+
+        kept.append({
+            "title": title,
+            "link": entry.get("link", "").strip(),
+            "published_date": date_str,
+            "summary": summary,
+            "source_name": name,
+            "source_feed": url,
+            "matched_keywords": matched,
+        })
+        print(f"    + Kept: {title[:80]!r}  (matched: {matched[:3]})")
+
+    print(f"    -> {recent} recent, {len(kept)} kept after keyword filter.")
     return kept
 
 
@@ -134,18 +217,18 @@ def fetch_feed(url: str, cutoff: datetime) -> list[dict]:
 # ---------------------------------------------------------------------------
 def main():
     cutoff = datetime.now(tz=timezone.utc) - timedelta(days=CUTOFF_DAYS)
-    print(f"Fetching RSS feeds — keeping entries from the last {CUTOFF_DAYS} days (since {cutoff.date()}).\n")
+    print(f"Fetching {len(FEEDS)} feeds — entries since {cutoff.date()}.\n")
 
     all_items: list[dict] = []
 
-    for url in FEED_URLS:
+    for feed_cfg in FEEDS:
         try:
-            items = fetch_feed(url, cutoff)
+            items = fetch_feed(feed_cfg, cutoff)
             all_items.extend(items)
         except Exception as exc:
-            print(f"    [error] Failed to process feed {url!r}: {exc}")
+            print(f"    [error] Failed: {feed_cfg['url']!r}: {exc}")
 
-    print(f"\nTotal articles collected: {len(all_items)}")
+    print(f"\nTotal items after keyword filter: {len(all_items)}")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
