@@ -1,0 +1,44 @@
+name: Weekly Literature Review Update
+
+on:
+  schedule:
+    # Every Monday at 08:00 UTC
+    - cron: "0 8 * * 1"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  update-review:
+    name: Fetch papers & update review
+    # Requires a self-hosted runner with Ollama installed.
+    # Change to `ubuntu-latest` if you adapt reviewer.py to use a cloud LLM.
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch ArXiv papers
+        run: python src/arxiv_client.py
+
+      - name: Fetch news feeds
+        run: python src/news_client.py
+
+      - name: Update literature review
+        run: python src/reviewer.py
+
+      - name: Commit and push updated review
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/lit_review.md docs/changelog.md data/latest_papers.json data/latest_news.json
+          git diff --cached --quiet || git commit -m "chore: weekly literature review update [skip ci]"
+          git push
