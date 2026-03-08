@@ -61,9 +61,22 @@ FEEDS = [
         "url": "https://blog.wolfram.com/feed/",
         "name": "Wolfram Blog",
     },
+    # AI labs with active math/reasoning research
+    {
+        "url": "https://openai.com/blog/rss.xml",
+        "name": "OpenAI Blog",
+    },
+    {
+        "url": "https://huggingface.co/blog/feed.xml",
+        "name": "Hugging Face Blog",
+    },
+    {
+        "url": "https://www.microsoft.com/en-us/research/feed/",
+        "name": "Microsoft Research Blog",
+    },
 ]
 
-CUTOFF_DAYS = 7
+CUTOFF_DAYS = 14
 
 # ---------------------------------------------------------------------------
 # Keyword filter — only keep items that mention at least one of these

@@ -12,43 +12,6 @@
     ]
   },
   {
-    "title": "Accelerating mathematics",
-    "link": "https://xenaproject.wordpress.com/2026/02/09/accelerating-mathematics/",
-    "published_date": "2026-02-09",
-    "summary": "Let&#8217;s say that someone had a big pot of money, and wanted to use it to accelerate mathematical discovery. How might they go about doing this? The traditional approach Historically it has been governments who have been driving this agenda, &#8230; <a href=\"https://xenaproject.wordpress.com/2026/02/09/accelerating-mathematics/\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>",
-    "source_name": "Xena Project (Kevin Buzzard)",
-    "source_feed": "https://xenaproject.wordpress.com/feed/",
-    "matched_keywords": [
-      "mathematical discovery",
-      "accelerating math"
-    ]
-  },
-  {
-    "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
-    "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
-    "published_date": "2026-02-12",
-    "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
-    "source_name": "Google DeepMind Blog",
-    "source_feed": "https://deepmind.google/blog/rss.xml",
-    "matched_keywords": [
-      "deep think"
-    ]
-  },
-  {
-    "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
-    "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
-    "published_date": "2026-02-09",
-    "summary": "Research papers point to the growing impact of Deep Think across fields",
-    "source_name": "Google DeepMind Blog",
-    "source_feed": "https://deepmind.google/blog/rss.xml",
-    "matched_keywords": [
-      "scientific discovery",
-      "deep think",
-      "gemini deep think",
-      "accelerating math"
-    ]
-  },
-  {
     "title": "Investigating Validity of AI-Derived Stripped Gluon Amplitudes with Symbolic Computation",
     "link": "https://blog.wolfram.com/2026/03/06/investigating-validity-of-ai-derived-stripped-gluon-amplitudes-with-symbolic-computation/",
     "published_date": "2026-03-06",
@@ -58,6 +21,40 @@
     "matched_keywords": [
       "amplitude",
       "symbolic computation"
+    ]
+  },
+  {
+    "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+    "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+    "published_date": "2026-03-05",
+    "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+    "source_name": "OpenAI Blog",
+    "source_feed": "https://openai.com/blog/rss.xml",
+    "matched_keywords": [
+      "reasoning model"
+    ]
+  },
+  {
+    "title": "Extending single-minus amplitudes to gravitons",
+    "link": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+    "published_date": "2026-03-04",
+    "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+    "source_name": "OpenAI Blog",
+    "source_feed": "https://openai.com/blog/rss.xml",
+    "matched_keywords": [
+      "amplitude",
+      "graviton"
+    ]
+  },
+  {
+    "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
+    "link": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+    "published_date": "2026-03-04",
+    "summary": "<p>We are pleased to announce Phi-4-reasoning-vision-15B, a 15 billion parameter open‑weight multimodal reasoning model, available through Microsoft Foundry (opens in new tab), HuggingFace (opens in new tab) and GitHub (opens in new tab). Phi-4-reasoning-vision-15B is a broadly capable model that can be used for a wide array of vision-language tasks such as image captioning, asking [&#8230;]</p> <p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/\">Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+    "source_name": "Microsoft Research Blog",
+    "source_feed": "https://www.microsoft.com/en-us/research/feed/",
+    "matched_keywords": [
+      "reasoning model"
     ]
   }
 ]
