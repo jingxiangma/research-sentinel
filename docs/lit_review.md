@@ -43,9 +43,3 @@ The overarching philosophy is that the A-side (Hodge atoms via Quantum D-modules
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
 The papers most relevant to Hodge atoms, K-equivalence, derived categories, and quantum D-modules are [Spin Ruijsenaars-Schneider models are Coulomb branches](http://arxiv.org/abs/2603.03048v1) by Gleb Arutyunov and Lukas Hardi, which studies the connection between Coulomb branches and Poisson structures, and [Special Lagrangian smoothings, Calabi ansatz and stability conditions](http://arxiv.org/abs/2603.02749v1) by Jacopo Stoppa, which discusses stability conditions in the context of Calabi ansatz and derived categories.
 <!-- END:ARXIV_HIGHLIGHTS -->
-
-## 5. AI and Formal Methods in Mathematics
-
-* Reasoning models struggle to control their chains of thought, and that’s good: https://openai.com/index/reasoning-models-chain-of-thought-controllability
-* Extending single-minus amplitudes to gravitons: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons
-* Ensuring AI use in education leads to opportunity: https://openai.com/index/ai-education-opportunity
