@@ -35,10 +35,13 @@ jobs:
       - name: Update literature review
         run: python src/reviewer.py
 
+      - name: Build paper and news reports
+        run: python src/report_builder.py
+
       - name: Commit and push updated review
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/lit_review.md docs/changelog.md data/latest_papers.json data/latest_news.json
+          git add docs/lit_review.md docs/changelog.md docs/latest_papers.md docs/latest_news.md data/latest_papers.json data/latest_news.json
           git diff --cached --quiet || git commit -m "chore: weekly literature review update [skip ci]"
           git push
