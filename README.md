@@ -103,9 +103,27 @@ To switch the LLM model, change `MODEL` at the top of `src/reviewer.py`.
 
 ## Automated Weekly Runs
 
-This repository includes a GitHub Actions workflow (`.github/workflows/weekly_update.yml`) that runs the full pipeline every Monday at 08:00 UTC and commits the updated review automatically.
+The pipeline runs automatically every Monday at 9:00am via **Windows Task Scheduler** (task name: `ResearchSentinel_WeeklyUpdate`). If the computer is off at that time, the task runs on next boot.
 
-> **Note:** The workflow requires a self-hosted runner with Ollama installed, since the LLM runs locally. See the workflow file for setup details.
+The task executes `run_pipeline.bat`, which:
+1. Runs the three pipeline scripts in order
+2. Commits and pushes all updated files to GitHub
+
+Logs are written to `logs/pipeline.log`.
+
+**Manage the task:**
+```powershell
+# Run immediately
+Start-ScheduledTask -TaskName "ResearchSentinel_WeeklyUpdate"
+
+# Disable
+Disable-ScheduledTask -TaskName "ResearchSentinel_WeeklyUpdate"
+
+# Re-enable
+Enable-ScheduledTask -TaskName "ResearchSentinel_WeeklyUpdate"
+```
+
+This repository also includes a GitHub Actions workflow (`.github/workflows/weekly_update.yml`) as a fallback, but it requires a self-hosted runner with Ollama installed.
 
 ---
 
