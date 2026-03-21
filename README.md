@@ -123,7 +123,7 @@ Disable-ScheduledTask -TaskName "ResearchSentinel_WeeklyUpdate"
 Enable-ScheduledTask -TaskName "ResearchSentinel_WeeklyUpdate"
 ```
 
-This repository also includes a GitHub Actions workflow (`.github/workflows/weekly_update.yml`) as a fallback, but it requires a self-hosted runner with Ollama installed.
+The GitHub Actions workflow (`.github/workflows/weekly_update.yml`) is not in use — the pipeline runs fully locally. It is kept as a reference for future migration to a cloud setup.
 
 ---
 
