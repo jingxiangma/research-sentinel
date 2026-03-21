@@ -1,85 +1,65 @@
 # Latest ArXiv Papers
 
-_Generated on 2026-03-08 — 8 paper(s) matched._
+_Generated on 2026-03-21 — 6 paper(s) matched._
 
 ---
 
-## 1. [A complete classification of modular compactifications of the universal Jacobian](http://arxiv.org/abs/2603.05455v1)
+## 1. [Quasinormal Modes of Extremal Reissner-Nordstrom Black Holes via Seiberg-Witten Quantization](http://arxiv.org/abs/2603.19168v1)
 
-**Authors:** Marco Fava, Nicola Pagani, Filippo Viviani  
-**Published:** 2026-03-05  
-**Matched keywords:** `Stability Condition`
+**Authors:** Yi-Rong Wang, Peng Yang, Kilar Zhang  
+**Published:** 2026-03-19  
+**Matched keywords:** `Seiberg-Witten`
 
-> We classify all modular compactifications of the universal Jacobian over $\overline{\mathcal{M}}_{g,n}$, both as stacks and as their relative good moduli spaces. Our main result gives a combinatorial parametrization of compactified universal Jacobian stacks by $V$-functions on a stability domain $\mathbb{D}_{g,n}$ of half-vine types (two-components topological types with a chosen side); under this correspondence, fine compactifications are exactly the general $V$-functions.   We single out the classical compactified universal Jacobians, namely those induced by numerical polarizations (relative $\mathbb{R}$-line bundles on the universal curve $\overline{\mathcal{C}}_{g,n}/\overline{\mathcal{M}}_{g,n}$), recovering the constructions of Kass-Pagani and Melo in the fine case, and we prove that their good moduli spaces are locally projective over $\overline{\mathcal{M}}_{g,n}$.   We determine when two compactified universal Jacobians are isomorphic over $\overline{\mathcal{M}}_{g,n}$ and describe a resolution of the universal family via a compactified Jacobian over $\overline{\mathcal{M}}_{g,n+1}$.   Finally, we analyse the poset $Σ_{g,n}$ of compactified universal Jacobians, an extension of the poset of regions of the hyperplane arrangement of classical stability conditions $\mathcal{A}_{g,n}$ studied in Kass-Pagani. We prove that for $n=0$ all compactified universal Jacobians are those constructed by Caporaso. We then give an explicit description of the submaximal elements of $Σ_{g,n}$ for all $n$, generalizing the stability walls in the classical stability space $\mathcal{A}_{g,n}$ from Kass-Pagani's work.
-
----
-
-## 2. [Stability conditions on noncommutative crepant resolutions of 3-dimensional isolated singularities](http://arxiv.org/abs/2603.04858v1)
-
-**Authors:** Wahei Hara, Yuki Hirano  
-**Published:** 2026-03-05  
-**Matched keywords:** `Stability Condition`
-
-> Let $R$ be a 3-dimensional complete local Gorenstein isolated singularity. For a basic maximal modifying $R$-module $M$, we construct a wall-and-chamber structure, denoted by ${\sf Cone}(M)$ and called the mutation cone of $M$, in the real Grothendieck group associated to the maximal modification algebra $Λ={\rm End}_R(M)$. Each chamber in ${\sf Cone}(M)$ corresponds to a maximal modifying module obtained by iterated (Iyama--Wemyss) mutations of $M$, and a wall-crossing corresponds to the mutation at an indecomposable summand. Moreover, we introduce the notion of tilting-noetherian property of $Λ$, and by analysis of wall-and-chamber structure of ${\sf Cone}(M)$, we prove that this property holds for $Λ$ if and only if all maximal modifying $R$-modules are connected by iterated mutations.   We then consider the finite length subcategory $\mathscr{D}_M\subset {\rm D}^{\rm b}({\rm mod}\,Λ)$ and introduce a full-dimensional connected subspace ${\rm Stab}^{\rm mdf}\mathscr{D}_M\subset{\rm Stab}\mathscr{D}_M$ of Bridgeland stability conditions on $\mathscr{D}_M$. We prove that there is a regular covering map from ${\rm Stab}^{\rm mdf}\mathscr{D}_M$ to the complexification ${\sf Cone}(M)_{\mathbb{C}}$ of the mutation cone of $M$, where the Galois group is the subgroup of ${\rm Auteq} \mathscr{D}_M$ consisting of compositions of equivalences associated to mutations of maximal modifying modules. Finally, using the results on stability conditions, we describe the group of autoequivalences of $\mathscr{D}_M$ that preserve the subspace ${\rm Stab}^{\rm mdf}\mathscr{D}_M$.
+> We study the neutral scalar perturbations of asymptotically flat extremal Reissner-Nordström black holes via the quantum geometry of $\mathcal{N}=2$ $\mathrm{SU(2)}$ gauge theory with $N_f=2$ flavors. The master equation, given by a double confluent Heun equation, is mapped to the quantum Seiberg-Witten curve in the Nekrasov-Shatashvili limit. We compute the quasinormal mode frequencies non-perturbatively using the quantization condition derived from the Nekrasov-Shatashvili free energy. Our analytical results accurately reproduce the numerical benchmarks for massless fields, and capture the quasi-resonance behavior of massive probes at the strict extremal limit.
 
 ---
 
-## 3. [The Chern-Simons Natural Boundary and Black Hole Entropy](http://arxiv.org/abs/2603.04619v1)
+## 2. [The Resolved Elliptic Genus and the D1-D5 CFT](http://arxiv.org/abs/2603.18138v1)
 
-**Authors:** Griffen Adams, Gerald V. Dunne  
-**Published:** 2026-03-04  
+**Authors:** Marcel R. R. Hughes, Masaki Shigemori  
+**Published:** 2026-03-18  
 **Matched keywords:** `BPS states`
 
-> The method of resurgent continuation of transseries reveals a new correspondence between the $q$-series for enumerating degeneracies of quarter-BPS states in supersymmetric black holes and $\hat{Z}$ invariants of Chern-Simons theory on a class of 3 dimensional orientation-reversed manifolds.
+> This paper is a follow-up to the short paper arXiv:2509.19425, greatly expanding the discussion with examples and providing derivations and justifications of results presented there.   We introduce a new supersymmetry index for the D1-D5 CFT on $T^4$, which we call the resolved elliptic genus (REG). It is a one-parameter generalisation of the standard supersymmetry index, the modified elliptic genus (MEG), and arises naturally in the free symmetric orbifold description of the theory within a new formalism, based on Schur-Weyl duality, that we develop. In this formalism, the Hilbert space of the symmetric orbifold CFT is decomposed into symmetry sectors in which the structure of the states contributing to the MEG is transparent. By examining the action of the supercharge deformed by an exactly marginal operator on the relevant symmetry algebra, we propose a superselection rule governing the lifting process of BPS states, and use it to construct the REG by summing only over those symmetry sectors that can mix according to this rule. The REG exhibits detailed agreement between the CFT and supergravity below the black-hole threshold, a regime in which the MEG is essentially trivial. Above the threshold, the REG is dominated by black-hole microstates, which are now distributed amongst distinct sectors that are invisible to the MEG. We expect both the new formalism and the REG to provide useful new tools for studying the structure of black-hole microstates. In particular, we comment on their possible relevance to the fortuity program for understanding black-hole microstates within CFT.
 
 ---
 
-## 4. [Cobordism-valued intersection theory on $\overline{\mathcal{M}}_{0,n}$](http://arxiv.org/abs/2603.03829v1)
+## 3. [Galois Covers of Calabi-Yau Quivers and BPS State Counting](http://arxiv.org/abs/2603.15334v1)
 
-**Authors:** Benjamin Ellis-Bloor  
-**Published:** 2026-03-04  
-**Matched keywords:** `Gromov-Witten invariants`
+**Authors:** Johannes Aspman, Cyril Closset, Elias Furrer, Jan Manschot  
+**Published:** 2026-03-16  
+**Matched keywords:** `BPS states`
 
-> We calculate the genus zero cobordism-valued Gromov-Witten invariants of a point by refining the string equation on $\overline{\mathcal{M}}_{0,n}$ from the Chow ring to algebraic cobordism. This gives inductive formulas for cobordism-valued psi-class intersections on $\overline{\mathcal{M}}_{0,n}$, and in particular the cobordism classes $[\overline{\mathcal{M}}_{0,n}]$, and for their images in $K$-theory. Explicit formulas are given up to $n = 8$.
-
----
-
-## 5. [Spin Ruijsenaars-Schneider models are Coulomb branches](http://arxiv.org/abs/2603.03048v1)
-
-**Authors:** Gleb Arutyunov, Lukas Hardi  
-**Published:** 2026-03-03  
-**Matched keywords:** `Coulomb branches`
-
-> In this paper, we show that the Poisson algebras of cohomological and $K$-theoretic Coulomb branches of 3d $\mathcal{N}=4$ necklace quiver gauge theories provide Poisson structures and Hamiltonians that reproduce the equations of motion of the rational and hyperbolic spin Ruijsenaars-Schneider models, respectively. The construction is carried out in terms of monopole operators in the GKLO representation, also making the affine Yangian (and, in $K$-theory, quantum toroidal) superintegrability structure manifest. We conjecture that the Poisson algebras of elliptic Coulomb branches similarly reproduce the elliptic spin Ruijsenaars-Schneider model.
+> BPS quivers are central to our understanding of BPS states in 4d $\mathcal{N}=2$ supersymmetric field theories and of D-branes at Calabi-Yau threefold singularities. The two subjects are deeply interrelated through geometric engineering in Type II string theory, where a CY$_3$ quiver, also known as a 5d BPS quiver, describes fractional branes at a threefold singularity ${\bf X}$. We study the Galois cover ${\skew{2}\tilde Q}\rightarrow Q$ of any BPS quiver $Q$ by a finite abelian group $\mathbb{G}$, leading to a covering quiver ${\skew{2}\tilde Q}$. The Galois cover is determined by a $\mathbb{G}$-grading of the arrows of the quiver $Q$, which can be understood as an orbifolding procedure. In particular, if $Q$ is a CY$_3$ quiver for ${\bf X}$, then the Galois cover $\skew{2}\tilde Q$ is the CY$_3$ quiver for the orbifold singularity ${\bf X}/\mathbb{G}$. We explore such Galois covering procedures in the language of supersymmetric quiver quantum mechanics, in terms of fixed loci under $\mathbb{G}$ actions on moduli spaces of quiver representations, and in terms of homomorphisms between the Kontsevich-Soibelman algebras of $Q$ and ${\skew{2}\tilde Q}$. Our main result is an explicit covering formula for the BPS invariants of 4d $\mathcal{N}=2$ field theories, wherein the rational BPS invariant $\barΩ^Q(γ)$ of $Q$ is expressed as a sum of BPS invariants of $\skew{2}\tilde Q$. We derive this formula in various special cases, which include the case when $γ$ is a primitive charge vector, the case of general charge vectors for quivers without loops, and the case of CY$_3$ quivers for some simple geometries such as the conifold or local del Pezzo surfaces. The general formula is presented as a conjecture that can be verified in many examples.
 
 ---
 
-## 6. [Special Lagrangian smoothings, Calabi ansatz and stability conditions](http://arxiv.org/abs/2603.02749v1)
+## 4. [Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought](http://arxiv.org/abs/2603.18334v1)
 
-**Authors:** Jacopo Stoppa  
-**Published:** 2026-03-03  
-**Matched keywords:** `Stability Condition`
+**Authors:** Zichen Xie, Wenxi Wang  
+**Published:** 2026-03-18  
+**Matched keywords:** `automated theorem`
 
-> As part of his work on special Lagrangian (sLag) submanifolds with isolated conical singularities, Joyce proved a criterion for the existence of sLag smoothings, along a small variation of complex structure, for the union of two connected, compact, embedded sLags, with the same phase, intersecting transversely. Here we construct infinitely many examples of pairs of non-compact, embedded sLags, of the same phase and with arbitrary dimension, intersecting only at infinity in a non-transverse way, which satisfy Joyce's criterion: along a small variation of complex structure, a sLag smoothing of their union exists on the stable locus where a slope inequality for periods of the holomorphic volume form holds. At least under a natural symmetry assumption, this slope inequality is also necessary for the existence of such smoothing. Our approach uses the Leung-Yau-Zaslow transform and the analysis of deformed Hermitian Yang-Mills connections with Calabi ansatz, due to Jacob and Sheu. In the unstable case, we prove that if a family of Lagrangian smoothings evolving under the natural Calabi-symmetric version of the mean curvature flow (due to Chan and Jacob) admits a limit, then this must be the union of the original sLags. As an application we show that in our examples, in dimension two, the condition for the existence of the sLag smoothing is in fact equivalent to the stability of the corresponding object in the Fukaya-Seidel category, with respect to a known Bridgeland stability condition imported from algebraic geometry, and in the unstable case the limit of the Calabi-symmetric mean curvature flow in our result coincides with the Harder-Narasimhan decomposition, consistently with a general conjecture of Joyce. A similar (although weaker) result also holds in dimension three.
-
----
-
-## 7. [Constraint Learning for Non-confluent Proof Search](http://arxiv.org/abs/2603.05258v1)
-
-**Authors:** Michael Rawson, Clemens Eisenhofer, Laura Kovács  
-**Published:** 2026-03-05  
-**Matched keywords:** `proof search`
-
-> Proof search in non-confluent tableau calculi, such as the connection tableau calculus, suffers from excess backtracking, but simple restrictions on backtracking are incomplete. We adopt constraint learning to reduce backtracking in the classical first-order connection calculus, while retaining completeness. An initial constraint learning language for connection-driven search is iteratively refined to greatly reduce backtracking in practice. The approach may be useful for proof search in other non-confluent tableau calculi.
+> As Large Language Models (LLMs) increasingly assist secure software development, their ability to meet the rigorous demands of Rust program verification remains unclear. Existing evaluations treat Rust verification as a black box, assessing models only by binary pass or fail outcomes for proof hints. This obscures whether models truly understand the logical deductions required for verifying nontrivial Rust code. To bridge this gap, we introduce VCoT-Lift, a framework that lifts low-level solver reasoning into high-level, human-readable verification steps. By exposing solver-level reasoning as an explicit Verification Chain-of-Thought, VCoT-Lift provides a concrete ground truth for fine-grained evaluation. Leveraging VCoT-Lift, we introduce VCoT-Bench, a comprehensive benchmark of 1,988 VCoT completion tasks for rigorously evaluating LLMs' understanding of the entire verification process. VCoT-Bench measures performance along three orthogonal dimensions: robustness to varying degrees of missing proofs, competence across different proof types, and sensitivity to the proof locations. Evaluation of ten state-of-the-art models reveals severe fragility, indicating that current LLMs fall well short of the reasoning capabilities exhibited by automated theorem provers.
 
 ---
 
-## 8. [Proving and Computing: The Infinite Pigeonhole Principle and Countable Choice](http://arxiv.org/abs/2603.04006v1)
+## 5. [Synthetic Differential Geometry in Lean](http://arxiv.org/abs/2603.17457v1)
 
-**Authors:** Zena M. Ariola, Paul Downen, Hugo Herbelin  
-**Published:** 2026-03-04  
-**Matched keywords:** `proof assistant`
+**Authors:** Riccardo Brasca, Gabriella Clemente  
+**Published:** 2026-03-18  
+**Matched keywords:** `proof assistant`, `formalization`, `Mathlib`
 
-> Structural recursion is a common technique used by programmers in modern languages and is taught to introductory computer science students. But what about its dual, structural corecursion? Structural corecursion is an elegant technique, supported in languages like Haskell and proof assistants such as Rocq or Agda.  It enables the design of compositional algorithms by decoupling the generation and consumption of potentially infinite or large data collections. Despite these strengths, structural corecursion is generally considered more advanced than structural recursion and is primarily studied in the context of pure functional programming.   Our aim is to illustrate the expressive power of different notions of structural corecursion in the presence of classical reasoning. More specifically, we study coiteration and corecursion combined with the classical callcc operator, which provides a computational interpretation of classical reasoning. This combination enables interesting stream-processing algorithms. As an application, we present a corecursive, control-based proof of the Infinite Pigeonhole Principle and compare it with the continuation-passing proof of Escardó and Oliva in Agda. To further demonstrate the power of mixing corecursion and control, we give an implementation of the Axiom of Countable Choice. In contrast to the usual continuation-passing implementations of this axiom, which rely on general recursion whose termination is established externally, our approach justifies termination by coiteration alone.
+> This article is about the formalization of synthetic differential geometry with the Lean proof assistant and the mathematical library mathlib. The main result we prove and formalize is a Taylor theorem for functions of several variables, where the series expansion is around an infinitesimal neighborhood. Most of our proofs are in fact new. Our investigations highlight the possibility of using mathlib to do constructive mathematics.
+
+---
+
+## 6. [Draft-and-Prune: Improving the Reliability of Auto-formalization for Logical Reasoning](http://arxiv.org/abs/2603.17233v1)
+
+**Authors:** Zhiyu Ni, Zheng Liang, Liangcheng Song, Chenrui Cao, Xian Zhang, Alberto Sangiovanni-Vincentelli, Pierluigi Nuzzo  
+**Published:** 2026-03-18  
+**Matched keywords:** `formalization`
+
+> Auto-formalization (AF) translates natural-language reasoning problems into solver-executable programs, enabling symbolic solvers to perform sound logical deduction. In practice, however, AF pipelines are currently brittle: programs may fail to execute, or execute but encode incorrect semantics. While prior work largely mitigates syntactic failures via repairs based on solver feedback, reducing semantics failures remains a major bottleneck. We propose Draft-and-Prune (D&P), an inference-time framework that improves AF-based logical reasoning via diversity and verification. D&P first drafts multiple natural-language plans and conditions program generation on them. It further prunes executable but contradictory or ambiguous formalizations, and aggregates predictions from surviving paths via majority voting. Across four representative benchmarks (AR-LSAT, ProofWriter, PrOntoQA, LogicalDeduction), D&P substantially strengthens AF-based reasoning without extra supervision. On AR-LSAT, in the AF-only setting, D&P achieves 78.43% accuracy with GPT-4 and 78.00% accuracy with GPT-4o, significantly outperforming the strongest AF baselines MAD-LOGIC and CLOVER. D&P then attains near-ceiling performance on the other benchmarks, including 100% on PrOntoQA and LogicalDeduction.
 
 ---
