@@ -1,7 +1,7 @@
 
 ## 2026-03-21
 
-Full pipeline run: 6 papers (3 Geometry & Physics, 3 AI for Mathematics/theorem proving) and 1 news item.
+Improved search: added title-only keyword matching for AI model names (cs topics), abstract AI keyword matching for math topics, and a second search pass sorted by last-updated date (2000 results) to catch recently revised papers. Full pipeline run: 35 papers (8 Geometry & Physics, 27 AI for Mathematics) and 1 news item.
 
 ## 2026-03-08
 

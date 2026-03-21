@@ -21,6 +21,10 @@ topics:
       - "Seiberg-Witten"
       - "F-theory vacua"
       - "Amplituhedron"
+      - "large language model"
+      - "language model"
+      - "AI agent"
+      - "AI-generated"
 
   - name: "AI for Mathematics"
     categories: ["cs.LO", "cs.AI", "cs.LG"]
@@ -45,3 +49,11 @@ topics:
       - "verified proof"
       - "alphaproof"
       - "alphageometry"
+    title_only_keywords:
+      - "Gemini Deep Think"
+      - "Aletheia"
+      - "DeepSeek-Prover"
+      - "Minerva"
+      - "ChatGPT"
+      - "GPT-4"
+      - "Claude"

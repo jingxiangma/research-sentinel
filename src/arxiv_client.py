@@ -63,32 +63,23 @@ def find_matched_keywords(text: str, keywords: list[str]) -> list[str]:
 # ---------------------------------------------------------------------------
 # Core fetch + filter logic
 # ---------------------------------------------------------------------------
-def fetch_papers(topic: dict, cutoff: datetime) -> list[dict]:
-    """
-    Fetch papers for a single topic config block and return filtered results.
-
-    Args:
-        topic:  One entry from config['topics'], with 'name', 'categories',
-                and 'keywords' keys.
-        cutoff: Only keep papers published on or after this datetime.
-    """
-    name = topic["name"]
-    categories = topic["categories"]
-    keywords = topic["keywords"]
-
-    query = build_category_query(categories)
-    log.info(f"[{name}] Querying ArXiv: {query!r}")
-
-    client = arxiv.Client(
-        page_size=200,
-        delay_seconds=3,
-        num_retries=3,
-    )
-
+def _run_search(
+    client: arxiv.Client,
+    query: str,
+    sort_by: arxiv.SortCriterion,
+    cutoff: datetime,
+    keywords: list[str],
+    title_only_keywords: list[str],
+    date_field: str,
+    seen_urls: set[str],
+    label: str,
+    max_results: int = 500,
+) -> list[dict]:
+    """Run a single ArXiv search and return matched papers not already in seen_urls."""
     search = arxiv.Search(
         query=query,
-        max_results=500,
-        sort_by=arxiv.SortCriterion.SubmittedDate,
+        max_results=max_results,
+        sort_by=sort_by,
         sort_order=arxiv.SortOrder.Descending,
     )
 
@@ -96,31 +87,45 @@ def fetch_papers(topic: dict, cutoff: datetime) -> list[dict]:
     total_fetched = 0
 
     for paper in client.results(search):
-        # ArXiv returns results in descending date order; stop once we go past
-        # the cutoff window to avoid scanning the entire archive.
         published = paper.published
         if published.tzinfo is None:
             published = published.replace(tzinfo=timezone.utc)
 
-        if published < cutoff:
-            log.info(
-                f"[{name}] Reached papers older than cutoff "
-                f"({cutoff.date()}) after {total_fetched} fetched. Stopping."
-            )
-            break
+        updated = paper.updated
+        if updated.tzinfo is None:
+            updated = updated.replace(tzinfo=timezone.utc)
+
+        ref_date = updated if date_field == "updated" else published
+        if ref_date < cutoff:
+            if date_field == "submitted":
+                # Results are sorted by submission date; safe to stop early.
+                log.info(
+                    f"[{label}] Reached papers older than cutoff "
+                    f"({cutoff.date()}) after {total_fetched} scanned. Stopping."
+                )
+                break
+            total_fetched += 1
+            continue
 
         total_fetched += 1
+
+        if paper.entry_id in seen_urls:
+            continue
+
         combined_text = f"{paper.title} {paper.summary}"
         matched = find_matched_keywords(combined_text, keywords)
+        matched += find_matched_keywords(paper.title, title_only_keywords)
 
         if not matched:
             continue
 
+        seen_urls.add(paper.entry_id)
         results.append(
             {
                 "title": paper.title,
                 "authors": [a.name for a in paper.authors],
                 "published_date": published.strftime("%Y-%m-%d"),
+                "updated_date": updated.strftime("%Y-%m-%d"),
                 "summary": paper.summary.replace("\n", " ").strip(),
                 "arxiv_url": paper.entry_id,
                 "matched_keywords": matched,
@@ -129,8 +134,52 @@ def fetch_papers(topic: dict, cutoff: datetime) -> list[dict]:
         log.info(f"  + Kept: {paper.title[:80]!r} (matched: {matched})")
 
     log.info(
-        f"[{name}] Done — {total_fetched} papers fetched, "
-        f"{len(results)} kept after keyword filter."
+        f"[{label}] {total_fetched} papers scanned, {len(results)} kept."
+    )
+    return results
+
+
+def fetch_papers(topic: dict, cutoff: datetime) -> list[dict]:
+    """
+    Fetch papers for a single topic config block and return filtered results.
+    Runs two searches per topic: one sorted by submission date (new papers)
+    and one sorted by last-updated date (recently revised papers).
+
+    Args:
+        topic:  One entry from config['topics'], with 'name', 'categories',
+                and 'keywords' keys.
+        cutoff: Only keep papers submitted or revised on or after this datetime.
+    """
+    name = topic["name"]
+    categories = topic["categories"]
+    keywords = topic.get("keywords", [])
+    title_only_keywords = topic.get("title_only_keywords", [])
+
+    query = build_category_query(categories)
+
+    client = arxiv.Client(
+        page_size=200,
+        delay_seconds=3,
+        num_retries=3,
+    )
+
+    seen_urls: set[str] = set()
+
+    log.info(f"[{name}] Search 1/2 — new papers (sorted by submission date)")
+    results = _run_search(
+        client, query, arxiv.SortCriterion.SubmittedDate,
+        cutoff, keywords, title_only_keywords, "submitted", seen_urls, name,
+    )
+
+    log.info(f"[{name}] Search 2/2 — revised papers (sorted by last-updated date)")
+    results += _run_search(
+        client, query, arxiv.SortCriterion.LastUpdatedDate,
+        cutoff, keywords, title_only_keywords, "updated", seen_urls, name,
+        max_results=2000,
+    )
+
+    log.info(
+        f"[{name}] Done — {len(results)} total papers kept after both searches."
     )
     return results
 
