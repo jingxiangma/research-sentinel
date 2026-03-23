@@ -1,6 +1,6 @@
 # Latest ArXiv Papers
 
-_Generated on 2026-03-21 — 35 paper(s) matched._
+_Generated on 2026-03-23 — 29 paper(s) matched._
 
 ---
 
@@ -34,13 +34,13 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 4. [Galois Covers of Calabi-Yau Quivers and BPS State Counting](http://arxiv.org/abs/2603.15334v1)
+## 4. [Special Lagrangians and Bridgeland stable objects beyond geometric stability conditions: the product case](http://arxiv.org/abs/2602.03041v2)
 
-**Authors:** Johannes Aspman, Cyril Closset, Elias Furrer, Jan Manschot  
-**Published:** 2026-03-16  
-**Matched keywords:** `BPS states`
+**Authors:** Yu-Wei Fan  
+**Published:** 2026-02-03  
+**Matched keywords:** `Fukaya categories`, `Stability Condition`
 
-> BPS quivers are central to our understanding of BPS states in 4d $\mathcal{N}=2$ supersymmetric field theories and of D-branes at Calabi-Yau threefold singularities. The two subjects are deeply interrelated through geometric engineering in Type II string theory, where a CY$_3$ quiver, also known as a 5d BPS quiver, describes fractional branes at a threefold singularity ${\bf X}$. We study the Galois cover ${\skew{2}\tilde Q}\rightarrow Q$ of any BPS quiver $Q$ by a finite abelian group $\mathbb{G}$, leading to a covering quiver ${\skew{2}\tilde Q}$. The Galois cover is determined by a $\mathbb{G}$-grading of the arrows of the quiver $Q$, which can be understood as an orbifolding procedure. In particular, if $Q$ is a CY$_3$ quiver for ${\bf X}$, then the Galois cover $\skew{2}\tilde Q$ is the CY$_3$ quiver for the orbifold singularity ${\bf X}/\mathbb{G}$. We explore such Galois covering procedures in the language of supersymmetric quiver quantum mechanics, in terms of fixed loci under $\mathbb{G}$ actions on moduli spaces of quiver representations, and in terms of homomorphisms between the Kontsevich-Soibelman algebras of $Q$ and ${\skew{2}\tilde Q}$. Our main result is an explicit covering formula for the BPS invariants of 4d $\mathcal{N}=2$ field theories, wherein the rational BPS invariant $\barΩ^Q(γ)$ of $Q$ is expressed as a sum of BPS invariants of $\skew{2}\tilde Q$. We derive this formula in various special cases, which include the case when $γ$ is a primitive charge vector, the case of general charge vectors for quivers without loops, and the case of CY$_3$ quivers for some simple geometries such as the conifold or local del Pezzo surfaces. The general formula is presented as a conjecture that can be verified in many examples.
+> We construct a family of non-geometric Bridgeland stability conditions on certain wrapped Fukaya categories, using homological mirror symmetry and categorical Künneth formulae. These stability conditions correspond to certain holomorphic volume forms, under which we prove that every stable object admits a special Lagrangian representative. This provides the first higher-dimensional examples of stability conditions away from the large complex structure limit for which ``stable implies special Lagrangian" is proved.
 
 ---
 
@@ -64,27 +64,47 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 7. [Slant sums of quiver gauge theories](http://arxiv.org/abs/2510.02496v2)
+## 7. [FormalEvolve: Neuro-Symbolic Evolutionary Search for Diverse and Prover-Effective Autoformalization](http://arxiv.org/abs/2603.19828v1)
 
-**Authors:** Hunter Dinkins, Vasily Krylov, Reese Lance  
-**Published:** 2025-10-02  
-**Matched keywords:** `Coulomb branches`
+**Authors:** Haijian Lu, Wei Wang, Jing Liu  
+**Published:** 2026-03-20  
+**Matched keywords:** `autoformalization`, `formalization`
 
-> We define the slant sum of quiver gauge theories, a gluing on the underlying quivers that identifies a gauge vertex with a framing vertex. Under some mild assumptions, we relate torus fixed points on the corresponding Higgs branches, which are Nakajima quiver varieties. Then we prove a ``branching rule" relating the quasimap vertex functions before and after a slant sum and deduce a number of ``factorization" corollaries.   Our construction is motivated by a factorization conjecture for the vertex functions of zero-dimensional quiver varieties, which can be approached inductively using the branching rule. In special cases, it also shows that vertex functions can be written as sums over reverse plane partitions, even outside ADE type.   We make some conjectures for Coulomb branches reflecting what can be seen on the Higgs side and prove them in ADE type. In particular, we obtain refined character formulas for the so-called ``extremal'' irreducible modules over shifted Yangians. We also study slant sums of Coulomb branches and their quantizations. We observe that for one-dimensional framing, the slant sum of Coulomb branches is the same as the product.
-
----
-
-## 8. [Iwahori-Coulomb branches, stable envelopes, and quantum cohomology of cotangent bundles of flag varieties](http://arxiv.org/abs/2601.19691v2)
-
-**Authors:** Ki Fung Chan, Kwokwai Chan, Chi Hong Chow, Chin Hang Eddie Lam  
-**Published:** 2026-01-27  
-**Matched keywords:** `Coulomb branches`
-
-> We consider Iwahori-Coulomb branches $\mathcal{A}_{G,\mathbf{N},\mathbf{V}}^{\mathrm{Fl}}$, which are the affine flag analogs of the original Coulomb branches $\mathcal{A}_{G,\mathbf{N}}^{\mathrm{Gr}}$ defined by Braverman, Finkelberg, and Nakajima. For any conical symplectic resolution $X$, we prove that the $\mathcal{A}_{G,\mathbf{N},\mathbf{V}}^{\mathrm{Fl}}$-action on the localized equivariant quantum cohomology of $X$, induced by shift operators, satisfies a polynomiality property in terms of stable envelopes.   We then study the case $X = T^*(G/P)$, the cotangent bundle of a flag variety, for which the Iwahori-Coulomb branch is isomorphic to the trigonometric double affine Hecke algebra $\mathcal{H}_{G,\hbar,k}$. The polynomiality property enables us to compute explicitly the above action in terms of the Demazure-Lusztig elements and stable envelopes. Applications include:   (1) Computation of the Iwarhori-Coulomb branch action for $G/P$ by taking the confluent limit, recovering Peterson-Lam-Shimozono's theorem.   (2) Construction of an explicit Namikawa-Weyl group action on the equivariant quantum cohomology of $T^*(G/P)$ that preserves the quantum product, extending a result of Li-Su-Xiong.   (3) Proof of a conjecture of Braverman-Finkelberg-Nakajima stating that, up to a shift of the dilation parameter, $\mathcal{A}_{G,\mathfrak{g}^*}^{\mathrm{Gr}}$ is isomorphic to the spherical subalgebra of $\mathcal{H}_{G,\hbar,k}$.
+> Autoformalization aims to translate natural-language mathematics into compilable, machine-checkable statements. However, semantic consistency does not imply prover effectiveness: even semantically consistent formalizations can differ substantially in proof-search cost and success rate. In this work, we formulate autoformalization as a budgeted, test-time search for semantically consistent repertoires, and propose FormalEvolve, a compilation-gated neuro-symbolic evolutionary framework. FormalEvolve generates diverse candidates via LLM-driven mutation and crossover with bounded patch repair, while symbolic Abstract Syntax Tree (AST) rewrite operations further inject structural diversity. On CombiBench and ProofNet, under a strict generator-call budget of T = 100, FormalEvolve reaches semantic hit rates (SH@100) of 58.0% and 84.9%, and reduces cross-problem concentration of semantic successes(lower Gini). Under a fixed prover budget, FormalEvolve also improves downstream proving performance on CombiBench. Code will be released publicly.
 
 ---
 
-## 9. [Geography According to ChatGPT -- How Generative AI Represents and Reasons about Geography](http://arxiv.org/abs/2603.18881v1)
+## 8. [Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification](http://arxiv.org/abs/2603.19715v1)
+
+**Authors:** Baoding He, Zenan Li, Wei Sun, Yuan Yao, Taolue Chen, Xiaoxing Ma, Zhendong Su  
+**Published:** 2026-03-20  
+**Matched keywords:** `theorem proving`, `formal verification`, `interactive theorem`, `proof search`, `Isabelle`
+
+> Formal verification via interactive theorem proving is increasingly used to ensure the correctness of critical systems, yet constructing large proof scripts remains highly manual and limits scalability. Advances in large language models (LLMs), especially in mathematical reasoning, make their integration into software verification increasingly promising. This paper introduces a neuro-symbolic proof generation framework designed to automate proof search for systems-level verification projects. The framework performs a best-first tree search over proof states, repeatedly querying an LLM for the next candidate proof step. On the neural side, we fine-tune LLMs using datasets of proof state-step pairs; on the symbolic side, we incorporate a range of ITP tools to repair rejected steps, filter and rank proof states, and automatically discharge subgoals when search progress stalls. This synergy enables data-efficient LLM adaptation and semantics-informed pruning of the search space. We implement the framework on a new Isabelle REPL that exposes fine-grained proof states and automation tools, and evaluate it on the FVEL seL4 benchmark and additional Isabelle developments. On seL4, the system proves up to 77.6\% of the theorems, substantially surpassing previous LLM-based approaches and standalone Sledgehammer, while solving significantly more multi-step proofs. Results across further benchmarks demonstrate strong generalization, indicating a viable path toward scalable automated software verification.
+
+---
+
+## 9. [Plagiarism or Productivity? Students Moral Disengagement and Behavioral Intentions to Use ChatGPT in Academic Writing](http://arxiv.org/abs/2603.19549v1)
+
+**Authors:** John Paul P. Miranda, Rhiziel P. Manalese, Mark Anthony A. Castro, Renen Paul M. Viado, Vernon Grace M. Maniago, Rudante M. Galapon, Jovita G. Rivera, Amado B. Martinez  
+**Published:** 2026-03-20  
+**Matched keywords:** `ChatGPT`
+
+> This study examined how moral disengagement influences Filipino college students' intention to use ChatGPT in academic writing. The model tested five mechanisms: moral justification, euphemistic labeling, displacement of responsibility, minimizing consequences, and attribution of blame. These mechanisms were analyzed as predictors of attitudes, subjective norms, and perceived behavioral control, which then predicted behavioral intention. A total of 418 students with ChatGPT experience participated. The results showed that several moral disengagement mechanisms influenced students' attitudes and sense of control. Among the predictors, attribution of blame had the strongest influence, while attitudes had the highest impact on behavioral intention. The model explained more than half of the variation in intention. These results suggest that students often rely on institutional gaps and peer behavior to justify AI use. Many believe it is acceptable to use ChatGPT for learning or when rules are unclear. This shows a need for clear academic integrity policies, ethical guidance, and classroom support. The study also recognizes that intention-based models may not fully explain student behavior. Emotional factors, peer influence, and convenience can also affect decisions. The results provide useful insights for schools that aim to support responsible and informed AI use in higher education.
+
+---
+
+## 10. [Learning to Disprove: Formal Counterexample Generation with Large Language Models](http://arxiv.org/abs/2603.19514v1)
+
+**Authors:** Zenan Li, Zhaoyu Li, Kaiyu Yang, Xiaoxing Ma, Zhendong Su  
+**Published:** 2026-03-19  
+**Matched keywords:** `theorem proving`, `formal proof`, `Lean 4`
+
+> Mathematical reasoning demands two critical, complementary skills: constructing rigorous proofs for true statements and discovering counterexamples that disprove false ones. However, current AI efforts in mathematics focus almost exclusively on proof construction, often neglecting the equally important task of finding counterexamples. In this paper, we address this gap by fine-tuning large language models (LLMs) to reason about and generate counterexamples. We formalize this task as formal counterexample generation, which requires LLMs not only to propose candidate counterexamples but also to produce formal proofs that can be automatically verified in the Lean 4 theorem prover. To enable effective learning, we introduce a symbolic mutation strategy that synthesizes diverse training data by systematically extracting theorems and discarding selected hypotheses, thereby producing diverse counterexample instances. Together with curated datasets, this strategy enables a multi-reward expert iteration framework that substantially enhances both the effectiveness and efficiency of training LLMs for counterexample generation and theorem proving. Experiments on three newly collected benchmarks validate the advantages of our approach, showing that the mutation strategy and training framework yield significant performance gains.
+
+---
+
+## 11. [Geography According to ChatGPT -- How Generative AI Represents and Reasons about Geography](http://arxiv.org/abs/2603.18881v1)
 
 **Authors:** Krzysztof Janowicz, Gengchen Mai, Rui Zhu, Song Gao, Zhangyu Wang, Yingjie Hu, Lauren Bennett  
 **Published:** 2026-03-19  
@@ -94,7 +114,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 10. [Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought](http://arxiv.org/abs/2603.18334v1)
+## 12. [Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought](http://arxiv.org/abs/2603.18334v1)
 
 **Authors:** Zichen Xie, Wenxi Wang  
 **Published:** 2026-03-18  
@@ -104,27 +124,37 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 11. [Synthetic Differential Geometry in Lean](http://arxiv.org/abs/2603.17457v1)
+## 13. [Goedel-Code-Prover: Hierarchical Proof Search for Open State-of-the-Art Code Verification](http://arxiv.org/abs/2603.19329v1)
 
-**Authors:** Riccardo Brasca, Gabriella Clemente  
+**Authors:** Zenan Li, Ziran Yang, Deyuan, He, Haoyu Zhao, Andrew Zhao, Shange Tang, Kaiyu Yang, Aarti Gupta, Zhendong Su, Chi Jin  
 **Published:** 2026-03-18  
-**Matched keywords:** `proof assistant`, `formalization`, `Mathlib`
+**Matched keywords:** `proof search`
 
-> This article is about the formalization of synthetic differential geometry with the Lean proof assistant and the mathematical library mathlib. The main result we prove and formalize is a Taylor theorem for functions of several variables, where the series expansion is around an infinitesimal neighborhood. Most of our proofs are in fact new. Our investigations highlight the possibility of using mathlib to do constructive mathematics.
+> Large language models (LLMs) can generate plausible code but offer limited guarantees of correctness. Formally verifying that implementations satisfy specifications requires constructing machine-checkable proofs, a task that remains beyond current automation. We propose a hierarchical proof search framework for automated code verification in Lean~4 that decomposes complex verification goals into structurally simpler subgoals before attempting tactic-level proving. Central to our approach is a principled decomposition score that combines constructive justification with structural effectiveness. Crucially, this score serves as both the training reward and the inference-time ranking criterion, ensuring strict alignment between optimization and deployment. We train Goedel-Code-Prover-8B, a single unified policy for both decomposition and completion, via supervised initialization followed by hybrid reinforcement learning, where a continuous decomposition reward drives planning exploration while supervised replay stabilizes proof generation. On three Lean-based code verification benchmarks comprising 427 tasks, our 8B-parameter model achieves a 62.0\% prove success rate, a 2.6$\times$ improvement over the strongest baseline, surpassing neural provers up to 84$\times$ larger. We further observe consistent inference-time scaling: success rates improve monotonically with search iterations and sampling budget, with our trained model achieving greater efficiency than frontier off-the-shelf models of comparable scale.
 
 ---
 
-## 12. [Draft-and-Prune: Improving the Reliability of Auto-formalization for Logical Reasoning](http://arxiv.org/abs/2603.17233v1)
+## 14. [Average Reward Reinforcement Learning for Omega-Regular and Mean-Payoff Objectives](http://arxiv.org/abs/2505.15693v3)
 
-**Authors:** Zhiyu Ni, Zheng Liang, Liangcheng Song, Chenrui Cao, Xian Zhang, Alberto Sangiovanni-Vincentelli, Pierluigi Nuzzo  
-**Published:** 2026-03-18  
-**Matched keywords:** `formalization`
+**Authors:** Milad Kazemi, Mateo Perez, Fabio Somenzi, Sadegh Soudjani, Ashutosh Trivedi, Alvaro Velasquez  
+**Published:** 2025-05-21  
+**Matched keywords:** `formal verification`
 
-> Auto-formalization (AF) translates natural-language reasoning problems into solver-executable programs, enabling symbolic solvers to perform sound logical deduction. In practice, however, AF pipelines are currently brittle: programs may fail to execute, or execute but encode incorrect semantics. While prior work largely mitigates syntactic failures via repairs based on solver feedback, reducing semantics failures remains a major bottleneck. We propose Draft-and-Prune (D&P), an inference-time framework that improves AF-based logical reasoning via diversity and verification. D&P first drafts multiple natural-language plans and conditions program generation on them. It further prunes executable but contradictory or ambiguous formalizations, and aggregates predictions from surviving paths via majority voting. Across four representative benchmarks (AR-LSAT, ProofWriter, PrOntoQA, LogicalDeduction), D&P substantially strengthens AF-based reasoning without extra supervision. On AR-LSAT, in the AF-only setting, D&P achieves 78.43% accuracy with GPT-4 and 78.00% accuracy with GPT-4o, significantly outperforming the strongest AF baselines MAD-LOGIC and CLOVER. D&P then attains near-ceiling performance on the other benchmarks, including 100% on PrOntoQA and LogicalDeduction.
+> Recent advances in reinforcement learning (RL) have renewed interest in reward design for shaping agent behavior, but manually crafting reward functions is tedious and error-prone. A principled alternative is to specify behavioral requirements in a formal, unambiguous language and automatically compile them into learning objectives. $ω$-regular languages are a natural fit, given their role in formal verification and synthesis. However, most existing $ω$-regular RL approaches operate in an episodic, discounted setting with periodic resets, which is misaligned with $ω$-regular semantics over infinite traces. For continuing tasks, where the agent interacts with the environment over a single uninterrupted lifetime, the average-reward criterion is more appropriate.   We focus on absolute liveness specifications, a subclass of $ω$-regular languages that cannot be violated by any finite prefix and thus aligns naturally with continuing interaction. We present the first model-free RL framework that translates absolute liveness specifications into average-reward objectives and enables learning in unknown communicating Markov decision processes (MDPs) without episodic resetting. We also introduce a reward structure for lexicographic multi-objective optimization: among policies that maximize the satisfaction probability of an absolute liveness specification, the agent maximizes an external average-reward objective. Our method guarantees convergence in unknown communicating MDPs and supports on-the-fly reductions that do not require full environment knowledge, enabling model-free learning. Experiments across several benchmarks show that the continuing, average-reward approach outperforms competing discount-based methods.
 
 ---
 
-## 13. [STELLAR: Structure-guided LLM Assertion Retrieval and Generation for Formal Verification](http://arxiv.org/abs/2601.19903v3)
+## 15. [KoALA: KL-L0 Adversarial Detector via Label Agreement](http://arxiv.org/abs/2510.12752v2)
+
+**Authors:** Siqi Li, Yasser Shoukry  
+**Published:** 2025-10-14  
+**Matched keywords:** `formal proof`
+
+> Deep neural networks are highly susceptible to adversarial attacks, which pose significant risks to security- and safety-critical applications. We present KoALA (KL-L0 Adversarial detection via Label Agreement), a novel, semantics-free adversarial detector that requires no architectural changes or adversarial retraining. KoALA operates on a simple principle: it detects an adversarial attack when class predictions from two complementary similarity metrics disagree. These metrics - KL divergence and an L0-based similarity - are specifically chosen to detect different types of perturbations. The KL divergence metric is sensitive to dense, low-amplitude shifts, while the L0-based similarity is designed for sparse, high-impact changes. We provide a formal proof of correctness for our approach. The only training required is a simple fine-tuning step on a pre-trained image encoder using clean images to ensure the embeddings align well with both metrics. This makes KoALA a lightweight, plug-and-play solution for existing models and various data modalities. Our extensive experiments on ResNet/CIFAR-10 and CLIP/Tiny-ImageNet confirm our theoretical claims. When the theorem's conditions are met, KoALA consistently and effectively detects adversarial examples. On the full test sets, KoALA achieves a precision of 0.96 and a recall of 0.97 on ResNet/CIFAR-10, and a precision of 0.71 and a recall of 0.94 on CLIP/Tiny-ImageNet.
+
+---
+
+## 16. [STELLAR: Structure-guided LLM Assertion Retrieval and Generation for Formal Verification](http://arxiv.org/abs/2601.19903v3)
 
 **Authors:** Saeid Rajabi, Chengmo Yang, Satwik Patnaik  
 **Published:** 2025-11-28  
@@ -134,7 +164,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 14. [Formalizing Representation Theorems for a Logical Framework with Rewriting](http://arxiv.org/abs/2504.07537v2)
+## 17. [Formalizing Representation Theorems for a Logical Framework with Rewriting](http://arxiv.org/abs/2504.07537v2)
 
 **Authors:** Thomas Traversié, Florian Rabe  
 **Published:** 2025-04-10  
@@ -144,7 +174,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 15. [VeriEquivBench: An Equivalence Score for Ground-Truth-Free Evaluation of Formally Verifiable Code](http://arxiv.org/abs/2510.06296v2)
+## 18. [VeriEquivBench: An Equivalence Score for Ground-Truth-Free Evaluation of Formally Verifiable Code](http://arxiv.org/abs/2510.06296v2)
 
 **Authors:** Lingfei Zeng, Fengdi Che, Xuhan Huang, Fei Ye, Xu Xu, Binhang Yuan, Jie Fu  
 **Published:** 2025-10-07  
@@ -154,7 +184,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 16. [Formally Verifying Quantum Phase Estimation Circuits with 1,000+ Qubits](http://arxiv.org/abs/2603.08762v3)
+## 19. [Formally Verifying Quantum Phase Estimation Circuits with 1,000+ Qubits](http://arxiv.org/abs/2603.08762v3)
 
 **Authors:** Arun Govindankutty, Sudarshan K. Srinivasan  
 **Published:** 2026-03-09  
@@ -164,7 +194,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 17. [Safety is Non-Compositional: A Formal Framework for Capability-Based AI Systems](http://arxiv.org/abs/2603.15973v2)
+## 20. [Safety is Non-Compositional: A Formal Framework for Capability-Based AI Systems](http://arxiv.org/abs/2603.15973v2)
 
 **Authors:** Cosimo Spera  
 **Published:** 2026-03-16  
@@ -174,7 +204,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 18. [Beware Untrusted Simulators -- Reward-Free Backdoor Attacks in Reinforcement Learning](http://arxiv.org/abs/2602.05089v3)
+## 21. [Beware Untrusted Simulators -- Reward-Free Backdoor Attacks in Reinforcement Learning](http://arxiv.org/abs/2602.05089v3)
 
 **Authors:** Ethan Rathbun, Wo Wei Lin, Alina Oprea, Christopher Amato  
 **Published:** 2026-02-04  
@@ -184,7 +214,27 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 19. [Intent Formalization: A Grand Challenge for Reliable Coding in the Age of AI Agents](http://arxiv.org/abs/2603.17150v1)
+## 22. [Synthetic Differential Geometry in Lean](http://arxiv.org/abs/2603.17457v1)
+
+**Authors:** Riccardo Brasca, Gabriella Clemente  
+**Published:** 2026-03-18  
+**Matched keywords:** `proof assistant`, `formalization`, `Mathlib`
+
+> This article is about the formalization of synthetic differential geometry with the Lean proof assistant and the mathematical library mathlib. The main result we prove and formalize is a Taylor theorem for functions of several variables, where the series expansion is around an infinitesimal neighborhood. Most of our proofs are in fact new. Our investigations highlight the possibility of using mathlib to do constructive mathematics.
+
+---
+
+## 23. [Draft-and-Prune: Improving the Reliability of Auto-formalization for Logical Reasoning](http://arxiv.org/abs/2603.17233v1)
+
+**Authors:** Zhiyu Ni, Zheng Liang, Liangcheng Song, Chenrui Cao, Xian Zhang, Alberto Sangiovanni-Vincentelli, Pierluigi Nuzzo  
+**Published:** 2026-03-18  
+**Matched keywords:** `formalization`
+
+> Auto-formalization (AF) translates natural-language reasoning problems into solver-executable programs, enabling symbolic solvers to perform sound logical deduction. In practice, however, AF pipelines are currently brittle: programs may fail to execute, or execute but encode incorrect semantics. While prior work largely mitigates syntactic failures via repairs based on solver feedback, reducing semantics failures remains a major bottleneck. We propose Draft-and-Prune (D&P), an inference-time framework that improves AF-based logical reasoning via diversity and verification. D&P first drafts multiple natural-language plans and conditions program generation on them. It further prunes executable but contradictory or ambiguous formalizations, and aggregates predictions from surviving paths via majority voting. Across four representative benchmarks (AR-LSAT, ProofWriter, PrOntoQA, LogicalDeduction), D&P substantially strengthens AF-based reasoning without extra supervision. On AR-LSAT, in the AF-only setting, D&P achieves 78.43% accuracy with GPT-4 and 78.00% accuracy with GPT-4o, significantly outperforming the strongest AF baselines MAD-LOGIC and CLOVER. D&P then attains near-ceiling performance on the other benchmarks, including 100% on PrOntoQA and LogicalDeduction.
+
+---
+
+## 24. [Intent Formalization: A Grand Challenge for Reliable Coding in the Age of AI Agents](http://arxiv.org/abs/2603.17150v1)
 
 **Authors:** Shuvendu K. Lahiri  
 **Published:** 2026-03-17  
@@ -194,7 +244,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 20. [Formal verification of tree-based machine learning models for lateral spreading](http://arxiv.org/abs/2603.16983v1)
+## 25. [Formal verification of tree-based machine learning models for lateral spreading](http://arxiv.org/abs/2603.16983v1)
 
 **Authors:** Krishna Kumar  
 **Published:** 2026-03-17  
@@ -204,7 +254,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 21. [Machines acquire scientific taste from institutional traces](http://arxiv.org/abs/2603.16659v1)
+## 26. [Machines acquire scientific taste from institutional traces](http://arxiv.org/abs/2603.16659v1)
 
 **Authors:** Ziqin Gong, Ning Li, Huaikang Zhou  
 **Published:** 2026-03-17  
@@ -214,7 +264,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 22. [Aletheia: What Makes RLVR For Code Verifiers Tick?](http://arxiv.org/abs/2601.12186v2)
+## 27. [Aletheia: What Makes RLVR For Code Verifiers Tick?](http://arxiv.org/abs/2601.12186v2)
 
 **Authors:** Vatsal Venkatkrishna, Indraneil Paul, Iryna Gurevych  
 **Published:** 2026-01-17  
@@ -224,7 +274,7 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 23. [Hilbert: Recursively Building Formal Proofs with Informal Reasoning](http://arxiv.org/abs/2509.22819v2)
+## 28. [Hilbert: Recursively Building Formal Proofs with Informal Reasoning](http://arxiv.org/abs/2509.22819v2)
 
 **Authors:** Sumanth Varambally, Thomas Voice, Yanchao Sun, Zhifeng Chen, Rose Yu, Ke Ye  
 **Published:** 2025-09-26  
@@ -234,122 +284,12 @@ _Generated on 2026-03-21 — 35 paper(s) matched._
 
 ---
 
-## 24. [Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium](http://arxiv.org/abs/2603.15929v1)
+## 29. [Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium](http://arxiv.org/abs/2603.15929v1)
 
 **Authors:** Vasily Ilin  
 **Published:** 2026-03-16  
 **Matched keywords:** `formalization`, `Lean 4`
 
 > We present a complete Lean 4 formalization of the equilibrium characterization in the Vlasov-Maxwell-Landau (VML) system, which describes the motion of charged plasma. The project demonstrates the full AI-assisted mathematical research loop: an AI reasoning model (Gemini DeepThink) generated the proof from a conjecture, an agentic coding tool (Claude Code) translated it into Lean from natural-language prompts, a specialized prover (Aristotle) closed 111 lemmas, and the Lean kernel verified the result. A single mathematician supervised the process over 10 days at a cost of \$200, writing zero lines of code.   The entire development process is public: all 229 human prompts, and 213 git commits are archived in the repository. We report detailed lessons on AI failure modes -- hypothesis creep, definition-alignment bugs, agent avoidance behaviors -- and on what worked: the abstract/concrete proof split, adversarial self-review, and the critical role of human review of key definitions and theorem statements. Notably, the formalization was completed before the final draft of the corresponding math paper was finished.
-
----
-
-## 25. [Persona-Conditioned Risk Behavior in Large Language Models: A Simulated Gambling Study with GPT-4.1](http://arxiv.org/abs/2603.15831v1)
-
-**Authors:** Sankalp Dubedy  
-**Published:** 2026-03-16  
-**Matched keywords:** `GPT-4`
-
-> Large language models (LLMs) are increasingly deployed as autonomous agents in uncertain, sequential decision-making contexts. Yet it remains poorly understood whether the behaviors they exhibit in such environments reflect principled cognitive patterns or simply surface-level prompt mimicry. This paper presents a controlled experiment in which GPT-4.1 was assigned one of three socioeconomic personas (Rich, Middle-income, and Poor) and placed in a structured slot-machine environment with three distinct machine configurations: Fair (50%), Biased Low (35%), and Streak (dynamic probability increasing after consecutive losses). Across 50 independent iterations per condition and 6,950 recorded decisions, we find that the model reproduces key behavioral signatures predicted by Kahneman and Tversky's Prospect Theory without being instructed to do so. The Poor persona played a mean of 37.4 rounds per session (SD=15.5) compared to 1.1 rounds for the Rich persona (SD=0.31), a difference that is highly significant (Kruskal-Wallis H=393.5, p<2.2e-16). Risk scores by persona show large effect sizes (Cohen's d=4.15 for Poor vs Rich). Emotional labels appear to function as post-hoc annotations rather than decision drivers (chi-square=3205.4, Cramer's V=0.39), and belief-updating across rounds is negligible (Spearman rho=0.032 for Poor persona, p=0.016). These findings carry implications for LLM agent design, interpretability research, and the broader question of whether classical cognitive economic biases are implicitly encoded in large-scale pretrained language models.
-
----
-
-## 26. [Formalization of QFT](http://arxiv.org/abs/2603.15770v1)
-
-**Authors:** Michael R. Douglas, Sarah Hoback, Anna Mei, Ron Nissim  
-**Published:** 2026-03-16  
-**Matched keywords:** `theorem proving`, `interactive theorem`, `formalization`, `Lean 4`, `Mathlib`, `machine-checked proof`
-
-> A foundational result in constructive quantum field theory is the construction of the free bosonic quantum field theory in four-dimensional Euclidean spacetime and the proof that it satisfies the Glimm-Jaffe axioms, a variant of the Osterwalder-Schrader axioms. We present a formalization of this result in the Lean 4 interactive theorem prover. The project is intended as a proof of concept that extended arguments in mathematical physics can be translated into machine-checked proofs using existing AI tools. We begin by introducing interactive theorem proving and constructive quantum field theory, then describe our formalization and the design decisions that shaped it. We also explain the methods we used, including coding assistants, and conclude by considering how AI assisted formalization may influence the future of theoretical physics.   Our original release assumed three results, Minlos' theorem, the nuclear property of Schwartz space, and Goursat's theorem. In subsequent releases from our group and from contributors from the Lean community, these assumptions have been proven (or avoided), so that the OS/GJ axioms are now proven using only Lean and its library Mathlib.
-
----
-
-## 27. [HorizonMath: Measuring AI Progress Toward Mathematical Discovery with Automatic Verification](http://arxiv.org/abs/2603.15617v1)
-
-**Authors:** Erik Y. Wang, Sumeet Motwani, James V. Roggeveen, Eliot Hodges, Dulhan Jayalath, Charles London, Kalyan Ramakrishnan, Flaviu Cipcigan, Philip Torr, Alessandro Abate  
-**Published:** 2026-03-16  
-**Matched keywords:** `formal proof`
-
-> Can AI make progress on important, unsolved mathematical problems? Large language models are now capable of sophisticated mathematical and scientific reasoning, but whether they can perform novel research is still widely debated and underexplored. We introduce HorizonMath, a benchmark of over 100 predominantly unsolved problems spanning 8 domains in computational and applied mathematics, paired with an open-source evaluation framework for automated verification. Our benchmark targets a class of problems where discovery is hard, requiring meaningful mathematical insight, but verification is computationally efficient and simple. Because these solutions are unknown, HorizonMath is immune to data contamination, and most state-of-the-art models score near 0%. Existing research-level benchmarks instead rely on formal proof verification or manual review, both of which are expensive to scale. Using this platform, we find two problems for which GPT 5.4 Pro proposes solutions that improve on the best-known published results, representing potential novel contributions (pending expert review). We release HorizonMath as an open challenge and a growing community resource, where correct solutions to problems in the unsolved problem classes could constitute novel results in the mathematical literature.
-
----
-
-## 28. [Computational Concept of the Psyche](http://arxiv.org/abs/2603.15586v1)
-
-**Authors:** Anton Kolonin, Vladimir Krykov  
-**Published:** 2026-03-16  
-**Matched keywords:** `formalization`
-
-> This article presents an overview of approaches to modeling the human psyche in the context of constructing an artificial one. Based on this overview, a concept of cognitive architecture is proposed, in which the psyche is viewed as the operating system of a living or artificial subject, comprising a space of states, including the state of needs that determine the meaning of a subject's being in relation to stimuli from the external world, and intelligence as a decision-making system regarding actions in this world to satisfy these needs. Based on this concept, a computational formalization is proposed for creating artificial general intelligence systems for an agent through experiential learning in a state space that includes agent's needs, taking into account their biological or existential significance for the intelligent agent, along with agent's sensations and actions. Thus, the problem of constructing artificial general intelligence is formalized as a system for making optimal decisions in the space of specific agent needs under conditions of uncertainty, maximizing success in achieving goals, minimizing existential risks, and maximizing energy efficiency. A minimal experimental implementation of the model is presented.
-
----
-
-## 29. [From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence](http://arxiv.org/abs/2601.03220v2)
-
-**Authors:** Marc Finzi, Shikai Qiu, Yiding Jiang, Pavel Izmailov, J. Zico Kolter, Andrew Gordon Wilson  
-**Published:** 2026-01-06  
-**Matched keywords:** `formalization`
-
-> Can we learn more from data than existed in the generating process itself? Can new and useful information be constructed from merely applying deterministic transformations to existing data? Can the learnable content in data be evaluated without considering a downstream task? On these questions, Shannon information and Kolmogorov complexity come up nearly empty-handed, in part because they assume observers with unlimited computational capacity and do not target the useful information content. In this work, we identify and exemplify three seeming paradoxes in information theory: (1) information cannot be increased by deterministic transformations; (2) information is independent of the order of data; (3) likelihood modeling is merely distribution matching. To shed light on the tension between these results and modern practice, and to quantify the value of data, we introduce epiplexity, a formalization of information capturing what computationally bounded observers can learn from data. Epiplexity captures the structural content in data while excluding time-bounded entropy, the random unpredictable content exemplified by pseudorandom number generators and chaotic dynamical systems. With these concepts, we demonstrate how information can be created with computation, how it depends on the ordering of the data, and how likelihood modeling can produce more complex programs than present in the data generating process itself. We also present practical procedures to estimate epiplexity which we show capture differences across data sources, track with downstream performance, and highlight dataset interventions that improve out-of-distribution generalization. In contrast to principles of model selection, epiplexity provides a theoretical foundation for data selection, guiding how to select, generate, or transform data for learning systems.
-
----
-
-## 30. [Experimental evidence of progressive ChatGPT models self-convergence](http://arxiv.org/abs/2603.12683v2)
-
-**Authors:** Konstantinos F. Xylogiannopoulos, Petros Xanthopoulos, Panagiotis Karampelas, Georgios A. Bakamitsos  
-**Published:** 2026-03-13  
-**Matched keywords:** `ChatGPT`
-
-> Large Language Models (LLMs) that undergo recursive training on synthetically generated data are susceptible to model collapse, a phenomenon marked by the generation of meaningless output. Existing research has examined this issue from either theoretical or empirical perspectives, often focusing on a single model trained recursively on its own outputs. While prior studies have cautioned against the potential degradation of LLM output quality under such conditions, no longitudinal investigation has yet been conducted to assess this effect over time. In this study, we employ a text similarity metric to evaluate different ChatGPT models' capacity to generate diverse textual outputs. Our findings indicate a measurable decline of recent ChatGPT releases' ability to produce varied text, even when explicitly prompted to do so, by setting the temperature parameter to one. The observed reduction in output diversity may be attributed to the influence of the amounts of synthetic data incorporated within their training datasets as the result of internet infiltration by LLM generated data. The phenomenon is defined as model self-convergence because of the gradual increase of similarities of produced texts among different ChatGPT versions.
-
----
-
-## 31. [Orthogonal Subspace Clustering: Enhancing High-Dimensional Data Analysis through Adaptive Dimensionality Reduction and Efficient Clustering](http://arxiv.org/abs/2603.14783v1)
-
-**Authors:** Qing-Yuan Wen, Da-Qing Zhang  
-**Published:** 2026-03-16  
-**Matched keywords:** `theorem proving`
-
-> This paper presents Orthogonal Subspace Clustering (OSC), an innovative method for high-dimensional data clustering. We first establish a theoretical theorem proving that high-dimensional data can be decomposed into orthogonal subspaces in a statistical sense, whose form exactly matches the paradigm of Q-type factor analysis. This theorem lays a solid mathematical foundation for dimensionality reduction via matrix decomposition and factor analysis. Based on this theorem, we propose the OSC framework to address the "curse of dimensionality" -- a critical challenge that degrades clustering effectiveness due to sample sparsity and ineffective distance metrics. OSC integrates orthogonal subspace construction with classical clustering techniques, introducing a data-driven mechanism to select the subspace dimension based on cumulative variance contribution. This avoids manual selection biases while maximizing the retention of discriminative information. By projecting high-dimensional data into an uncorrelated, low-dimensional orthogonal subspace, OSC significantly improves clustering efficiency, robustness, and accuracy. Extensive experiments on various benchmark datasets demonstrate the effectiveness of OSC, with thorough analysis of evaluation metrics including Cluster Accuracy (ACC), Normalized Mutual Information (NMI), and Adjusted Rand Index (ARI) highlighting its advantages over existing methods.
-
----
-
-## 32. [Formalizing the Classical Isoperimetric Inequality in the Two-Dimensional Case](http://arxiv.org/abs/2603.14663v1)
-
-**Authors:** Miraj Samarakkody  
-**Published:** 2026-03-15  
-**Matched keywords:** `formal verification`, `proof assistant`, `formalization`, `Lean 4`, `Mathlib`
-
-> We present a formal verification of the classical isoperimetric inequality in the plane using the Lean 4 proof assistant and its mathematical library Mathlib. We follow Adolf Hurwitz's analytic approach to establish the inequality $L^2 \ge 4πA$, which states that among all simple closed curves of a given perimeter $L$, the circle uniquely maximizes the enclosed area $A$. The formalization proceeds in two phases. In the first phase, we establish the Fourier-analytic foundations required by Hurwitz's approach: we formalize orthogonality relations for trigonometric functions over $[-π,π]$, Parseval's theorem for classical Fourier series, uniform convergence of Fourier partial sums via the Weierstrass M-test, term-by-term differentiability, and Wirtinger's inequality. In the second phase, we carry out Hurwitz's proof itself: working with simple closed $C^1$ curves given in arc-length parametrization, we reparametrize over $[0,2π]$, establish the shoelace area formula, apply integration by parts, invoke the AM--GM inequality, apply Wirtinger's inequality, and use the arc-length constraint to derive the bound $A \le L^2/(4π)$. We discuss the key formalization challenges encountered, including the interchange of infinite sums and integrals, term-by-term differentiation, and the coordination of different indexing conventions within Mathlib. The complete formalization is available at https://github.com/mirajcs/IsoperimetricInequality
-
----
-
-## 33. [s2n-bignum-bench: A practical benchmark for evaluating low-level code reasoning of LLMs](http://arxiv.org/abs/2603.14628v1)
-
-**Authors:** Balaji Rao, John Harrison, Soonho Kong, Juneyoung Lee, Carlo Lipizzi  
-**Published:** 2026-03-15  
-**Matched keywords:** `theorem proving`, `formal verification`, `proof synthesis`
-
-> Neurosymbolic approaches leveraging Large Language Models (LLMs) with formal methods have recently achieved strong results on mathematics-oriented theorem-proving benchmarks. However, success on competition-style mathematics does not by itself demonstrate the ability to construct proofs about real-world implementations. We address this gap with a benchmark derived from an industrial cryptographic library whose assembly routines are already verified in HOL Light. s2n-bignum is a library used at AWS for providing fast assembly routines for cryptography, and its correctness is established by formal verification. The task of formally verifying this library has been a significant achievement for the Automated Reasoning Group. It involved two tasks: (1) precisely specifying the correct behavior of a program as a mathematical proposition, and (2) proving that the proposition is correct. In the case of s2n-bignum, both tasks were carried out by human experts. In \textit{s2n-bignum-bench}, we provide the formal specification and ask the LLM to generate a proof script that is accepted by HOL Light within a fixed proof-check timeout. To our knowledge, \textit{s2n-bignum-bench} is the first public benchmark focused on machine-checkable proof synthesis for industrial low-level cryptographic assembly routines in HOL Light. This benchmark provides a challenging and practically relevant testbed for evaluating LLM-based theorem proving beyond competition mathematics. The code to set up and use the benchmark is available here: \href{https://github.com/kings-crown/s2n-bignum-bench}{s2n-bignum-bench}.
-
----
-
-## 34. [Rigorous Asymptotics for First-Order Algorithms Through the Dynamical Cavity Method](http://arxiv.org/abs/2603.14573v1)
-
-**Authors:** Yatin Dandi, David Gamarnik, Francisco Pernice, Lenka Zdeborová  
-**Published:** 2026-03-15  
-**Matched keywords:** `formalization`
-
-> Dynamical Mean Field Theory (DMFT) provides an asymptotic description of the dynamics of macroscopic observables in certain disordered systems. Originally pioneered in the context of spin glasses by Sompolinsky and Zippelius (1982), it has since been used to derive asymptotic dynamical equations for a wide range of models in physics, high-dimensional statistics and machine learning. One of the main tools used by physicists to obtain these equations is the dynamical cavity method, which has remained largely non-rigorous. In contrast, existing mathematical formalizations have relied on alternative approaches, including Gaussian conditioning, large deviations over paths, or Fourier analysis. In this work, we formalize the dynamical cavity method and use it to give a new proof of the DMFT equations for General First Order Methods, a broad class of dynamics encompassing algorithms such as Gradient Descent and Approximate Message Passing.
-
----
-
-## 35. [Aletheia tackles FirstProof autonomously](http://arxiv.org/abs/2602.21201v3)
-
-**Authors:** Tony Feng, Junehyuk Jung, Sang-hyun Kim, Carlo Pagano, Sergei Gukov, Chiang-Chiang Tsai, David Woodruff, Adel Javanmard, Aryan Mokhtari, Dawsen Hwang, Yuri Chervonyi, Jonathan N. Lee, Garrett Bingham, Trieu H. Trinh, Vahab Mirrokni, Quoc V. Le, Thang Luong  
-**Published:** 2026-02-24  
-**Matched keywords:** `Aletheia`
-
-> We report the performance of Aletheia (Feng et al., 2026b), a mathematics research agent powered by Gemini 3 Deep Think, on the inaugural FirstProof challenge. Within the allowed timeframe of the challenge, Aletheia autonomously solved 6 problems (2, 5, 7, 8, 9, 10) out of 10 according to majority expert assessments; we note that experts were not unanimous on Problem 8 (only). For full transparency, we explain our interpretation of FirstProof and disclose details about our experiments as well as our evaluation. Raw prompts and outputs are available at https://github.com/google-deepmind/superhuman/tree/main/aletheia.
 
 ---
