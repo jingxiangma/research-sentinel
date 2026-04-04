@@ -79,9 +79,22 @@ FEEDS = [
 CUTOFF_DAYS = 14
 
 # ---------------------------------------------------------------------------
-# Keyword filter — only keep items that mention at least one of these
-# (case-insensitive match against title + summary).
+# Keyword filter — two tiers:
+#   TITLE_KEYWORDS: broader terms matched only against the title (low noise).
+#   KEYWORDS: specific phrases matched against title + summary.
+# An item is kept if it matches either list.
 # ---------------------------------------------------------------------------
+
+# Broad terms — safe to match in titles only
+TITLE_KEYWORDS = [
+    "math", "maths", "mathematics", "mathematical",
+    "geometry", "geometric", "topology", "topological",
+    "algebra", "algebraic",
+    "theorem", "proof", "conjecture",
+    "physics", "quantum",
+    "reasoning", "reasoning model",
+]
+
 KEYWORDS = [
     # Formal proof / theorem proving
     "lean 4", "lean4", "mathlib", "coq", "isabelle", "agda",
@@ -92,21 +105,22 @@ KEYWORDS = [
     # AI + math intersection
     "ai for math", "ai in math", "machine learning for math",
     "neural theorem", "alphaproof", "alphageometry", "minerva",
-    "llm math", "language model math", "reasoning model",
+    "llm math", "language model math",
     "mathematical reasoning", "math reasoning",
     "ai reasoning", "chain of thought",
     "mathematical discovery", "scientific discovery",
     "math olympiad", "imo problem",
+    "math benchmark", "gsm8k", "amc ", "aime ",
     "deep think",
-    # AI models known for math — use specific phrases to avoid product noise
+    # AI models known for math — specific phrases to avoid product noise
     "gemini deep think", "gemini for math", "gemini math",
     "o3 math", "o4 math",
+    "openai o3", "openai o4", "openai o1",
     # Relevant math CS topics
     "sat solver", "smt solver", "type theory", "homotopy type",
     "constructive math", "computability",
     # Physics / math AI crossover
-    "amplitude", "graviton", "symbolic computation",
-    "computer algebra", "automated mathematics",
+    "symbolic computation", "computer algebra", "automated mathematics",
     # General AI + science
     "ai-assisted", "ai assisted", "accelerating math", "accelerating science",
 ]
@@ -163,9 +177,16 @@ def extract_summary(entry) -> str:
 # Keyword filter
 # ---------------------------------------------------------------------------
 def matches_keywords(title: str, summary: str) -> list[str]:
-    """Return the list of matched keywords (empty = no match)."""
-    text = (title + " " + summary).lower()
-    return [kw for kw in KEYWORDS if kw in text]
+    """Return the list of matched keywords (empty = no match).
+
+    TITLE_KEYWORDS are checked against the title only (broader terms).
+    KEYWORDS are checked against title + summary (specific phrases).
+    """
+    title_lower = title.lower()
+    full_text = (title + " " + summary).lower()
+    matched = [kw for kw in TITLE_KEYWORDS if kw in title_lower]
+    matched += [kw for kw in KEYWORDS if kw in full_text and kw not in matched]
+    return matched
 
 
 # ---------------------------------------------------------------------------

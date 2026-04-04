@@ -1,4 +1,8 @@
 
+## 2026-04-04
+
+Improved news keyword matching: added `TITLE_KEYWORDS` list (broader terms matched against title only) to complement the existing full-text `KEYWORDS`. Full pipeline run: 36 papers (12 Geometry & Physics, 24 AI for Mathematics) and 2 news items.
+
 ## 2026-03-21
 
 Improved search: added title-only keyword matching for AI model names (cs topics), abstract AI keyword matching for math topics, and a second search pass sorted by last-updated date (2000 results) to catch recently revised papers. Full pipeline run: 35 papers (8 Geometry & Physics, 27 AI for Mathematics) and 1 news item.
