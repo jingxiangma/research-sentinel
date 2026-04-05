@@ -1,4 +1,8 @@
 
+## 2026-04-05
+
+Manually updated literature review with three key papers: "Atoms meet symbols" (arXiv:2509.15831, Cavenaghi–Katzarkov–Kontsevich), "Toward the noncommutative minimal model program for Fano varieties" (arXiv:2601.20739, Karube–Robotis–Zuliani), and "The G-Noncommutative minimal model program" (arXiv:2602.20335, Wu–Zhang). Added new Section 3.3 on equivariant atoms/modular symbols and new Section 4 on the NMMP (non-equivariant and G-equivariant). Open problems updated accordingly.
+
 ## 2026-04-04
 
 Improved news keyword matching: added `TITLE_KEYWORDS` list (broader terms matched against title only) to complement the existing full-text `KEYWORDS`. Full pipeline run: 36 papers (12 Geometry & Physics, 24 AI for Mathematics) and 2 news items.

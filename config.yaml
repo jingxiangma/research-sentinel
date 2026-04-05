@@ -21,10 +21,23 @@ topics:
       - "Seiberg-Witten"
       - "F-theory vacua"
       - "Amplituhedron"
+      - "noncommutative minimal model program"
+      - "semiorthogonal decomposition"
+      - "semi-orthogonal decomposition"
+      - "Hodge atoms"
+      - "quantum D-module"
+      - "Chen-Ruan cohomology"
+      - "exceptional collection"
+      - "Bridgeland stability"
+      - "birational invariant"
       - "large language model"
       - "language model"
       - "AI agent"
       - "AI-generated"
+    title_only_keywords:
+      - "quantum cohomology"
+      - "rationality problem"
+      - "modular symbols"
 
   - name: "AI for Mathematics"
     categories: ["cs.LO", "cs.AI", "cs.LG"]
