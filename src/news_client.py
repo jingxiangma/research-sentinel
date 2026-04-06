@@ -21,6 +21,24 @@ DATA_DIR = ROOT / "data"
 OUTPUT_PATH = DATA_DIR / "latest_news.json"
 
 # ---------------------------------------------------------------------------
+# Known test-domain rewrites: RSS feeds that publish staging URLs instead of
+# the real production URLs.  Keys are the test hostname, values are the
+# production hostname to substitute.
+# ---------------------------------------------------------------------------
+DOMAIN_REWRITES: dict[str, str] = {
+    "ai4m-test.com": "frenzymath.com",
+}
+
+
+def rewrite_link(link: str) -> str:
+    """Replace known staging/test hostnames with their production equivalents."""
+    for test_host, prod_host in DOMAIN_REWRITES.items():
+        if test_host in link:
+            return link.replace(test_host, prod_host)
+    return link
+
+
+# ---------------------------------------------------------------------------
 # Feed sources
 # Focused on AI + formal mathematics, theorem proving, and ML for math.
 # ---------------------------------------------------------------------------
@@ -238,7 +256,7 @@ def fetch_feed(feed_cfg: dict, cutoff: datetime) -> list[dict]:
 
         kept.append({
             "title": title,
-            "link": entry.get("link", "").strip(),
+            "link": rewrite_link(entry.get("link", "").strip()),
             "published_date": date_str,
             "summary": summary,
             "source_name": name,

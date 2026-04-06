@@ -88,7 +88,8 @@ def build_news_md(news: list, generated_date: str) -> str:
     for source, items in by_source.items():
         # Extract a short display name from the feed URL
         source_name = source.split("/")[2] if "/" in source else source
-        lines.append(f"## {source_name}")
+        site_url = f"https://{source_name}" if source_name != source else source
+        lines.append(f"## [{source_name}]({site_url})")
         lines.append("")
 
         for item in items:

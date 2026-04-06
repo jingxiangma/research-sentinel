@@ -4,7 +4,7 @@ _Generated on 2026-04-06 — 3 item(s) collected._
 
 ---
 
-## terrytao.wordpress.com
+## [terrytao.wordpress.com](https://terrytao.wordpress.com)
 
 ### [Mathematical methods and human thought in the age of AI](https://terrytao.wordpress.com/2026/03/29/mathematical-methods-and-human-thought-in-the-age-of-ai/)
 
@@ -14,9 +14,9 @@ Tanya Klowden and I have uploaded to the arXiv our preprint &#8220;Mathematical 
 
 ---
 
-## frenzymath.com
+## [frenzymath.com](https://frenzymath.com)
 
-### [Automated Conjecture Resolution with Formal Verification](https://ai4m-test.com/news/conjecture/)
+### [Automated Conjecture Resolution with Formal Verification](https://frenzymath.com/blog/conjecture/)
 
 **Date:** 2026-04-04
 
@@ -24,7 +24,7 @@ Tanya Klowden and I have uploaded to the arXiv our preprint &#8220;Mathematical 
 
 ---
 
-## blog.wolfram.com
+## [blog.wolfram.com](https://blog.wolfram.com)
 
 ### [Quantum Computation for Research and Business](https://blog.wolfram.com/2026/03/25/quantum-computation-for-research-and-business/)
 
