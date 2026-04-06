@@ -1,6 +1,6 @@
 # Latest Research News
 
-_Generated on 2026-04-04 — 2 item(s) collected._
+_Generated on 2026-04-06 — 3 item(s) collected._
 
 ---
 
@@ -11,6 +11,16 @@ _Generated on 2026-04-04 — 2 item(s) collected._
 **Date:** 2026-03-30
 
 Tanya Klowden and I have uploaded to the arXiv our preprint &#8220;Mathematical methods and human thought in the age of AI&#8220;. This is an unabridged version of a solicited article for a forthcoming Blackwell Companion to the Philosophy of Mathematics. I rarely write article-length essays of a philosophical nature (perhaps the last one was in [&#8230;]
+
+---
+
+## frenzymath.com
+
+### [Automated Conjecture Resolution with Formal Verification](https://ai4m-test.com/news/conjecture/)
+
+**Date:** 2026-04-04
+
+
 
 ---
 
