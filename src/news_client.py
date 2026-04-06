@@ -56,6 +56,11 @@ FEEDS = [
         "url": "https://terrytao.wordpress.com/feed/",
         "name": "Terence Tao — What's New",
     },
+    # AI4Math community
+    {
+        "url": "https://frenzymath.com/rss.xml",
+        "name": "FrenzyMath (AI4M Team, BICMR@PKU)",
+    },
     # Computational mathematics
     {
         "url": "https://blog.wolfram.com/feed/",

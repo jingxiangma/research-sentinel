@@ -1,4 +1,8 @@
 
+## 2026-04-06
+
+Added FrenzyMath (AI4M Team, BICMR@PKU) as a new news feed source (`https://frenzymath.com/rss.xml`), focused on AI4Math, Lean 4, and formal verification. Full pipeline run: 36 papers (17 Geometry & Physics, 19 AI for Mathematics) and 3 news items (including 1 from FrenzyMath, 1 from Terence Tao).
+
 ## 2026-04-05
 
 Manually updated literature review with three key papers: "Atoms meet symbols" (arXiv:2509.15831, Cavenaghi–Katzarkov–Kontsevich), "Toward the noncommutative minimal model program for Fano varieties" (arXiv:2601.20739, Karube–Robotis–Zuliani), and "The G-Noncommutative minimal model program" (arXiv:2602.20335, Wu–Zhang). Added new Section 3.3 on equivariant atoms/modular symbols and new Section 4 on the NMMP (non-equivariant and G-equivariant). Open problems updated accordingly.
