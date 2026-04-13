@@ -1,283 +1,147 @@
 [
   {
-    "title": "The rationality problem for multinorm one tori, II",
+    "title": "Rationality and symmetry of stable pairs generating series of Fano 3-folds",
     "authors": [
-      "Sumito Hasegawa",
-      "Kazuki Kanai",
-      "Yasuhiro Oki"
+      "Ivan Karpov",
+      "Miguel Moreira"
     ],
-    "published_date": "2026-04-03",
-    "updated_date": "2026-04-03",
-    "summary": "We investigate the stable and retract rationality of multinorm one tori associated to finite {é}tale algebras. Our results are organized according to the greatest common divisor $d$ of the degrees of the factors. We show that these tori are stably rational for $d=1$, and obtain a criterion for retract rationality that can be attributed to our previous results. For $d>1$, we provide sufficient conditions for the failure of retract rationality. We further generalize results of Endo--Miyata (1975) and Endo (2011) by giving an equivalent condition for multinorm one tori to be stably rational under the assumption that they split over Galois extensions with Galois groups in which all Sylow subgroups are cyclic. A similar result also holds when they split over dihedral Galois extensions.",
-    "arxiv_url": "http://arxiv.org/abs/2604.02848v1",
-    "matched_keywords": [
-      "rationality problem"
-    ]
-  },
-  {
-    "title": "AI usage in string theory, a case study: String Vacua in the Interior of Moduli Space",
-    "authors": [
-      "Timm Wrase"
-    ],
-    "published_date": "2026-04-01",
-    "updated_date": "2026-04-01",
-    "summary": "These proceedings start with a discussion of my recent experiences with large language models and potential implications for their usage in our field. This is followed by an AI generated summary of my talk at the workshop ``Recent Progress in Computational String Geometry,'' held at the Chennai Mathematical Institute in January 2026. The focus is on four-dimensional $\\mathcal{N}=1$ Minkowski vacua in type IIB compactifications that live deep in the interior of moduli space and admit an exact worldsheet description in terms of Landau--Ginzburg models. The main examples are the $1^9$ and $2^6$ models, mirror to rigid Calabi--Yau threefolds and therefore free of Kähler moduli. This makes them ideal laboratories for testing whether fluxes can stabilize all fields and for probing conjectures about the string landscape and the swampland. Based mostly on arXiv:2406.03435, arXiv:2407.16756, we review how higher-order terms in the flux superpotential can stabilize fields that remain massless at quadratic order, how isolated Minkowski vacua arise in the $2^6$ model, and why these constructions provide sharp data for the tadpole and massless Minkowski conjectures. We also emphasize the role of arXiv:2407.16758 by other authors, where the first Minkowski vacua of this type with all fields massive were identified.",
-    "arxiv_url": "http://arxiv.org/abs/2604.01384v1",
-    "matched_keywords": [
-      "large language model",
-      "language model"
-    ]
-  },
-  {
-    "title": "Topological algebra of symplectic geometry of symmetric powers",
-    "authors": [
-      "Vivek Shende",
-      "Peng Zhou"
-    ],
-    "published_date": "2026-04-01",
-    "updated_date": "2026-04-01",
-    "summary": "To a noncompact orientable surface with no closed boundary, we associate the sum of Fukaya categories of (Liouville sectors associated to) its symmetric powers. We construct sectorial covers with the combinatorics of the bar resolution to show this association extends to an open 2d topological field theory -- without naming a Lagrangian, let alone a holomorphic disk. In particular, we recover results of Rouquier and Manion on extending Heegaard-Floer theory down to an interval.",
-    "arxiv_url": "http://arxiv.org/abs/2604.01208v1",
-    "matched_keywords": [
-      "Fukaya categories"
-    ]
-  },
-  {
-    "title": "Solutions of Calabi-Yau Differential Operators as Truncated p-adic Series and Efficient Computation of Zeta Functions",
-    "authors": [
-      "Pyry Kuusela",
-      "Michael Lathwood",
-      "Miroslava Mosso Rojas",
-      "Michael Stepniczka"
-    ],
-    "published_date": "2026-04-01",
-    "updated_date": "2026-04-01",
-    "summary": "Recently, a version of the deformation method developed in arXiv:2104.07816 has been used to great effect to compute the local zeta functions of Calabi-Yau threefolds by computing their periods as series with rational coefficients and using this to find a matrix representing the Frobenius action on a $p$-adic cohomology. However, this method rapidly becomes inefficient as the prime $p$ grows, due to the rational period coefficients growing quickly. In this paper, we point out that this problem can be circumvented by a simple process that we call $p$-adically truncated recurrence. This is a recurrence relation whose solutions are $p$-adic numbers modulo $p^A$ for a given $A \\in \\mathbb{N}$ and thus grow only slowly as $p$ grows. We show that the $p$-adic accuracy $A$ can be chosen such that all $p$-adic digits which contribute to the final result are kept, and therefore we are able to obtain the correct result by using these solutions. The improvements to speed and memory usage allow for computing the local zeta functions for tens of thousands of primes on a desktop computer, and make computing local zeta functions possible even for primes of size $10^6$ to $10^7$. Previously such computations were practically possible for around 1000 first primes. We have implemented this method in a Sage-compatible Python package PFLFunction.",
-    "arxiv_url": "http://arxiv.org/abs/2604.01191v1",
-    "matched_keywords": [
-      "Calabi-Yau threefolds"
-    ]
-  },
-  {
-    "title": "An All-Loop Amplituhedron in Two Dimensions",
-    "authors": [
-      "Jonah Stalknecht"
-    ],
-    "published_date": "2026-03-31",
-    "updated_date": "2026-03-31",
-    "summary": "We define and study a positive geometry $Δ^{(L)}$ which serves as a natural generalization of loop amplituhedra to two-dimensional Minkowski space $\\mathbb{R}^{1,1}$. The geometry is formulated in the framework of lightcone geometries in dual momentum space, and can equivalently be obtained as a specific boundary of the $L$-loop amplituhedron for $\\mathcal{N}=4$ super Yang--Mills. The simplicity of the two-dimensional setting allows us to calculate the canonical form of $Δ^{(L)}$ at any loop order, which is shown to correspond to massless banana graphs. We integrate the canonical form at all loop orders in dimensional regularization, and find that the full IR divergence structure at $L$-loops is captured by the $L$th power of the one-loop result, a phenomenon analogous to IR exponentiation. Furthermore, these integrated functions can be resummed into a closed-form non-perturbative result given by a Fox--Wright function. In the limit where $L\\to\\infty$, the geometry gives rise to a path integral over worldlines, suggesting the emergence of a dual description at strong coupling. This construction provides a simple and tractable setting in which to explore the geometry of loop amplitudes, and offers a controlled toy model for investigating loop amplituhedra beyond their standard scope.",
-    "arxiv_url": "http://arxiv.org/abs/2604.00083v1",
-    "matched_keywords": [
-      "Amplituhedron"
-    ]
-  },
-  {
-    "title": "Bethe Ansatz with a Large Language Model",
-    "authors": [
-      "Balázs Pozsgay",
-      "István Vona"
-    ],
-    "published_date": "2026-03-31",
-    "updated_date": "2026-03-31",
-    "summary": "We explore the capability of a Large Language Model (LLM) to perform specific computations in mathematical physics: the task is to compute the coordinate Bethe Ansatz solution of selected integrable spin chain models. We select three integrable Hamiltonians for which the solutions were unpublished; two of the Hamiltonians are actually new. We observed that the LLM semi-autonomously solved the task in all cases, with a few mistakes along the way. These were corrected after the human researchers spotted them. The results of the LLM were checked against exact diagonalization (performed by separate programs), and the derivations were also checked by the authors. The Bethe Ansatz solutions are interesting in themselves. Our second model manifestly breaks left-right invariance, but it is PT-symmetric, therefore its solution could be interesting for applications in Generalized Hydrodynamics. And our third model is solved by a special form of the nested Bethe Ansatz, where the model is interacting, but the nesting level has a free fermionic structure lacking $U(1)$-invariance. This structure appears to be unique and it was found by the LLM. We used ChatGPT 5.2 Pro and 5.4 Pro by OpenAI.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29932v1",
-    "matched_keywords": [
-      "large language model",
-      "language model"
-    ]
-  },
-  {
-    "title": "Deformations of locally constant stability conditions and good moduli spaces",
-    "authors": [
-      "Ian Selvaggi"
-    ],
-    "published_date": "2026-03-30",
-    "updated_date": "2026-03-30",
-    "summary": "We give a structure result on the set of locally constant stability conditions, $\\operatorname{Stab}(\\mathcal{D}/R)$, defined by Halpern-Leistner-Robotis showing that it has the structure of a complex manifold, in total analogy with Bridgeland's work. As a consequence, we show that the property of having relative mass-hom bounds and the existence of good moduli spaces depends only on the connected components of $\\operatorname{Stab}(\\mathcal{D}/R)$. Lastly, we observe that the datum of a locally constant stability condition is equivalent to that of a flat family of stability conditions, as described by Bayer et al. in the context of noncommutative algebraic geometry.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29053v1",
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-07",
+    "summary": "The generating series of descendent invariants of stable pairs on 3-folds is conjectured to be rational and to satisfy a $q\\leftrightarrow q^{-1}$ symmetry. We prove this conjecture for Fano 3-folds. We utilize the same path of stability conditions that Toda used in his proof of the Calabi--Yau version of the conjecture, relating stable pairs and $L$ invariants, and work of the two authors that allows an extension of Joyce's descendent wall-crossing formula to non-standard hearts of $D^b(X)$. We use Ehrhart theory to deal with the combinatorics coming out of the wall-crossing formula. Furthermore, we specialize the wall-crossing formula to primary insertions and prove a strong rationality result predicted by the Pandharipande--Thomas/Gopakumar--Vafa correspondence.",
+    "arxiv_url": "http://arxiv.org/abs/2604.06023v1",
     "matched_keywords": [
       "Stability Condition"
     ]
   },
   {
-    "title": "Autonomous Discovery of Particle Physics Theories from Experimental Data",
+    "title": "Stability conditions on a singular quadric threefold",
     "authors": [
-      "Stephon Alexander",
-      "Benjamin Bradley",
-      "Loukas Gouskos",
-      "Cooper Niu"
+      "Tzu-Yang Chou"
     ],
-    "published_date": "2026-03-30",
-    "updated_date": "2026-03-30",
-    "summary": "The search for physics beyond the Standard Model is hindered by a combinatorial explosion of possible theories. We introduce \\textsc{Albert}, a neuro-symbolic artificial intelligence framework to systematically navigate this vast theory space. By encoding particle physics as a formal language, \\textsc{Albert} generates tokenized sequences representing symmetries, particles, and interactions under a rule-based grammar, eliminating the hallucinations common in large language models. The reinforcement learning environment enforces first-principle theoretical constraints, computes observables with radiative corrections, and evaluates statistical likelihood via $χ^2$ analysis against experimental data. As a proof of concept, we train a 25-million-parameter transformer model using only legacy data from the Large Electron-Positron Collider, which contains no direct evidence of the top quark. Remarkably, \\textsc{Albert} successfully rediscovered the Standard Model and autonomously inferred necessity and properties of the top quark, predicting its mass at $178.9\\pm 5.0~\\text{GeV}$, consistent with its modern measurement at the Large Hadron Collider. These results demonstrate the potential of AI-driven theory exploration as a rigorous, hallucination-free, and scalable paradigm for autonomous discovery of new physics.",
-    "arxiv_url": "http://arxiv.org/abs/2603.28935v1",
-    "matched_keywords": [
-      "large language model",
-      "language model"
-    ]
-  },
-  {
-    "title": "Hilbert Series and Complete-Intersection Structure of Coulomb Branches for Non-Maximal Nilpotent Orbits of $SL(N)$",
-    "authors": [
-      "Ayush Kumar"
-    ],
-    "published_date": "2026-02-01",
-    "updated_date": "2026-04-03",
-    "summary": "We study the Coulomb branches of three-dimensional $\\mathcal N=4$ quiver gauge theories of type $T_ρ(SU(N))$ associated with non-maximal nilpotent orbits of $SL(N)$. Using the Hall--Littlewood closed form for Coulomb-branch Hilbert series, together with independent checks from the monopole formula, we compute exact unrefined Hilbert series for all non-maximal partitions $ρ\\vdash N$ with $N=4$, and extend the analysis to $N=5,6$.   By analyzing the plethystic logarithms of the resulting Hilbert series, we find that in all cases examined the Coulomb branch is a complete intersection. The number of generators and relations follows a uniform pattern governed by the transpose partition $ρ^T$, with exactly $N-1$ relations appearing independently of $ρ$ in these examples. We summarize the results in explicit classification tables and formulate conjectures extending these patterns to arbitrary $N$. Our findings provide strong evidence for a remarkable uniformity in the algebraic structure of Coulomb branches within the $T_ρ(SU(N))$ family at low rank.",
-    "arxiv_url": "http://arxiv.org/abs/2602.01028v2",
-    "matched_keywords": [
-      "Coulomb branches"
-    ]
-  },
-  {
-    "title": "Type A algebraic coherence conjecture of Pappas and Rapoport",
-    "authors": [
-      "Evgeny Feigin",
-      "an appendix in collaboration with Andrey Karenskih"
-    ],
-    "published_date": "2025-04-29",
-    "updated_date": "2026-04-03",
-    "summary": "The Pappas-Rapoport coherence conjecture, proved by Zhu, states that the dimensions of spaces of sections of certain line bundles coincide. The two sides of the equality correspond to the line bundles on spherical Schubert varieties in the affine Grassmannians and to the line bundles on unions of Schubert varieties in the affine flag varieties. Algebraically the claim can be reformulated as an equality between dimensions of certain Demazure modules and certain sums of Demazure modules. The goal of this paper is to formulate an algebraic construction providing an explicit link between the above mentioned Demazure modules. Our construction works only in type A, but it is applicable to a much wider class of representations than whose popping up in the geometric coherence conjecture. In the general case one side of the conjectural equality involves the affine Kostant-Kumar modules.",
-    "arxiv_url": "http://arxiv.org/abs/2504.20549v2",
-    "matched_keywords": [
-      "Affine Grassmannians"
-    ]
-  },
-  {
-    "title": "Spectral Form Factor of Gapped Random Matrix Systems",
-    "authors": [
-      "Krishan Saraswat"
-    ],
-    "published_date": "2026-01-28",
-    "updated_date": "2026-04-02",
-    "summary": "In this work, we study the spectral form factor of random matrix models which exhibit a large number of degenerate ground states accompanied by a macroscopic gap in the spectrum. The central aim of this work is to understand how the standard narrative about the behavior of the spectral form factor is modified in the presence of these parametrically large number of ground states. We show that, at sufficiently low temperatures, the spectral form factor is dominated by the disconnected contribution, even at arbitrarily late times. Moreover, we demonstrate that the connected form factor only depends on the eigenvalues of the non-degenerate sector, implying that BPS states do not contribute to wormhole calculations in the gravity context. Using the Christoffel-Darboux kernel, we analyze a number of examples including the Bessel model and $\\mathcal{N}=2$ Jackiw-Teitelboim supergravity. In these examples, we find damped oscillations in the disconnected form factor, with a period set by the inverse size of the gap. Furthermore, we demonstrate that the slope of the ramp in the connected form factor arises from a universal sine-kernel, which emerges from a truncation of the full non-perturbative kernel in the $\\hbar \\to 0$ limit, and find agreement with the leading double trumpet result. Finally, we present predictions for how the ramp will transition to a plateau in the connected form factor and demonstrate how the transition depends on the details of the leading spectral density of states.",
-    "arxiv_url": "http://arxiv.org/abs/2601.20954v2",
-    "matched_keywords": [
-      "BPS states"
-    ]
-  },
-  {
-    "title": "Non-Lorentzian Supergravity from Matrix Theory",
-    "authors": [
-      "Dawid Maskalaniec",
-      "Ziqi Yan",
-      "Utku Zorba"
-    ],
-    "published_date": "2026-03-10",
-    "updated_date": "2026-04-02",
-    "summary": "It was recently shown that the decoupling limits leading to matrix (gauge) theories on D-branes give rise to non-Lorentzian target space geometries. Perturbatively, matrix theory describes a quantum gravity theory whose low-energy supergravity description exhibits non-Lorentzian behavior. Focusing on the D-particle case associated with the Banks-Fischler-Shenker-Susskind matrix theory, and using techniques from ambitwistor string theory, we show evidence that the dynamics of this non-Lorentzian gravity should be related to anomalies in the current algebra of the associated fundamental string worldsheet theory. At large N, the D-particle backreaction deforms the non-Lorentzian supergravity to the Lorentzian IIA theory, providing a holographic description of the BFSS matrix theory. At a moderately large N such that the D-particles decouple at the leading order, this non-Lorentzian supergravity maps holographically to the leading-order contribution of weakly coupled bulk gravity. This approximately non-Lorentzian regime is related to the null reduction of eleven-dimensional supergravity. Within the non-Lorentzian supergravity, non-trivial dynamics arises from the backreaction of extended brane objects that form BPS states with the D-particles. Finally, we generalize these results to other D-brane and string soliton holographic constructions.",
-    "arxiv_url": "http://arxiv.org/abs/2603.10278v3",
-    "matched_keywords": [
-      "BPS states"
-    ]
-  },
-  {
-    "title": "Efficient Algorithm for Generating Homotopy Inequivalent Calabi-Yaus",
-    "authors": [
-      "Nate MacFadden"
-    ],
-    "published_date": "2023-09-19",
-    "updated_date": "2026-04-02",
-    "summary": "We present an algorithm for efficiently exploring inequivalent Calabi-Yau threefold hypersurfaces in toric varieties. A direct enumeration of fine, regular, star triangulations (FRSTs) of polytopes in the Kreuzer-Skarke database is foreseeably impossible due to the large count of distinct FRSTs. Moreover, such an enumeration is needlessly redundant because many such triangulations have the same restrictions to 2-faces and hence, by Wall's theorem, lead to equivalent Calabi-Yau threefolds. We show that this redundancy can be circumvented by finding a height vector in the strict interior of the intersection of the secondary cones associated with each 2-face triangulation. We demonstrate that such triangulations are generated with orders of magnitude fewer operations than the naive approach of generating all FRSTs and selecting only those differing on 2-faces. Similar methods are also presented to directly generate (the support of) the secondary subfan of all fine triangulations, relevant for random sampling of FRSTs.",
-    "arxiv_url": "http://arxiv.org/abs/2309.10855v3",
-    "matched_keywords": [
-      "Calabi-Yau threefolds"
-    ]
-  },
-  {
-    "title": "Projectivity of Moduli Spaces in the Higher-Rank DT/PT Correspondence",
-    "authors": [
-      "Mihai Pavel",
-      "Tuomas Tajakka"
-    ],
-    "published_date": "2025-02-20",
-    "updated_date": "2026-04-02",
-    "summary": "We study projectivity of moduli spaces on the DT/PT wall crossing in Bridgeland and polynomial stability on a smooth, projective threefold. First, we construct a globally generated line bundle on the moduli stack of higher-rank PT-semistable objects and analyze the extent to which it separates points. Next, when the rank and degree are coprime, we refine our construction to obtain an explicit ample line bundle on the corresponding coarse moduli space of PT-stable objects, thereby establishing its projectivity.   Finally, we consider certain classes of threefolds for which PT-stability is realized as a Bridgeland stability condition and establish projectivity also on the wall separating the Gieseker and PT chambers.",
-    "arxiv_url": "http://arxiv.org/abs/2502.14530v2",
+    "published_date": "2025-11-25",
+    "updated_date": "2026-04-07",
+    "summary": "Let $X \\subset \\mathbb{P}^4$ be a quadric threefold with a single ordinary double point, and let $\\mathcal{K}u(X)$ be its Kuznetsov component. In this paper, we construct a weak stability condition on Kuznetsov's categorical resolution $\\widetilde{D} \\subset \\mathrm{D^b}(\\widetilde{X})$, compatible with the Verdier localization $\\mathbf{R}π_* \\colon \\widetilde{D} \\to \\mathrm{D^b}(X)$, and hence obtain a Bridgeland stability condition on $\\mathrm{D^b}(X)$. Restricting the construction, we obtain the corresponding statement for $\\mathcal{K}u(X)$ and its categorical resolution $\\widetilde{D}'$. These can be viewed as a three-dimensional analogue of our previous result in \\cite{Cho25}.   We describe the geometry of the blow-up $π\\colon \\widetilde{X} \\to X$ and obtain two semiorthogonal decompositions of $\\mathrm{D^b}(\\widetilde{X})$, arising from the projective bundle structure of $\\widetilde{X}$ and from Kuznetsov's categorical resolution. Comparing them, we isolate an admissible subcategory $\\widetilde{\\mathcal{D}}\\subset \\mathrm{D^b}(\\widetilde{X})$ resolving $\\mathrm{D^b}(X)$ and show that it admits a full Ext-exceptional collection, from which we construct the localization-compatible weak stability condition.",
+    "arxiv_url": "http://arxiv.org/abs/2511.20164v2",
     "matched_keywords": [
       "Stability Condition",
+      "semiorthogonal decomposition",
+      "exceptional collection",
       "Bridgeland stability"
     ]
   },
   {
-    "title": "Modular resurgence, $q$-Pochhammer symbols, and quantum operators from mirror curves",
+    "title": "Generalized K-theoretic invariants and wall-crossing via non-abelian localization",
     "authors": [
-      "Veronica Fantini",
-      "Claudia Rella"
+      "Ivan Karpov",
+      "Miguel Moreira"
     ],
-    "published_date": "2025-06-09",
-    "updated_date": "2026-04-01",
-    "summary": "Building on the results of [1,2], we study the resurgence of $q$-Pochhammer symbols and determine their summability and quantum modularity properties. We construct a new, infinite family of pairs of modular resurgent series from the asymptotic expansions of sums of $q$-Pochhammer symbols weighted by suitable Dirichlet characters. These weighted sums fit into the modular resurgence paradigm and provide further evidence supporting our conjectures in [1]. In the context of the topological string/spectral theory correspondence for toric Calabi-Yau threefolds, Kashaev and Mariño proved that the spectral traces of canonical quantum operators associated with local weighted projective planes can be expressed as sums of $q$-Pochhammer symbols. Exploiting this relation, we show that an exact strong-weak resurgent symmetry, first observed by the second author in [3] and fully formalized in [2] for local $\\mathbb{P}^2$, applies to all local $\\mathbb{P}^{m,n}$, albeit stripped of some of the underlying number-theoretic properties. Under some assumptions, these properties are restored when considering linear combinations of the spectral traces that reproduce the weighted sums above.",
-    "arxiv_url": "http://arxiv.org/abs/2506.08265v2",
-    "matched_keywords": [
-      "Calabi-Yau threefolds"
-    ]
-  },
-  {
-    "title": "Atoms meet symbols",
-    "authors": [
-      "Leonardo F. Cavenaghi",
-      "Ludmil Katzarkov",
-      "Maxim Kontsevich"
-    ],
-    "published_date": "2025-09-19",
-    "updated_date": "2026-04-01",
-    "summary": "This paper introduces a novel framework for constructing invariants in $G$-equivariant birational geometry by unifying two recent approaches: the theory of atoms recently developed by Katzarkov, Kontsevich, Pantev, and Yu, and the theory of modular symbols due to Kontsevich, Tschinkel, and Pestun.   We initiate the theory of Chen-Ruan atoms. Assuming the blowup formula for the quantum Chen-Ruan cohomology, we outline how to extend the theory of atoms to global quotient orbifolds and present some striking applications.   In addition, we develop a separate class of purely geometric invariants for $\\mathbb{Z}/2$- and $\\mathbb{Z}/3$-actions on surfaces and threefolds.   We provide many examples of non-$G$-linearizable $G$-actions on projective varieties treated with these new techniques.",
-    "arxiv_url": "http://arxiv.org/abs/2509.15831v4",
-    "matched_keywords": [
-      "Chen-Ruan cohomology"
-    ]
-  },
-  {
-    "title": "Kaluza-Klein Towers on General Manifolds",
-    "authors": [
-      "Kurt Hinterbichler",
-      "Janna Levin",
-      "Claire Zukowski"
-    ],
-    "published_date": "2013-10-23",
-    "updated_date": "2026-03-30",
-    "summary": "A higher-dimensional universe with compactified extra dimensions admits a four-dimensional description consisting of an infinite Kaluza-Klein tower of fields. We revisit the problem of describing the free part of the complete Kaluza-Klein tower of gauge fields, p-forms, gravity, and flux compactifications. In contrast to previous studies, we work with a generic internal manifold of any dimension, completely at the level of the action, in a gauge invariant formulation, and without resorting to the equations of motion or analysis of propagators. We demonstrate that the physical fields and Stuckelberg fields are naturally described by ingredients of the Hodge decomposition and its analog for symmetric tensors. The spectrum of states and stability conditions, in terms of the eigenvalues of various Laplacians on the internal manifold, is easily read from the action.",
-    "arxiv_url": "http://arxiv.org/abs/1310.6353v2",
+    "published_date": "2025-12-26",
+    "updated_date": "2026-04-07",
+    "summary": "Given an abelian category and a stability condition satisfying appropriate conditions, we define generalized $K$-theoretic invariants and prove that they satisfy wall-crossing formulas. For this, we introduce a new associative algebra structure on the $K$-homology of the stack of objects of an abelian category, which we call the $K$-Hall algebra. We first define $δ$-invariants directly coming from the stack of semistable objects and use the $K$-Hall algebra to take a formal logarithm and construct $\\varepsilon$-invariants. We prove that these satisfy appropriate wall-crossing formulas using the non-abelian localization theorem. Based on work of Joyce in the cohomological setting, Liu had previously defined similar invariants assuming the existence of a framing functor; we show that when their definition of invariants makes sense it agrees with ours. Our results extend Joyce--Liu wall-crossing to non-standard hearts of $D^b(X)$, for which framing functors are not known to exist.",
+    "arxiv_url": "http://arxiv.org/abs/2512.22360v2",
     "matched_keywords": [
       "Stability Condition"
     ]
   },
   {
-    "title": "Automatic Textbook Formalization",
+    "title": "The refined local Donaldson-Thomas theory of curves",
     "authors": [
-      "Fabian Gloeckle",
-      "Ahmad Rammal",
-      "Charles Arnal",
-      "Remi Munos",
-      "Vivien Cabannes",
-      "Gabriel Synnaeve",
-      "Amaury Hayat"
+      "Sergej Monavari"
     ],
-    "published_date": "2026-04-03",
-    "updated_date": "2026-04-03",
-    "summary": "We present a case study where an automatic AI system formalizes a textbook with more than 500 pages of graduate-level algebraic combinatorics to Lean. The resulting formalization represents a new milestone in textbook formalization scale and proficiency, moving from early results in undergraduate topology and restructuring of existing library content to a full standalone formalization of a graduate textbook. The formalization comprises 130K lines of code and 5900 Lean declarations and was conducted within one week by a total of 30K Claude 4.5 Opus agents collaborating in parallel on a shared code base via version control, simultaneously setting a record in multi-agent software engineering with usable results. The inference cost matches or undercuts what we estimate as the salaries required for a team of human experts, and we expect there is still the potential for large efficiencies to be made without the need for better models. We make our code, the resulting Lean code base and a side-by-side blueprint website available open-source.",
-    "arxiv_url": "http://arxiv.org/abs/2604.03071v1",
+    "published_date": "2025-06-17",
+    "updated_date": "2026-04-07",
+    "summary": "We solve the $K$-theoretically refined Donaldson-Thomas theory of local curves. Our results avoid degeneration techniques, but rather exploit direct localisation methods to reduce the refined Donaldson-Thomas partition function to the equivariant intersection theory of skew nested Hilbert schemes on smooth projective curves. We show that the latter is determined, for every Young diagram, by three universal series, which we compute in terms of the 1-leg $K$-theoretic equivariant vertex. In the refined limit, our results establish a formula for the refined topological string partition function of local curves proposed by Aganagic-Schaeffer. In the second part, we show that analogous structural results hold for the refined Pandharipande-Thomas theory of local curves. As an application, we deduce the K-theoretic DT/PT correspondence for local curves in arbitrary genus, as conjectured by Nekrasov-Okounkov.   Thanks to the recent machinery developed by Pardon, we expect our explicit results on local curves to play a key role towards the proof of the refined GW/PT conjectural correspondence of Brini-Schuler for all smooth Calabi-Yau threefolds.",
+    "arxiv_url": "http://arxiv.org/abs/2506.14359v2",
     "matched_keywords": [
-      "formalization"
+      "Donaldson-Thomas theory",
+      "Calabi-Yau threefolds"
     ]
   },
   {
-    "title": "Proceedings of the 7th Workshop on Models for Formal Analysis of Real Systems",
+    "title": "Branes and Representations of DAHA $C^\\vee C_1$: affine braid group action on category",
     "authors": [
-      "Maurice H. ter Beek",
-      "Gregor Gössler"
+      "Junkang Huang",
+      "Satoshi Nawata",
+      "Yutai Zhang",
+      "Shutong Zhuang"
     ],
-    "published_date": "2026-04-03",
-    "updated_date": "2026-04-03",
-    "summary": "These proceedings contain the papers that were presented at the 7th Workshop on Models for Formal Analysis of Real Systems (MARS 2026), which took place on 12 April 2026 in Turin, Italy, as a satellite event of the 29th International Joint Conferences on Theory and Practice of Software (ETAPS 2026).    The goal of MARS is to bring together researchers from different communities who are developing formal models of real systems in areas where complex models occur (e.g., networks, cyber-physical systems, hardware/software codesign, biology). The motivation for MARS stems from the following two observations:    - Large case studies are essential to show that specification formalisms and modelling techniques are applicable to real systems, whereas many papers only consider toy examples or tiny case studies.    - Developing an accurate model of a real system takes a large amount of time, often months or years. In most papers, however, salient details of the model need to be skipped due to lack of space, and to leave room for formal verification methodologies and results.    MARS aims at remedying these issues, emphasising modelling over verification, so as to retain lessons learned from formal modelling, which are not usually discussed elsewhere, and which may lay the basis for future analysis and comparison.",
-    "arxiv_url": "http://arxiv.org/abs/2604.03053v1",
+    "published_date": "2024-12-27",
+    "updated_date": "2026-04-07",
+    "summary": "We study the representation theory of the spherical double affine Hecke algebra (DAHA) of $C^\\vee C_1$, using brane quantization. By showing a one-to-one correspondence between Lagrangian $A$-branes with compact support and finite-dimensional representations of the spherical DAHA, we provide evidence of derived equivalence between the $A$-brane category of $\\mathrm{SL}(2,\\mathbb{C})$-character variety of a four-punctured sphere and the representation category of DAHA of $C^\\vee C_1$. The $D_4$ root system plays an essential role in understanding both the geometry and representation theory. In particular, this $A$-model approach reveals the action of an affine braid group of type $D_4$ on the category. As a by-product, our geometric investigation offers detailed information about the low-energy effective dynamics of the SU(2) $N_f=4$ Seiberg-Witten theory.",
+    "arxiv_url": "http://arxiv.org/abs/2412.19647v3",
+    "matched_keywords": [
+      "Seiberg-Witten"
+    ]
+  },
+  {
+    "title": "A Deductive System for Contract Satisfaction Proofs",
+    "authors": [
+      "Arthur Correnson",
+      "Haoyi Zeng",
+      "Jana Hofmann"
+    ],
+    "published_date": "2026-04-10",
+    "updated_date": "2026-04-10",
+    "summary": "Hardware-software contracts are abstract specifications of a CPU's leakage behavior. They enable verifying the security of high-level programs against side-channel attacks without having to explicitly reason about the microarchitectural details of the CPU. Using the abstraction powers of a contract requires proving that the targeted CPU satisfies the contract in the sense that the contract over-approximates the CPU's leakage. Besides pen-and-paper reasoning, proving contract satisfaction has been approached mostly from the model-checking perspective, with approaches based on a (semi-)automated search for the necessary invariants.   As an alternative, this paper explores how such proofs can be conducted in interactive proof assistants. We start by observing that contract satisfaction is an instance of a more general problem we call relative trace equality, and we introduce relative bisimulation as an associated proof technique. Leveraging recent advances in the field of coinductive proofs, we develop a deductive proof system for relative trace equality. Our system is provably sound and complete, and it enables a modular and incremental proof style. It also features several reasoning principles to simplify proofs by exploiting symmetries and transitivity properties. We formalized our deductive system in the Rocq proof assistant and applied it to two challenging contract satisfaction proofs.",
+    "arxiv_url": "http://arxiv.org/abs/2604.09165v1",
+    "matched_keywords": [
+      "proof assistant"
+    ]
+  },
+  {
+    "title": "CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation",
+    "authors": [
+      "Yushi Feng",
+      "Junye Du",
+      "Qifan Wang",
+      "Zizhan Ma",
+      "Qian Niu",
+      "Yutaka Matsuo",
+      "Long Feng",
+      "Lequan Yu"
+    ],
+    "published_date": "2026-04-10",
+    "updated_date": "2026-04-10",
+    "summary": "Graphical user interface (GUI) agents powered by vision language models (VLMs) are rapidly moving from passive assistance to autonomous operation. However, this unrestricted action space exposes users to severe and irreversible financial, privacy or social harm. Existing safeguards rely on prompt engineering, brittle heuristics and VLM-as-critic lack formal verification and user-tunable guarantees. We propose CORA (COnformal Risk-controlled GUI Agent), a post-policy, pre-action safeguarding framework that provides statistical guarantees on harmful executed actions. CORA reformulates safety as selective action execution: we train a Guardian model to estimate action-conditional risk for each proposed step. Rather than thresholding raw scores, we leverage Conformal Risk Control to calibrate an execute/abstain boundary that satisfies a user-specified risk budget and route rejected actions to a trainable Diagnostician model, which performs multimodal reasoning over rejected actions to recommend interventions (e.g., confirm, reflect, or abort) to minimize user burden. A Goal-Lock mechanism anchors assessment to a clarified, frozen user intent to resist visual injection attacks. To rigorously evaluate this paradigm, we introduce Phone-Harm, a new benchmark of mobile safety violations with step-level harm labels under real-world settings. Experiments on Phone-Harm and public benchmarks against diverse baselines validate that CORA improves the safety--helpfulness--interruption Pareto frontier, offering a practical, statistically grounded safety paradigm for autonomous GUI execution. Code and benchmark are available at cora-agent.github.io.",
+    "arxiv_url": "http://arxiv.org/abs/2604.09155v1",
     "matched_keywords": [
       "formal verification"
     ]
   },
   {
-    "title": "Making Written Theorems Explorable by Grounding Them in Formal Representations",
+    "title": "Awakening the Sleeping Agent: Lean-Specific Agentic Data Reactivates General Tool Use in Goedel Prover",
+    "authors": [
+      "Jui-Hui Chung",
+      "Hongzhou Lin",
+      "Lai Jiang",
+      "Shange Tang",
+      "Chi Jin"
+    ],
+    "published_date": "2026-04-09",
+    "updated_date": "2026-04-09",
+    "summary": "Heavy supervised fine-tuning on a target domain can strongly suppress capabilities that were present in the base model. We study this phenomenon in formal mathematics using Goedel-Prover-V2, an open-source model heavily trained on 1.8 million formal-math examples. After domain specialization, the model almost completely loses its ability to produce valid tool calls, even when explicitly instructed to use tools, dropping from 89.4% function-calling accuracy in the base model to nearly 0%. We ask whether this agentic collapse is permanent or instead reversible. To answer this question, we fine-tune the specialized model on a small amount of Lean-specific tool-use data. Remarkably, as few as 100 agentic traces are sufficient to restore strong tool-calling behavior. Importantly, this recovery is not the result of reward hacking or benchmark-specific optimization: the recovery data is entirely drawn from the Lean setting, where the model uses natural-language queries to search the Mathlib library for relevant theorems and lemmas, yet the regained capability transfers well beyond that domain. In particular, these same 100 Lean-specific traces improve performance on the Berkeley Function Calling Leaderboard from near zero to 83.8%, approaching the base model's 89.4% despite the mismatch in task distribution and protocol. The recovered capability is also practically useful in-domain. On ProofNet, pass@32 improves from 21.51% to 25.81%. Together, these results show that heavy domain supervised fine-tuning can suppress general tool-use ability without permanently erasing it, and that a small amount of domain-specific agentic data can awaken dormant tool-use capabilities.",
+    "arxiv_url": "http://arxiv.org/abs/2604.08388v1",
+    "matched_keywords": [
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "When Equality Fails as a Rewrite Principle: Provenance and Definedness for Measurement-Bearing Expressions",
+    "authors": [
+      "David B. Hulak",
+      "Arthur F. Ramos",
+      "Ruy J. G. B. de Queiroz"
+    ],
+    "published_date": "2026-04-08",
+    "updated_date": "2026-04-08",
+    "summary": "Ordinary algebraic equality is not a sound rewrite principle for measurement-bearing expressions. Reuse of the same observation matters, and division can make algebraically equal forms differ on where they are defined. We present a unified semantics that tracks both provenance and definedness. Token-sensitive enclosure semantics yields judgments for one-way rewriting and interchangeability. An admissible-domain refinement yields a domain-safe rewrite judgment, and support-relative variants connect local and global admissibility. Reduction theorems recover the enclosure-based theory on universally admissible supports. Recovery theorems internalize cancellation, background subtraction, and positive-interval self-division. Strictness theorems show that reachable singularities make simplification one-way and make common-domain equality too weak for licensed replacement. An insufficiency theorem shows that erasing token identity collapses distinctions that definedness alone cannot recover. All definitions and theorems are formalized in sorry-free Lean 4.",
+    "arxiv_url": "http://arxiv.org/abs/2604.07626v1",
+    "matched_keywords": [
+      "Lean 4"
+    ]
+  },
+  {
+    "title": "Explorable Theorems: Making Written Theorems Explorable by Grounding Them in Formal Representations",
     "authors": [
       "Hita Kambhamettu",
       "Will Crichton",
@@ -286,239 +150,145 @@
       "Andrew Head"
     ],
     "published_date": "2026-04-03",
-    "updated_date": "2026-04-03",
+    "updated_date": "2026-04-10",
     "summary": "LLM-generated explanations can make technical content more accessible, but there is a ceiling on what they can support interactively. Because LLM outputs are static text, they cannot be executed or stepped through. We argue that grounding explanations in a formalized representation enables interactive affordances beyond what static text supports. We instantiate this idea for mathematical proof comprehension with explorable theorems, a system that uses LLMs to translate a theorem and its written proof into Lean, a programming language for machine-checked proofs, and links the written proof with the Lean code. Readers can work through the proof at a step-level granularity, test custom examples or counterexamples, and trace the logical dependencies bridging each step. Each worked-out step is produced by executing the Lean proof on that example and extracting its intermediate state. A user study ($n = 16$) shows potential advantages of this approach: in a proof-reading task, participants who had access to the provided explorability features gave better, more correct, and more detailed answers to comprehension questions, demonstrating a stronger overall understanding of the underlying mathematics.",
-    "arxiv_url": "http://arxiv.org/abs/2604.02598v1",
+    "arxiv_url": "http://arxiv.org/abs/2604.02598v2",
     "matched_keywords": [
       "machine-checked proof"
     ]
   },
   {
-    "title": "(PAC-)Learning state machines from data streams: A generic strategy and an improved heuristic (Extended version)",
+    "title": "Proving Circuit Functional Equivalence in Zero Knowledge",
     "authors": [
-      "Robert Baumgartner",
-      "Sicco Verwer"
+      "Sirui Shen",
+      "Zunchen Huang",
+      "Chenglu Jin"
     ],
-    "published_date": "2026-04-02",
-    "updated_date": "2026-04-03",
-    "summary": "This is an extended version of our publication Learning state machines from data streams: A generic strategy and an improved heuristic, International Conference on Grammatical Inference (ICGI) 2023, Rabat, Morocco. It has been extended with a formal proof on PAC-bounds, and the discussion and analysis of a similar approach has been moved from the appendix and is now a full Section.   State machine models are models that simulate the behavior of discrete event systems, capable of representing systems such as software systems, network interactions, and control systems, and have been researched extensively. The nature of most learning algorithms however is the assumption that all data be available at the beginning of the algorithm, and little research has been done in learning state machines from streaming data. In this paper, we want to close this gap further by presenting a generic method for learning state machines from data streams, as well as a merge heuristic that uses sketches to account for incomplete prefix trees. We implement our approach in an open-source state merging library and compare it with existing methods. We show the effectiveness of our approach with respect to run-time, memory consumption, and quality of results on a well known open dataset. Additionally, we provide a formal analysis of our algorithm, showing that it is capable of learning within the PAC framework, and show a theoretical improvement to increase run-time, without sacrificing correctness of the algorithm in larger sample sizes.",
-    "arxiv_url": "http://arxiv.org/abs/2604.02244v2",
-    "matched_keywords": [
-      "formal proof"
-    ]
-  },
-  {
-    "title": "Type-Checked Compliance: Deterministic Guardrails for Agentic Financial Systems Using Lean 4 Theorem Proving",
-    "authors": [
-      "Devakh Rashie",
-      "Veda Rashi"
-    ],
-    "published_date": "2026-04-01",
-    "updated_date": "2026-04-01",
-    "summary": "The rapid evolution of autonomous, agentic artificial intelligence within financial services has introduced an existential architectural crisis: large language models (LLMs) are probabilistic, non-deterministic systems operating in domains that demand absolute, mathematically verifiable compliance guarantees. Existing guardrail solutions -- including NVIDIA NeMo Guardrails and Guardrails AI -- rely on probabilistic classifiers and syntactic validators that are fundamentally inadequate for enforcing complex multi-variable regulatory constraints mandated by the SEC, FINRA, and OCC. This paper presents the Lean-Agent Protocol, a formal-verification-based AI guardrail platform that leverages the Aristotle neural-symbolic model developed by Harmonic AI to auto-formalize institutional policies into Lean 4 code. Every proposed agentic action is treated as a mathematical conjecture: execution is permitted if and only if the Lean 4 kernel proves that the action satisfies pre-compiled regulatory axioms. This architecture provides cryptographic-level compliance certainty at microsecond latency, directly satisfying SEC Rule 15c3-5, OCC Bulletin 2011-12, FINRA Rule 3110, and CFPB explainability mandates. A three-phase implementation roadmap from shadow verification through enterprise-scale deployment is provided.",
-    "arxiv_url": "http://arxiv.org/abs/2604.01483v1",
-    "matched_keywords": [
-      "theorem proving",
-      "Lean 4"
-    ]
-  },
-  {
-    "title": "All Substitution Is Local",
-    "authors": [
-      "Nidhish Shah",
-      "Shaurjya Mandal",
-      "Asfandyar Azhar"
-    ],
-    "published_date": "2026-04-01",
-    "updated_date": "2026-04-01",
-    "summary": "When does consulting one information source raise the value of another, and when does it diminish it? We study this question for Bayesian decision-makers facing finite actions. The interaction decomposes into two opposing forces: a complement force, measuring how one source moves beliefs to where the other becomes more useful, and a substitute force, measuring how much the current decision is resolved. Their balance obeys a localization principle: substitution requires an observation to cross a decision boundary, though crossing alone does not guarantee it. Whenever posteriors remain inside the current decision region, the substitute force vanishes, and sources are guaranteed to complement each other, even when one source cannot, on its own, change the decision. The results hold for arbitrarily correlated sources and are formalized in Lean 4. Substitution is confined to the thin boundaries where decisions change. Everywhere else, information cooperates. Code and proofs: https://github.com/nidhishs/all-substitution-is-local.",
-    "arxiv_url": "http://arxiv.org/abs/2604.01443v1",
-    "matched_keywords": [
-      "Lean 4"
-    ]
-  },
-  {
-    "title": "PBLean: Pseudo-Boolean Proof Certificates for Lean 4",
-    "authors": [
-      "Stefan Szeider"
-    ],
-    "published_date": "2026-02-09",
-    "updated_date": "2026-04-02",
-    "summary": "We present PBLean, a method for importing VeriPB pseudo-Boolean (PB) proof certificates into Lean 4. Key to our approach is reflection: a Boolean checker function whose soundness is fully proved in Lean and executed as compiled native code. Our method scales to proofs with tens of thousands of steps that would exhaust memory under explicit proof-term construction. Our checker supports all VeriPB kernel rules, including cutting-plane derivations, proof-by-contradiction subproofs, and redundance-based reasoning for symmetry breaking. In contrast to external verified checkers that produce verdicts, our integration yields Lean theorems that can serve as composable lemmas in larger formal developments. To derive theorems about the original combinatorial problems rather than about PB constraints alone, we support verified encodings. This closes the trust gap between solver output and problem semantics since the constraint translation and its correctness proof are both formalized in Lean. We demonstrate the approach on various combinatorial problems.",
-    "arxiv_url": "http://arxiv.org/abs/2602.08692v2",
-    "matched_keywords": [
-      "Lean 4"
-    ]
-  },
-  {
-    "title": "Agentified Assessment of Logical Reasoning Agents",
-    "authors": [
-      "Zhiyu Ni",
-      "Yifeng Xiao",
-      "Zheng Liang"
-    ],
-    "published_date": "2026-03-03",
-    "updated_date": "2026-04-02",
-    "summary": "We present a framework for evaluating and benchmarking logical reasoning agents when assessment itself must be reproducible, auditable, and robust to execution failures. Building on agentified assessment, we use an assessor agent to issue tasks, enforce execution budgets, parse outputs, and record structured failure types, while the agent under test only needs to expose a standardized agent-to-agent interface. As a case study, we benchmark an auto-formalization agent for first-order logic (FOL) reasoning on a solver-verified and repaired split of FOLIO. The agent translates natural language premises and conclusions into executable Z3Py programs and employs satisfiability modulo theories (SMT) solving to determine logical entailment. On the cleaned FOLIO validation set, the auto-formalization agent achieves 86.70% accuracy under the assessor protocol, outperforming a chain-of-thought baseline (73.89%).",
-    "arxiv_url": "http://arxiv.org/abs/2603.02788v4",
-    "matched_keywords": [
-      "formalization"
-    ]
-  },
-  {
-    "title": "Evaluating LLM-Generated ACSL Annotations for Formal Verification",
-    "authors": [
-      "Arshad Beg",
-      "Diarmuid O'Donoghue",
-      "Rosemary Monahan"
-    ],
-    "published_date": "2026-02-14",
-    "updated_date": "2026-04-01",
-    "summary": "Formal specifications are crucial for building verifiable and dependable software systems, yet generating accurate and verifiable specifications for real-world C programs remains challenging. This paper empirically evaluates the extent to which formal-analysis tools can automatically generate and verify ACSL specifications without human or learning-based assistance. We conduct a controlled study on a recently released dataset of 506 C programs, repurposing it from interactive, developer-driven workflows to an automated evaluation setting. Five ACSL generation systems are compared: a rule-based Python script, Frama-C's RTE plugin, and three large language models--DeepSeek-V3.2, GPT-5.2, and OLMo 3.1 32B Instruct. All generated specifications are verified under identical conditions using the Frama-C WP plugin powered by multiple SMT solvers, allowing a direct comparison of annotation quality, solver sensitivity, and proof stability. Our results provide new empirical evidence on the capabilities and limitations of automated ACSL generation, complementing prior survey-based work.",
-    "arxiv_url": "http://arxiv.org/abs/2602.13851v2",
+    "published_date": "2026-01-16",
+    "updated_date": "2026-04-10",
+    "summary": "The modern integrated circuit ecosystem is increasingly reliant on third-party intellectual property integration, which introduces security risks, including hardware Trojans and security vulnerabilities. Addressing the resulting trust deadlock between IP vendors and system integrators without exposing proprietary designs requires novel privacy-preserving verification techniques. However, existing privacy-preserving hardware verification methods are all simulation-based and fail to offer formal guarantees. In this paper, we propose ZK-CEC, the first privacy-preserving framework for hardware formal verification. By combining formal verification and zero-knowledge proof (ZKP), ZK-CEC establishes a foundation for formally verifying IP correctness and security without compromising the confidentiality of the designs.   We observe that existing zero-knowledge protocols for formal verification are designed to prove statements of public formulas. However, in a privacy-preserving verification context where the formula is secret, these protocols cannot prevent a malicious prover from forging the formula, thereby compromising the soundness of the verification. To address these gaps, we first propose a blueprint for proving the unsatisfiability of a secret design against a public constraint, which is widely applicable to proving properties in software, hardware, and cyber-physical systems. Based on the proposed blueprint, we construct ZK-CEC, which enables a prover to convince the verifier that a secret IP's functionality aligns perfectly with the public specification in zero knowledge, revealing only the length and width of the proof. We implement ZK-CEC and evaluate its performance across various circuits, including arithmetic units and cryptographic components. Experimental results show that ZK-CEC successfully verifies practical designs, such as the AES S-Box, within practical time limits.",
+    "arxiv_url": "http://arxiv.org/abs/2601.11173v2",
     "matched_keywords": [
       "formal verification"
     ]
   },
   {
-    "title": "Meta-Learning and Meta-Reinforcement Learning -- Tracing the Path towards DeepMind's Adaptive Agent",
+    "title": "SuperDP: Differential Privacy Refutation via Supermartingales",
     "authors": [
-      "Björn Hoppmann",
-      "Christoph Scholz"
+      "Krishnendu Chatterjee",
+      "Ehsan Kafshdar Goharshady",
+      "Đorđe Žikelić"
     ],
-    "published_date": "2026-02-23",
-    "updated_date": "2026-04-01",
-    "summary": "Humans are highly effective at utilizing prior knowledge to adapt to novel tasks, a capability that standard machine learning models struggle to replicate due to their reliance on task-specific training. Meta-learning overcomes this limitation by allowing models to acquire transferable knowledge from various tasks, enabling rapid adaptation to new challenges with minimal data. This survey provides a rigorous, task-based formalization of meta-learning and meta-reinforcement learning and uses that paradigm to chronicle the landmark algorithms that paved the way for DeepMind's Adaptive Agent, consolidating the essential concepts needed to understand the Adaptive Agent and other generalist approaches.",
-    "arxiv_url": "http://arxiv.org/abs/2602.19837v2",
+    "published_date": "2026-03-27",
+    "updated_date": "2026-04-10",
+    "summary": "Differential privacy (DP) has established itself as one of the standards for ensuring privacy of individual data. However, reasoning about DP is a challenging and error-prone task, hence methods for formal verification and refutation of DP properties have received significant interest in recent years. In this work, we present a novel method for automated formal refutation of $ε$-DP. Our method refutes $ε$-DP by searching for a pair of inputs together with a non-negative function over outputs whose expected value on these two inputs differs by a significant amount. The two inputs and the non-negative function over outputs are computed simultaneously, by utilizing upper expectation supermartingales and lower expectation submartingales from probabilistic program analysis, which we leverage to introduce a sound and complete proof rule for $ε$-DP refutation. To the best of our knowledge, our method is the first method for $ε$-DP refutation to offer the following four desirable features: (1)~it is fully automated, (2)~it is applicable to stochastic mechanisms with sampling instructions from both discrete and continuous distributions, (3)~it provides soundness guarantees, and (4)~it provides semi-completeness guarantees. Our experiments show that our prototype tool SuperDP achieves superior performance compared to the state of the art and manages to refute $ε$-DP for a number of challenging examples collected from the literature, including ones that were out of the reach of prior methods.",
+    "arxiv_url": "http://arxiv.org/abs/2603.26215v2",
     "matched_keywords": [
-      "formalization"
+      "formal verification"
     ]
   },
   {
-    "title": "Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium",
+    "title": "Automatic Generation of Safety-compliant Linear Temporal Logic via Large Language Model: A Self-supervised Framework",
     "authors": [
-      "Vasily Ilin"
+      "Junle Li",
+      "Siqi Chen",
+      "Jiakai Li",
+      "Meiqi Tian",
+      "Bingzhuo Zhong"
     ],
-    "published_date": "2026-03-16",
-    "updated_date": "2026-03-31",
-    "summary": "We present a complete Lean 4 formalization of the equilibrium characterization in the Vlasov-Maxwell-Landau (VML) system, which describes the motion of charged plasma. The project demonstrates the full AI-assisted mathematical research loop: an AI reasoning model (Gemini DeepThink) generated the proof from a conjecture, an agentic coding tool (Claude Code) translated it into Lean from natural-language prompts, a specialized prover (Aristotle) closed 111 lemmas, and the Lean kernel verified the result. A single mathematician supervised the process over 10 days at a cost of \\$200, writing zero lines of code.   The entire development process is public: all 229 human prompts, and 213 git commits are archived in the repository. We report detailed lessons on AI failure modes -- hypothesis creep, definition-alignment bugs, agent avoidance behaviors -- and on what worked: the abstract/concrete proof split, adversarial self-review, and the critical role of human review of key definitions and theorem statements. Notably, the formalization was completed before the final draft of the corresponding math paper was finished.",
-    "arxiv_url": "http://arxiv.org/abs/2603.15929v2",
+    "published_date": "2025-03-20",
+    "updated_date": "2026-04-10",
+    "summary": "Converting high-level tasks described by natural language into formal specifications like Linear Temporal Logic (LTL) is a key step towards providing formal safety guarantees over cyber-physical systems (CPS). While the compliance of the formal specifications themselves against the safety restrictions imposed on CPS is crucial for ensuring safety, most existing works only focus on translation consistency between natural languages and formal specifications. In this paper, we introduce AutoSafeLTL, a self-supervised framework that utilizes large language models (LLMs) to automate the generation of LTL specifications complying with a set of safety restrictions while preserving their logical consistency and semantic accuracy. As a key insight, our framework integrates Language Inclusion check with an automated counterexample-guided modification mechanism to ensure the safety-compliance of the resulting LTL specifications. In particular, we develop 1) an LLM-as-an-Aligner, which performs atomic proposition matching between generated LTL specifications and safety restrictions to enforce semantic alignment; and 2) an LLM-as-a-Critic, which automates LTL specification refinement by interpreting counterexamples derived from Language Inclusion checks. Experimental results demonstrate that our architecture effectively guarantees safety-compliance for the generated LTL specifications, achieving a 0% violation rate against imposed safety restrictions. This shows the potential of our work in synergizing AI and formal verification techniques, enhancing safety-aware specification generation and automatic verification for both AI and critical CPS applications.",
+    "arxiv_url": "http://arxiv.org/abs/2503.15840v3",
     "matched_keywords": [
-      "formalization",
+      "formal verification"
+    ]
+  },
+  {
+    "title": "The Defense Trilemma: Why Prompt Injection Defense Wrappers Fail?",
+    "authors": [
+      "Manish Bhatt",
+      "Sarthak Munshi",
+      "Vineeth Sai Narajala",
+      "Idan Habler",
+      "Ammar Al-Kahfah",
+      "Ken Huang",
+      "Joel Webb",
+      "Blake Gatto"
+    ],
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-09",
+    "summary": "We prove that no continuous, utility-preserving wrapper defense-a function $D: X\\to X$ that preprocesses inputs before the model sees them-can make all outputs strictly safe for a language model with connected prompt space, and we characterize exactly where every such defense must fail. We establish three results under successively stronger hypotheses: boundary fixation-the defense must leave some threshold-level inputs unchanged; an $ε$-robust constraint-under Lipschitz regularity, a positive-measure band around fixed boundary points remains near-threshold; and a persistent unsafe region under a transversality condition, a positive-measure subset of inputs remains strictly unsafe. These constitute a defense trilemma: continuity, utility preservation, and completeness cannot coexist. We prove parallel discrete results requiring no topology, and extend to multi-turn interactions, stochastic defenses, and capacity-parity settings. The results do not preclude training-time alignment, architectural changes, or defenses that sacrifice utility. The full theory is mechanically verified in Lean 4 and validated empirically on three LLMs.",
+    "arxiv_url": "http://arxiv.org/abs/2604.06436v2",
+    "matched_keywords": [
       "Lean 4"
     ]
   },
   {
-    "title": "Adaptive Diffusion Guidance via Stochastic Optimal Control",
+    "title": "PROMISE: Proof Automation as Structural Imitation of Human Reasoning",
     "authors": [
-      "Iskander Azangulov",
-      "Peter Potaptchik",
-      "Qinyu Li",
-      "Eddie Aamari",
-      "George Deligiannidis",
-      "Judith Rousseau"
+      "Youngjoo Ahn",
+      "Sangyeop Yeo",
+      "Gijung Im",
+      "Jongmin Lee",
+      "Jinyoung Yeo",
+      "Jieung Kim"
     ],
-    "published_date": "2025-05-25",
-    "updated_date": "2026-03-31",
-    "summary": "Guidance is a cornerstone of modern diffusion models, playing a pivotal role in conditional generation and enhancing the quality of unconditional samples. However, current approaches to guidance scheduling--determining the appropriate guidance weight--are largely heuristic and lack a solid theoretical foundation. This work addresses these limitations on two fronts. First, we provide a theoretical formalization that precisely characterizes the relationship between guidance strength and classifier confidence. Second, building on this insight, we introduce a stochastic optimal control framework that casts guidance scheduling as an adaptive optimization problem. In this formulation, guidance strength is not fixed but dynamically selected based on time, the current sample, and the conditioning class, either independently or in combination. By solving the resulting control problem, we establish a principled foundation for more effective guidance in diffusion models.",
-    "arxiv_url": "http://arxiv.org/abs/2505.19367v2",
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-09",
+    "summary": "Automated proof generation for formal software verification remains largely unresolved despite advances in large language models (LLMs). While LLMs perform well in NLP, vision, and code generation, formal verification still requires substantial human effort. Interactive theorem proving (ITP) demands manual proof construction under strict logical constraints, limiting scalability; for example, verifying the seL4 microkernel required decades of effort.   Existing LLM-based approaches attempt to automate this process but remain limited. Most rely on single-shot generation or shallow retrieval, which may work for small proofs but fail to scale to large, interdependent verification tasks with deep structural dependencies.   We present PROMISE (PROof MIning via Structural Embeddings), a structure-aware framework that reframes proof generation as a stateful search over proof-state transitions. Instead of surface-level retrieval, PROMISE mines structural patterns from proof states and tactic transitions, enabling retrieval and adaptation of compatible proof fragments during iterative search.   We evaluate PROMISE on the seL4 benchmark across multiple LLM backends and compare it with prior systems such as Selene and Rango. PROMISE consistently outperforms prior methods, achieving up to +26 point improvements (186% relative gain) while maintaining robustness across models, demonstrating the effectiveness of structure-aware proof mining for scalable theorem proving.",
+    "arxiv_url": "http://arxiv.org/abs/2604.05399v2",
     "matched_keywords": [
-      "formalization"
-    ]
-  },
-  {
-    "title": "A Graded Modal Dependent Type Theory with Erasure, Formalized",
-    "authors": [
-      "Andreas Abel",
-      "Nils Anders Danielsson",
-      "Oskar Eriksson"
-    ],
-    "published_date": "2026-03-31",
-    "updated_date": "2026-03-31",
-    "summary": "We present a graded modal type theory, a dependent type theory with grades that can be used to enforce various properties of the code. The theory has $Π$-types, weak and strong $Σ$-types, natural numbers, an empty type, and a universe, and we also extend the theory with weak and strong unit types and graded $Σ$-types. The theory is parameterized by a modality structure, a kind of partially ordered semiring, whose elements (grades) are used to track the usage of variables in terms and types. Different modalities are possible. We focus mainly on quantitative properties, in particular erasure: with the erasure modality one can mark function arguments as erasable.   The theory is fully formalized in Agda. The formalization, which uses a syntactic Kripke logical relation at its core and is based on earlier work, establishes major meta-theoretic properties such as subject reduction, consistency, normalization, and decidability of definitional equality. We also prove a substitution theorem for grade assignment, and preservation of grades under reduction. Furthermore we study an extraction function that translates terms to an untyped $λ$-calculus and removes erasable content, in particular function arguments with the \"erasable\" grade. For a certain class of modalities we prove that extraction is sound, in the sense that programs of natural number type have the same value before and after extraction. Soundness of extraction holds also for open programs, as long as all variables in the context are erasable, the context is consistent, and erased matches are not allowed for weak $Σ$-types.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29716v1",
-    "matched_keywords": [
-      "formalization"
-    ]
-  },
-  {
-    "title": "Learning to Generate Formally Verifiable Step-by-Step Logic Reasoning via Structured Formal Intermediaries",
-    "authors": [
-      "Luoxin Chen",
-      "Yichi Zhou",
-      "Huishuai Zhang"
-    ],
-    "published_date": "2026-03-31",
-    "updated_date": "2026-03-31",
-    "summary": "Large language models (LLMs) have recently demonstrated impressive performance on complex, multi-step reasoning tasks, especially when post-trained with outcome-rewarded reinforcement learning Guo et al. 2025. However, it has been observed that outcome rewards often overlook flawed intermediate steps, leading to unreliable reasoning steps even when final answers are correct. To address this unreliable reasoning, we propose PRoSFI (Process Reward over Structured Formal Intermediates), a novel reward method that enhances reasoning reliability without compromising accuracy. Instead of generating formal proofs directly, which is rarely accomplishable for a modest-sized (7B) model, the model outputs structured intermediate steps aligned with its natural language reasoning. Each step is then verified by a formal prover. Only fully validated reasoning chains receive high rewards. The integration of formal verification guides the model towards generating step-by-step machine-checkable proofs, thereby yielding more credible final answers. PRoSFI offers a simple and effective approach to training trustworthy reasoning models.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29500v1",
-    "matched_keywords": [
+      "theorem proving",
       "formal verification",
-      "formal proof"
+      "interactive theorem"
     ]
   },
   {
-    "title": "Synthetic Differential Geometry in Lean",
+    "title": "The Orientation Boundary for Step-Duplicating Recursors: Mechanized Impossibility, Escape, and Certification",
     "authors": [
-      "Riccardo Brasca",
-      "Gabriella Clemente"
+      "Moses Rahnama"
     ],
-    "published_date": "2026-03-18",
-    "updated_date": "2026-03-31",
-    "summary": "This article is about the formalization of synthetic differential geometry with the Lean proof assistant and the mathematical library mathlib. The main result we prove and formalize is a Taylor theorem for functions of several variables, where the series expansion is around an infinitesimal neighborhood. Most of our proofs are in fact new. Our investigations highlight the possibility of using mathlib to do constructive mathematics.",
-    "arxiv_url": "http://arxiv.org/abs/2603.17457v2",
+    "published_date": "2025-11-26",
+    "updated_date": "2026-04-08",
+    "summary": "We formalize the orientation boundary for step-duplicating recursors. At the schema level, no measure in twelve formalized direct classes can strictly orient the duplicating step uniformly. The blocked classes cover additive and transparent-compositional measures, six scalar growth families, and four tracked vector/pair families under explicit pump/growth hypotheses. Two structural results sharpen the barrier: a scalar-projection theorem for matrix barriers and a symbolic variable-condition barrier yielding a KBO-style impossibility corollary for the witness system. This gives the first mechanized object-level barrier theorem for a fixed terminating system and several direct measure classes, proved without reductions or undecidability arguments. All results are formalized in Lean 4.   The paper also isolates three escape routes inside the direct universe. It proves a transparency-essentiality theorem with a witness, a dependency-pair escape characterization, a generalized polynomial boundary isolating failure of frozen base dominance, an escape trichotomy, barrier-witness extractors, a coefficient-table classifier, ablations, and two SCC synchronization families extending to finite cyclic and raw-graph forms. Every successful orienter imports assumptions outside the barrier classes.   For KO7, the guarded fragment is certified for strong normalization, confluence, a normalizer, and decidable reachability. We prove a single-exponential SafeStepCtx length theorem with a matching lower family, a DM ordinal calibration at $ω^ω$, and a triple-lex image below $ω^ω\\cdot 2$. For the full unguarded system we prove root termination by a nonlinear polynomial witness and a KO7-specialized MPO, lift to context-closed strong normalization, and connect Lean to TTT2/CeTA through a checked TPDB export, a verifier bridge, and a replay of the FAST certificate core.",
+    "arxiv_url": "http://arxiv.org/abs/2512.00081v8",
     "matched_keywords": [
-      "proof assistant",
+      "Lean 4"
+    ]
+  },
+  {
+    "title": "Iterative Formalization and Planning in Partially Observable Environments",
+    "authors": [
+      "Liancheng Gong",
+      "Wang Zhu",
+      "Jesse Thomason",
+      "Li Zhang"
+    ],
+    "published_date": "2025-05-19",
+    "updated_date": "2026-04-08",
+    "summary": "Using LLMs not to predict plans but to formalize an environment into the Planning Domain Definition Language (PDDL) has been shown to improve performance and control. While most existing methodology only applies to fully observable environments, we adapt to the more realistic and challenging partially observable environments without sufficient information to make a complete plan. We propose PDDLego, a framework to iteratively formalize, plan, grow, and refine PDDL representations by decomposing the environment and the goal into fully observable episodes. Without finetuning, in-context exemplars, or trajectories, PDDLego improves planning success and exhibits robustness against problem complexity compared to end-to-end approaches. We also show that the domain knowledge captured after a successful trial can benefit future tasks.",
+    "arxiv_url": "http://arxiv.org/abs/2505.13126v3",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "Munkres' General Topology Autoformalized in Isabelle/HOL",
+    "authors": [
+      "Dustin Bryant",
+      "Jonathan Julián Huerta y Munive",
+      "Cezary Kaliszyk",
+      "Josef Urban"
+    ],
+    "published_date": "2026-04-08",
+    "updated_date": "2026-04-08",
+    "summary": "We describe an experiment in LLM-assisted autoformalization that produced over 85,000 lines of Isabelle/HOL code covering all 39 sections of Munkres' Topology (general topology, Chapters 2--8), from topological spaces through dimension theory. The LLM-based coding agents (initially ChatGPT 5.2 and then Claude Opus 4.6) used 24 active days for that. The formalization is complete: all 806 formal results are fully proved with zero sorry's. Proved results include the Tychonoff theorem, the Baire category theorem, the Nagata--Smirnov and Smirnov metrization theorems, the Stone--Čech compactification, Ascoli's theorem, the space-filling curve, and others. The methodology is based on a \"sorry-first\" declarative proof workflow combined with bulk use of sledgehammer - two of Isabelle major strengths. This leads to relatively fast autoformalization progress. We analyze the resulting formalization in detail, analyze the human--LLM interaction patterns from the session log, and briefly compare with related autoformalization efforts in Megalodon, HOL Light, and Naproche. The results indicate that LLM-assisted formalization of standard mathematical textbooks in Isabelle/HOL is quite feasible, cheap and fast, even if some human supervision is useful.",
+    "arxiv_url": "http://arxiv.org/abs/2604.07455v1",
+    "matched_keywords": [
+      "autoformalization",
       "formalization",
-      "Mathlib"
-    ]
-  },
-  {
-    "title": "An Optimal 14-Symbol Hybrid Basis for BCH-Algebras",
-    "authors": [
-      "Mahesh Ramani",
-      "Shlok Kumar"
-    ],
-    "published_date": "2026-03-31",
-    "updated_date": "2026-03-31",
-    "summary": "We present an optimally minimal two-axiom basis for BCH-algebras. The standard presentation of a BCH-algebra relies on three axioms: two equations and one quasi-identity. Using automated theorem proving, we prove that the two standard equations can be entirely replaced by a 14-symbol equation, ((xy)z)((x(z0))y) = 0, while retaining the standard quasi-identity. We then provide a rigorous proof of strict minimality for this new equational companion. By employing an exhaustive, machine-assisted search space generation coupled with finite countermodel building, we demonstrate that no equation of 12 or fewer symbols can define the class of BCH-algebras when paired with the standard quasi-identity. Our literature searches have revealed no prior proof of this result, to the extent of our knowledge. All equivalence derivations were verified using Prover9, and all minimality countermodels were generated using Mace4.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29137v1",
-    "matched_keywords": [
-      "theorem proving",
-      "automated theorem"
-    ]
-  },
-  {
-    "title": "WybeCoder: Verified Imperative Code Generation",
-    "authors": [
-      "Fabian Gloeckle",
-      "Mantas Baksys",
-      "Darius Feher",
-      "Kunhao Zheng",
-      "Amaury Hayat",
-      "Sean B. Holden",
-      "Gabriel Synnaeve",
-      "Peter O'Hearn"
-    ],
-    "published_date": "2026-03-31",
-    "updated_date": "2026-03-31",
-    "summary": "Recent progress in large language models (LLMs) has advanced automatic code generation and formal theorem proving, yet software verification has not seen the same improvement. To address this gap, we propose WybeCoder, an agentic code verification framework that enables prove-as-you-generate development where code, invariants, and proofs co-evolve. It builds on a recent framework that combines automatic verification condition generation and SMT solvers with interactive proofs in Lean. To enable systematic evaluation, we translate two benchmarks for functional verification in Lean, Verina and Clever, to equivalent imperative code specifications. On complex algorithms such as Heapsort, we observe consistent performance improvements by scaling our approach, synthesizing dozens of valid invariants and dispatching of dozens of subgoals, resulting in hundreds of lines of verified code, overcoming plateaus reported in previous works. Our best system solves 74% of Verina tasks and 62% of Clever tasks at moderate compute budgets, significantly surpassing previous evaluations and paving a path to automated construction of large-scale datasets of verified imperative code.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29088v1",
-    "matched_keywords": [
-      "theorem proving"
-    ]
-  },
-  {
-    "title": "CivicShield: A Cross-Domain Defense-in-Depth Framework for Securing Government-Facing AI Chatbots Against Multi-Turn Adversarial Attacks",
-    "authors": [
-      "KrishnaSaiReddy Patil"
-    ],
-    "published_date": "2026-03-30",
-    "updated_date": "2026-03-30",
-    "summary": "LLM-based chatbots in government services face critical security gaps. Multi-turn adversarial attacks achieve over 90% success against current defenses, and single-layer guardrails are bypassed with similar rates. We present CivicShield, a cross-domain defense-in-depth framework for government-facing AI chatbots. Drawing on network security, formal verification, biological immune systems, aviation safety, and zero-trust cryptography, CivicShield introduces seven defense layers: (1) zero-trust foundation with capability-based access control, (2) perimeter input validation, (3) semantic firewall with intent classification, (4) conversation state machine with safety invariants, (5) behavioral anomaly detection, (6) multi-model consensus verification, and (7) graduated human-in-the-loop escalation. We present a formal threat model covering 8 multi-turn attack families, map the framework to NIST SP 800-53 controls across 14 families, and evaluate using ablation analysis. Theoretical analysis shows layered defenses reduce attack probability by 1-2 orders of magnitude versus single-layer approaches. Simulation against 1,436 scenarios including HarmBench (416), JailbreakBench (200), and XSTest (450) achieves 72.9% combined detection [69.5-76.0% CI] with 2.9% effective false positive rate after graduated response, while maintaining 100% detection of multi-turn crescendo and slow-drift attacks. The honest drop on real benchmarks versus author-generated scenarios (71.2% vs 76.7% on HarmBench, 47.0% vs 70.0% on JailbreakBench) validates independent evaluation importance. CivicShield addresses an open gap at the intersection of AI safety, government compliance, and practical deployment.",
-    "arxiv_url": "http://arxiv.org/abs/2603.29062v1",
-    "matched_keywords": [
-      "formal verification"
+      "Isabelle"
     ]
   },
   {
@@ -529,11 +299,112 @@
       "Michael A. Arbib"
     ],
     "published_date": "2026-03-30",
-    "updated_date": "2026-03-30",
+    "updated_date": "2026-04-08",
     "summary": "AGI has become the Holly Grail of AI with the promise of level intelligence and the major Tech companies around the world are investing unprecedented amounts of resources in its pursuit. Yet, there does not exist a single formal definition and only some empirical AGI benchmarking frameworks currently exist. The main purpose of this paper is to develop a general, algebraic and category theoretic framework for describing, comparing and analysing different possible AGI architectures. Thus, this Category theoretic formalization would also allow to compare different possible candidate AGI architectures, such as, RL, Universal AI, Active Inference, CRL, Schema based Learning, etc. It will allow to unambiguously expose their commonalities and differences, and what is even more important, expose areas for future research. From the applied Category theoretic point of view, we take as inspiration Machines in a Category to provide a modern view of AGI Architectures in a Category. More specifically, this first position paper provides, on one hand, a first exercise on RL, Causal RL and SBL Architectures in a Category, and on the other hand, it is a first step on a broader research program that seeks to provide a unified formal foundation for AGI systems, integrating architectural structure, informational organization, agent realization, agent and environment interaction, behavioural development over time, and the empirical evaluation of properties. This framework is also intended to support the definition of architectural properties, both syntactic and informational, as well as semantic properties of agents and their assessment in environments with explicitly characterized features. We claim that Category Theory and AGI will have a very symbiotic relation.",
-    "arxiv_url": "http://arxiv.org/abs/2603.28906v1",
+    "arxiv_url": "http://arxiv.org/abs/2603.28906v2",
     "matched_keywords": [
       "formalization"
+    ]
+  },
+  {
+    "title": "Broken by Default: A Formal Verification Study of Security Vulnerabilities in AI-Generated Code",
+    "authors": [
+      "Dominik Blain",
+      "Maxime Noiseux"
+    ],
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-08",
+    "summary": "AI coding assistants are now used to generate production code in   security-sensitive domains, yet the exploitability of their outputs remains   unquantified. We address this gap with Broken by Default: a formal   verification study of 3,500 code artifacts generated by seven widely-deployed LLMs   across 500 security-critical prompts (five CWE categories, 100 prompts each).   Each artifact is subjected to the Z3 SMT solver via the COBALT analysis   pipeline, producing mathematical satisfiability witnesses rather than   pattern-based heuristics. Across all models, 55.8% of artifacts contain at   least one COBALT-identified vulnerability; of these, 1,055 are formally proven   via Z3 satisfiability witnesses. GPT-4o leads at 62.4% (grade F); Gemini 2.5   Flash performs best at 48.4% (grade D). No model achieves a grade better than   D. Six of seven representative findings are confirmed with runtime crashes   under GCC AddressSanitizer. Three auxiliary experiments show: (1) explicit   security instructions reduce the mean rate by only 4 points; (2) six industry   tools combined miss 97.8% of Z3-proven findings; and (3) models identify their   own vulnerable outputs 78.7% of the time in review mode yet generate them at   55.8% by default.",
+    "arxiv_url": "http://arxiv.org/abs/2604.05292v2",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Explainable AI needs formalization",
+    "authors": [
+      "Stefan Haufe",
+      "Rick Wilming",
+      "Benedict Clark",
+      "Rustam Zhumagambetov",
+      "Ahcène Boubekki",
+      "Jörg Martin",
+      "Danny Panknin"
+    ],
+    "published_date": "2024-09-22",
+    "updated_date": "2026-04-08",
+    "summary": "The field of \"explainable artificial intelligence\" (XAI) seemingly addresses the desire that decisions of machine learning systems should be human-understandable. However, in its current state, XAI itself needs scrutiny. Popular methods cannot reliably answer relevant questions about ML models, their training data, or test inputs, because they systematically attribute importance to input features that are independent of the prediction target. This limits the utility of XAI for diagnosing and correcting data and models, for scientific discovery, and for identifying intervention targets. The fundamental reason for this is that current XAI methods do not address well-defined problems and are not evaluated against targeted criteria of explanation correctness. Researchers should formally define the problems they intend to solve and design methods accordingly. This will lead to diverse use-case-dependent notions of explanation correctness and objective metrics of explanation performance that can be used to validate XAI algorithms.",
+    "arxiv_url": "http://arxiv.org/abs/2409.14590v6",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "ProofSketcher: Hybrid LLM + Lightweight Proof Checker for Reliable Math/Logic Reasoning",
+    "authors": [
+      "Kranthi Kommuru",
+      "Kunal Khanvilkar",
+      "Gaurav Parekh"
+    ],
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-07",
+    "summary": "The large language models (LLMs) might produce a persuasive argument within mathematical and logical fields, although such argument often includes some minor missteps, including the entire omission of side conditions, invalid inference patterns, or appeals to a lemma that cannot be derived logically out of the context being discussed. These omissions are infamously hard to notice solely out of the text, as even the misconstrued construction still may seem mostly accurate. Conversely, interactive theorem provers like Lean and Coq have rigorous reliability by ensuring that syntactic and semantic statements only accept statements that can pass all the syntactic and semantic steps in the program which is a small trusted kernel of the language type-checks with. Despite the fact that this technique provides strong guarantees, it comes at quite a heavy price: the evidence must be completely formalized, and the evidence user or a auxiliary search program must provide an avalanche of low-level information. This paper presents a hybrid pipeline where an LLM generates a typed proof sketch in a compact DSL and a lightweight trusted kernel expands the sketch into explicit proof obligations.",
+    "arxiv_url": "http://arxiv.org/abs/2604.06401v1",
+    "matched_keywords": [
+      "interactive theorem",
+      "Coq"
+    ]
+  },
+  {
+    "title": "Semantically Reflected Programs",
+    "authors": [
+      "Eduard Kamburjan",
+      "Vidar Norstein Klungre",
+      "Yuanwei Qu",
+      "Rudolf Schlatte",
+      "Egor V. Kostylev",
+      "Martin Giese",
+      "Einar Broch Johnsen"
+    ],
+    "published_date": "2025-09-03",
+    "updated_date": "2026-04-07",
+    "summary": "This paper addresses the dichotomy between the formalization of structural and the formalization of behavioral knowledge by means of semantically lifted programs, which explore an intuitive connection between programs and knowledge graphs. While knowledge graphs and ontologies are eminently useful to represent formal knowledge about a system's individuals and universals, programming languages are designed to describe the system's evolution. To address this dichotomy, we introduce a semantic lifting of the program states of an executing program into a knowledge graph, for an object-oriented programming language. The resulting graph is exposed as a semantic reflection layer within the programming language, allowing programmers to leverage knowledge of the application domain in their programs. In this paper, we formalize semantic lifting and semantic reflection for a small programming language, SMOL, explain the operational aspects of the language, and consider type correctness and virtualisation for runtime program queries through the semantic reflection layer. We illustrate semantic lifting and semantic reflection through a case study of geological modelling and discuss different applications of the technique. The language implementation is open source and available online.",
+    "arxiv_url": "http://arxiv.org/abs/2509.03318v2",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms",
+    "authors": [
+      "Nirajan Acharya",
+      "Gaurav Kumar Gupta"
+    ],
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-07",
+    "summary": "The Model Context Protocol (MCP), introduced by Anthropic in November 2024 and now governed by the Linux Foundation's Agentic AI Foundation, has rapidly become the de facto standard for connecting large language model (LLM)-based agents to external tools and data sources, with over 97 million monthly SDK downloads and more than 177000 registered tools. However, this explosive adoption has exposed a critical gap: the absence of a unified, formal security framework capable of systematically characterizing, analyzing, and mitigating the diverse threats facing MCP-based agent ecosystems. Existing security research remains fragmented across individual attack papers, isolated benchmarks, and point defense mechanisms. This paper presents MCPSHIELD, a comprehensive formal security framework for MCP-based AI agents. We make four principal contributions: (1) a hierarchical threat taxonomy comprising 7 threat categories and 23 distinct attack vectors organized across four attack surfaces, grounded in the analysis of over 177000 MCP tools; (2) a formal verification model based on labeled transition systems with trust boundary annotations that enables static and runtime analysis of MCP tool interaction chains; (3) a systematic comparative evaluation of 12 existing defense mechanisms, identifying coverage gaps across our threat taxonomy; and (4) a defense in depth reference architecture integrating capability based access control, cryptographic tool attestation, information flow tracking, and runtime policy enforcement. Our analysis reveals that no existing single defense covers more than 34 percent of the identified threat landscape, whereas MCPSHIELD's integrated architecture achieves theoretical coverage of 91 percent. We further identify seven open research challenges that must be addressed to secure the next generation of agentic AI systems.",
+    "arxiv_url": "http://arxiv.org/abs/2604.05969v1",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Adversarial Robustness of Time-Series Classification for Crystal Collimator Alignment",
+    "authors": [
+      "Xaver Fink",
+      "Borja Fernandez Adiego",
+      "Daniele Mirarchi",
+      "Eloise Matheson",
+      "Alvaro Garcia Gonzales",
+      "Gianmarco Ricci",
+      "Joost-Pieter Katoen"
+    ],
+    "published_date": "2026-04-07",
+    "updated_date": "2026-04-07",
+    "summary": "In this paper, we analyze and improve the adversarial robustness of a convolutional neural network (CNN) that assists crystal-collimator alignment at CERN's Large Hadron Collider (LHC) by classifying a beam-loss monitor (BLM) time series during crystal rotation. We formalize a local robustness property for this classifier under an adversarial threat model based on real-world plausibility. Building on established parameterized input-transformation patterns used for transformation- and semantic-perturbation robustness, we instantiate a preprocessing-aware wrapper for our deployed time-series pipeline: we encode time-series normalization, padding constraints, and structured perturbations as a lightweight differentiable wrapper in front of the CNN, so that existing gradient-based robustness frameworks can operate on the deployed pipeline. For formal verification, data-dependent preprocessing such as per-window z-normalization introduces nonlinear operators that require verifier-specific abstractions. We therefore focus on attack-based robustness estimates and pipeline-checked validity by benchmarking robustness with the frameworks Foolbox and ART. Adversarial fine-tuning of the resulting CNN improves robust accuracy by up to 18.6 % without degrading clean accuracy. Finally, we extend robustness on time-series data beyond single windows to sequence-level robustness for sliding-window classification, introduce adversarial sequences as counterexamples to a temporal robustness requirement over full scans, and observe attack-induced misclassifications that persist across adjacent windows.",
+    "arxiv_url": "http://arxiv.org/abs/2604.06289v1",
+    "matched_keywords": [
+      "formal verification"
     ]
   }
 ]

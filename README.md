@@ -103,7 +103,7 @@ To switch the LLM model, change `MODEL` at the top of `src/reviewer.py`.
 
 ## Automated Weekly Runs
 
-The pipeline runs automatically every Monday at 9:00am via **Windows Task Scheduler** (task name: `ResearchSentinel_WeeklyUpdate`). If the computer is off at that time, the task runs on next boot.
+The pipeline runs automatically every Monday at 9:00pm via **Windows Task Scheduler** (task name: `ResearchSentinel_WeeklyUpdate`). If the computer is off at that time, the task runs on next boot.
 
 The task executes `run_pipeline.bat`, which:
 1. Runs the three pipeline scripts in order

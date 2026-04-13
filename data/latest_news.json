@@ -1,19 +1,7 @@
 [
   {
-    "title": "Mathematical methods and human thought in the age of AI",
-    "link": "https://terrytao.wordpress.com/2026/03/29/mathematical-methods-and-human-thought-in-the-age-of-ai/",
-    "published_date": "2026-03-30",
-    "summary": "Tanya Klowden and I have uploaded to the arXiv our preprint &#8220;Mathematical methods and human thought in the age of AI&#8220;. This is an unabridged version of a solicited article for a forthcoming Blackwell Companion to the Philosophy of Mathematics. I rarely write article-length essays of a philosophical nature (perhaps the last one was in [&#8230;]",
-    "source_name": "Terence Tao — What's New",
-    "source_feed": "https://terrytao.wordpress.com/feed/",
-    "matched_keywords": [
-      "math",
-      "mathematical"
-    ]
-  },
-  {
     "title": "Automated Conjecture Resolution with Formal Verification",
-    "link": "https://frenzymath.com/blog/conjecture/",
+    "link": "https://frenzymath.com/news/conjecture/",
     "published_date": "2026-04-04",
     "summary": "",
     "source_name": "FrenzyMath (AI4M Team, BICMR@PKU)",
@@ -24,14 +12,14 @@
     ]
   },
   {
-    "title": "Quantum Computation for Research and Business",
-    "link": "https://blog.wolfram.com/2026/03/25/quantum-computation-for-research-and-business/",
-    "published_date": "2026-03-25",
-    "summary": "Design quantum circuits, simulate their behavior and connect to real hardware—all from a single Wolfram Language notebook. Wolfram’s quantum tools provide an integrated environment to design, simulate and deploy quantum circuits within a single workflow. Whether you’re brand new to computing in the world of quantum or exploring new quantum uses for your business, take [&#8230;]",
-    "source_name": "Wolfram Blog",
-    "source_feed": "https://blog.wolfram.com/feed/",
+    "title": "Ideas: Steering AI toward the work future we want",
+    "link": "https://www.microsoft.com/en-us/research/podcast/ideas-steering-ai-toward-the-work-future-we-want/",
+    "published_date": "2026-04-09",
+    "summary": "<p>Microsoft Chief Scientist Jaime Teevan and researchers Jenna Butler, Jake Hofman, and Rebecca Janssen unpack the New Future of Work Report 2025 and explore the ideal AI-driven working world. Plus, is AI a tool or a collaborator? And why the answer matters.</p> <p>The post <a href=\"https://www.microsoft.com/en-us/research/podcast/ideas-steering-ai-toward-the-work-future-we-want/\">Ideas: Steering AI toward the work future we want</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+    "source_name": "Microsoft Research Blog",
+    "source_feed": "https://www.microsoft.com/en-us/research/feed/",
     "matched_keywords": [
-      "quantum"
+      "aime "
     ]
   }
 ]

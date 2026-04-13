@@ -1,22 +1,12 @@
 # Latest Research News
 
-_Generated on 2026-04-06 — 3 item(s) collected._
-
----
-
-## [terrytao.wordpress.com](https://terrytao.wordpress.com)
-
-### [Mathematical methods and human thought in the age of AI](https://terrytao.wordpress.com/2026/03/29/mathematical-methods-and-human-thought-in-the-age-of-ai/)
-
-**Date:** 2026-03-30
-
-Tanya Klowden and I have uploaded to the arXiv our preprint &#8220;Mathematical methods and human thought in the age of AI&#8220;. This is an unabridged version of a solicited article for a forthcoming Blackwell Companion to the Philosophy of Mathematics. I rarely write article-length essays of a philosophical nature (perhaps the last one was in [&#8230;]
+_Generated on 2026-04-14 — 2 item(s) collected._
 
 ---
 
 ## [frenzymath.com](https://frenzymath.com)
 
-### [Automated Conjecture Resolution with Formal Verification](https://frenzymath.com/blog/conjecture/)
+### [Automated Conjecture Resolution with Formal Verification](https://frenzymath.com/news/conjecture/)
 
 **Date:** 2026-04-04
 
@@ -24,12 +14,12 @@ Tanya Klowden and I have uploaded to the arXiv our preprint &#8220;Mathematical 
 
 ---
 
-## [blog.wolfram.com](https://blog.wolfram.com)
+## [www.microsoft.com](https://www.microsoft.com)
 
-### [Quantum Computation for Research and Business](https://blog.wolfram.com/2026/03/25/quantum-computation-for-research-and-business/)
+### [Ideas: Steering AI toward the work future we want](https://www.microsoft.com/en-us/research/podcast/ideas-steering-ai-toward-the-work-future-we-want/)
 
-**Date:** 2026-03-25
+**Date:** 2026-04-09
 
-Design quantum circuits, simulate their behavior and connect to real hardware—all from a single Wolfram Language notebook. Wolfram’s quantum tools provide an integrated environment to design, simulate and deploy quantum circuits within a single workflow. Whether you’re brand new to computing in the world of quantum or exploring new quantum uses for your business, take [&#8230;]
+<p>Microsoft Chief Scientist Jaime Teevan and researchers Jenna Butler, Jake Hofman, and Rebecca Janssen unpack the New Future of Work Report 2025 and explore the ideal AI-driven working world. Plus, is AI a tool or a collaborator? And why the answer matters.</p> <p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-steering-ai-toward-the-work-future-we-want/">Ideas: Steering…
 
 ---

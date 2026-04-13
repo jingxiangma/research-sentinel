@@ -1,4 +1,8 @@
 
+## 2026-04-14
+
+Manual pipeline run after automated Monday run was interrupted mid-execution. 25 papers (5 Geometry & Physics, 20 AI for Mathematics) and 2 news items. Also corrected scheduled run time in CLAUDE.md and README.md: the task runs at 9:00pm (not 9:00am) on Mondays.
+
 ## 2026-04-06
 
 Added FrenzyMath (AI4M Team, BICMR@PKU) as a new news feed source (`https://frenzymath.com/rss.xml`), focused on AI4Math, Lean 4, and formal verification. Full pipeline run: 36 papers (17 Geometry & Physics, 19 AI for Mathematics) and 3 news items (including 1 from FrenzyMath, 1 from Terence Tao).
