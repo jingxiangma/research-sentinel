@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Automation
 
-The pipeline runs **fully locally** on Windows Task Scheduler (task name: `ResearchSentinel_WeeklyUpdate`), every Monday at 9:00pm. If the computer is off at that time, it runs on next boot (`StartWhenAvailable`). The GitHub Actions workflow is not in use.
+The pipeline runs **fully locally** on Windows Task Scheduler (task name: `ResearchSentinel_WeeklyUpdate`), every Friday at 9:00pm. If the computer is off at that time, it runs on next boot (`StartWhenAvailable`). The GitHub Actions workflow is not in use.
 
 The scheduled task executes `run_pipeline.bat`, which runs the three pipeline scripts in order and commits/pushes the results. Logs are written to `logs/pipeline.log`.
 
