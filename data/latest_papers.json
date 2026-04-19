@@ -1,410 +1,427 @@
 [
   {
-    "title": "Rationality and symmetry of stable pairs generating series of Fano 3-folds",
+    "title": "The Very General Verra Fourfold is Irrational",
     "authors": [
-      "Ivan Karpov",
-      "Miguel Moreira"
+      "Aideen Fay"
     ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-07",
-    "summary": "The generating series of descendent invariants of stable pairs on 3-folds is conjectured to be rational and to satisfy a $q\\leftrightarrow q^{-1}$ symmetry. We prove this conjecture for Fano 3-folds. We utilize the same path of stability conditions that Toda used in his proof of the Calabi--Yau version of the conjecture, relating stable pairs and $L$ invariants, and work of the two authors that allows an extension of Joyce's descendent wall-crossing formula to non-standard hearts of $D^b(X)$. We use Ehrhart theory to deal with the combinatorics coming out of the wall-crossing formula. Furthermore, we specialize the wall-crossing formula to primary insertions and prove a strong rationality result predicted by the Pandharipande--Thomas/Gopakumar--Vafa correspondence.",
-    "arxiv_url": "http://arxiv.org/abs/2604.06023v1",
+    "published_date": "2026-04-16",
+    "updated_date": "2026-04-16",
+    "summary": "We show that the very general Verra fourfold is irrational, using the Hodge atom framework of Katzarkov--Kontsevich--Pantev--Yu. Two novel points are: a refined analysis of Hodge atoms, based on the involution on the cohomology of $X$, and a derivation of the quantum multiplication matrix from the quantum differential operator. This gives the first successful application of the method of Hodge atoms to a space with Picard rank greater than one.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14850v1",
     "matched_keywords": [
-      "Stability Condition"
+      "Hodge atoms"
     ]
   },
   {
-    "title": "Stability conditions on a singular quadric threefold",
+    "title": "The Agentification of Scientific Research: A Physicist's Perspective",
     "authors": [
-      "Tzu-Yang Chou"
+      "Xiao-Liang Qi"
     ],
-    "published_date": "2025-11-25",
-    "updated_date": "2026-04-07",
-    "summary": "Let $X \\subset \\mathbb{P}^4$ be a quadric threefold with a single ordinary double point, and let $\\mathcal{K}u(X)$ be its Kuznetsov component. In this paper, we construct a weak stability condition on Kuznetsov's categorical resolution $\\widetilde{D} \\subset \\mathrm{D^b}(\\widetilde{X})$, compatible with the Verdier localization $\\mathbf{R}π_* \\colon \\widetilde{D} \\to \\mathrm{D^b}(X)$, and hence obtain a Bridgeland stability condition on $\\mathrm{D^b}(X)$. Restricting the construction, we obtain the corresponding statement for $\\mathcal{K}u(X)$ and its categorical resolution $\\widetilde{D}'$. These can be viewed as a three-dimensional analogue of our previous result in \\cite{Cho25}.   We describe the geometry of the blow-up $π\\colon \\widetilde{X} \\to X$ and obtain two semiorthogonal decompositions of $\\mathrm{D^b}(\\widetilde{X})$, arising from the projective bundle structure of $\\widetilde{X}$ and from Kuznetsov's categorical resolution. Comparing them, we isolate an admissible subcategory $\\widetilde{\\mathcal{D}}\\subset \\mathrm{D^b}(\\widetilde{X})$ resolving $\\mathrm{D^b}(X)$ and show that it admits a full Ext-exceptional collection, from which we construct the localization-compatible weak stability condition.",
-    "arxiv_url": "http://arxiv.org/abs/2511.20164v2",
+    "published_date": "2026-04-16",
+    "updated_date": "2026-04-16",
+    "summary": "This article argues that the most important significance of the AI revolution, especially the rise of large language models, lies not simply in automation, but in a fundamental change in how complex information and human know-how are carried, replicated, and shared. From this perspective, AI for Science is especially important because it may transform not only the efficiency of research, but also the structure of scientific collaboration, discovery, publishing, and evaluation. The article outlines a gradual path from AI as a research tool to AI as a scientific collaborator, and discusses how AI is likely to fundamentally reshape scientific publication. It also argues that continuous learning and diversity of ideas are essential if AI is to play a meaningful role in original scientific discovery.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14718v1",
     "matched_keywords": [
-      "Stability Condition",
-      "semiorthogonal decomposition",
-      "exceptional collection",
-      "Bridgeland stability"
+      "large language model",
+      "language model"
     ]
   },
   {
-    "title": "Generalized K-theoretic invariants and wall-crossing via non-abelian localization",
+    "title": "Reduced Gromov-Witten invariants without ghost bubble censorship",
     "authors": [
-      "Ivan Karpov",
-      "Miguel Moreira"
+      "Guangbo Xu"
     ],
-    "published_date": "2025-12-26",
-    "updated_date": "2026-04-07",
-    "summary": "Given an abelian category and a stability condition satisfying appropriate conditions, we define generalized $K$-theoretic invariants and prove that they satisfy wall-crossing formulas. For this, we introduce a new associative algebra structure on the $K$-homology of the stack of objects of an abelian category, which we call the $K$-Hall algebra. We first define $δ$-invariants directly coming from the stack of semistable objects and use the $K$-Hall algebra to take a formal logarithm and construct $\\varepsilon$-invariants. We prove that these satisfy appropriate wall-crossing formulas using the non-abelian localization theorem. Based on work of Joyce in the cohomological setting, Liu had previously defined similar invariants assuming the existence of a framing functor; we show that when their definition of invariants makes sense it agrees with ours. Our results extend Joyce--Liu wall-crossing to non-standard hearts of $D^b(X)$, for which framing functors are not known to exist.",
-    "arxiv_url": "http://arxiv.org/abs/2512.22360v2",
+    "published_date": "2026-04-14",
+    "updated_date": "2026-04-14",
+    "summary": "We give a definition of all-genus reduced Gromov-Witten invariants of symplectic manifolds by using effectively supported multivalued perturbations on derived orbifold/Kuranishi charts, which bypasses the hard analytical result of sharp compactification/ghost bubble censorship of Zinger and Ekholm-Shende.",
+    "arxiv_url": "http://arxiv.org/abs/2604.13209v1",
     "matched_keywords": [
-      "Stability Condition"
+      "Gromov-Witten invariants"
     ]
   },
   {
-    "title": "The refined local Donaldson-Thomas theory of curves",
+    "title": "Covariant phase space approach to noncommutativity in tensile and tensionless open strings",
     "authors": [
-      "Sergej Monavari"
+      "Pratik K. Das",
+      "Sarthak Duary",
+      "Sourav Maji"
     ],
-    "published_date": "2025-06-17",
-    "updated_date": "2026-04-07",
-    "summary": "We solve the $K$-theoretically refined Donaldson-Thomas theory of local curves. Our results avoid degeneration techniques, but rather exploit direct localisation methods to reduce the refined Donaldson-Thomas partition function to the equivariant intersection theory of skew nested Hilbert schemes on smooth projective curves. We show that the latter is determined, for every Young diagram, by three universal series, which we compute in terms of the 1-leg $K$-theoretic equivariant vertex. In the refined limit, our results establish a formula for the refined topological string partition function of local curves proposed by Aganagic-Schaeffer. In the second part, we show that analogous structural results hold for the refined Pandharipande-Thomas theory of local curves. As an application, we deduce the K-theoretic DT/PT correspondence for local curves in arbitrary genus, as conjectured by Nekrasov-Okounkov.   Thanks to the recent machinery developed by Pardon, we expect our explicit results on local curves to play a key role towards the proof of the refined GW/PT conjectural correspondence of Brini-Schuler for all smooth Calabi-Yau threefolds.",
-    "arxiv_url": "http://arxiv.org/abs/2506.14359v2",
-    "matched_keywords": [
-      "Donaldson-Thomas theory",
-      "Calabi-Yau threefolds"
-    ]
-  },
-  {
-    "title": "Branes and Representations of DAHA $C^\\vee C_1$: affine braid group action on category",
-    "authors": [
-      "Junkang Huang",
-      "Satoshi Nawata",
-      "Yutai Zhang",
-      "Shutong Zhuang"
-    ],
-    "published_date": "2024-12-27",
-    "updated_date": "2026-04-07",
-    "summary": "We study the representation theory of the spherical double affine Hecke algebra (DAHA) of $C^\\vee C_1$, using brane quantization. By showing a one-to-one correspondence between Lagrangian $A$-branes with compact support and finite-dimensional representations of the spherical DAHA, we provide evidence of derived equivalence between the $A$-brane category of $\\mathrm{SL}(2,\\mathbb{C})$-character variety of a four-punctured sphere and the representation category of DAHA of $C^\\vee C_1$. The $D_4$ root system plays an essential role in understanding both the geometry and representation theory. In particular, this $A$-model approach reveals the action of an affine braid group of type $D_4$ on the category. As a by-product, our geometric investigation offers detailed information about the low-energy effective dynamics of the SU(2) $N_f=4$ Seiberg-Witten theory.",
-    "arxiv_url": "http://arxiv.org/abs/2412.19647v3",
+    "published_date": "2026-04-14",
+    "updated_date": "2026-04-14",
+    "summary": "We study noncommutativity in open strings using the covariant phase space formalism. For tensile open strings in a constant Kalb-Ramond background, we show that the (pre)-symplectic current splits into a bulk kinetic term plus an exact boundary term, recovering the Seiberg-Witten noncommutativity parameter. We then extend the analysis to intrinsically tensionless strings. In the absence of background fields, the reduced phase space is degenerate and carries no intrinsic Poisson structure. In the presence of a constant Kalb-Ramond field, the symplectic current localises entirely on the boundary, so that the physical phase space becomes purely boundary-supported and the endpoint coordinates acquire a noncommutative Poisson algebra. Including a boundary gauge-field coupling similarly leads to a boundary symplectic form governed by the effective Born-Infeld combination on the D-brane. Our results provide a unified description of noncommutativity in both tensile and tensionless open strings.",
+    "arxiv_url": "http://arxiv.org/abs/2604.13163v1",
     "matched_keywords": [
       "Seiberg-Witten"
     ]
   },
   {
-    "title": "A Deductive System for Contract Satisfaction Proofs",
+    "title": "On the large genus of Hurwitz numbers",
     "authors": [
-      "Arthur Correnson",
-      "Haoyi Zeng",
-      "Jana Hofmann"
+      "Davide Accadia",
+      "Danilo Lewański",
+      "Giulio Ruzza"
     ],
-    "published_date": "2026-04-10",
-    "updated_date": "2026-04-10",
-    "summary": "Hardware-software contracts are abstract specifications of a CPU's leakage behavior. They enable verifying the security of high-level programs against side-channel attacks without having to explicitly reason about the microarchitectural details of the CPU. Using the abstraction powers of a contract requires proving that the targeted CPU satisfies the contract in the sense that the contract over-approximates the CPU's leakage. Besides pen-and-paper reasoning, proving contract satisfaction has been approached mostly from the model-checking perspective, with approaches based on a (semi-)automated search for the necessary invariants.   As an alternative, this paper explores how such proofs can be conducted in interactive proof assistants. We start by observing that contract satisfaction is an instance of a more general problem we call relative trace equality, and we introduce relative bisimulation as an associated proof technique. Leveraging recent advances in the field of coinductive proofs, we develop a deductive proof system for relative trace equality. Our system is provably sound and complete, and it enables a modular and incremental proof style. It also features several reasoning principles to simplify proofs by exploiting symmetries and transitivity properties. We formalized our deductive system in the Rocq proof assistant and applied it to two challenging contract satisfaction proofs.",
-    "arxiv_url": "http://arxiv.org/abs/2604.09165v1",
+    "published_date": "2026-04-14",
+    "updated_date": "2026-04-14",
+    "summary": "Hurwitz theory provides a large variety of enumerative problems related to algebraic geometry, mathematical physics, and combinatorics. We give a general framework to approach the large genus asymptotics of Hurwitz theory using only elementary methods and apply it to several types of Hurwitz numbers: single, double, or with an arbitrary numbers of fixed ramifications; simple and / or including completed cycles type of ramification and / or finitely many blocks of weakly monotone and / or strictly monotone types of ramifications. These, to the best of our knowledge, cover most of the Hurwitz numbers studied, and include for instance correlators of the HCIZ matrix model, Grothendieck dessins d'enfant, weighted Hurwitz numbers, and Gromov-Witten invariants of the Riemann sphere. We also apply our method to b-content Hurwitz numbers. As a specialisation, we recover some previously known about the large genus asymptotics of Hurwitz theory, namely classical results by Hurwitz and recent results of Do-He-Robertson, C. Yang, and results connected to recent work of X. Li.",
+    "arxiv_url": "http://arxiv.org/abs/2604.12880v1",
     "matched_keywords": [
-      "proof assistant"
+      "Gromov-Witten invariants"
     ]
   },
   {
-    "title": "CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation",
+    "title": "Semiorthogonal decompositions and components of derived categories of orthogonal Grassmannian fibrations",
     "authors": [
-      "Yushi Feng",
-      "Junye Du",
-      "Qifan Wang",
-      "Zizhan Ma",
-      "Qian Niu",
-      "Yutaka Matsuo",
-      "Long Feng",
-      "Lequan Yu"
+      "Saket Shah"
     ],
-    "published_date": "2026-04-10",
-    "updated_date": "2026-04-10",
-    "summary": "Graphical user interface (GUI) agents powered by vision language models (VLMs) are rapidly moving from passive assistance to autonomous operation. However, this unrestricted action space exposes users to severe and irreversible financial, privacy or social harm. Existing safeguards rely on prompt engineering, brittle heuristics and VLM-as-critic lack formal verification and user-tunable guarantees. We propose CORA (COnformal Risk-controlled GUI Agent), a post-policy, pre-action safeguarding framework that provides statistical guarantees on harmful executed actions. CORA reformulates safety as selective action execution: we train a Guardian model to estimate action-conditional risk for each proposed step. Rather than thresholding raw scores, we leverage Conformal Risk Control to calibrate an execute/abstain boundary that satisfies a user-specified risk budget and route rejected actions to a trainable Diagnostician model, which performs multimodal reasoning over rejected actions to recommend interventions (e.g., confirm, reflect, or abort) to minimize user burden. A Goal-Lock mechanism anchors assessment to a clarified, frozen user intent to resist visual injection attacks. To rigorously evaluate this paradigm, we introduce Phone-Harm, a new benchmark of mobile safety violations with step-level harm labels under real-world settings. Experiments on Phone-Harm and public benchmarks against diverse baselines validate that CORA improves the safety--helpfulness--interruption Pareto frontier, offering a practical, statistically grounded safety paradigm for autonomous GUI execution. Code and benchmark are available at cora-agent.github.io.",
-    "arxiv_url": "http://arxiv.org/abs/2604.09155v1",
+    "published_date": "2026-04-13",
+    "updated_date": "2026-04-13",
+    "summary": "Kuznetsov showed that for a flat quadric fibration $\\mathcal{Q}$ over a smooth base $S$, $\\mathrm{D}^b(\\mathcal{Q})$ admits a semiorthogonal decomposition where one of the components is the derived category of the sheaf of even parts of a Clifford algebra $\\mathrm{D}^b(S,\\mathcal{C}l_0)$. \\par As progress towards a generalization, we show that for a quadric fibration with a fairly minor condition on the rank of the quadric fibers, the category $\\mathrm{D}^b(S,\\mathcal{C}l_0)$ embeds fully faithfully into the derived category of the relative orthogonal Grassmannian $\\mathrm{D}^b(\\mathrm{OGr}(k,\\mathcal{Q}))$. When $k = 2$, we use this to produce a semiorthogonal decomposition of $\\mathrm{D}^b(\\mathrm{OGr}(2,\\mathcal{Q}))$ up to a residual category; we compute this residual category in the smooth case and produce a conjecture for in the case of a pencil of quadrics with smooth base locus.",
+    "arxiv_url": "http://arxiv.org/abs/2604.12072v1",
     "matched_keywords": [
-      "formal verification"
+      "semiorthogonal decomposition"
     ]
   },
   {
-    "title": "Awakening the Sleeping Agent: Lean-Specific Agentic Data Reactivates General Tool Use in Goedel Prover",
+    "title": "NCCRs of cones over del Pezzo surfaces",
     "authors": [
-      "Jui-Hui Chung",
-      "Hongzhou Lin",
-      "Lai Jiang",
-      "Shange Tang",
-      "Chi Jin"
+      "Anya Nordskova",
+      "Michel Van den Bergh"
     ],
-    "published_date": "2026-04-09",
-    "updated_date": "2026-04-09",
-    "summary": "Heavy supervised fine-tuning on a target domain can strongly suppress capabilities that were present in the base model. We study this phenomenon in formal mathematics using Goedel-Prover-V2, an open-source model heavily trained on 1.8 million formal-math examples. After domain specialization, the model almost completely loses its ability to produce valid tool calls, even when explicitly instructed to use tools, dropping from 89.4% function-calling accuracy in the base model to nearly 0%. We ask whether this agentic collapse is permanent or instead reversible. To answer this question, we fine-tune the specialized model on a small amount of Lean-specific tool-use data. Remarkably, as few as 100 agentic traces are sufficient to restore strong tool-calling behavior. Importantly, this recovery is not the result of reward hacking or benchmark-specific optimization: the recovery data is entirely drawn from the Lean setting, where the model uses natural-language queries to search the Mathlib library for relevant theorems and lemmas, yet the regained capability transfers well beyond that domain. In particular, these same 100 Lean-specific traces improve performance on the Berkeley Function Calling Leaderboard from near zero to 83.8%, approaching the base model's 89.4% despite the mismatch in task distribution and protocol. The recovered capability is also practically useful in-domain. On ProofNet, pass@32 improves from 21.51% to 25.81%. Together, these results show that heavy domain supervised fine-tuning can suppress general tool-use ability without permanently erasing it, and that a small amount of domain-specific agentic data can awaken dormant tool-use capabilities.",
-    "arxiv_url": "http://arxiv.org/abs/2604.08388v1",
+    "published_date": "2026-04-13",
+    "updated_date": "2026-04-16",
+    "summary": "Non-commutative crepant resolutions (NCCRs) are non-commutative versions of classical crepant resolutions in algebraic geometry. For 3-dimensional terminal Gorenstein singularities Iyama and Wemyss proved that all NCCRs are connected by mutations, which may be viewed as a non-commutative analogue of Kawamata's result that all crepant resolutions are connected by flops. In this paper we prove the corresponding result for a class of canonical Gorenstein singularities which are not terminal, namely anticanonical cones over del Pezzo surfaces. More precisely, we first obtain a classification of NCCRs of anticanonical del Pezzo cones, showing that every NCCR arises from a geometric helix on the corresponding del Pezzo surface. We then prove that all such geometric helices are connected to each other by mutations, up to simple operations which include tensoring by line bundles and shifts.   A crucial ingredient in our proofs is the polygons that can be associated to exceptional collections on del Pezzo surfaces following the works of Hille and Perling. We obtain some interesting observations about these polygons which may be of independent interest.",
+    "arxiv_url": "http://arxiv.org/abs/2604.11319v2",
     "matched_keywords": [
-      "Mathlib"
+      "exceptional collection"
     ]
   },
   {
-    "title": "When Equality Fails as a Rewrite Principle: Provenance and Definedness for Measurement-Bearing Expressions",
+    "title": "Duality for Landau-Ginzburg models",
     "authors": [
-      "David B. Hulak",
-      "Arthur F. Ramos",
-      "Ruy J. G. B. de Queiroz"
+      "Claude Sabbah"
     ],
-    "published_date": "2026-04-08",
-    "updated_date": "2026-04-08",
-    "summary": "Ordinary algebraic equality is not a sound rewrite principle for measurement-bearing expressions. Reuse of the same observation matters, and division can make algebraically equal forms differ on where they are defined. We present a unified semantics that tracks both provenance and definedness. Token-sensitive enclosure semantics yields judgments for one-way rewriting and interchangeability. An admissible-domain refinement yields a domain-safe rewrite judgment, and support-relative variants connect local and global admissibility. Reduction theorems recover the enclosure-based theory on universally admissible supports. Recovery theorems internalize cancellation, background subtraction, and positive-interval self-division. Strictness theorems show that reachable singularities make simplification one-way and make common-domain equality too weak for licensed replacement. An insufficiency theorem shows that erasing token identity collapses distinctions that definedness alone cannot recover. All definitions and theorems are formalized in sorry-free Lean 4.",
-    "arxiv_url": "http://arxiv.org/abs/2604.07626v1",
+    "published_date": "2022-12-15",
+    "updated_date": "2026-04-15",
+    "summary": "This article surveys various duality statements attached to a pair consisting of a smooth complex quasi-projective variety and a regular function on it. It is dedicated to the memory of Bumsig Kim.",
+    "arxiv_url": "http://arxiv.org/abs/2212.07745v3",
     "matched_keywords": [
-      "Lean 4"
+      "Landau-Ginzburg models"
     ]
   },
   {
-    "title": "Explorable Theorems: Making Written Theorems Explorable by Grounding Them in Formal Representations",
+    "title": "The Resolved Elliptic Genus and the D1-D5 CFT",
     "authors": [
-      "Hita Kambhamettu",
-      "Will Crichton",
-      "Sean Welleck",
-      "Harrison Goldstein",
-      "Andrew Head"
+      "Marcel R. R. Hughes",
+      "Masaki Shigemori"
     ],
-    "published_date": "2026-04-03",
-    "updated_date": "2026-04-10",
-    "summary": "LLM-generated explanations can make technical content more accessible, but there is a ceiling on what they can support interactively. Because LLM outputs are static text, they cannot be executed or stepped through. We argue that grounding explanations in a formalized representation enables interactive affordances beyond what static text supports. We instantiate this idea for mathematical proof comprehension with explorable theorems, a system that uses LLMs to translate a theorem and its written proof into Lean, a programming language for machine-checked proofs, and links the written proof with the Lean code. Readers can work through the proof at a step-level granularity, test custom examples or counterexamples, and trace the logical dependencies bridging each step. Each worked-out step is produced by executing the Lean proof on that example and extracting its intermediate state. A user study ($n = 16$) shows potential advantages of this approach: in a proof-reading task, participants who had access to the provided explorability features gave better, more correct, and more detailed answers to comprehension questions, demonstrating a stronger overall understanding of the underlying mathematics.",
-    "arxiv_url": "http://arxiv.org/abs/2604.02598v2",
+    "published_date": "2026-03-18",
+    "updated_date": "2026-04-14",
+    "summary": "This paper is a follow-up to the short paper arXiv:2509.19425, greatly expanding the discussion with examples and providing derivations and justifications of results presented there.   We introduce a new supersymmetry index for the D1-D5 CFT on $T^4$, which we call the resolved elliptic genus (REG). It is a one-parameter generalisation of the standard supersymmetry index, the modified elliptic genus (MEG), and arises naturally in the free symmetric orbifold description of the theory within a new formalism, based on Schur-Weyl duality, that we develop. In this formalism, the Hilbert space of the symmetric orbifold CFT is decomposed into symmetry sectors in which the structure of the states contributing to the MEG is transparent. By examining the action of the supercharge deformed by an exactly marginal operator on the relevant symmetry algebra, we propose a superselection rule governing the lifting process of BPS states, and use it to construct the REG by summing only over those symmetry sectors that can mix according to this rule. The REG exhibits detailed agreement between the CFT and supergravity below the black-hole threshold, a regime in which the MEG is essentially trivial. Above the threshold, the REG is dominated by black-hole microstates, which are now distributed amongst distinct sectors that are invisible to the MEG. We expect both the new formalism and the REG to provide useful new tools for studying the structure of black-hole microstates. In particular, we comment on their possible relevance to the fortuity program for understanding black-hole microstates within CFT.",
+    "arxiv_url": "http://arxiv.org/abs/2603.18138v2",
     "matched_keywords": [
-      "machine-checked proof"
+      "BPS states"
     ]
   },
   {
-    "title": "Proving Circuit Functional Equivalence in Zero Knowledge",
+    "title": "Noncommutative dyonic black holes sourced by nonlinear electromagnetic fields",
     "authors": [
-      "Sirui Shen",
-      "Zunchen Huang",
-      "Chenglu Jin"
+      "Ana Bokulić",
+      "Filip Požar"
     ],
-    "published_date": "2026-01-16",
-    "updated_date": "2026-04-10",
-    "summary": "The modern integrated circuit ecosystem is increasingly reliant on third-party intellectual property integration, which introduces security risks, including hardware Trojans and security vulnerabilities. Addressing the resulting trust deadlock between IP vendors and system integrators without exposing proprietary designs requires novel privacy-preserving verification techniques. However, existing privacy-preserving hardware verification methods are all simulation-based and fail to offer formal guarantees. In this paper, we propose ZK-CEC, the first privacy-preserving framework for hardware formal verification. By combining formal verification and zero-knowledge proof (ZKP), ZK-CEC establishes a foundation for formally verifying IP correctness and security without compromising the confidentiality of the designs.   We observe that existing zero-knowledge protocols for formal verification are designed to prove statements of public formulas. However, in a privacy-preserving verification context where the formula is secret, these protocols cannot prevent a malicious prover from forging the formula, thereby compromising the soundness of the verification. To address these gaps, we first propose a blueprint for proving the unsatisfiability of a secret design against a public constraint, which is widely applicable to proving properties in software, hardware, and cyber-physical systems. Based on the proposed blueprint, we construct ZK-CEC, which enables a prover to convince the verifier that a secret IP's functionality aligns perfectly with the public specification in zero knowledge, revealing only the length and width of the proof. We implement ZK-CEC and evaluate its performance across various circuits, including arithmetic units and cryptographic components. Experimental results show that ZK-CEC successfully verifies practical designs, such as the AES S-Box, within practical time limits.",
-    "arxiv_url": "http://arxiv.org/abs/2601.11173v2",
+    "published_date": "2025-11-02",
+    "updated_date": "2026-04-13",
+    "summary": "We introduce the first-order noncommutative (NC) corrections to the general nonlinear electrodynamics (NLE) Lagrangian depending on two electromagnetic invariants. The NC deformation of Einstein-NLE theory is implemented using the $\\partial_t\\wedge\\partial_\\varphi$ Drinfel'd twist and the NC effects are encoded in the matter sector through the Seiberg-Witten map. The resulting equations of motion reflect two distinct sources of nonlinearity in this framework; one arising from replacing Maxwell's electrodynamics with its nonlinear modifications and another from the NC deformations. Assuming a general form of static, spherically symmetric dyonic black hole as a seed solution in the commutative limit, we solve the equations of motion perturbatively to the first order in the NC parameter $a$. Finally, we evaluate the obtained corrections to the metric tensor and gauge potential for several prominent NLE theories.",
+    "arxiv_url": "http://arxiv.org/abs/2511.01020v3",
     "matched_keywords": [
-      "formal verification"
+      "Seiberg-Witten"
     ]
   },
   {
-    "title": "SuperDP: Differential Privacy Refutation via Supermartingales",
+    "title": "GDPR Auto-Formalization with AI Agents and Human Verification",
     "authors": [
-      "Krishnendu Chatterjee",
-      "Ehsan Kafshdar Goharshady",
-      "Đorđe Žikelić"
+      "Ha Thanh Nguyen",
+      "Wachara Fungwacharakorn",
+      "Sabine Wehnert",
+      "May Myo Zin",
+      "Yuntao Kong",
+      "Jieying Xue",
+      "Michał Araszkiewicz",
+      "Randy Goebel",
+      "Ken Satoh"
     ],
-    "published_date": "2026-03-27",
-    "updated_date": "2026-04-10",
-    "summary": "Differential privacy (DP) has established itself as one of the standards for ensuring privacy of individual data. However, reasoning about DP is a challenging and error-prone task, hence methods for formal verification and refutation of DP properties have received significant interest in recent years. In this work, we present a novel method for automated formal refutation of $ε$-DP. Our method refutes $ε$-DP by searching for a pair of inputs together with a non-negative function over outputs whose expected value on these two inputs differs by a significant amount. The two inputs and the non-negative function over outputs are computed simultaneously, by utilizing upper expectation supermartingales and lower expectation submartingales from probabilistic program analysis, which we leverage to introduce a sound and complete proof rule for $ε$-DP refutation. To the best of our knowledge, our method is the first method for $ε$-DP refutation to offer the following four desirable features: (1)~it is fully automated, (2)~it is applicable to stochastic mechanisms with sampling instructions from both discrete and continuous distributions, (3)~it provides soundness guarantees, and (4)~it provides semi-completeness guarantees. Our experiments show that our prototype tool SuperDP achieves superior performance compared to the state of the art and manages to refute $ε$-DP for a number of challenging examples collected from the literature, including ones that were out of the reach of prior methods.",
-    "arxiv_url": "http://arxiv.org/abs/2603.26215v2",
-    "matched_keywords": [
-      "formal verification"
-    ]
-  },
-  {
-    "title": "Automatic Generation of Safety-compliant Linear Temporal Logic via Large Language Model: A Self-supervised Framework",
-    "authors": [
-      "Junle Li",
-      "Siqi Chen",
-      "Jiakai Li",
-      "Meiqi Tian",
-      "Bingzhuo Zhong"
-    ],
-    "published_date": "2025-03-20",
-    "updated_date": "2026-04-10",
-    "summary": "Converting high-level tasks described by natural language into formal specifications like Linear Temporal Logic (LTL) is a key step towards providing formal safety guarantees over cyber-physical systems (CPS). While the compliance of the formal specifications themselves against the safety restrictions imposed on CPS is crucial for ensuring safety, most existing works only focus on translation consistency between natural languages and formal specifications. In this paper, we introduce AutoSafeLTL, a self-supervised framework that utilizes large language models (LLMs) to automate the generation of LTL specifications complying with a set of safety restrictions while preserving their logical consistency and semantic accuracy. As a key insight, our framework integrates Language Inclusion check with an automated counterexample-guided modification mechanism to ensure the safety-compliance of the resulting LTL specifications. In particular, we develop 1) an LLM-as-an-Aligner, which performs atomic proposition matching between generated LTL specifications and safety restrictions to enforce semantic alignment; and 2) an LLM-as-a-Critic, which automates LTL specification refinement by interpreting counterexamples derived from Language Inclusion checks. Experimental results demonstrate that our architecture effectively guarantees safety-compliance for the generated LTL specifications, achieving a 0% violation rate against imposed safety restrictions. This shows the potential of our work in synergizing AI and formal verification techniques, enhancing safety-aware specification generation and automatic verification for both AI and critical CPS applications.",
-    "arxiv_url": "http://arxiv.org/abs/2503.15840v3",
-    "matched_keywords": [
-      "formal verification"
-    ]
-  },
-  {
-    "title": "The Defense Trilemma: Why Prompt Injection Defense Wrappers Fail?",
-    "authors": [
-      "Manish Bhatt",
-      "Sarthak Munshi",
-      "Vineeth Sai Narajala",
-      "Idan Habler",
-      "Ammar Al-Kahfah",
-      "Ken Huang",
-      "Joel Webb",
-      "Blake Gatto"
-    ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-09",
-    "summary": "We prove that no continuous, utility-preserving wrapper defense-a function $D: X\\to X$ that preprocesses inputs before the model sees them-can make all outputs strictly safe for a language model with connected prompt space, and we characterize exactly where every such defense must fail. We establish three results under successively stronger hypotheses: boundary fixation-the defense must leave some threshold-level inputs unchanged; an $ε$-robust constraint-under Lipschitz regularity, a positive-measure band around fixed boundary points remains near-threshold; and a persistent unsafe region under a transversality condition, a positive-measure subset of inputs remains strictly unsafe. These constitute a defense trilemma: continuity, utility preservation, and completeness cannot coexist. We prove parallel discrete results requiring no topology, and extend to multi-turn interactions, stochastic defenses, and capacity-parity settings. The results do not preclude training-time alignment, architectural changes, or defenses that sacrifice utility. The full theory is mechanically verified in Lean 4 and validated empirically on three LLMs.",
-    "arxiv_url": "http://arxiv.org/abs/2604.06436v2",
-    "matched_keywords": [
-      "Lean 4"
-    ]
-  },
-  {
-    "title": "PROMISE: Proof Automation as Structural Imitation of Human Reasoning",
-    "authors": [
-      "Youngjoo Ahn",
-      "Sangyeop Yeo",
-      "Gijung Im",
-      "Jongmin Lee",
-      "Jinyoung Yeo",
-      "Jieung Kim"
-    ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-09",
-    "summary": "Automated proof generation for formal software verification remains largely unresolved despite advances in large language models (LLMs). While LLMs perform well in NLP, vision, and code generation, formal verification still requires substantial human effort. Interactive theorem proving (ITP) demands manual proof construction under strict logical constraints, limiting scalability; for example, verifying the seL4 microkernel required decades of effort.   Existing LLM-based approaches attempt to automate this process but remain limited. Most rely on single-shot generation or shallow retrieval, which may work for small proofs but fail to scale to large, interdependent verification tasks with deep structural dependencies.   We present PROMISE (PROof MIning via Structural Embeddings), a structure-aware framework that reframes proof generation as a stateful search over proof-state transitions. Instead of surface-level retrieval, PROMISE mines structural patterns from proof states and tactic transitions, enabling retrieval and adaptation of compatible proof fragments during iterative search.   We evaluate PROMISE on the seL4 benchmark across multiple LLM backends and compare it with prior systems such as Selene and Rango. PROMISE consistently outperforms prior methods, achieving up to +26 point improvements (186% relative gain) while maintaining robustness across models, demonstrating the effectiveness of structure-aware proof mining for scalable theorem proving.",
-    "arxiv_url": "http://arxiv.org/abs/2604.05399v2",
-    "matched_keywords": [
-      "theorem proving",
-      "formal verification",
-      "interactive theorem"
-    ]
-  },
-  {
-    "title": "The Orientation Boundary for Step-Duplicating Recursors: Mechanized Impossibility, Escape, and Certification",
-    "authors": [
-      "Moses Rahnama"
-    ],
-    "published_date": "2025-11-26",
-    "updated_date": "2026-04-08",
-    "summary": "We formalize the orientation boundary for step-duplicating recursors. At the schema level, no measure in twelve formalized direct classes can strictly orient the duplicating step uniformly. The blocked classes cover additive and transparent-compositional measures, six scalar growth families, and four tracked vector/pair families under explicit pump/growth hypotheses. Two structural results sharpen the barrier: a scalar-projection theorem for matrix barriers and a symbolic variable-condition barrier yielding a KBO-style impossibility corollary for the witness system. This gives the first mechanized object-level barrier theorem for a fixed terminating system and several direct measure classes, proved without reductions or undecidability arguments. All results are formalized in Lean 4.   The paper also isolates three escape routes inside the direct universe. It proves a transparency-essentiality theorem with a witness, a dependency-pair escape characterization, a generalized polynomial boundary isolating failure of frozen base dominance, an escape trichotomy, barrier-witness extractors, a coefficient-table classifier, ablations, and two SCC synchronization families extending to finite cyclic and raw-graph forms. Every successful orienter imports assumptions outside the barrier classes.   For KO7, the guarded fragment is certified for strong normalization, confluence, a normalizer, and decidable reachability. We prove a single-exponential SafeStepCtx length theorem with a matching lower family, a DM ordinal calibration at $ω^ω$, and a triple-lex image below $ω^ω\\cdot 2$. For the full unguarded system we prove root termination by a nonlinear polynomial witness and a KO7-specialized MPO, lift to context-closed strong normalization, and connect Lean to TTT2/CeTA through a checked TPDB export, a verifier bridge, and a replay of the FAST certificate core.",
-    "arxiv_url": "http://arxiv.org/abs/2512.00081v8",
-    "matched_keywords": [
-      "Lean 4"
-    ]
-  },
-  {
-    "title": "Iterative Formalization and Planning in Partially Observable Environments",
-    "authors": [
-      "Liancheng Gong",
-      "Wang Zhu",
-      "Jesse Thomason",
-      "Li Zhang"
-    ],
-    "published_date": "2025-05-19",
-    "updated_date": "2026-04-08",
-    "summary": "Using LLMs not to predict plans but to formalize an environment into the Planning Domain Definition Language (PDDL) has been shown to improve performance and control. While most existing methodology only applies to fully observable environments, we adapt to the more realistic and challenging partially observable environments without sufficient information to make a complete plan. We propose PDDLego, a framework to iteratively formalize, plan, grow, and refine PDDL representations by decomposing the environment and the goal into fully observable episodes. Without finetuning, in-context exemplars, or trajectories, PDDLego improves planning success and exhibits robustness against problem complexity compared to end-to-end approaches. We also show that the domain knowledge captured after a successful trial can benefit future tasks.",
-    "arxiv_url": "http://arxiv.org/abs/2505.13126v3",
+    "published_date": "2026-04-16",
+    "updated_date": "2026-04-16",
+    "summary": "We study the overall process of automatic formalization of GDPR provisions using large language models, within a human-in-the-loop verification framework. Rather than aiming for full autonomy, we adopt a role-specialized workflow in which LLM-based AI components, operating in a multi-agent setting with iterative feedback, generate legal scenarios, formal rules, and atomic facts. This is coupled with independent verification modules which include human reviewers' assessment of representational, logical, and legal correctness. Using this approach, we construct a high-quality dataset to be used for GDPR auto-formalization, and analyze both successful and problematic cases. Our results show that structured verification and targeted human oversight are essential for reliable legal formalization, especially in the presence of legal nuance and context-sensitive reasoning.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14607v1",
     "matched_keywords": [
       "formalization"
     ]
   },
   {
-    "title": "Munkres' General Topology Autoformalized in Isabelle/HOL",
+    "title": "CBCL: Safe Self-Extending Agent Communication",
     "authors": [
-      "Dustin Bryant",
-      "Jonathan Julián Huerta y Munive",
-      "Cezary Kaliszyk",
-      "Josef Urban"
+      "Hugo O'Connor"
     ],
-    "published_date": "2026-04-08",
-    "updated_date": "2026-04-08",
-    "summary": "We describe an experiment in LLM-assisted autoformalization that produced over 85,000 lines of Isabelle/HOL code covering all 39 sections of Munkres' Topology (general topology, Chapters 2--8), from topological spaces through dimension theory. The LLM-based coding agents (initially ChatGPT 5.2 and then Claude Opus 4.6) used 24 active days for that. The formalization is complete: all 806 formal results are fully proved with zero sorry's. Proved results include the Tychonoff theorem, the Baire category theorem, the Nagata--Smirnov and Smirnov metrization theorems, the Stone--Čech compactification, Ascoli's theorem, the space-filling curve, and others. The methodology is based on a \"sorry-first\" declarative proof workflow combined with bulk use of sledgehammer - two of Isabelle major strengths. This leads to relatively fast autoformalization progress. We analyze the resulting formalization in detail, analyze the human--LLM interaction patterns from the session log, and briefly compare with related autoformalization efforts in Megalodon, HOL Light, and Naproche. The results indicate that LLM-assisted formalization of standard mathematical textbooks in Isabelle/HOL is quite feasible, cheap and fast, even if some human supervision is useful.",
-    "arxiv_url": "http://arxiv.org/abs/2604.07455v1",
+    "published_date": "2026-04-16",
+    "updated_date": "2026-04-16",
+    "summary": "Agent communication languages (ACLs) enable heterogeneous agents to share knowledge and coordinate across diverse domains. This diversity demands extensibility, but expressive extension mechanisms can push the input language beyond the complexity classes where full validation is tractable. We present CBCL (Common Business Communication Language), an agent communication language that constrains all messages, including runtime language extensions, to the deterministic context-free language (DCFL) class. CBCL allows agents to define, transmit, and adopt domain-specific \"dialect\" extensions as first-class messages; three safety invariants (R1--R3), machine-checked in Lean 4 and enforced in a Rust reference implementation, prevent unbounded expansion, applying declared resource limits, and preserving core vocabulary. We formalize the language and its safety properties in Lean 4, implement a reference parser and dialect engine in Rust with property-based and differential tests, and extract a verified parser binary. Our results demonstrate that homoiconic protocol design, where extension definitions share the same representation as ordinary messages, can be made provably safe. As autonomous agents increasingly extend their own communication capabilities, formally bounding what they can express to each other is a precondition for oversight.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14512v1",
+    "matched_keywords": [
+      "Lean 4"
+    ]
+  },
+  {
+    "title": "KindHML: formal verification of smart contracts based on Hennessy-Milner logic",
+    "authors": [
+      "Massimo Bartoletti",
+      "Angelo Ferrando",
+      "Enrico Lipparini",
+      "Vadim Malvone"
+    ],
+    "published_date": "2026-04-15",
+    "updated_date": "2026-04-15",
+    "summary": "Smart contracts deployed on blockchains such as Ethereum routinely manage large amounts of assets, making their security critical. Empirical studies show that real-world attacks often exploit flaws in the business logic of contracts that unfold across multiple transactions, such as liquidity or front-running attacks. Detecting these attacks requires reasoning about expressive temporal properties beyond the capabilities of existing analysis tools. In this paper, we present an automated approach to the formal verification of smart contracts, enabling the specification and verification of complex temporal properties. Our approach provides a fully automated encoding into Lustre -- the specification language supported by the Kind 2 model checker -- of an expressive subset of Solidity contracts and temporal specifications based on first-order Hennessy-Milner Logic. This encoding allows us to leverage Kind 2 to determine whether the contract respects the specification or not. We implement our approach in a toolchain that integrates the translation and verification steps, and we evaluate its effectiveness and performance on a benchmark of smart contracts and temporal properties capturing complex attack scenarios. Our results show that the proposed approach can effectively verify non-trivial temporal properties of smart contracts and detect violations that are beyond the reach of existing analysis tools.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14038v1",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Hardware-Efficient Neuro-Symbolic Networks with the Exp-Minus-Log Operator",
+    "authors": [
+      "Eymen Ipek"
+    ],
+    "published_date": "2026-04-15",
+    "updated_date": "2026-04-15",
+    "summary": "Deep neural networks (DNNs) deliver state-of-the-art accuracy on regression and classification tasks, yet two structural deficits persistently obstruct their deployment in safety-critical, resource-constrained settings: (i) opacity of the learned function, which precludes formal verification, and (ii) reliance on heterogeneous, library-bound activation functions that inflate latency and silicon area on edge hardware. The recently introduced Exp-Minus-Log (EML) Sheffer operator, eml(x, y) = exp(x) - ln(y), was shown by Odrzywolek (2026) to be sufficient - together with the constant 1 - to express every standard elementary function as a binary tree of identical nodes. We propose to embed EML primitives inside conventional DNN architectures, yielding a hybrid DNN-EML model in which the trunk learns distributed representations and the head is a depth-bounded, weight-sparse EML tree whose snapped weights collapse to closed-form symbolic sub-expressions. We derive the forward equations, prove computational-cost bounds, analyse inference and training acceleration relative to multilayer perceptrons (MLPs) and physics-informed neural networks (PINNs), and quantify the trade-offs for FPGA/analog deployment. We argue that the DNN-EML pairing closes a literature gap: prior neuro-symbolic and equation-learner approaches (EQL, KAN, AI-Feynman) work with heterogeneous primitive sets and do not exploit a single hardware-realisable Sheffer element. A balanced assessment shows that EML is unlikely to accelerate training, and on commodity CPU/GPU it is also unlikely to accelerate inference; however, on a custom EML cell (FPGA logic block or analog circuit) the asymptotic latency advantage can reach an order of magnitude with simultaneous gain in interpretability and formal-verification tractability.",
+    "arxiv_url": "http://arxiv.org/abs/2604.13871v1",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "SFT-GRPO Data Overlap as a Post-Training Hyperparameter for Autoformalization",
+    "authors": [
+      "Xiaole Su",
+      "Kasey Zhang",
+      "Andy Lyu"
+    ],
+    "published_date": "2026-04-15",
+    "updated_date": "2026-04-15",
+    "summary": "Supervised fine-tuning (SFT) followed by Group Relative Policy Optimization (GRPO) is a common post-training recipe. We conduct a controlled ablation over SFT-GRPO data overlap, evaluating Qwen3-8B (thinking disabled) post-trained for Lean 4 autoformalization under six conditions that differ solely in training recipe: a base model, SFT-only, GRPO-only, and three SFT+GRPO configurations where 0 percent, 30 percent, or 100 percent of the GRPO prompts coincide with the SFT corpus. Keeping SFT and GRPO data disjoint consistently outperforms full overlap at zero additional compute cost. Evaluating on Gaokao-Formal and PutnamBench under both compile pass at k and semantic pass at k assessed by an LLM judge, we find that lower overlap is monotonically associated with higher compilation and semantic accuracy. At 0 percent overlap, GRPO yields a 10.4 percentage point semantic gain over SFT alone on Gaokao, while at 100 percent overlap both metrics remain flat, rendering the GRPO stage effectively redundant. We further show that dual-metric evaluation reveals compile semantic gaps exceeding 30 percentage points for the highest compiling models, a disparity invisible under compile-only benchmarking. To our knowledge, this is the first controlled investigation of SFT-GRPO data overlap as a post-training hyperparameter, demonstrating how model behavior varies based on the degree of data sharing between training stages.",
+    "arxiv_url": "http://arxiv.org/abs/2604.13515v1",
     "matched_keywords": [
       "autoformalization",
       "formalization",
+      "Lean 4"
+    ]
+  },
+  {
+    "title": "Automated Tactics for Polynomial Reasoning in Lean 4",
+    "authors": [
+      "Hao Shen",
+      "Junyu Guo",
+      "Junqi Liu",
+      "Lihong Zhi"
+    ],
+    "published_date": "2026-04-15",
+    "updated_date": "2026-04-15",
+    "summary": "Applying Gröbner basis theory to concrete problems in Lean 4 remains difficult since the current formalization of multivariate polynomials is based on a non-computable representation and is therefore not suitable for efficient symbolic computation. As a result, computing Gröbner bases directly inside Lean is impractical for realistic examples. To address this issue, we propose a certificate-based approach that combines external computer algebra systems, such as SageMath or SymPy, with formal verification in Lean 4. Our approach uses a computable representation of multivariate polynomials in Lean to import and verify externally generated Gröbner basis computations. The external solver carries out the main algebraic computations, while the returned results are verified inside Lean. Based on this method, we develop automated tactics that transfer polynomial data between Lean and the external system and certify the returned results. These tactics support tasks such as remainder verification, Gröbner basis checking, ideal equality, and ideal or radical membership. This work provides a practical way to integrate external symbolic computation into Lean 4 while preserving the reliability of formal proof.",
+    "arxiv_url": "http://arxiv.org/abs/2604.13514v1",
+    "matched_keywords": [
+      "formal verification",
+      "formal proof",
+      "formalization",
+      "Lean 4"
+    ]
+  },
+  {
+    "title": "BarrierBench: Evaluating Large Language Models for Safety Verification in Dynamical Systems",
+    "authors": [
+      "Ali Taheri",
+      "Alireza Taban",
+      "Sadegh Soudjani",
+      "Ashutosh Trivedi"
+    ],
+    "published_date": "2025-11-12",
+    "updated_date": "2026-04-16",
+    "summary": "Safety verification of dynamical systems via barrier certificates is essential for ensuring correctness in autonomous applications. Synthesizing these certificates involves discovering mathematical functions with current methods suffering from poor scalability, dependence on carefully designed templates, and exhaustive or incremental function-space searches. They also demand substantial manual expertise--selecting templates, solvers, and hyperparameters, and designing sampling strategies--requiring both theoretical and practical knowledge traditionally shared through linguistic reasoning rather than formalized methods.   This motivates a key question: can such expert reasoning be captured and operationalized by language models? We address this by introducing an LLM-based agentic framework for barrier certificate synthesis. The framework uses natural language reasoning to propose, refine, and validate candidate certificates, integrating LLM-driven template discovery with SMT-based verification, and supporting barrier-controller co-synthesis to ensure consistency between safety certificates and controllers.   To evaluate this capability, we introduce BarrierBench, a benchmark of 100 dynamical systems spanning linear, nonlinear, discrete-time, and continuous-time settings. Our experiments assess not only the effectiveness of LLM-guided barrier synthesis but also the utility of retrieval-augmented generation and agentic coordination strategies in improving its reliability and performance. Across these tasks, the framework achieves more than 90% success in generating valid certificates. By releasing BarrierBench and the accompanying toolchain, we aim to establish a community testbed for advancing the integration of language-based reasoning with formal verification in dynamical systems.   The benchmark is publicly available at https://hycodev.com/dataset/barrierbench",
+    "arxiv_url": "http://arxiv.org/abs/2511.09363v2",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Towards Adaptive, Learning-Based Security in Decentralized Applications",
+    "authors": [
+      "Stefan Kambiz Behfar",
+      "Jon Crowcroft"
+    ],
+    "published_date": "2023-11-03",
+    "updated_date": "2026-04-16",
+    "summary": "Web3 systems expose a fundamentally different security landscape from centralized platforms, characterized by composability, pseudonymous identities, decentralized governance, and rapidly evolving attack strategies that span social, application, and protocol layers. Existing security mechanisms, such as static smart contract analysis, blacklist-based phishing detection, and network-level mitigation, operate in isolation and assume fixed threat models, limiting their effectiveness against adaptive, cross-layer adversaries. This position paper argues that securing Web3 requires a shift from static, tool-centric defenses to learning-driven security primitives capable of continuous reasoning, adaptation, and actuation. We introduce AI-powered smart certificates as a new security abstraction: programmable, continuously updated trust artifacts that integrate on-chain verifiability with off-chain machine learning signals derived from user behavior, transaction dynamics, and social context. Unlike traditional certificates or audits, these certificates maintain state, learn under distribution shift, and support automated policy enforcement and revocation in response to evolving threats. We argue that existing paradigms, formal verification, threat modeling, and isolated anomaly detection, are structurally limited in capturing the non-stationary and socio-technical nature of Web3 attacks. We outline an architecture in which AI-powered smart certificates serve as cross-layer sentinels that coordinate heterogeneous security signals in real time, and position smart certificates as a research direction, raising questions around learning under partial observability, adversarial adaptation, and trustworthy ML deployment in decentralized systems.",
+    "arxiv_url": "http://arxiv.org/abs/2311.01956v2",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Safe Reinforcement Learning using Action Projection: Safeguard the Policy or the Environment?",
+    "authors": [
+      "Hannah Markgraf",
+      "Shambhuraj Sawant",
+      "Hanna Krasowski",
+      "Lukas Schäfer",
+      "Sebastien Gros",
+      "Matthias Althoff"
+    ],
+    "published_date": "2025-09-16",
+    "updated_date": "2026-04-16",
+    "summary": "Projection-based safety filters, which modify unsafe actions by mapping them to the closest safe alternative, are widely used to enforce safety constraints in reinforcement learning (RL). Two integration strategies are commonly considered: Safe environment RL (SE-RL), where the safeguard is treated as part of the environment, and safe policy RL (SP-RL), where it is embedded within the policy through differentiable optimization layers. Despite their practical relevance in safety-critical settings, a formal understanding of their differences is lacking. In this work, we present a theoretical comparison of SE-RL and SP-RL. We identify a key distinction in how each approach is affected by action aliasing, a phenomenon in which multiple unsafe actions are projected to the same safe action, causing information loss in the policy gradients. In SE-RL, this effect is implicitly approximated by the critic, while in SP-RL, it manifests directly as rank-deficient Jacobians during backpropagation through the safeguard. Our contributions are threefold: (i) a unified formalization of SE-RL and SP-RL in the context of actor-critic algorithms, (ii) a theoretical analysis of their respective policy gradient estimates, highlighting the role of action aliasing, and (iii) a comparative study of mitigation strategies, including a novel penalty-based improvement for SP-RL that aligns with established SE-RL practices. Empirical results support our theoretical predictions, showing that action aliasing is more detrimental for SP-RL than for SE-RL. However, with appropriate improvement strategies, SP-RL can match or outperform improved SE-RL across a range of environments. These findings provide actionable insights for choosing and refining projection-based safe RL methods based on task characteristics.",
+    "arxiv_url": "http://arxiv.org/abs/2509.12833v2",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "Identifying Information from Observations with Uncertainty and Novelty",
+    "authors": [
+      "Derek S. Prijatelj",
+      "Timothy J. Ireland",
+      "Walter J. Scheirer"
+    ],
+    "published_date": "2025-01-16",
+    "updated_date": "2026-04-16",
+    "summary": "A machine that learns a task from observations must encounter and process uncertainty and novelty, especially when it is to maintain performance when observing new information and to select the hypothesis that best fits the current observations. In this context, some key questions arise: what and how much information did the observations provide, how much information is required to identify the data-generating process, how many observations remain to get that information, and how does a predictor determine that it has observed novel information? We formalize identifying information to answer these questions and synthesize prior works. Identifying information are bits that verify or falsify a hypothesis as the data-generating process. In this formalization, we prove the information theoretic characteristics of the computation of hypothesis identification and the resulting sample complexity. We define hypothesis identification and sample complexity via the computation of an indicator function over a set of hypotheses, bridging algorithmic and probabilistic information. We detail the sample complexity and its properties for data-generating processes ranging from deterministic processes to ergodic stationary stochastic processes, which connect the notion of identifying information in finite steps with asymptotic statistics and PAC-learning. The indicator function's computation naturally formalizes novel information and its identification from observations with respect to a hypothesis set, which detects a misspecified hypothesis set. We also proved that a computable PAC-Bayes learners' sample complexity distribution is determined by its moments in terms of the prior probability distribution over a fixed finite hypothesis set, and thus an approximation of the sample complexity distribution is always computable within the desired precision that resources allow.",
+    "arxiv_url": "http://arxiv.org/abs/2501.09331v3",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "The Specification Trap: Why Static Value Alignment Alone Is Insufficient for Robust Alignment",
+    "authors": [
+      "Austin Spizzirri"
+    ],
+    "published_date": "2025-11-19",
+    "updated_date": "2026-04-15",
+    "summary": "Static content-based AI value alignment is insufficient for robust alignment under capability scaling, distributional shift, and increasing autonomy. This holds for any approach that treats alignment as optimizing toward a fixed formal value-object, whether reward function, utility function, constitutional principles, or learned preference representation. Three philosophical results create compounding difficulties: Hume's is-ought gap (behavioral data underdetermines normative content), Berlin's value pluralism (human values resist consistent formalization), and the extended frame problem (any value encoding will misfit future contexts that advanced AI creates). RLHF, Constitutional AI, inverse reinforcement learning, and cooperative assistance games each instantiate this specification trap, and their failure modes reflect structural vulnerabilities, not merely engineering limitations that better data or algorithms will straightforwardly resolve. Known workarounds for individual components face mutually reinforcing difficulties when the specification is closed: the moment it ceases to update from the process it governs. Drawing on compatibilist philosophy, the paper argues that behavioral compliance under training conditions does not guarantee robust alignment under novel conditions, and that this gap grows with system capability. For value-laden autonomous systems, known closed approaches face structural vulnerabilities that worsen with capability. The constructive burden shifts to open, developmentally responsive approaches, though whether such approaches can be achieved remains an empirical question.",
+    "arxiv_url": "http://arxiv.org/abs/2512.03048v4",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems",
+    "authors": [
+      "Edoardo Allegrini",
+      "Ananth Shreekumar",
+      "Z. Berkay Celik"
+    ],
+    "published_date": "2025-10-15",
+    "updated_date": "2026-04-15",
+    "summary": "Agentic AI systems, which leverage multiple autonomous agents and large language models (LLMs), are increasingly used to address complex, multi-step tasks. The safety, security, and functionality of these systems are critical, especially in high-stakes applications. However, the current ecosystem of inter-agent communication is fragmented, with protocols such as the Model Context Protocol (MCP) for tool access and the Agent-to-Agent (A2A) protocol for coordination being analyzed in isolation. This fragmentation creates a semantic gap that prevents the rigorous analysis of system properties and introduces risks such as architectural misalignment and exploitable coordination issues. To address these challenges, we introduce a modeling framework for agentic AI systems composed of two central models: (1) the host agent model formalizes the top-level entity that interacts with the user, decomposes tasks, and orchestrates their execution by leveraging external agents and tools; (2) the task lifecycle model details the states and transitions of individual sub-tasks from creation to completion, providing a fine-grained view of task management and error handling. Together, these models provide a unified semantic framework for reasoning about the behavior of multi-AI agent systems. Grounded in this framework, we define 16 properties for the host agent and 14 for the task lifecycle, categorized into liveness, safety, completeness, and fairness. Expressed in temporal logic, these properties enable formal verification of system behavior, detection of coordination edge cases, and prevention of deadlocks and security vulnerabilities. Through this effort, we introduce the first rigorously grounded, domain-agnostic framework for the analysis, design, and deployment of correct, reliable, and robust agentic AI systems.",
+    "arxiv_url": "http://arxiv.org/abs/2510.14133v2",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Robust Verification of Controllers under State Uncertainty via Hamilton-Jacobi Reachability Analysis",
+    "authors": [
+      "Albert Lin",
+      "Alessandro Pinto",
+      "Somil Bansal"
+    ],
+    "published_date": "2025-11-18",
+    "updated_date": "2026-04-15",
+    "summary": "As perception-based controllers for autonomous systems become increasingly popular in the real world, it is important that we can formally verify their safety and performance despite perceptual uncertainty. Unfortunately, the verification of such systems remains challenging, largely due to the complexity of the controllers, which are often nonlinear, nonconvex, learning-based, and/or black-box. Prior works propose verification algorithms that are based on approximate reachability methods, but they often restrict the class of controllers and systems that can be handled or result in overly conservative analyses. Hamilton-Jacobi (HJ) reachability analysis is a popular formal verification tool for general nonlinear systems that can compute optimal reachable sets under worst-case system uncertainties; however, its application to perception-based systems is currently underexplored. In this work, we propose RoVer-CoRe, a framework for the Robust Verification of Controllers via HJ Reachability. To the best of our knowledge, RoVer-CoRe is the first HJ reachability-based framework for the verification of perception-based systems under perceptual uncertainty. Our key insight is to concatenate the system controller, observation function, and the state estimation modules to obtain an equivalent closed-loop system that is readily compatible with existing reachability frameworks. Within RoVer-CoRe, we propose novel methods for formal safety verification and robust controller design. We demonstrate the efficacy of the framework in case studies involving aircraft taxiing and NN-based rover navigation. Code is available at the link in the footnote.",
+    "arxiv_url": "http://arxiv.org/abs/2511.14755v2",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "WybeCoder: Verified Imperative Code Generation",
+    "authors": [
+      "Fabian Gloeckle",
+      "Mantas Baksys",
+      "Darius Feher",
+      "Kunhao Zheng",
+      "Amaury Hayat",
+      "Sean B. Holden",
+      "Gabriel Synnaeve",
+      "Peter O'Hearn"
+    ],
+    "published_date": "2026-03-31",
+    "updated_date": "2026-04-14",
+    "summary": "Recent progress in large language models (LLMs) has substantially advanced automatic code generation and formal theorem proving, yet software verification has not seen comparable gains. To address this gap, we propose WybeCoder, an agentic code verification framework that enables prove-as-you-generate development, in which code, invariants, and proofs co-evolve. WybeCoder builds on a recent framework that combines automatic verification condition generation and SMT solving with interactive proofs in Lean. To enable systematic evaluation, we translate two benchmarks for functional verification in Lean, Verina and Clever, into equivalent imperative code specifications. On complex algorithms such as Heapsort, we observe consistent performance improvements as we scale our approach, synthesizing dozens of valid invariants and dispatching dozens of subgoals, ultimately producing hundreds of lines of verified code and overcoming plateaus reported in previous work. Our best system solves 74% of Verina tasks and 62% of Clever tasks at moderate compute budgets, substantially surpassing previous evaluations and paving the way for the automated construction of large-scale datasets of verified imperative code.",
+    "arxiv_url": "http://arxiv.org/abs/2603.29088v2",
+    "matched_keywords": [
+      "theorem proving"
+    ]
+  },
+  {
+    "title": "Heterogeneous Dynamic Logic: Provability Modulo Program Theories",
+    "authors": [
+      "Samuel Teuber",
+      "Mattias Ulbrich",
+      "André Platzer",
+      "Bernhard Beckert"
+    ],
+    "published_date": "2025-07-11",
+    "updated_date": "2026-04-14",
+    "summary": "Formally specifying, let alone verifying, properties of systems involving multiple programming languages is inherently challenging. We introduce Heterogeneous Dynamic Logic (HDL), a framework for combining reasoning principles from distinct (dynamic) program logics in a modular and compositional way. HDL mirrors the architecture of satisfiability modulo theories (SMT): Individual dynamic logics, along with their calculi, are treated as dynamic theories that can be combined to reason about heterogeneous systems whose components are verified using different program logics. HDL provides two key operations: Lifting extends an individual dynamic theory with new program constructs (e.g., the havoc operation or regular programs) and automatically augments its calculus with sound reasoning principles for the new constructs; and Combination enables cross-language reasoning in a single modality via Heterogeneous Dynamic Theories, facilitating the reuse of existing proof infrastructure. By lifting combined theories with regular programs, we obtain heterogeneous control structures that allow us to reason about intertwined cross-language behavior. We formalize dynamic theories, their lifting and combination, and prove the soundness of all proof rules in Isabelle. We also introduce a proof rule combining deductive DL-based reasoning with reasoning principles from Kleene Algebras with Tests. Furthermore, we prove relative completeness theorems for lifting and combination: Under usual assumptions, reasoning about lifted or combined theories is no harder than reasoning about the constituent dynamic theories and their common first-order structure (i.e., the data theory). We demonstrate HDL's value by verifying an automotive case study where a Java controller (formalized in Java dynamic logic) steers a plant model (formalized in differential dynamic logic).",
+    "arxiv_url": "http://arxiv.org/abs/2507.08581v2",
+    "matched_keywords": [
       "Isabelle"
     ]
   },
   {
-    "title": "Working Paper: Towards a Category-theoretic Comparative Framework for Artificial General Intelligence",
+    "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
     "authors": [
-      "Pablo de los Riscos",
-      "Fernando J. Corbacho",
-      "Michael A. Arbib"
+      "Jiacheng Liu",
+      "Xiaohan Zhao",
+      "Xinyi Shang",
+      "Zhiqiang Shen"
     ],
-    "published_date": "2026-03-30",
-    "updated_date": "2026-04-08",
-    "summary": "AGI has become the Holly Grail of AI with the promise of level intelligence and the major Tech companies around the world are investing unprecedented amounts of resources in its pursuit. Yet, there does not exist a single formal definition and only some empirical AGI benchmarking frameworks currently exist. The main purpose of this paper is to develop a general, algebraic and category theoretic framework for describing, comparing and analysing different possible AGI architectures. Thus, this Category theoretic formalization would also allow to compare different possible candidate AGI architectures, such as, RL, Universal AI, Active Inference, CRL, Schema based Learning, etc. It will allow to unambiguously expose their commonalities and differences, and what is even more important, expose areas for future research. From the applied Category theoretic point of view, we take as inspiration Machines in a Category to provide a modern view of AGI Architectures in a Category. More specifically, this first position paper provides, on one hand, a first exercise on RL, Causal RL and SBL Architectures in a Category, and on the other hand, it is a first step on a broader research program that seeks to provide a unified formal foundation for AGI systems, integrating architectural structure, informational organization, agent realization, agent and environment interaction, behavioural development over time, and the empirical evaluation of properties. This framework is also intended to support the definition of architectural properties, both syntactic and informational, as well as semantic properties of agents and their assessment in environments with explicitly characterized features. We claim that Category Theory and AGI will have a very symbiotic relation.",
-    "arxiv_url": "http://arxiv.org/abs/2603.28906v2",
+    "published_date": "2026-04-14",
+    "updated_date": "2026-04-14",
+    "summary": "Claude Code is an agentic coding tool that can run shell commands, edit files, and call external services on behalf of the user. This study describes its comprehensive architecture by analyzing the publicly available TypeScript source code and further comparing it with OpenClaw, an independent open-source AI agent system that answers many of the same design questions from a different deployment context. Our analysis identifies five human values, philosophies, and needs that motivate the architecture (human decision authority, safety and security, reliable execution, capability amplification, and contextual adaptability) and traces them through thirteen design principles to specific implementation choices. The core of the system is a simple while-loop that calls the model, runs tools, and repeats. Most of the code, however, lives in the systems around this loop: a permission system with seven modes and an ML-based classifier, a five-layer compaction pipeline for context management, four extensibility mechanisms (MCP, plugins, skills, and hooks), a subagent delegation mechanism with worktree isolation, and append-oriented session storage. A comparison with OpenClaw, a multi-channel personal assistant gateway, shows that the same recurring design questions produce different architectural answers when the deployment context changes: from per-action safety classification to perimeter-level access control, from a single CLI loop to an embedded runtime within a gateway control plane, and from context-window extensions to gateway-wide capability registration. We finally identify six open design directions for future agent systems, grounded in recent empirical, architectural, and policy literature.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14228v1",
     "matched_keywords": [
-      "formalization"
+      "Claude"
     ]
   },
   {
-    "title": "Broken by Default: A Formal Verification Study of Security Vulnerabilities in AI-Generated Code",
+    "title": "Evaluating LLM-Generated ACSL Annotations for Formal Verification",
     "authors": [
-      "Dominik Blain",
-      "Maxime Noiseux"
+      "Arshad Beg",
+      "Diarmuid O'Donoghue",
+      "Rosemary Monahan"
     ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-08",
-    "summary": "AI coding assistants are now used to generate production code in   security-sensitive domains, yet the exploitability of their outputs remains   unquantified. We address this gap with Broken by Default: a formal   verification study of 3,500 code artifacts generated by seven widely-deployed LLMs   across 500 security-critical prompts (five CWE categories, 100 prompts each).   Each artifact is subjected to the Z3 SMT solver via the COBALT analysis   pipeline, producing mathematical satisfiability witnesses rather than   pattern-based heuristics. Across all models, 55.8% of artifacts contain at   least one COBALT-identified vulnerability; of these, 1,055 are formally proven   via Z3 satisfiability witnesses. GPT-4o leads at 62.4% (grade F); Gemini 2.5   Flash performs best at 48.4% (grade D). No model achieves a grade better than   D. Six of seven representative findings are confirmed with runtime crashes   under GCC AddressSanitizer. Three auxiliary experiments show: (1) explicit   security instructions reduce the mean rate by only 4 points; (2) six industry   tools combined miss 97.8% of Z3-proven findings; and (3) models identify their   own vulnerable outputs 78.7% of the time in review mode yet generate them at   55.8% by default.",
-    "arxiv_url": "http://arxiv.org/abs/2604.05292v2",
+    "published_date": "2026-02-14",
+    "updated_date": "2026-04-14",
+    "summary": "Formal specifications are crucial for building verifiable and dependable software systems, yet generating accurate and verifiable specifications for real-world C programs remains challenging. This paper presents an empirical evaluation of automated ACSL annotation generation strategies for C programs, comparing a rule-based Python script, Frama-C's RTE plugin, and three large language models (DeepSeek-V3.2, GPT-5.2, and OLMo 3.1 32B Instruct). The study focuses on one-shot annotation generation, assessing how these approaches perform when directly applied to verification tasks. Using a filtered subset of the CASP benchmark, we evaluate generated annotations through Frama-C's WP plugin with multiple SMT solvers, analyzing proof success rates, solver timeouts, and internal processing time. Our results show that rule-based approaches remain more reliable for verification success, while LLM-based methods exhibit more variable performance. These findings highlight both the current limitations and the potential of LLMs as complementary tools for automated specification generation.",
+    "arxiv_url": "http://arxiv.org/abs/2602.13851v3",
     "matched_keywords": [
       "formal verification"
     ]
   },
   {
-    "title": "Explainable AI needs formalization",
+    "title": "Recursive Completion in Higher K-Models: Front-Seed Semantics, Proof-Relevant Witnesses, and the K-Infinity Model",
     "authors": [
-      "Stefan Haufe",
-      "Rick Wilming",
-      "Benedict Clark",
-      "Rustam Zhumagambetov",
-      "Ahcène Boubekki",
-      "Jörg Martin",
-      "Danny Panknin"
+      "Daniel O. Martinez-Rivillas",
+      "Arthur F. Ramos",
+      "Ruy J. G. B. de Queiroz"
     ],
-    "published_date": "2024-09-22",
-    "updated_date": "2026-04-08",
-    "summary": "The field of \"explainable artificial intelligence\" (XAI) seemingly addresses the desire that decisions of machine learning systems should be human-understandable. However, in its current state, XAI itself needs scrutiny. Popular methods cannot reliably answer relevant questions about ML models, their training data, or test inputs, because they systematically attribute importance to input features that are independent of the prediction target. This limits the utility of XAI for diagnosing and correcting data and models, for scientific discovery, and for identifying intervention targets. The fundamental reason for this is that current XAI methods do not address well-defined problems and are not evaluated against targeted criteria of explanation correctness. Researchers should formally define the problems they intend to solve and design methods accordingly. This will lead to diverse use-case-dependent notions of explanation correctness and objective metrics of explanation performance that can be used to validate XAI algorithms.",
-    "arxiv_url": "http://arxiv.org/abs/2409.14590v6",
+    "published_date": "2026-04-14",
+    "updated_date": "2026-04-14",
+    "summary": "Martinez-Rivillas and de Queiroz gave extensional Kan semantics for the untyped lambda-calculus and later constructed the concrete K-infinity homotopy-model. The two main mathematical results of the present paper are these. First, we show that a smaller front-seed coherence package (WL, WR) together with an inner-right-front pentagon contraction already suffices to recover the associator comparison, semantic pentagon, and bridge theorems used in the later semantic arguments. Second, we prove explicit global reify, reflect, and application formulas for K-infinity, with exact coordinatewise identities at every finite stage. We also record two structural clarifications: the recursive all-dimensional continuation of the explicit low-dimensional tower is obtained by a finite packaging phase followed by a uniform equality-generated recursion; and, on a deliberately fixed forward witness language for the classical separation span, the canonical identity-type higher tower on K-infinity forces all higher non-connection once the two witness classes land at distinct points. The paper is fully formalized in Lean 4, and the project sources contain no local uses of sorry, admit, or axiom.",
+    "arxiv_url": "http://arxiv.org/abs/2604.12981v1",
     "matched_keywords": [
-      "formalization"
-    ]
-  },
-  {
-    "title": "ProofSketcher: Hybrid LLM + Lightweight Proof Checker for Reliable Math/Logic Reasoning",
-    "authors": [
-      "Kranthi Kommuru",
-      "Kunal Khanvilkar",
-      "Gaurav Parekh"
-    ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-07",
-    "summary": "The large language models (LLMs) might produce a persuasive argument within mathematical and logical fields, although such argument often includes some minor missteps, including the entire omission of side conditions, invalid inference patterns, or appeals to a lemma that cannot be derived logically out of the context being discussed. These omissions are infamously hard to notice solely out of the text, as even the misconstrued construction still may seem mostly accurate. Conversely, interactive theorem provers like Lean and Coq have rigorous reliability by ensuring that syntactic and semantic statements only accept statements that can pass all the syntactic and semantic steps in the program which is a small trusted kernel of the language type-checks with. Despite the fact that this technique provides strong guarantees, it comes at quite a heavy price: the evidence must be completely formalized, and the evidence user or a auxiliary search program must provide an avalanche of low-level information. This paper presents a hybrid pipeline where an LLM generates a typed proof sketch in a compact DSL and a lightweight trusted kernel expands the sketch into explicit proof obligations.",
-    "arxiv_url": "http://arxiv.org/abs/2604.06401v1",
-    "matched_keywords": [
-      "interactive theorem",
-      "Coq"
-    ]
-  },
-  {
-    "title": "Semantically Reflected Programs",
-    "authors": [
-      "Eduard Kamburjan",
-      "Vidar Norstein Klungre",
-      "Yuanwei Qu",
-      "Rudolf Schlatte",
-      "Egor V. Kostylev",
-      "Martin Giese",
-      "Einar Broch Johnsen"
-    ],
-    "published_date": "2025-09-03",
-    "updated_date": "2026-04-07",
-    "summary": "This paper addresses the dichotomy between the formalization of structural and the formalization of behavioral knowledge by means of semantically lifted programs, which explore an intuitive connection between programs and knowledge graphs. While knowledge graphs and ontologies are eminently useful to represent formal knowledge about a system's individuals and universals, programming languages are designed to describe the system's evolution. To address this dichotomy, we introduce a semantic lifting of the program states of an executing program into a knowledge graph, for an object-oriented programming language. The resulting graph is exposed as a semantic reflection layer within the programming language, allowing programmers to leverage knowledge of the application domain in their programs. In this paper, we formalize semantic lifting and semantic reflection for a small programming language, SMOL, explain the operational aspects of the language, and consider type correctness and virtualisation for runtime program queries through the semantic reflection layer. We illustrate semantic lifting and semantic reflection through a case study of geological modelling and discuss different applications of the technique. The language implementation is open source and available online.",
-    "arxiv_url": "http://arxiv.org/abs/2509.03318v2",
-    "matched_keywords": [
-      "formalization"
-    ]
-  },
-  {
-    "title": "A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms",
-    "authors": [
-      "Nirajan Acharya",
-      "Gaurav Kumar Gupta"
-    ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-07",
-    "summary": "The Model Context Protocol (MCP), introduced by Anthropic in November 2024 and now governed by the Linux Foundation's Agentic AI Foundation, has rapidly become the de facto standard for connecting large language model (LLM)-based agents to external tools and data sources, with over 97 million monthly SDK downloads and more than 177000 registered tools. However, this explosive adoption has exposed a critical gap: the absence of a unified, formal security framework capable of systematically characterizing, analyzing, and mitigating the diverse threats facing MCP-based agent ecosystems. Existing security research remains fragmented across individual attack papers, isolated benchmarks, and point defense mechanisms. This paper presents MCPSHIELD, a comprehensive formal security framework for MCP-based AI agents. We make four principal contributions: (1) a hierarchical threat taxonomy comprising 7 threat categories and 23 distinct attack vectors organized across four attack surfaces, grounded in the analysis of over 177000 MCP tools; (2) a formal verification model based on labeled transition systems with trust boundary annotations that enables static and runtime analysis of MCP tool interaction chains; (3) a systematic comparative evaluation of 12 existing defense mechanisms, identifying coverage gaps across our threat taxonomy; and (4) a defense in depth reference architecture integrating capability based access control, cryptographic tool attestation, information flow tracking, and runtime policy enforcement. Our analysis reveals that no existing single defense covers more than 34 percent of the identified threat landscape, whereas MCPSHIELD's integrated architecture achieves theoretical coverage of 91 percent. We further identify seven open research challenges that must be addressed to secure the next generation of agentic AI systems.",
-    "arxiv_url": "http://arxiv.org/abs/2604.05969v1",
-    "matched_keywords": [
-      "formal verification"
-    ]
-  },
-  {
-    "title": "Adversarial Robustness of Time-Series Classification for Crystal Collimator Alignment",
-    "authors": [
-      "Xaver Fink",
-      "Borja Fernandez Adiego",
-      "Daniele Mirarchi",
-      "Eloise Matheson",
-      "Alvaro Garcia Gonzales",
-      "Gianmarco Ricci",
-      "Joost-Pieter Katoen"
-    ],
-    "published_date": "2026-04-07",
-    "updated_date": "2026-04-07",
-    "summary": "In this paper, we analyze and improve the adversarial robustness of a convolutional neural network (CNN) that assists crystal-collimator alignment at CERN's Large Hadron Collider (LHC) by classifying a beam-loss monitor (BLM) time series during crystal rotation. We formalize a local robustness property for this classifier under an adversarial threat model based on real-world plausibility. Building on established parameterized input-transformation patterns used for transformation- and semantic-perturbation robustness, we instantiate a preprocessing-aware wrapper for our deployed time-series pipeline: we encode time-series normalization, padding constraints, and structured perturbations as a lightweight differentiable wrapper in front of the CNN, so that existing gradient-based robustness frameworks can operate on the deployed pipeline. For formal verification, data-dependent preprocessing such as per-window z-normalization introduces nonlinear operators that require verifier-specific abstractions. We therefore focus on attack-based robustness estimates and pipeline-checked validity by benchmarking robustness with the frameworks Foolbox and ART. Adversarial fine-tuning of the resulting CNN improves robust accuracy by up to 18.6 % without degrading clean accuracy. Finally, we extend robustness on time-series data beyond single windows to sequence-level robustness for sliding-window classification, introduce adversarial sequences as counterexamples to a temporal robustness requirement over full scans, and observe attack-induced misclassifications that persist across adjacent windows.",
-    "arxiv_url": "http://arxiv.org/abs/2604.06289v1",
-    "matched_keywords": [
-      "formal verification"
+      "Lean 4"
     ]
   }
 ]

@@ -1,14 +1,36 @@
 [
   {
-    "title": "Automated Conjecture Resolution with Formal Verification",
-    "link": "https://frenzymath.com/news/conjecture/",
-    "published_date": "2026-04-04",
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "link": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "published_date": "2026-04-13",
+    "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+    "source_name": "Google DeepMind Blog",
+    "source_feed": "https://deepmind.google/blog/rss.xml",
+    "matched_keywords": [
+      "reasoning"
+    ]
+  },
+  {
+    "title": "Matlas: A Semantic Search Engine for Mathematics",
+    "link": "https://frenzymath.com/news/matlas/",
+    "published_date": "2026-04-18",
     "summary": "",
     "source_name": "FrenzyMath (AI4M Team, BICMR@PKU)",
     "source_feed": "https://frenzymath.com/rss.xml",
     "matched_keywords": [
-      "conjecture",
-      "formal verification"
+      "math",
+      "mathematics"
+    ]
+  },
+  {
+    "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+    "link": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+    "published_date": "2026-04-15",
+    "summary": "",
+    "source_name": "Hugging Face Blog",
+    "source_feed": "https://huggingface.co/blog/feed.xml",
+    "matched_keywords": [
+      "reasoning"
     ]
   },
   {
