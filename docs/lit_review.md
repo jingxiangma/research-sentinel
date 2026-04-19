@@ -3,7 +3,9 @@
 ## 1. Executive Summary
 The study of how enumerative invariants (specifically Gromov-Witten invariants) behave under birational transformations has evolved into a unifying framework connecting **Quantum Cohomology (A-side)** and **Derived Categories of Coherent Sheaves (B-side)**. Historically, the interaction between these two realms was mediated by the Dubrovin conjecture. Today, through the lens of Quantum D-modules, K-equivalence, and the recent introduction of "Hodge Atoms," it is increasingly clear that geometric operations of the Minimal Model Program (MMP) induce canonical decompositions on both the quantum and derived sides.
 
-Three significant recent developments have deepened and broadened this picture. First, **Cavenaghi–Katzarkov–Kontsevich** ("Atoms meet symbols", arXiv:2509.15831) extended the atom framework to the G-equivariant setting by merging it with the theory of modular symbols, giving rise to **Chen-Ruan atoms** and new rationality invariants for group actions. Second, **Karube–Robotis–Zuliani** ("Toward the noncommutative minimal model program for Fano varieties", arXiv:2601.20739) implemented Halpern-Leistner's **Noncommutative Minimal Model Program (NMMP)** concretely for Grassmannians, smooth quadrics, and cubic threefolds and fourfolds by constructing explicit lifts of Iritani's quantum cohomology central charge. Third, **Wu–Zhang** ("The G-Noncommutative minimal model program", arXiv:2602.20335) extended the NMMP itself to the G-equivariant setting using Bridgeland stability conditions on equivariant derived categories and a novel notion of $\mathbb{T}$-stability conditions. Together these works mark the emergence of a fully equivariant, noncommutative framework for birational geometry.
+Three parallel categorical frameworks now organize these decompositions: **Hodge atoms** (A-side spectral pieces of the quantum D-module), the **Noncommutative Minimal Model Program (NMMP)** (Bridgeland stability conditions and quasi-convergent paths), and **perverse schobers** (gluing data of triangulated categories on a base, with spherical-functor monodromy). Each captures a different facet of the same underlying phenomenon — the SODs and equivalences induced by birational transformations, GIT wall-crossings, and flops.
+
+Three significant recent developments have deepened and broadened this picture. First, **Cavenaghi–Katzarkov–Kontsevich** ("Atoms meet symbols", arXiv:2509.15831) extended the atom framework to the G-equivariant setting by merging it with the theory of modular symbols, giving rise to **Chen-Ruan atoms** and new rationality invariants for group actions. Second, **Karube–Robotis–Zuliani** ("Toward the noncommutative minimal model program for Fano varieties", arXiv:2601.20739) implemented Halpern-Leistner's NMMP concretely for Grassmannians, smooth quadrics, and cubic threefolds and fourfolds by constructing explicit lifts of Iritani's quantum cohomology central charge. Third, **Wu–Zhang** ("The G-Noncommutative minimal model program", arXiv:2602.20335) extended the NMMP itself to the G-equivariant setting using Bridgeland stability conditions on equivariant derived categories and a novel notion of $\mathbb{T}$-stability conditions. Together these works mark the emergence of a fully equivariant, noncommutative framework for birational geometry.
 
 ## 2. Foundational Theory: Dubrovin, Iritani, and K-Equivalence
 
@@ -25,13 +27,13 @@ The behavior of these structures under birational maps splits into two distinct 
 The conceptual leap from "decompositions under blow-up" to an intrinsic "atomic theory" of varieties has been a major recent breakthrough, bringing birational geometry and non-commutative motives together.
 
 ### 3.1 The A-Side: Hodge Atoms and Quantum Multiplication
-Recent work by **Katzarkov, Kontsevich, Pantev, and Yu** formalized the theory of **Hodge Atoms**. Building on Iritani's blow-up formula, they study the "F-bundle" (a non-archimedean version of a non-commutative Hodge structure) over the Frobenius manifold of $X$.
+**Katzarkov, Kontsevich, Pantev, and Yu** ("Birational Invariants from Hodge Structures and Quantum Multiplication", arXiv:2508.05105, August 2025) formalized the theory of **Hodge Atoms**. Building on Iritani's blow-up formula, they study the "F-bundle" (a non-archimedean version of a non-commutative Hodge structure) over the Frobenius manifold of $X$.
 * Under the action of the Euler vector field, the spectral decomposition of this F-bundle yields canonical, indivisible pieces called *atoms*.
 * These atoms behave additively under blow-ups. Because they are strict birational invariants, they provide a powerful new tool for attacking rationality problems (e.g., establishing the non-rationality of very general cubic fourfolds by showing their atomic decomposition contains an atom that cannot come from a rational surface).
 * Furthermore, they established that the quantum D-module of product varieties $QDM(X \times Y)$ admits a formal isomorphism to $QDM(X) \otimes QDM(Y)$ at the leading order of the quantum connection, allowing for the computation of atoms for product spaces.
 
 ### 3.2 The B-Side: Atomic Decompositions in Derived Categories
-Parallel to the A-side quantum developments, **Elagin, Schneider, and Shinder** established the derived-category analogue in their work *Atomic decompositions for derived categories of $G$-surfaces*.
+Parallel to the A-side quantum developments, **Elagin, Schneider, and Shinder** ("Atomic decompositions for derived categories of $G$-surfaces", arXiv:2512.05064, December 2025) established the derived-category analogue.
 * They constructed canonical semi-orthogonal decompositions for derived categories of smooth projective surfaces that are strictly compatible with MMP operations (blow-ups and conic bundles).
 * By doing so, they confirmed a dimension-two conjecture by Kontsevich, defining "derived atoms" that characterize rationality and birationality. The Sarkisov link factorization of birational maps between Mori fibre spaces is used to ensure these SODs mutate consistently.
 
@@ -51,6 +53,8 @@ The merging with modular symbols indicates that the atom theory has a combinator
 
 Halpern-Leistner's **Noncommutative Minimal Model Program (NMMP)** proposes running an analog of Mori's MMP entirely within the space of Bridgeland stability conditions $\text{Stab}(D^b(X))$. The key idea is that quasi-convergent paths in stability condition space — paths that asymptotically degenerate toward a boundary wall — induce the semi-orthogonal decompositions that mirror classical MMP contractions. The central charge of such a path is required to lift Iritani's quantum cohomology central charge, directly linking the A-side to the B-side.
 
+The technical engine for this program is the theory of **derived $\Theta$-stratifications**, developed by Halpern-Leistner ("Derived $\Theta$-stratifications and the $D$-equivalence conjecture", arXiv:2010.01127, October 2020). Θ-stratifications generalize the Białynicki-Birula / GIT instability stratification to derived algebraic stacks, providing the local model for how an SOD splits off when crossing a wall. They underlie both the NMMP construction and the GIT-equivalence results of Halpern-Leistner–Sam (§5.3); foundational Bridgeland stability is taken from Bridgeland ("Stability conditions on triangulated categories", arXiv:math/0212237, December 2002), and existence of stability conditions on Kuznetsov components — load-bearing for §4.1's cubic-fourfold results — comes from Bayer–Lahoz–Macrì–Stellari (arXiv:1703.10839, March 2017).
+
 Two papers in early 2026 provide the first substantial concrete implementations of this program.
 
 ### 4.1 The Non-Equivariant Case: Fano Varieties
@@ -67,23 +71,74 @@ Two papers in early 2026 provide the first substantial concrete implementations 
 
 Together, these two papers establish that the NMMP is not merely a formal proposal but a computationally accessible framework, and that it extends naturally to equivariant contexts — bringing it into direct dialogue with the Chen-Ruan atom theory of Section 3.3.
 
-## 5. Synthesis and Current Open Problems
+## 5. Perverse Schobers: Categorifying Perverse Sheaves
 
-The overarching philosophy is that the A-side (Hodge atoms via Quantum D-modules) and the B-side (Derived atoms via SODs) are two manifestations of the same underlying non-commutative motivic decomposition. The NMMP provides a concrete mechanism for passing between sides: a quasi-convergent path in $\text{Stab}(D^b(X))$ whose central charge lifts the A-side quantum cohomology data automatically produces B-side SODs. The equivariant extensions (Sections 3.3 and 4.2) show that this philosophy is robust enough to accommodate group actions.
+A complementary framework for organizing derived equivalences under birational transformations is the theory of **perverse schobers** — conjectural categorifications of perverse sheaves in which the stalk vector spaces are replaced by triangulated categories. Where NMMP encodes wall-crossing data via stability conditions, schobers encode it as constructible diagrams of categories on a base (typically a disk or a Riemann surface) glued by spherical functors, providing a sheaf-theoretic language for the same monodromy/SOD phenomena.
 
-**Current Bottlenecks & Open Problems:**
+### 5.1 Foundations
+**Kapranov and Schechtman** ("Perverse Schobers", arXiv:1411.2772, November 2014) introduced perverse schobers as a categorical generalization of perverse sheaves. In the simplest case — a disk with one singular point — they propose that the data of a perverse schober is equivalent to the data of a **spherical functor** $F: \mathcal{C} \to \mathcal{D}$ between triangulated categories. The cone, twist, and cotwist of a spherical functor produce autoequivalences playing the role of monodromy around the singular point. This dictionary turns the formalism of perverse sheaves on Riemann surfaces (gluing data, Picard–Lefschetz, microlocalization) into a tool for organizing derived equivalences and SODs.
 
-1. **Blowup formula for Chen-Ruan cohomology:** The construction of Chen-Ruan atoms (Section 3.3) is contingent on a blowup formula for quantum Chen-Ruan cohomology of orbifolds — this formula has not yet been established in general and is the key missing ingredient for the full equivariant atom theory.
+### 5.2 Birational Geometry and Flops
+**Bondal, Kapranov, and Schechtman** ("Perverse schobers and birational geometry", arXiv:1801.08286, January 2018) demonstrated that perverse schobers arise naturally in the **Homological Minimal Model Program (HMMP)**, which studies the effect of birational transformations such as flops on coherent derived categories.
+* They study schober-type diagrams of categories associated to flops of relative dimension 1, and determine the categorical analogs of (compactly supported) cohomology with coefficients in such schobers.
+* They analyze the "web of flops" attached to the Grothendieck resolution of a reductive Lie algebra; for $\mathfrak{sl}(3)$ this diagram recovers the classical space of complete triangles studied by Schubert and Semple.
 
-2. **Higher-Dimensional Derived Atoms:** While Elagin, Schneider, and Shinder solved the $G$-surface case, and the NMMP papers handle Grassmannians and cubics, extending *canonical* atomic SODs to arbitrary Fano threefolds and beyond (where the MMP is vastly more complex) remains open. The NMMP framework suggests a path via quasi-convergent paths, but verifying quasi-convergence in general is hard.
+This work establishes perverse schobers as the natural ambient structure for the derived equivalences predicted by the Bondal–Orlov reconstruction theorem (arXiv:math/9712029, December 1997) and the Kawamata DK-equivalence conjecture (arXiv:math/0205287, May 2002) under K-equivalent birational transformations — and so as a categorical companion to the A-side blowup formula of Section 2.2.
 
-3. **The Exact A-to-B Dictionary:** The NMMP partially addresses this — Iritani's central charge on the A-side is lifted to produce B-side SODs — but a rigorous equivalence between Hodge atoms (A-side) and derived atoms (B-side) for *arbitrary* Fano varieties remains open. This is a "Birational Dubrovin Conjecture."
+A direct mirror-symmetric counterpart was constructed by **Donovan and Kuwagaki** ("Mirror symmetry for perverse schobers from birational geometry", arXiv:1903.11226, March 2019; CMP 2021): for flop diagrams in dimensions 2 and 3, they build mirror partners to the BKS schobers using **Fukaya categories with stops**, and prove HMS-style equivalences interpreting the schober as a sheaf of categories supported on a locus in the mirror moduli space. This bridges the §5 schober framework directly to the SYZ/HMS side of mirror symmetry.
 
-4. **Modular Symbols and Motivic Integration:** The merger of atoms with modular symbols (Section 3.3) suggests a deeper link to motivic cohomology and arithmetic geometry. Making this connection precise — and understanding what the modular symbols count arithmetically — is a new open direction.
+### 5.3 Wall Crossing in GIT
+**Donovan** ("Perverse schobers and wall crossing", arXiv:1703.00592, March 2017; IMRN 2019) constructs explicit perverse schobers from **balanced wall crossings in Geometric Invariant Theory**, where derived equivalences exist between the two GIT quotients adjacent to a wall.
+* The schober is a perverse sheaf of categories on a disk with a singular point at the wall; its half-monodromies recover the wall-crossing equivalences, and the behavior at the singularity is controlled by the GIT stack of the wall.
+* Decategorification (passing to complexified Grothendieck groups) yields a perverse sheaf of vector spaces whose IC / local-system structure on the punctured disk is characterized concretely.
 
-5. **Physics Interpretations:** Translating these atomic decompositions into the language of $\mathcal{N}=2$ supersymmetric gauge theories (e.g., how BPS states or Seiberg-Witten geometries decompose under atomic splits) remains largely unexplored. The equivariant extensions may have natural interpretations in terms of orbifold string theory.
+The earlier work of **Halpern-Leistner and Sam** ("Combinatorial constructions of derived equivalences", arXiv:1601.02030, January 2016; JAMS 2020) is a precursor in spirit: for **quasi-symmetric representations** of reductive groups they construct algorithmic derived equivalences between GIT quotients, produce an explicit tilting bundle and combinatorial K-theory basis, and show the equivalences assemble into a representation of the fundamental groupoid of a **Kähler moduli space** — the same monodromy datum that the schober formalism organizes geometrically.
 
-## 6. Reference List
+### 5.4 GKZ Systems and Mirror Symmetry
+**Špenko and Van den Bergh** ("Perverse schobers and GKZ systems", arXiv:2007.04924, July 2020; Adv. Math. 2022) show that a suitable variation of perverse schober **categorifies the GKZ hypergeometric system** for non-resonant parameters in the quasi-symmetric setting.
+* They derive a general formula for the **monodromy** of quasi-symmetric GKZ systems and recover classical hypergeometric monodromy as a special case.
+* The schober categorification provides a B-side lift of GKZ data — and GKZ systems control Givental I-functions / quantum periods for toric varieties, so this directly bridges to the A-side quantum D-module of Section 2.
+
+Taken together, schobers form a third framework — alongside Hodge atoms (A-side, §3) and NMMP via stability conditions (§4) — for organizing the categorical decompositions induced by birational transformations. The three are not yet known to be equivalent, and reconciling them is the content of open problems 2 (A↔B dictionary) and 3 (schober↔NMMP dictionary) in §6.2 below.
+
+## 6. Synthesis and Current Open Problems
+
+### 6.1 Conceptual Map
+
+The references in §§2–5 organize into three layers:
+
+| Layer | A-Side (quantum / Hodge) | B-Side (categorical) | Bridge / Wall-crossing |
+|---|---|---|---|
+| **Foundations** | Dubrovin conjecture; Iritani's $\widehat{\Gamma}$-integral structure (0903.1463) | Bondal–Orlov / Kawamata DK-equivalence; Orlov blowup; Kuznetsov residual cats (0808.3351) | Coates–Corti–Iritani–Tseng / Coates–Iritani–Jiang CRC (0704.2034, 1410.0024) |
+| **Decomposition formalism** | Iritani quantum blowup formula (2307.13555); Hodge atoms (KKPY, 2508.05105) | Elagin–Schneider–Shinder derived atoms for $G$-surfaces (2512.05064) | Halpern-Leistner–Sam GIT equivalences (1601.02030) |
+| **Wall-crossing language** | — | Halpern-Leistner NMMP (2301.13168); Karube–Robotis–Zuliani (2601.20739); Wu–Zhang G-NMMP (2602.20335) | Kapranov–Schechtman schobers (1411.2772); Donovan (1703.00592); Bondal–Kapranov–Schechtman (1801.08286); Špenko–Van den Bergh GKZ (2007.04924) |
+| **Equivariant extensions** | Cavenaghi–Katzarkov–Kontsevich Chen-Ruan atoms (2509.15831) | Elagin–Schneider–Shinder (2512.05064) | Wu–Zhang $\mathbb{T}$-stability (2602.20335); Kontsevich–Pestun–Tschinkel modular symbols (1902.09894) |
+
+The overarching philosophy is that the A-side (Hodge atoms via Quantum D-modules) and the B-side (Derived atoms via SODs) are two manifestations of the same underlying non-commutative motivic decomposition. The NMMP provides one bridge — a quasi-convergent path in $\text{Stab}(D^b(X))$ whose central charge lifts Iritani's, automatically producing B-side SODs. Perverse schobers provide a second, more local bridge: at each wall they encode the wall-crossing equivalence as monodromy of a spherical functor. The equivariant extensions (§§3.3 and 4.2) show the philosophy accommodates group actions.
+
+### 6.2 Open Problems and Proposed Research Directions
+
+The following nine items partition the open territory suggested by the cited literature. Each entry states the global open problem and, where the citations point to one, names a concrete first attack. The list is intended to be exhaustive (covering all open directions identified across §§2–5) and non-overlapping (each entry has a distinct technical core).
+
+1. **Chen-Ruan blowup formula.** The Chen-Ruan atom construction (§3.3) is contingent on a blowup formula for quantum Chen-Ruan cohomology of orbifolds — not yet established in general. This is the key missing ingredient for the full equivariant atom theory; no concrete attack is proposed in the cited literature.
+
+2. **Birational Dubrovin Conjecture (the A-to-B dictionary).** NMMP (§4) lifts Iritani's central charge to produce B-side SODs, but a rigorous equivalence between Hodge atoms (A-side, KKPY 2508.05105) and derived atoms (B-side, Elagin–Schneider–Shinder 2512.05064) for arbitrary Fano varieties is open: atom additivity under blowups should match SOD additivity under Orlov's formula, but no precise theorem connects them. **Concrete attacks:** (a) a *per-atom refinement of Iritani's $\widehat{\Gamma}$-conjecture* (0903.1463) — each Hodge atom's flat sections should be spanned by $\widehat{\Gamma}$-images of objects in the corresponding SOD piece, sharpening the dictionary into a statement about specific bases; (b) a *Mori–Mukai atom catalogue* computing both A- and B-side atomic decompositions for the 105 deformation families of smooth Fano threefolds (matched against Belmans–Galkin–Mukhopadhyay-style SOD catalogues) as a family-by-family testbed.
+
+3. **Schober ↔ NMMP dictionary.** Schobers (§5) and NMMP (§4) encode the same wall-crossing categorical data in different languages, but no cited paper makes the dictionary explicit. **Conjecture:** a quasi-convergent NMMP path approaching a wall produces a perverse schober on a disk transverse to the wall, whose spherical functor recovers the Halpern-Leistner mutation. **Concrete attack:** verify on the cubic threefold, where Karube–Robotis–Zuliani (2601.20739) construct the NMMP path and a Donovan-style schober (1703.00592) should be constructible from Kuznetsov's residual category (0808.3351).
+
+4. **Higher-dimensional derived atoms via direct construction.** Elagin–Schneider–Shinder (2512.05064) construct canonical atomic SODs on surfaces by an intrinsic argument using Sarkisov-link factorization. Extending this *directly* — independent of the A-side dictionary of #2 — to Fano threefolds and beyond is open and presumably requires a higher-dimensional analog of the Sarkisov program for derived categories.
+
+5. **Schobers on stratified bases.** All cited schober work (§5) treats a disk with an isolated singularity. Real wall-crossing in $\text{Stab}(D^b(X))$ happens along higher-codimension strata. A theory of perverse schobers on stratified bases (Riemann surfaces with several punctures, or higher-dimensional bases with constructible stratifications) would match NMMP wall geometry directly and is a natural extension of Kapranov–Schechtman (1411.2772) and Bondal–Kapranov–Schechtman (1801.08286).
+
+6. **Equivariant A↔B comparison.** Wu–Zhang G-NMMP (2602.20335, §4.2) and Cavenaghi–Katzarkov–Kontsevich Chen-Ruan atoms (2509.15831, §3.3) extend their respective frameworks to G-equivariant settings, but no paper compares the resulting decompositions on a shared example. **Concrete attack:** $[\mathbb{P}^n/G]$ for small finite $G$, testing the equivariant version of #2.
+
+7. **Beyond Fano: stability and log atoms.** The Hodge atom construction (KKPY 2508.05105) uses spectral decomposition under the Euler vector field, which degenerates for Calabi–Yau (trivial $K_X$) and general type. Two layers of obstruction: (a) **Foundational** — Bridgeland stability conditions on general Calabi–Yau threefolds remain conjectural (only surfaces, Fano 3folds, and Kuznetsov components of cubic 4folds are covered by Bridgeland math/0212237 and Bayer–Lahoz–Macrì–Stellari 1703.10839); (b) **Constructive** — a "log atom" theory for log Calabi–Yau pairs $(X,D)$ via Gross–Siebert log GW invariants is unexplored and would extend the framework to a much wider class of varieties.
+
+8. **Arithmetic side: L-functions of atoms.** The atoms ↔ modular symbols merger of CKK (2509.15831, §3.3) suggests a deeper link to motivic cohomology and arithmetic geometry. **Concrete refinement:** modular symbols (Kontsevich–Pestun–Tschinkel 1902.09894) carry associated L-functions; if atoms have a modular-symbol shadow, the resulting L-values should give arithmetic invariants of birational equivalence classes — a wholly unexplored arithmetic refinement of the rationality applications.
+
+9. **Physics: Coulomb branches and BPS decomposition.** Translating atomic decompositions into $\mathcal{N}=2$ supersymmetric gauge theories (BPS-state decomposition under atomic splits, Seiberg–Witten interpretations) is largely unexplored. **Concrete attack:** for $X$ a symplectic resolution, the Coulomb branch of the corresponding 3d $\mathcal{N}=4$ gauge theory (Braverman–Finkelberg–Nakajima) carries a quantization often coinciding with $D^b(X)$; an atomic decomposition of $X$ should descend to a decomposition of the Coulomb branch and its quantized algebra of functions, providing a physics realization of the SODs from NMMP and atom theory.
+
+## 7. Reference List
 
 All papers cited in this review with arXiv links, sorted from most to least recent. Classical papers that predate arXiv are listed separately below.
 
@@ -96,17 +151,27 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 | Aug 2025 | Ludmil Katzarkov, Maxim Kontsevich, Tony Pantev, Renke Yu | Birational Invariants from Hodge Structures and Quantum Multiplication | [2508.05105](https://arxiv.org/abs/2508.05105) |
 | Jul 2023 | Hiroshi Iritani | Quantum Cohomology of Blowups | [2307.13555](https://arxiv.org/abs/2307.13555) |
 | Jan 2023 | Daniel Halpern-Leistner | The Noncommutative Minimal Model Program | [2301.13168](https://arxiv.org/abs/2301.13168) |
+| Oct 2020 | Daniel Halpern-Leistner | Derived $\Theta$-Stratifications and the $D$-Equivalence Conjecture | [2010.01127](https://arxiv.org/abs/2010.01127) |
+| Jul 2020 | Špela Špenko, Michel Van den Bergh | Perverse Schobers and GKZ Systems | [2007.04924](https://arxiv.org/abs/2007.04924) |
+| Mar 2019 | Will Donovan, Tatsuki Kuwagaki | Mirror Symmetry for Perverse Schobers from Birational Geometry | [1903.11226](https://arxiv.org/abs/1903.11226) |
 | Feb 2019 | Maxim Kontsevich, Vasily Pestun, Yuri Tschinkel | Equivariant Birational Geometry and Modular Symbols | [1902.09894](https://arxiv.org/abs/1902.09894) |
+| Jan 2018 | Alexey Bondal, Mikhail Kapranov, Vadim Schechtman | Perverse Schobers and Birational Geometry | [1801.08286](https://arxiv.org/abs/1801.08286) |
+| Mar 2017 | Arend Bayer, Martí Lahoz, Emanuele Macrì, Paolo Stellari | Stability Conditions on Kuznetsov Components | [1703.10839](https://arxiv.org/abs/1703.10839) |
+| Mar 2017 | Will Donovan | Perverse Schobers and Wall Crossing | [1703.00592](https://arxiv.org/abs/1703.00592) |
+| Jan 2016 | Daniel Halpern-Leistner, Steven V. Sam | Combinatorial Constructions of Derived Equivalences | [1601.02030](https://arxiv.org/abs/1601.02030) |
+| Nov 2014 | Mikhail Kapranov, Vadim Schechtman | Perverse Schobers | [1411.2772](https://arxiv.org/abs/1411.2772) |
 | Sep 2014 | Tom Coates, Hiroshi Iritani, Yunfeng Jiang | The Crepant Transformation Conjecture for Toric Complete Intersections | [1410.0024](https://arxiv.org/abs/1410.0024) |
 | Mar 2009 | Hiroshi Iritani | An Integral Structure in Quantum Cohomology and Mirror Symmetry for Toric Orbifolds | [0903.1463](https://arxiv.org/abs/0903.1463) |
 | Aug 2008 | Alexander Kuznetsov | Derived Categories of Cubic Fourfolds | [0808.3351](https://arxiv.org/abs/0808.3351) |
 | Apr 2007 | Tom Coates, Alessio Corti, Hiroshi Iritani, Hsian-Hua Tseng | The Crepant Resolution Conjecture for Type A Surface Singularities | [0704.2034](https://arxiv.org/abs/0704.2034) |
+| Dec 2002 | Tom Bridgeland | Stability Conditions on Triangulated Categories | [math/0212237](https://arxiv.org/abs/math/0212237) |
+| May 2002 | Yujiro Kawamata | $D$-Equivalence and $K$-Equivalence | [math/0205287](https://arxiv.org/abs/math/0205287) |
 | Aug 2001 | Yongbin Ruan | Cohomology Ring of Crepant Resolutions of Orbifolds | [math/0108195](https://arxiv.org/abs/math/0108195) |
 | Mar 2001 | Arend Bayer, Yuri Manin | (Semi)simple Exercises in Quantum Cohomology | [math/0103164](https://arxiv.org/abs/math/0103164) |
+| Dec 1997 | Alexei Bondal, Dmitri Orlov | Reconstruction of a Variety from the Derived Category and Groups of Autoequivalences | [math/9712029](https://arxiv.org/abs/math/9712029) |
 
 **Classical references without arXiv:**
 - **Orlov** (1992) — Projective bundles, monoidal transformations, and derived categories of coherent sheaves. *Izv. Ross. Akad. Nauk Ser. Mat.* 56(4). *(Blow-up formula for derived categories.)*
-- **Bondal–Orlov** (ICM 2002) / **Kawamata** — DK-equivalence conjecture: derived categories of K-equivalent varieties are equivalent.
 
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
 The papers most relevant to Hodge atoms, K-equivalence, derived categories, and quantum D-modules are [Spin Ruijsenaars-Schneider models are Coulomb branches](http://arxiv.org/abs/2603.03048v1) by Gleb Arutyunov and Lukas Hardi, which studies the connection between Coulomb branches and Poisson structures, and [Special Lagrangian smoothings, Calabi ansatz and stability conditions](http://arxiv.org/abs/2603.02749v1) by Jacopo Stoppa, which discusses stability conditions in the context of Calabi ansatz and derived categories.

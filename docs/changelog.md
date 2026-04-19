@@ -1,4 +1,8 @@
 
+## 2026-04-19
+
+Manual literature review expansion. Added new Section 5 on **perverse schobers** as a third categorical framework alongside Hodge atoms and NMMP, with five core references: Kapranov–Schechtman (arXiv:1411.2772, foundations), Bondal–Kapranov–Schechtman (1801.08286, flops/HMMP), Donovan (1703.00592, GIT wall-crossing), Halpern-Leistner–Sam (1601.02030, combinatorial GIT equivalences), and Špenko–Van den Bergh (2007.04924, GKZ systems). Added foundational references that were previously missing: Bridgeland (math/0212237) and Bayer–Lahoz–Macrì–Stellari (1703.10839) for stability conditions; Halpern-Leistner (2010.01127) for derived Θ-stratifications; Donovan–Kuwagaki (1903.11226) for HMS schober mirrors; Bondal–Orlov (math/9712029) and Kawamata (math/0205287) promoted from "classical without arXiv" to the table. New Section 6.1 (Conceptual Map) and rewritten Section 6.2 with 9 exhaustive, non-overlapping open problems each pairing a global question with a concrete first attack. Added keywords `perverse schober`, `spherical functor`, `GKZ system`, `homological minimal model program` to `config.yaml` for future arXiv runs.
+
 ## 2026-04-14
 
 Manual pipeline run after automated Monday run was interrupted mid-execution. 25 papers (5 Geometry & Physics, 20 AI for Mathematics) and 2 news items. Also corrected scheduled run time in CLAUDE.md and README.md: the task runs at 9:00pm (not 9:00am) on Mondays.
