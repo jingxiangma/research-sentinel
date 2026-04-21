@@ -32,6 +32,8 @@ The conceptual leap from "decompositions under blow-up" to an intrinsic "atomic 
 * These atoms behave additively under blow-ups. Because they are strict birational invariants, they provide a powerful new tool for attacking rationality problems (e.g., establishing the non-rationality of very general cubic fourfolds by showing their atomic decomposition contains an atom that cannot come from a rational surface).
 * Furthermore, they established that the quantum D-module of product varieties $QDM(X \times Y)$ admits a formal isomorphism to $QDM(X) \otimes QDM(Y)$ at the leading order of the quantum connection, allowing for the computation of atoms for product spaces.
 
+The first substantial extension of this program beyond the original cubic-fourfold setting is due to **Fay** ("The Very General Verra Fourfold is Irrational", arXiv:2604.14850, April 2026), who applies the Hodge atom framework to establish irrationality of the very general Verra fourfold. Two advances underpin the result: (i) a refined analysis of Hodge atoms exploiting the involution on $H^*(X)$, and (ii) a derivation of the quantum multiplication matrix directly from the quantum differential operator. Crucially, this is the **first successful application of Hodge atoms to a space with Picard rank greater than one**, establishing that the technique generalizes beyond the Picard-rank-one setting in which the KKPY framework was originally tested.
+
 ### 3.2 The B-Side: Atomic Decompositions in Derived Categories
 Parallel to the A-side quantum developments, **Elagin, Schneider, and Shinder** ("Atomic decompositions for derived categories of $G$-surfaces", arXiv:2512.05064, December 2025) established the derived-category analogue.
 * They constructed canonical semi-orthogonal decompositions for derived categories of smooth projective surfaces that are strictly compatible with MMP operations (blow-ups and conic bundles).
@@ -144,6 +146,7 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 
 | Date | Authors | Title | arXiv |
 |---|---|---|---|
+| Apr 2026 | Aideen Fay | The Very General Verra Fourfold is Irrational | [2604.14850](https://arxiv.org/abs/2604.14850) |
 | Feb 2026 | Dongjian Wu, Nantao Zhang | The $G$-Noncommutative Minimal Model Program | [2602.20335](https://arxiv.org/abs/2602.20335) |
 | Jan 2026 | Tomohiro Karube, Antonios-Alexandros Robotis, Vanja Zuliani | Toward the Noncommutative Minimal Model Program for Fano Varieties | [2601.20739](https://arxiv.org/abs/2601.20739) |
 | Dec 2025 | Alexey Elagin, Julia Schneider, Evgeny Shinder | Atomic Decompositions for Derived Categories of $G$-Surfaces | [2512.05064](https://arxiv.org/abs/2512.05064) |

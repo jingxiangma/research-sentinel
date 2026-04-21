@@ -84,6 +84,8 @@ topics:
 - **`categories`** — ArXiv category codes to search within
 - **`keywords`** — case-insensitive filters applied to each paper's title and abstract; only papers matching at least one keyword are kept
 
+**Priority keyword pinning.** `src/reviewer.py` defines a `PRIORITY_KEYWORDS` list (e.g. `Hodge atoms`, `perverse schober`, `noncommutative minimal model program`). Any paper matching one of these is surfaced verbatim in the highlights block of `docs/lit_review.md`, independent of the LLM's selection — this prevents the reviewer model from silently dropping core lit-review topics. Edit the list at the top of `reviewer.py` to tune what gets pinned.
+
 To change the look-back window (default: 7 days), edit the `timedelta` in `src/arxiv_client.py` and `CUTOFF_DAYS` in `src/news_client.py`.
 
 To switch the LLM model, change `MODEL` at the top of `src/reviewer.py`.

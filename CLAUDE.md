@@ -25,6 +25,10 @@ Run scripts in this order:
 
 Then update `docs/changelog.md` and commit/push all changed files.
 
+## Reviewer Priority Keywords
+
+`src/reviewer.py` has a `PRIORITY_KEYWORDS` list at the top. Any fetched paper whose `matched_keywords` intersect this list is pinned verbatim into the `<!-- ARXIV_HIGHLIGHTS -->` block of `docs/lit_review.md`, regardless of what the LLM (Ollama llama3.2) selects. Edit this list when introducing new core lit-review topics so future pipeline runs surface them automatically instead of relying on the LLM to pick them up.
+
 ## Important: Update CLAUDE.md and README.md
 
 Whenever a new feature or automation is introduced, update both this file and `README.md` to reflect it.
