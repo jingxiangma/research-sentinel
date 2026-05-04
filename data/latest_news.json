@@ -1,36 +1,14 @@
 [
   {
-    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-    "link": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-    "published_date": "2026-04-13",
-    "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
-    "source_name": "Google DeepMind Blog",
-    "source_feed": "https://deepmind.google/blog/rss.xml",
-    "matched_keywords": [
-      "reasoning"
-    ]
-  },
-  {
-    "title": "Matlas: A Semantic Search Engine for Mathematics",
-    "link": "https://frenzymath.com/news/matlas/",
-    "published_date": "2026-04-18",
-    "summary": "",
-    "source_name": "FrenzyMath (AI4M Team, BICMR@PKU)",
-    "source_feed": "https://frenzymath.com/rss.xml",
+    "title": "Our Experience at the Mathlib Reviewer Bootcamp 2026",
+    "link": "https://leanprover-community.github.io/blog/posts/mathlib-reviewer-bootcamp/",
+    "published_date": "2026-04-25",
+    "summary": "<div><p>We are Hannah (she/her) and Rida (they/them), math graduate students at the University of Bonn and UPPA respectively. On 30th March 2026, we gathered with other Mathlib contributors for 4 days in Stockholm to take part in the first ever Mathlib Reviewer Bootcamp organized by <a href=\"https://www.su.se/english/profiles/y/yadi8568\">Yaël Dillies</a> and <a href=\"https://github.com/erdOne\">Andrew Yang</a> with help from <a href=\"https://www.math.uni-bonn.de/people/rothgang/\">Michael Rothgang</a>. The webpage with precise information on lectures and participants can be found <a href=\"https://yaeldillies.github.io/mrb2026.html\">here</a>.</p> <p><a href=\"https://leanprover-community.github.io/blog/posts/mathlib-reviewer-bootcamp/\">Read more…</a> (3 min remaining to read)</p></div>",
+    "source_name": "Lean Community Blog",
+    "source_feed": "https://leanprover-community.github.io/blog/rss.xml",
     "matched_keywords": [
       "math",
-      "mathematics"
-    ]
-  },
-  {
-    "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
-    "link": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-    "published_date": "2026-04-15",
-    "summary": "",
-    "source_name": "Hugging Face Blog",
-    "source_feed": "https://huggingface.co/blog/feed.xml",
-    "matched_keywords": [
-      "reasoning"
+      "mathlib"
     ]
   }
 ]
