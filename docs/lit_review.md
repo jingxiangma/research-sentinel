@@ -75,10 +75,10 @@ Together, these two papers establish that the NMMP is not merely a formal propos
 
 ## 5. Perverse Schobers: Categorifying Perverse Sheaves
 
-A complementary framework for organizing derived equivalences under birational transformations is the theory of **perverse schobers** — conjectural categorifications of perverse sheaves in which the stalk vector spaces are replaced by triangulated categories. Where NMMP encodes wall-crossing data via stability conditions, schobers encode it as constructible diagrams of categories on a base (typically a disk or a Riemann surface) glued by spherical functors, providing a sheaf-theoretic language for the same monodromy/SOD phenomena.
+A complementary framework for organizing derived equivalences under birational transformations is the theory of **perverse schobers** — categorifications of perverse sheaves in which stalk vector spaces are replaced by triangulated categories, encoding SOD data via spherical functors on a base.
 
 ### 5.1 Foundations
-**Kapranov and Schechtman** ("Perverse Schobers", arXiv:1411.2772, November 2014) introduced perverse schobers as a categorical generalization of perverse sheaves. In the simplest case — a disk with one singular point — they propose that the data of a perverse schober is equivalent to the data of a **spherical functor** $F: \mathcal{C} \to \mathcal{D}$ between triangulated categories. The cone, twist, and cotwist of a spherical functor produce autoequivalences playing the role of monodromy around the singular point. This dictionary turns the formalism of perverse sheaves on Riemann surfaces (gluing data, Picard–Lefschetz, microlocalization) into a tool for organizing derived equivalences and SODs.
+**Kapranov and Schechtman** ("Perverse Schobers", arXiv:1411.2772, November 2014) introduced perverse schobers as a categorical generalization of perverse sheaves. In the simplest case — a disk with one singular point — the data of a perverse schober is equivalent to a **spherical functor** $F: \mathcal{C} \to \mathcal{D}$ between triangulated categories, whose twist and cotwist produce the autoequivalences that act as SOD monodromy around the singular point.
 
 ### 5.2 Birational Geometry and Flops
 **Bondal, Kapranov, and Schechtman** ("Perverse schobers and birational geometry", arXiv:1801.08286, January 2018) demonstrated that perverse schobers arise naturally in the **Homological Minimal Model Program (HMMP)**, which studies the effect of birational transformations such as flops on coherent derived categories.
@@ -87,21 +87,10 @@ A complementary framework for organizing derived equivalences under birational t
 
 This work establishes perverse schobers as the natural ambient structure for the derived equivalences predicted by the Bondal–Orlov reconstruction theorem (arXiv:math/9712029, December 1997) and the Kawamata DK-equivalence conjecture (arXiv:math/0205287, May 2002) under K-equivalent birational transformations — and so as a categorical companion to the A-side blowup formula of Section 2.2.
 
-A direct mirror-symmetric counterpart was constructed by **Donovan and Kuwagaki** ("Mirror symmetry for perverse schobers from birational geometry", arXiv:1903.11226, March 2019; CMP 2021): for flop diagrams in dimensions 2 and 3, they build mirror partners to the BKS schobers using **Fukaya categories with stops**, and prove HMS-style equivalences interpreting the schober as a sheaf of categories supported on a locus in the mirror moduli space. This bridges the §5 schober framework directly to the SYZ/HMS side of mirror symmetry.
+### 5.3 GKZ Systems and Quantum D-modules
+**Špenko and Van den Bergh** ("Perverse schobers and GKZ systems", arXiv:2007.04924, July 2020; Adv. Math. 2022) show that a suitable variation of perverse schober **categorifies the GKZ hypergeometric system** in the quasi-symmetric setting. Since GKZ systems control Givental I-functions / quantum periods for toric varieties, this schober categorification provides a B-side lift that directly bridges to the A-side quantum D-module of Section 2.
 
-### 5.3 Wall Crossing in GIT
-**Donovan** ("Perverse schobers and wall crossing", arXiv:1703.00592, March 2017; IMRN 2019) constructs explicit perverse schobers from **balanced wall crossings in Geometric Invariant Theory**, where derived equivalences exist between the two GIT quotients adjacent to a wall.
-* The schober is a perverse sheaf of categories on a disk with a singular point at the wall; its half-monodromies recover the wall-crossing equivalences, and the behavior at the singularity is controlled by the GIT stack of the wall.
-* Decategorification (passing to complexified Grothendieck groups) yields a perverse sheaf of vector spaces whose IC / local-system structure on the punctured disk is characterized concretely.
-
-The earlier work of **Halpern-Leistner and Sam** ("Combinatorial constructions of derived equivalences", arXiv:1601.02030, January 2016; JAMS 2020) is a precursor in spirit: for **quasi-symmetric representations** of reductive groups they construct algorithmic derived equivalences between GIT quotients, produce an explicit tilting bundle and combinatorial K-theory basis, and show the equivalences assemble into a representation of the fundamental groupoid of a **Kähler moduli space** — the same monodromy datum that the schober formalism organizes geometrically.
-
-### 5.4 GKZ Systems and Mirror Symmetry
-**Špenko and Van den Bergh** ("Perverse schobers and GKZ systems", arXiv:2007.04924, July 2020; Adv. Math. 2022) show that a suitable variation of perverse schober **categorifies the GKZ hypergeometric system** for non-resonant parameters in the quasi-symmetric setting.
-* They derive a general formula for the **monodromy** of quasi-symmetric GKZ systems and recover classical hypergeometric monodromy as a special case.
-* The schober categorification provides a B-side lift of GKZ data — and GKZ systems control Givental I-functions / quantum periods for toric varieties, so this directly bridges to the A-side quantum D-module of Section 2.
-
-Taken together, schobers form a third framework — alongside Hodge atoms (A-side, §3) and NMMP via stability conditions (§4) — for organizing the categorical decompositions induced by birational transformations. The three are not yet known to be equivalent, and reconciling them is the content of open problems 2 (A↔B dictionary) and 3 (schober↔NMMP dictionary) in §6.2 below.
+Taken together, schobers form a third framework — alongside Hodge atoms (A-side, §3) and NMMP via stability conditions (§4) — for organizing the categorical decompositions induced by birational transformations. Reconciling the three languages is the content of open problems 2 (A↔B dictionary) and 3 (schober↔NMMP dictionary) in §6.2 below.
 
 ## 6. Synthesis and Current Open Problems
 
@@ -113,7 +102,7 @@ The references in §§2–5 organize into three layers:
 |---|---|---|---|
 | **Foundations** | Dubrovin conjecture; Iritani's $\widehat{\Gamma}$-integral structure (0903.1463) | Bondal–Orlov / Kawamata DK-equivalence; Orlov blowup; Kuznetsov residual cats (0808.3351) | Coates–Corti–Iritani–Tseng / Coates–Iritani–Jiang CRC (0704.2034, 1410.0024) |
 | **Decomposition formalism** | Iritani quantum blowup formula (2307.13555); Hodge atoms (KKPY, 2508.05105) | Elagin–Schneider–Shinder derived atoms for $G$-surfaces (2512.05064) | Halpern-Leistner–Sam GIT equivalences (1601.02030) |
-| **Wall-crossing language** | — | Halpern-Leistner NMMP (2301.13168); Karube–Robotis–Zuliani (2601.20739); Wu–Zhang G-NMMP (2602.20335) | Kapranov–Schechtman schobers (1411.2772); Donovan (1703.00592); Bondal–Kapranov–Schechtman (1801.08286); Špenko–Van den Bergh GKZ (2007.04924) |
+| **Wall-crossing language** | — | Halpern-Leistner NMMP (2301.13168); Karube–Robotis–Zuliani (2601.20739); Wu–Zhang G-NMMP (2602.20335) | Kapranov–Schechtman schobers (1411.2772); Bondal–Kapranov–Schechtman (1801.08286); Špenko–Van den Bergh GKZ (2007.04924) |
 | **Equivariant extensions** | Cavenaghi–Katzarkov–Kontsevich Chen-Ruan atoms (2509.15831) | Elagin–Schneider–Shinder (2512.05064) | Wu–Zhang $\mathbb{T}$-stability (2602.20335); Kontsevich–Pestun–Tschinkel modular symbols (1902.09894) |
 
 The overarching philosophy is that the A-side (Hodge atoms via Quantum D-modules) and the B-side (Derived atoms via SODs) are two manifestations of the same underlying non-commutative motivic decomposition. The NMMP provides one bridge — a quasi-convergent path in $\text{Stab}(D^b(X))$ whose central charge lifts Iritani's, automatically producing B-side SODs. Perverse schobers provide a second, more local bridge: at each wall they encode the wall-crossing equivalence as monodromy of a spherical functor. The equivariant extensions (§§3.3 and 4.2) show the philosophy accommodates group actions.
@@ -156,7 +145,6 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 | Jan 2023 | Daniel Halpern-Leistner | The Noncommutative Minimal Model Program | [2301.13168](https://arxiv.org/abs/2301.13168) |
 | Oct 2020 | Daniel Halpern-Leistner | Derived $\Theta$-Stratifications and the $D$-Equivalence Conjecture | [2010.01127](https://arxiv.org/abs/2010.01127) |
 | Jul 2020 | Špela Špenko, Michel Van den Bergh | Perverse Schobers and GKZ Systems | [2007.04924](https://arxiv.org/abs/2007.04924) |
-| Mar 2019 | Will Donovan, Tatsuki Kuwagaki | Mirror Symmetry for Perverse Schobers from Birational Geometry | [1903.11226](https://arxiv.org/abs/1903.11226) |
 | Feb 2019 | Maxim Kontsevich, Vasily Pestun, Yuri Tschinkel | Equivariant Birational Geometry and Modular Symbols | [1902.09894](https://arxiv.org/abs/1902.09894) |
 | Jan 2018 | Alexey Bondal, Mikhail Kapranov, Vadim Schechtman | Perverse Schobers and Birational Geometry | [1801.08286](https://arxiv.org/abs/1801.08286) |
 | Mar 2017 | Arend Bayer, Martí Lahoz, Emanuele Macrì, Paolo Stellari | Stability Conditions on Kuznetsov Components | [1703.10839](https://arxiv.org/abs/1703.10839) |
