@@ -1,4 +1,8 @@
 
+## 2026-05-14
+
+Manual pipeline run with extended 14-day lookback (to backfill the failed 2026-05-08 automated run, which hit ArXiv HTTP 429 rate limits). 53 papers (27 Geometry & Physics, 26 AI for Mathematics) and 3 news items.
+
 ## 2026-05-06
 
 Manual literature review expansion centered on the Dubrovin / Gamma conjectures dictionary. Section 2.1 rewritten to (a) split Dubrovin's 1998 conjecture into qualitative and quantitative parts with explicit Stokes-matrix–Gram-matrix identification, (b) define $\widehat{\Gamma}^\pm_X$ via the Hirzebruch construction with the Todd-class square-root identity, (c) state Galkin–Golyshev–Iritani Gamma Conjectures I and II explicitly, and (d) describe the Cotti–Dubrovin–Guzzetti monograph (arXiv:2307.02985, LNM 2356, Springer 2024) reconciliation between Dubrovin's $\widehat{\Gamma}^-$ ansatz and GGI's $\widehat{\Gamma}^+$ form, plus the rigorous verification of the refined conjecture for $\mathbb{P}^{k-1}$ and all Grassmannians $G(r,k)$. Traced Gamma II's load-bearing role across the rest of the lit review: §3.1 now records the KKPY enhanced Hodge atoms with $\widehat{\Gamma}$-corrected integral structures; §4 (NMMP) explicitly notes Halpern-Leistner's "Proposal III is in a sense equivalent to Gamma II"; §4.1 (KRZ) and §4.2 (Wu–Zhang G-NMMP) flag Gamma II as a Setup hypothesis. Added GGI 1404.7521 and CDG 2307.02985 to §7 reference list and to §6.1 Conceptual Map (Foundations + Wall-crossing rows).
