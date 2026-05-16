@@ -14,3 +14,8 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local tooling and runtime artifacts
+.claude/
+AGENTS.md
+logs/
