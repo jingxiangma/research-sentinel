@@ -8,6 +8,7 @@ results to data/latest_papers.json.
 import json
 import logging
 import os
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -139,6 +140,23 @@ def _run_search(
     return results
 
 
+def _run_search_with_retry(*args, max_attempts: int = 4, **kwargs) -> list[dict]:
+    """Wrap _run_search with exponential backoff on HTTP 429 responses."""
+    for attempt in range(max_attempts):
+        try:
+            return _run_search(*args, **kwargs)
+        except Exception as exc:
+            if "429" not in str(exc) or attempt == max_attempts - 1:
+                raise
+            wait = 60 * (2 ** attempt)
+            log.warning(
+                f"ArXiv returned HTTP 429 (attempt {attempt + 1}/{max_attempts}); "
+                f"sleeping {wait}s before retry..."
+            )
+            time.sleep(wait)
+    return []  # unreachable
+
+
 def fetch_papers(topic: dict, cutoff: datetime) -> list[dict]:
     """
     Fetch papers for a single topic config block and return filtered results.
@@ -166,13 +184,13 @@ def fetch_papers(topic: dict, cutoff: datetime) -> list[dict]:
     seen_urls: set[str] = set()
 
     log.info(f"[{name}] Search 1/2 — new papers (sorted by submission date)")
-    results = _run_search(
+    results = _run_search_with_retry(
         client, query, arxiv.SortCriterion.SubmittedDate,
         cutoff, keywords, title_only_keywords, "submitted", seen_urls, name,
     )
 
     log.info(f"[{name}] Search 2/2 — revised papers (sorted by last-updated date)")
-    results += _run_search(
+    results += _run_search_with_retry(
         client, query, arxiv.SortCriterion.LastUpdatedDate,
         cutoff, keywords, title_only_keywords, "updated", seen_urls, name,
         max_results=2000,

@@ -1,4 +1,8 @@
 
+## 2026-05-16
+
+Manual pipeline run to recover from the failed 2026-05-15 automated run (ArXiv HTTP 429 rate limit exhausted all retries). Added exponential backoff to `src/arxiv_client.py`: on 429, waits 60s → 120s → 240s before retrying, up to 4 attempts. 35 papers (8 Geometry & Physics, 27 AI for Mathematics) and 3 news items.
+
 ## 2026-05-14
 
 Manual pipeline run with extended 14-day lookback (to backfill the failed 2026-05-08 automated run, which hit ArXiv HTTP 429 rate limits). 53 papers (27 Geometry & Physics, 26 AI for Mathematics) and 3 news items.
