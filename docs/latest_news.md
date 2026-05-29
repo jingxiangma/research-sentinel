@@ -1,6 +1,22 @@
 # Latest Research News
 
-_Generated on 2026-05-22 — 4 item(s) collected._
+_Generated on 2026-05-29 — 4 item(s) collected._
+
+---
+
+## [blog.wolfram.com](https://blog.wolfram.com)
+
+### [Theory Meets Practice: 8 Books to Start Your Career in Astrophysics, Geography, Civil Engineering and More](https://blog.wolfram.com/2026/05/28/theory-meets-practice-8-books-to-start-your-career-in-astrophysics-geography-civil-engineering-and-more/)
+
+**Date:** 2026-05-28
+
+In or out of school, the opportunities to learn and grow in your career are endless, and Wolfram is proud to bolster those with educational resources, from courses to textbooks. We are happy to share conversations with two authors whose books cover applications of Wolfram technology in astrophysics and geography, as well as highlight a [&#8230;]
+
+### [LLMs, Symbolic Computation and the Future of Mathematical Discovery](https://blog.wolfram.com/2026/05/18/llms-symbolic-computation-and-the-future-of-mathematical-discovery/)
+
+**Date:** 2026-05-18
+
+“The cat’s out of the bag,” said the mathematician Andrew Granville, reflecting on the rapid improvement of AI systems. His phrase captures the mood of the moment: by 2025-26, large language models (LLMs) had become powerful enough to move from impressive demonstrations to serious mathematical and scientific use. AI systems reached gold-medal level at the [&#8230;]
 
 ---
 
@@ -12,12 +28,6 @@ _Generated on 2026-05-22 — 4 item(s) collected._
 
 An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
 
-### [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us)
-
-**Date:** 2026-05-12
-
-Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.
-
 ---
 
 ## [www.microsoft.com](https://www.microsoft.com)
@@ -27,11 +37,5 @@ Parameter Golf brought together 1,000+ participants and 2,000+ submissions to ex
 **Date:** 2026-05-21
 
 <p>Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. </p> <p>The post <a href="https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/">Vega: Zero-knowledge proofs for digital identity in the age of AI</a> appeared first on <a href="https://www.microsoft.c…
-
-### [SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests](https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/)
-
-**Date:** 2026-05-11
-
-<p>Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest.</p> <p>The post <a href="https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/">SocialReasoning-Bench: Measur…
 
 ---
