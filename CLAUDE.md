@@ -8,13 +8,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Automation
 
-The pipeline runs **fully locally** on Windows Task Scheduler (task name: `ResearchSentinel_WeeklyUpdate`), every Friday at 9:00pm. If the computer is off at that time, it runs on next boot (`StartWhenAvailable`). The GitHub Actions workflow is not in use.
+> **Disabled as of 2026-05-31.** The scheduled task `ResearchSentinel_WeeklyUpdate` has been disabled because this PC is no longer in active use. Run the pipeline manually as needed (see below), or re-enable/recreate the task on another machine.
 
-The scheduled task executes `run_pipeline.bat`, which runs the three pipeline scripts in order and commits/pushes the results. Logs are written to `logs/pipeline.log`.
+~~The pipeline runs **fully locally** on Windows Task Scheduler (task name: `ResearchSentinel_WeeklyUpdate`), every Friday at 9:00pm. If the computer is off at that time, it runs on next boot (`StartWhenAvailable`). The GitHub Actions workflow is not in use.~~
 
-To manage the task:
+~~The scheduled task executes `run_pipeline.bat`, which runs the three pipeline scripts in order and commits/pushes the results. Logs are written to `logs/pipeline.log`.~~
+
+To re-enable on a new machine, create a scheduled task pointing to `run_pipeline.bat`:
+- **Re-enable (if task still exists):** `powershell -Command "Enable-ScheduledTask -TaskName 'ResearchSentinel_WeeklyUpdate'"`
 - **Run manually:** `powershell -Command "Start-ScheduledTask -TaskName 'ResearchSentinel_WeeklyUpdate'"`
-- **Disable:** Task Scheduler → find `ResearchSentinel_WeeklyUpdate` → right-click → Disable
 
 ## Manual Pipeline
 
