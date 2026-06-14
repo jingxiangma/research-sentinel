@@ -180,5 +180,14 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 - **Orlov** (1992) — Projective bundles, monoidal transformations, and derived categories of coherent sheaves. *Izv. Ross. Akad. Nauk Ser. Mat.* 56(4). *(Blow-up formula for derived categories.)*
 
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
-The papers most relevant to Hodge atoms, K-equivalence, derived categories, and quantum D-modules are [Spin Ruijsenaars-Schneider models are Coulomb branches](http://arxiv.org/abs/2603.03048v1) by Gleb Arutyunov and Lukas Hardi, which studies the connection between Coulomb branches and Poisson structures, and [Special Lagrangian smoothings, Calabi ansatz and stability conditions](http://arxiv.org/abs/2603.02749v1) by Jacopo Stoppa, which discusses stability conditions in the context of Calabi ansatz and derived categories.
+**Auto-flagged high-priority matches (keyword-pinned):**
+
+- [Resonance and Differential Reduction of Feynman Integrals](http://arxiv.org/abs/2606.09978v1) — Ruth Britto, Thomas W. Grimm, Arno Hoefnagels. Matched: `GKZ system`.
+- [Linearization of finite subgroups of Cremona groups over non-closed fields](http://arxiv.org/abs/2508.08000v2) — Boris Kunyavskii. Matched: `birational invariant`.
+
+Several papers address topics related to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse sheaf cohomology, and rationality problems. "A Kernel-Clean Lean Mechanization of Classical Lottery in Action and the Wakker--Debreu--Koopmans Representation Layer" <https://arxiv.org/abs/2606.08902v1> by Jingyuan Li et al., addresses aspects of derived categories and their connection to classical lottery theory, while "Descent Before Hardness: Orbit-Gap Obstructions in Exact Certification" <https://arxiv.org/abs/2604.07349v10> by Tristan Simas discusses a result relevant to rationality problems. The other papers appear less directly related to these topics.
 <!-- END:ARXIV_HIGHLIGHTS -->
+
+## 5. AI and Formal Methods in Mathematics
+- Iteris: Agentic Research Loops for Computational Mathematics (https://frenzymath.com/news/iteris/)
+- [Lean 4 Documentation](https://leanprover.github.io/)
