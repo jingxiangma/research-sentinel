@@ -1,14 +1,24 @@
 [
   {
-    "title": "Iteris: Agentic Research Loops for Computational Mathematics",
-    "link": "https://frenzymath.com/news/iteris/",
-    "published_date": "2026-06-02",
-    "summary": "An agentic research system for computational mathematics, combining numerical exploration, proof construction, adversarial search, and human verification.",
-    "source_name": "FrenzyMath (AI4M Team, BICMR@PKU)",
-    "source_feed": "https://frenzymath.com/rss.xml",
+    "title": "Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality",
+    "link": "https://blog.wolfram.com/2026/06/16/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica-2/",
+    "published_date": "2026-06-16",
+    "summary": "June 23, 1988 is when we launched Version 1.0 of Mathematica. Today—almost 38 years later—we’re launching Version 15 of what—in recognition of how far it’s expanded beyond “math”—we now call Wolfram Language. It’s an impressive release, with a lot of new core functionality. It might perhaps seem surprising that after 38 years there’d still be [&#8230;]",
+    "source_name": "Wolfram Blog",
+    "source_feed": "https://blog.wolfram.com/feed/",
     "matched_keywords": [
-      "math",
-      "mathematics"
+      "math"
+    ]
+  },
+  {
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "published_date": "2026-06-18",
+    "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+    "source_name": "OpenAI Blog",
+    "source_feed": "https://openai.com/blog/rss.xml",
+    "matched_keywords": [
+      "ai reasoning"
     ]
   }
 ]

@@ -180,14 +180,16 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 - **Orlov** (1992) — Projective bundles, monoidal transformations, and derived categories of coherent sheaves. *Izv. Ross. Akad. Nauk Ser. Mat.* 56(4). *(Blow-up formula for derived categories.)*
 
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
-**Auto-flagged high-priority matches (keyword-pinned):**
-
-- [Resonance and Differential Reduction of Feynman Integrals](http://arxiv.org/abs/2606.09978v1) — Ruth Britto, Thomas W. Grimm, Arno Hoefnagels. Matched: `GKZ system`.
-- [Linearization of finite subgroups of Cremona groups over non-closed fields](http://arxiv.org/abs/2508.08000v2) — Boris Kunyavskii. Matched: `birational invariant`.
-
-Several papers address topics related to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse sheaf cohomology, and rationality problems. "A Kernel-Clean Lean Mechanization of Classical Lottery in Action and the Wakker--Debreu--Koopmans Representation Layer" <https://arxiv.org/abs/2606.08902v1> by Jingyuan Li et al., addresses aspects of derived categories and their connection to classical lottery theory, while "Descent Before Hardness: Orbit-Gap Obstructions in Exact Certification" <https://arxiv.org/abs/2604.07349v10> by Tristan Simas discusses a result relevant to rationality problems. The other papers appear less directly related to these topics.
+Several papers deal with mathematical structures that may be relevant to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse schobers, or rationality problems. For instance, a paper on "Revisiting average case complexity of multilevel syllogistic: From the 1995 Courant Technical Report to Lean 4 Formalization" by Lars Warren Ericson (<https://arxiv.org/abs/2606.16134v1>) may touch upon aspects related to derived categories, while a study on "Computational Safety for Generative AI: A Hypothesis Testing Perspective" by Pin-Yu Chen (<http://arxiv.org/abs/2502.12445v2>) might be tangentially relevant to the noncommutative minimal model program due to its focus on mathematical frameworks for assessing safety in computational models, potentially with implications for understanding and analyzing similar abstract algebraic structures.
 <!-- END:ARXIV_HIGHLIGHTS -->
 
 ## 5. AI and Formal Methods in Mathematics
-- Iteris: Agentic Research Loops for Computational Mathematics (https://frenzymath.com/news/iteris/)
-- [Lean 4 Documentation](https://leanprover.github.io/)
+### Wolfram Language & Mathematica Version 15
+
+Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality
+https://blog.wolfram.com/2026/06/16/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica-2/
+
+### OpenAI Reasoning Model
+
+Using AI to help physicians diagnose rare genetic diseases affecting children
+https://openai.com/index/diagnose-rare-childhood-diseases

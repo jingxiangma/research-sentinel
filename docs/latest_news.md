@@ -1,15 +1,25 @@
 # Latest Research News
 
-_Generated on 2026-06-15 — 1 item(s) collected._
+_Generated on 2026-06-19 — 2 item(s) collected._
 
 ---
 
-## [frenzymath.com](https://frenzymath.com)
+## [blog.wolfram.com](https://blog.wolfram.com)
 
-### [Iteris: Agentic Research Loops for Computational Mathematics](https://frenzymath.com/news/iteris/)
+### [Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality](https://blog.wolfram.com/2026/06/16/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica-2/)
 
-**Date:** 2026-06-02
+**Date:** 2026-06-16
 
-An agentic research system for computational mathematics, combining numerical exploration, proof construction, adversarial search, and human verification.
+June 23, 1988 is when we launched Version 1.0 of Mathematica. Today—almost 38 years later—we’re launching Version 15 of what—in recognition of how far it’s expanded beyond “math”—we now call Wolfram Language. It’s an impressive release, with a lot of new core functionality. It might perhaps seem surprising that after 38 years there’d still be [&#8230;]
+
+---
+
+## [openai.com](https://openai.com)
+
+### [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases)
+
+**Date:** 2026-06-18
+
+Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.
 
 ---
