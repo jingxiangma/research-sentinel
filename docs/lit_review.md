@@ -180,16 +180,19 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 - **Orlov** (1992) — Projective bundles, monoidal transformations, and derived categories of coherent sheaves. *Izv. Ross. Akad. Nauk Ser. Mat.* 56(4). *(Blow-up formula for derived categories.)*
 
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
-Several papers deal with mathematical structures that may be relevant to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse schobers, or rationality problems. For instance, a paper on "Revisiting average case complexity of multilevel syllogistic: From the 1995 Courant Technical Report to Lean 4 Formalization" by Lars Warren Ericson (<https://arxiv.org/abs/2606.16134v1>) may touch upon aspects related to derived categories, while a study on "Computational Safety for Generative AI: A Hypothesis Testing Perspective" by Pin-Yu Chen (<http://arxiv.org/abs/2502.12445v2>) might be tangentially relevant to the noncommutative minimal model program due to its focus on mathematical frameworks for assessing safety in computational models, potentially with implications for understanding and analyzing similar abstract algebraic structures.
+**Auto-flagged high-priority matches (keyword-pinned):**
+
+- [Birational Algebraic Topology](http://arxiv.org/abs/2606.22887v1) — Dipankar Maity. Matched: `birational invariant`.
+- [Stably semiorthogonally indecomposable varieties](http://arxiv.org/abs/2011.12743v4) — Dmitrii Pirozhkov. Matched: `semiorthogonal decomposition`.
+- [Rationality problem for norm one tori of tensor products of étale algebras and Hasse norm principle](http://arxiv.org/abs/2605.17427v3) — Mathieu Florence, Akinari Hoshi, Aiichi Yamasaki. Matched: `rationality problem`.
+
+No papers on these topics were found to be directly relevant. However, some papers may touch on related areas such as algebraic geometry or representation theory. The closest connection was made by the paper "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation" which mentions a theorem proving framework that could potentially apply to other mathematical structures.
+
+* Diffusion-Proof: A recipe for formal theorem proving beyond auto-regressive generation (<https://arxiv.org/abs/2606.19315v1>)
+* VERITAS: Verifier-guided proof search for zero-shot formal theorem proving (<https://arxiv.org/abs/2606.19399v1>)
 <!-- END:ARXIV_HIGHLIGHTS -->
 
 ## 5. AI and Formal Methods in Mathematics
-### Wolfram Language & Mathematica Version 15
 
-Launching Version 15 of Wolfram Language & Mathematica: Built-in (Useful) AI & Lots of New Core Functionality
-https://blog.wolfram.com/2026/06/16/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica-2/
-
-### OpenAI Reasoning Model
-
-Using AI to help physicians diagnose rare genetic diseases affecting children
-https://openai.com/index/diagnose-rare-childhood-diseases
+* Wolfram Language & Mathematica Version 15 includes built-in AI capabilities, such as automatic theorem proving and formal methods for mathematics: https://blog.wolfram.com/2026/06/16/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica-2/
+* OpenAI's reasoning model is being used to help diagnose rare genetic diseases in children, applying AI to medical diagnosis: https://openai.com/index/diagnose-rare-childhood-diseases

@@ -62,3 +62,7 @@ Literature review updated with 24 new paper(s) and 1 news item(s) via Ollama (ll
 ## 2026-06-19
 
 Literature review updated with 37 new paper(s) and 2 news item(s) via Ollama (llama3.2).
+
+## 2026-06-23
+
+Literature review updated with 38 new paper(s) and 2 news item(s) via Ollama (llama3.2).
