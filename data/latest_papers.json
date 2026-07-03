@@ -1,1 +1,674 @@
-[]
+[
+  {
+    "title": "Bridgeland-Enriques general K3 surfaces",
+    "authors": [
+      "Ziqi Liu"
+    ],
+    "published_date": "2026-07-02",
+    "updated_date": "2026-07-02",
+    "summary": "This article introduces a notion of Bridgeland-Enriques general K3 surfaces motivated by the study of Enriques categories over K3 surfaces and the invariant Bridgeland stability conditions. The family of Bridgeland-Enriques general K3 surfaces of degree 10 detects a categorical degeneration of special Gushel-Mukai threefolds. Also, the families of Bridgeland-Enriques general K3 surfaces with higher degrees are closely related to Hodge-special Gushel-Mukai fourfolds and double EPW sextics.",
+    "arxiv_url": "http://arxiv.org/abs/2607.02281v1",
+    "matched_keywords": [
+      "Stability Condition",
+      "Bridgeland stability"
+    ]
+  },
+  {
+    "title": "$χ$-independence for K3-surfaces via $p$-adic integration",
+    "authors": [
+      "Michael Groechenig",
+      "Dimitri Wyss",
+      "Paul Ziegler"
+    ],
+    "published_date": "2026-07-01",
+    "updated_date": "2026-07-01",
+    "summary": "This article provides a proof of a previously unknown case of Toda's $χ$-independence conjecture by reduction to non-archimedean local fields. Our strategy is based on a novel comparison of Frobenius-traces for BPS sheaves on moduli spaces of objects in 2-Calabi-Yau categories and the integral of the complex-exponentiated Hasse invariant of the obstruction gerbe. This result applies to many cases of interest, including Nakajima quiver varieties, moduli of Higgs bundles and moduli of sheaves on K3 surfaces. Along the way, we describe the local structure of these moduli stacks and spaces over a base of large mixed characteristic.",
+    "arxiv_url": "http://arxiv.org/abs/2607.01513v1",
+    "matched_keywords": [
+      "Moduli of sheaves"
+    ]
+  },
+  {
+    "title": "Fukaya categories of Coulomb branches as unique deformations",
+    "authors": [
+      "Jasper van de Kreeke"
+    ],
+    "published_date": "2026-06-30",
+    "updated_date": "2026-06-30",
+    "summary": "The symplectic geometry of Coulomb branches is complicated and it is particularly difficult to determine their Fukaya categories. Relative Fukaya categories present an approach to circumvent these difficulties by first computing the Fukaya category of the complement of a divisor and then solving a deformation problem. In this paper, we apply this approach to the specific case of horizontal Hilbert schemes by removing their matter divisor and narrowing down the set of possible deformations through an additional $ \\mathbb{Z}^2 $-grading. We utilize an existing description of the Fukaya category after removal of the matter divisor, in particular we use a specific generating Lagrangian and the identification between its endomorphism algebra and the NilHecke algebra. The core of this paper consists of solving the deformation problem, after which we recover the result of Aganagic et al.",
+    "arxiv_url": "http://arxiv.org/abs/2607.00146v1",
+    "matched_keywords": [
+      "Fukaya categories",
+      "Coulomb branches"
+    ]
+  },
+  {
+    "title": "Half-BPS Boundaries and the RG-Wall of $\\mathcal{N}=2$ $SU(N)$ SYM",
+    "authors": [
+      "Riccardo Comi",
+      "Simone Rota"
+    ],
+    "published_date": "2026-06-29",
+    "updated_date": "2026-06-29",
+    "summary": "We identify the 3d theory that realizes the RG-wall interface of 4d $\\mathcal{N}=2$ $SU(N)$ Super-Yang-Mills, interpolating between the UV Lagrangian and the IR Seiberg-Witten effective description. The same theory also describes the low-energy boundary condition that corresponds to giving half-BPS Dirichlet boundary condition in the Lagrangian description of 4d $\\mathcal{N}=2$ $SU(N)$ SYM. The theory is a 3d $\\mathcal{N}=2$ SCFT that can be obtained as a massive deformation of the $T[SU(N)]$ theory, which is the S-duality interface of 4d $\\mathcal{N}=4$ $SU(N)$ SYM. As the main validating tests, we match half-indices and discuss non-trivial consistency conditions when colliding such interfaces.",
+    "arxiv_url": "http://arxiv.org/abs/2606.30731v1",
+    "matched_keywords": [
+      "Seiberg-Witten"
+    ]
+  },
+  {
+    "title": "Virtual cycles of 3-term complexes and the Hilbert schemes of surfaces",
+    "authors": [
+      "Emilio Dominguez",
+      "Amin Gholampour"
+    ],
+    "published_date": "2026-06-28",
+    "updated_date": "2026-06-28",
+    "summary": "Given a 3-term perfect complex E over a quasi-projective variety X and a nonnegative integer r, we define two virtual cycles and their refinements supported over the r-th degeneracy loci of E. This is done by modifying the complex E after pulling it back to certain blow ups of X. We establish several Thom-Porteous, comparison, duality and wall-crossing formulas for these virtual cycles. We apply this construction to perfect complexes arising from the universal objects over the Picard variety and the Hilbert schemes of non-singular complex projective surfaces. We recover, reprove and strengthen some of the known results involving the reduced cycles and the virtual cycles of the Hilbert schemes related to the curve counting theory and Vafa-Witten theory, respectively. In the case of elliptic surfaces, we provide an explicit calculation generalizing that of Seiberg-Witten invariants.",
+    "arxiv_url": "http://arxiv.org/abs/2606.29542v1",
+    "matched_keywords": [
+      "Seiberg-Witten"
+    ]
+  },
+  {
+    "title": "Generalizing the interacting dilatonic ghost condensate as a dark energy model",
+    "authors": [
+      "Manuel Gonzalez-Espinoza",
+      "Ramon Herrera",
+      "Johan Casimiro"
+    ],
+    "published_date": "2026-06-26",
+    "updated_date": "2026-06-26",
+    "summary": "In this article, we study the cosmic evolution of a generalized dilatonic ghost condensate field as a dark energy candidate, formulated from a Lagrangian density with two dominant kinetic terms; one linear and one of arbitrary integer $n>2$ in combination with an exponential potential, which interacts with dark matter through a source term. We analyzed three scenarios: the non-interacting situation $Q=0$ and two different interaction models, $Q\\proptoρ_m\\dotφ$ and $Q\\propto ρ_m H$ to describe the evolution of the present universe. For each interaction $Q$, we perform a detailed phase-space analysis to obtain stability conditions and identify critical points. In all situations, the system reproduces the standard cosmological dynamics and evolves toward late-time dark energy-dominated attractors, with quintessence or phantom features depending on the sign of the coupling parameter $α$ associated with the standard kinetic term. Furthermore, a joint likelihood analysis with Cosmic Chronometers, PantheonPlus, and DESI observations is performed for two values of power $n$ ($n=3$ and $n=5$) to determine marginalized parameter constraints at the confidence levels of 68$\\%$ and 95$\\%$ for the different $Q-$models. For the interaction term $Q\\propto \\dotφρ_m$, we find that the direction of the flow of energy depends on the sign of the coupling parameter $α$ associated with the standard kinetic term. However, for the interaction $Q\\propto H\\,ρ_m$, the direction of the energy flow is independent of the sign of the coupling parameter $α$ and always remains negative, corresponding to an energy transfer from dark matter to dark energy.",
+    "arxiv_url": "http://arxiv.org/abs/2606.28288v1",
+    "matched_keywords": [
+      "Stability Condition"
+    ]
+  },
+  {
+    "title": "The refined local Donaldson-Thomas theory of curves",
+    "authors": [
+      "Sergej Monavari"
+    ],
+    "published_date": "2025-06-17",
+    "updated_date": "2026-07-02",
+    "summary": "We solve the K-theoretically refined Donaldson-Thomas theory of local curves in arbitrary genus and degree. Our results avoid degeneration techniques, but rather exploit direct localisation methods to reduce the refined Donaldson-Thomas partition function to the equivariant intersection theory of skew nested Hilbert schemes on smooth projective curves. In the refined limit, our results establish a formula for the refined topological string partition function of local curves conjecturally proposed by Aganagic-Schaeffer. In the second part, we show that analogous structural results hold for the refined Pandharipande-Thomas theory of local curves. As an application, we deduce the K-theoretic DT/PT correspondence for local curves in arbitrary genus, as conjectured by Nekrasov-Okounkov. Thanks to the recent machinery developed by Pardon, we expect our explicit results on local curves to play a key role towards the proof of the refined GW/PT conjectural correspondence of Brini-Schuler for all smooth Calabi-Yau threefolds.",
+    "arxiv_url": "http://arxiv.org/abs/2506.14359v3",
+    "matched_keywords": [
+      "Donaldson-Thomas theory",
+      "Calabi-Yau threefolds"
+    ]
+  },
+  {
+    "title": "Virtual invariants from the non-associative Hilbert scheme",
+    "authors": [
+      "Gergely Bérczi",
+      "Felix Minddal"
+    ],
+    "published_date": "2025-12-12",
+    "updated_date": "2026-06-30",
+    "summary": "We introduce a non-associative model for the Hilbert scheme of points in arbitrary dimension. We define a smooth ambient space, which we call the non-associative Hilbert scheme, containing the classical nested Hilbert scheme $\\mathrm{NHilb}^{\\underline{d}}(\\mathbb{A}^n)$ as the associativity, cut out by an explicit section of an associativity bundle. This construction yields canonical perfect obstruction theories and virtual fundamental classes on $\\mathrm{NHilb}^{\\underline{d}}(\\mathbb{A}^n)$ for all $(n,\\underline d)$. Using virtual localization, we obtain closed formulas for these virtual classes as sums over admissible nested partitions. Over the punctual locus, we rewrite these as a single multivariable iterated residue formula governing all virtual integrals. Our construction works for all $n$, produces positive-dimensional virtual classes when $n$ is large compared to the number of points, and we expect that they extend the non-commutative matrix model and virtual class construction on Calabi-Yau threefolds.",
+    "arxiv_url": "http://arxiv.org/abs/2512.11538v3",
+    "matched_keywords": [
+      "Calabi-Yau threefolds"
+    ]
+  },
+  {
+    "title": "Extendability of projective varieties via degeneration to ribbons with applications to Calabi-Yau threefolds",
+    "authors": [
+      "Purnaprajna Bangere",
+      "Jayan Mukherjee"
+    ],
+    "published_date": "2024-09-06",
+    "updated_date": "2026-06-29",
+    "summary": "In this article we study the extendability of a smooth projective variety by degenerating it to a ribbon. We apply the techniques to study extendability of Calabi-Yau threefolds $X_t$ that are general deformations of Calabi-Yau double covers of Fano threefolds of Picard rank $1$. The Calabi-Yau threefolds $X_t \\hookrightarrow \\mathbb{P}^{N_l}$, embedded by the complete linear series $|lA_t|$, where $A_t$ is the generator of Pic$(X_t)$, $l \\geq j$ and $j$ is the index of $Y$, are general elements of a unique irreducible component $\\mathscr{H}_l^Y$ of the Hilbert scheme which contains embedded Calabi-Yau ribbons on $Y$ as a special locus. For $l = j$, using the classification of Mukai varieties, we show that the general Calabi-Yau threefold parameterized by $\\mathscr{H}_j^Y$ is as many times smoothly extendable as $Y$ itself. On the other hand, we find for each deformation type $Y$, an effective integer $l_Y$ such that for $l \\geq l_Y$, the general Calabi-Yau threefold parameterized by $\\mathscr{H}_l^Y$ is not extendable. These results provide a contrast and a parallel with the lower dimensional analogues; namely, $K3$ surfaces and canonical curves, which stems from the following result we prove: for $l \\geq l_Y$, the general hyperplane sections of elements of $\\mathscr{H}_l^Y$ fill out an entire irreducible component $\\mathscr{S}_l^Y$ of the Hilbert scheme of canonical surfaces which are precisely $1-$ extendable with $\\mathscr{H}^Y_l$ being the unique component dominating $\\mathscr{S}_l^Y$. The contrast lies in the fact that for polarized $K3$ surfaces of large degree, the canonical curve sections do not fill out an entire component while the parallel is in the fact that the canonical curve sections are exactly one-extendable.",
+    "arxiv_url": "http://arxiv.org/abs/2409.03960v3",
+    "matched_keywords": [
+      "Calabi-Yau threefolds"
+    ]
+  },
+  {
+    "title": "Derived category of moduli of pointed curves -- II",
+    "authors": [
+      "Ana-Maria Castravet",
+      "Jenia Tevelev"
+    ],
+    "published_date": "2020-02-07",
+    "updated_date": "2026-06-27",
+    "summary": "We show that the moduli space of stable rational curves with $n$ marked points has a full exceptional collection equivariant under the action of the symmetric group $S_n$ permuting the marked points. In particular, its K-group with integer coefficients is a permutation $S_n$-lattice.",
+    "arxiv_url": "http://arxiv.org/abs/2002.02889v5",
+    "matched_keywords": [
+      "exceptional collection"
+    ]
+  },
+  {
+    "title": "Curvature inequalities and rigidity for constant mean curvature and spacetime constant mean curvature surfaces",
+    "authors": [
+      "Alejandro Peñuela Diaz"
+    ],
+    "published_date": "2026-03-17",
+    "updated_date": "2026-06-27",
+    "summary": "We establish curvature inequalities and rigidity results for surfaces satisfying constant mean curvature type conditions in both Riemannian and Lorentzian geometry. In the Riemannian setting, we study constant mean curvature (CMC) surfaces. Building on the Christodoulou-Yau inequality $H^2\\leq 16π/ |Σ|$ (with $H$ the mean curvature and $|Σ|$ the area) for CMC surfaces on three-dimensional manifolds with nonnegative scalar curvature, we show that the inequality holds under a weaker stability condition controlling only the constant mode of the second variation. Combined with an extrinsic curvature sign condition, equality forces the region enclosed by the surface to be Euclidean. These results extend to higher dimensions and to the hyperbolic and spherical settings.   In the Lorentzian setting, we introduce a stability theory for spacetime constant mean curvature (STCMC) surfaces and prove the sharp inequality $|\\vec{H}|^2\\leq 16π/ |Σ|$ under the dominant energy condition. We also obtain rigidity for the equality case: under suitable geometric assumptions, the maximal globally hyperbolic development of the enclosed spacelike region is isometric to a causal diamond in Minkowski spacetime. In particular, this implies positivity and rigidity for the Hawking quasi-local energy in the general spacetime setting when evaluated on stable STCMC surfaces. Finally, we analyze the known STCMC foliations in the spacelike and null settings. We show that asymptotic leaves are stable under positive mass conditions, whereas the local matter density and shear govern the instability of local foliations.",
+    "arxiv_url": "http://arxiv.org/abs/2603.16707v3",
+    "matched_keywords": [
+      "Stability Condition"
+    ]
+  },
+  {
+    "title": "Reformalization of the Jordan Curve Theorem",
+    "authors": [
+      "Simon Guilloud",
+      "Sankalp Gambhir",
+      "Samuel Chassot"
+    ],
+    "published_date": "2026-07-02",
+    "updated_date": "2026-07-02",
+    "summary": "We present a case study in reformalization, a variant of autoformalization in which the input proof is not natural language but a formal development in a different proof assistant. Concretely, we report three reformalizations of the Jordan Curve Theorem: from Mizar to Lean, from HOL Light to Lean, and from HOL Light to Agda. We analyse the results and identify pipeline design choices that matter for practical reformalization tasks.",
+    "arxiv_url": "http://arxiv.org/abs/2607.01734v1",
+    "matched_keywords": [
+      "proof assistant",
+      "autoformalization",
+      "formalization"
+    ]
+  },
+  {
+    "title": "ADVENT: LLM-Driven Automatic Predicate Invention for ILP",
+    "authors": [
+      "Tingting Yu",
+      "Pei-Cing Huang",
+      "Chan Hsu",
+      "Chan-Tung Ku",
+      "Yihuang Kang"
+    ],
+    "published_date": "2026-07-02",
+    "updated_date": "2026-07-02",
+    "summary": "Predicate invention (PI), the creation of new predicates to extend the hypothesis space, remains a critical bottleneck in Inductive Logic Programming (ILP). Existing methods rely on domain expertise and produce semantically opaque predicates, hindering adaptation to unfamiliar domains and cross-task reuse. We present ADVENT, an LLM-driven PI mechanism for ILP. ADVENT pairs LLM abductive generation with Prolog deductive verification, forming an iterative loop in which concrete execution results guide the LLM to refine candidate predicates. The mechanism leverages Large Language Models to identify implicit patterns in structured relational data and invent auxiliary predicates with meaningful names and definitions. Invented predicates and learned rules accumulate in a knowledge pool for cross-task reuse. Experiments on nine poker-hand concepts across seven LLMs show that LLM-driven PI achieves 58% success rate where ILP alone fails entirely, formal verification raises this to 80%, and the knowledge pool yields gains up to +31 percentage points, while producing human-interpretable rules. These results suggest that ADVENT offers a promising direction for automating predicate invention and enabling cross-task knowledge reuse in ILP.",
+    "arxiv_url": "http://arxiv.org/abs/2607.01585v1",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+    "authors": [
+      "Emerson Murphy-Hill",
+      "Jenna Butler",
+      "Alexandra Savelieva"
+    ],
+    "published_date": "2026-07-01",
+    "updated_date": "2026-07-01",
+    "summary": "Organizations rolling out agentic command line tools like Anthropic's Claude Code and GitHub's Copilot CLI need to know who will try them, who will keep using them, and whether the tools produce enough output to justify their cost. At organizational scale, token spend can run into millions of dollars annually, so misreading adoption, retention, or impact can make a rollout expensive without changing engineering velocity. Studying tens of thousands of engineers at Microsoft over its early-2026 rollout, we find that first use spread primarily through social networks, retention was associated more with engineers' coding activity than with demographics, and adopters merged roughly 24% more pull requests than they would have otherwise. We use merged pull requests as our proxy for output -- acknowledging that a merged PR is not the same as the value it delivers -- and the lift persists across our four-month window. These results suggest that CLI coding agents are neither uniformly adopted nor mere novelty effects and that organizations should treat visible peer use as central to rollout strategy.",
+    "arxiv_url": "http://arxiv.org/abs/2607.01418v1",
+    "matched_keywords": [
+      "Claude"
+    ]
+  },
+  {
+    "title": "Theoria: Rewrite-Acceptability Verification over Informal Reasoning States",
+    "authors": [
+      "Michael Saldivar",
+      "Ben Slivinski"
+    ],
+    "published_date": "2026-07-01",
+    "updated_date": "2026-07-02",
+    "summary": "When should an AI system's answer be trusted? Formal proof assistants offer certainty but cannot reach most of the problem distribution; scalar LLM judges offer coverage but produce opaque scores that cannot be audited after the fact and are subject to the same coherence issues as any LLM. We present Theoria, a verification architecture that closes this gap. A candidate solution is rewritten into a sequence of typed state transitions, each licensed by an explicit justification, whether that be a citation, computation, or problem-given fact, and every transition is independently auditable. The foundational invariant is completeness of change: every difference between consecutive proof states must be accounted for, so hidden premises surface as unlicensed mutations rather than passing silently. On HLE-Verified Gold (185 text-only expert problems), Theoria certifies 105 at 91.4% strict precision (Wilson 95% CI [84.5%, 95.4%]). Every certification produces a human readable proof trace in which each step can be independently challenged. Holistic LLM judges achieve comparable precision at matched coverage but fail on different problems (Jaccard 0.14-0.36), making the approaches complementary. On 95 adversarial poisoned proofs across 15 domains, structured judges catch 94.7% versus 83.2% for holistic judging (p= 0.0017). The overall 11.5 pp gap concentrates in hidden premises (90.6% vs. 62.5%, a 28 pp difference) and fabricated citations (100% vs. 90%), the error classes where the formal analysis predicts an advantage; performance is identical on arithmetic and theorem-misapplication errors, where no advantage is predicted. On GPQA Diamond (n= 65), certified precision is 97.1% (Wilson CI [85.1%, 99.5%]).",
+    "arxiv_url": "http://arxiv.org/abs/2607.01223v2",
+    "matched_keywords": [
+      "formal proof",
+      "proof assistant"
+    ]
+  },
+  {
+    "title": "LRAT-Catcher: Importing SAT Solver Certificates into Lean4 by Reflection",
+    "authors": [
+      "Stefan Szeider"
+    ],
+    "published_date": "2026-07-01",
+    "updated_date": "2026-07-01",
+    "summary": "SAT solvers settle combinatorial problems beyond the reach of interactive theorem provers and produce LRAT certificates for independent verification. We present LRAT-Catcher, a standalone, general-purpose tool that imports a DIMACS formula together with an LRAT certificate into Lean 4 as a theorem. LRAT-Catcher runs the formally verified LRAT checker from Lean core as compiled native code via reflection. This scales to instances where Mathlib's explicit proof-term import exhausts memory. LRAT-Catcher also composes cube-and-conquer solving runs entirely inside Lean. Per-cube refutations are combined with a cover-completeness certificate, itself an LRAT proof, into a single unsatisfiability theorem. Verified encodings connect CNF-level results to the original combinatorial problems. We evaluate the tool against Mathlib's proof-term import and the external checker cake_lpr on establishing the Schur number S(4) = 44 and the Ramsey number R(4,4) = 18 as Lean theorems.",
+    "arxiv_url": "http://arxiv.org/abs/2607.00815v1",
+    "matched_keywords": [
+      "interactive theorem",
+      "Lean 4",
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+    "authors": [
+      "Jiacheng Liu",
+      "Xiaohan Zhao",
+      "Xinyi Shang",
+      "Zhiqiang Shen"
+    ],
+    "published_date": "2026-04-14",
+    "updated_date": "2026-07-02",
+    "summary": "Claude Code is an agentic coding tool that can run shell commands, edit files, and call external services on behalf of the user. This study describes its architecture by analyzing the publicly available source code and comparing it with two independent open-source AI agent systems, OpenClaw and Hermes Agent, that answer many of similar or even the same design questions. Our analysis identifies five human values, philosophies, and needs that motivate the architecture: human decision authority, safety, security, and privacy, reliable execution, capability amplification, and contextual adaptability. We then trace them through thirteen design principles to implementation choices. The core of the system is a simple while-loop that calls the model, runs tools, and repeats. Most of the code, however, lives in the systems around this loop: a permission system with seven modes and an ML-based classifier, a five-layer compaction pipeline for context management, four extensibility mechanisms (MCP, plugins, skills, and hooks), a subagent delegation and orchestration mechanism, and append-oriented session storage. Comparisons with OpenClaw and Hermes Agent show that the same design questions produce different answers across three deployment contexts. Claude Code emphasizes per-action safety, OpenClaw emphasizes perimeter-level access, and Hermes renders per-action approvals across many surfaces. At the runtime layer, Claude Code uses a single CLI loop, OpenClaw embeds the runtime within a gateway control plane, and Hermes uses one process whose role is set by its entry point. At the context and extension layer, Claude Code extends the context window, OpenClaw registers gateway-wide capabilities, and Hermes provides pluggable memory and model backends. We finally identify six open design directions for future agent systems, grounded in recent empirical, architectural, and policy literature.",
+    "arxiv_url": "http://arxiv.org/abs/2604.14228v2",
+    "matched_keywords": [
+      "Claude"
+    ]
+  },
+  {
+    "title": "Translating Natural Language to Strategic Temporal Specifications via LLMs",
+    "authors": [
+      "Marco Aruta",
+      "Francesco Improta",
+      "Vadim Malvone",
+      "Aniello Murano",
+      "Vladana Perlić"
+    ],
+    "published_date": "2026-06-29",
+    "updated_date": "2026-07-02",
+    "summary": "A rigorous formalization of system requirements is a fundamental prerequisite for the verification of Multi-Agent Systems (MAS). However, writing correct formal specifications is well known as an error-prone, time-consuming, and expertise-intensive task. This difficulty is further accentuated in MAS, where requirements must capture strategic abilities and temporal objectives. At present, there is no established methodology for deriving MAS specifications from natural language. We present a framework for translating Natural Language descriptions of strategic requirements into well-formed ATL/ATL* formulas using Large Language Models (LLMs). Since no available dataset supports supervised learning for the NL-to-ATL/ATL* translation task, we create and curate a novel expert-validated dataset, employed for training and evaluating fine-tuned models. On a held-out test set, evaluated under the LLM judge that best agrees with expert annotations, in-domain fine-tuning of small open-weight models (3 - 7B parameters) matches strong few-shot proprietary API baselines. Our best fine-tuned system reaches 0.84 semantic accuracy, statistically on par with 0.86 for the strongest few-shot proprietary baseline, while keeping requirements on-premises. We further find that judge reliability is inverse to generator strength. The open-weight Llama-3.3-70B tracks human verdicts most closely, whereas the strongest proprietary models are the least reliable judges, over-rejecting faithful paraphrases of the reference. To assess the practical applicability of the generated specifications, we embed our tool to an existing strategic logics model checker, enabling non-expert users to specify strategic properties in natural language.",
+    "arxiv_url": "http://arxiv.org/abs/2606.30441v2",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "Aria: An Agent For Retrieval and Iterative Auto-Formalization via Dependency Graph",
+    "authors": [
+      "Hanyu Wang",
+      "Ruohan Xie",
+      "Yutong Wang",
+      "Guoxiong Gao",
+      "Xintao Yu",
+      "Bin Dong"
+    ],
+    "published_date": "2025-10-06",
+    "updated_date": "2026-07-02",
+    "summary": "Accurate auto-formalization of theorem statements is essential for advancing automated discovery and verification of research-level mathematics, yet remains a major bottleneck for LLMs due to hallucinations, semantic mismatches, and their inability to synthesize new definitions. To tackle these issues, we present Aria (Agent for Retrieval and Iterative Autoformalization), a system for conjecture-level formalization in Lean that emulates human expert reasoning via a two-phase Graph-of-Thought process: recursively decomposing statements into a dependency graph and then constructing formalizations from grounded concepts. To ensure semantic correctness, we introduce AriaScorer, a checker that retrieves definitions from Mathlib for term-level grounding, enabling rigorous and reliable verification. We evaluate Aria on diverse benchmarks. On ProofNet, it achieves 91.6% compilation success rate and 68.5% final accuracy, surpassing previous methods. On FATE-X, a suite of challenging algebra problems from research literature, it outperforms the best baseline with 44.0% vs. 24.0% final accuracy. On a dataset of homological conjectures, Aria reaches 42.9% final accuracy while all other models score 0%.",
+    "arxiv_url": "http://arxiv.org/abs/2510.04520v2",
+    "matched_keywords": [
+      "autoformalization",
+      "formalization",
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "Formal Semantics for Agentic Tool Protocols: A Process Calculus Approach",
+    "authors": [
+      "Andreas Schlapbach"
+    ],
+    "published_date": "2026-03-25",
+    "updated_date": "2026-07-02",
+    "summary": "The emergence of large language model agents capable of invoking external tools has created urgent need for formal verification of agent protocols. Two paradigms dominate this space: Schema-Guided Dialogue (SGD), a research framework for zero-shot API generalization, and the Model Context Protocol (MCP), an industry standard for agent-tool integration. While both enable dynamic service discovery through schema descriptions, their formal relationship remains unexplored. We present the first process calculus formalization of SGD and MCP, proving they are structurally bisimilar under a well-defined mapping Phi. We demonstrate that the reverse mapping Phi-1 is partial and lossy, revealing critical gaps in MCP's expressivity. Through bidirectional analysis, we identify four principles - semantic completeness, explicit action boundaries, failure mode documentation, and inter-tool relationship declaration -- as necessary and sufficient conditions for full behavioral equivalence. We formalize these principles as type-system extensions MCP+, proving MCP+ is fully equivalent to SGD. Our work provides the first formal foundation for verified agent systems and establishes schema quality as a provable safety property. Practically, this means that the current MCP specification has expressiveness gaps compared to SGD and would benefit from the proposed extensions.",
+    "arxiv_url": "http://arxiv.org/abs/2603.24747v3",
+    "matched_keywords": [
+      "formal verification",
+      "formalization"
+    ]
+  },
+  {
+    "title": "A Rust-to-Lean Verification Pipeline with AI Provers: An Experience Report",
+    "authors": [
+      "Natalia Klaus",
+      "Juan Conejero",
+      "Palina Tolmach"
+    ],
+    "published_date": "2026-05-28",
+    "updated_date": "2026-07-02",
+    "summary": "We describe a verification pipeline that takes production Rust cryptographic code and produces machine-checked correctness proofs in Lean 4. The pipeline combines three components: symbolic extraction tools (Charon and Aeneas, or Hax) that lift Rust into Lean 4; formal cryptographic specification libraries (ArkLib and CompPoly, from the Verified zkEVM project) that provide the mathematical targets; and AI provers (Aristotle from Harmonic AI and Aleph from Logical Intelligence) that close the resulting proof obligations. Every proof is checked by the Lean kernel, so AI output cannot compromise soundness.   Within the scope of the Ethereum Foundation's zkEVM Verification Project, we applied the pipeline to cryptographic primitives in Plonky3 (FRI folding, Mersenne31 and KoalaBear field arithmetic, Horner polynomial evaluation) and RISC Zero (Merkle inclusion verification). In addition, Aleph authored proofs of two bounds-style theorems in Plonky3's compute_log_arity_for_round that previously stood as sorry.   The paper describes the architecture, walks through a running example based on Aleph's two proofs, reports which classes of proof obligations AI closed and which required manual work, and discusses the engineering gaps we encountered: Lean 4 toolchain drift across tools and specific Aeneas/Hax extraction limits. We also document concrete missing lemmas, tactic gaps, and code-generation friction points discovered during proof development. We hope this contribution lowers the barrier to adoption of formal verification and facilitates more effective use of AI in this pipeline. The result is a working pipeline for formal verification of Rust, with kernel-checked proofs and reproducible artefacts.",
+    "arxiv_url": "http://arxiv.org/abs/2605.30106v2",
+    "matched_keywords": [
+      "formal verification",
+      "Lean 4"
+    ]
+  },
+  {
+    "title": "Beyond the Library: An Agentic Framework for Autoformalizing Research Mathematics",
+    "authors": [
+      "Arshia Soltani Moakhar",
+      "Iman Gholami",
+      "Max Springer",
+      "Mahdi JafariRaviz",
+      "MohammadTaghi Hajiaghayi"
+    ],
+    "published_date": "2026-06-30",
+    "updated_date": "2026-07-01",
+    "summary": "While Large Language Models (LLMs) have demonstrated exceptional capabilities in mathematical reasoning, they frequently produce subtle errors that evade human detection. Formal mathematical languages like Lean 4 offer mechanical proof checking, strongly motivating the need for autoformalization: the automatic translation of natural language mathematics into verifiable code. Recent trends indicate that general-purpose LLMs, heavily optimized for standard programming, now outperform smaller models explicitly fine-tuned for Lean. Leveraging this shift, we introduce an agentic autoformalization framework powered by general coding LLMs. At the core of our system is an orchestrator that manages a multi-agent pipeline tailored for research-level mathematics. Because cutting-edge research frequently relies on concepts outside the scope of existing libraries like Mathlib, our system dynamically extends necessary type definitions and validates them via a novel Auxiliary Lemma technique before formalizing the primary theorems. We applied our approach to PutnamBench, producing machine-checked Lean proofs for a random sample of 32 problems. Furthermore, we evaluate our system on five papers from the ACM Symposium on Theory of Computing (STOC) spanning combinatorics, communication complexity, mechanism design, and learning theory, successfully formalizing their main theorems and validating the generated formalizations with human experts; for all five we also formalize the proofs alongside the statements, and notably two of them are proved with no axioms beyond Lean's kernel. All of our formalizations are available at https://beyondthelibrary.github.io/formal_arxiv .",
+    "arxiv_url": "http://arxiv.org/abs/2606.31134v2",
+    "matched_keywords": [
+      "autoformalization",
+      "formalization",
+      "Lean 4",
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "Working Paper: Towards a Category-theoretic Comparative Framework for Artificial General Intelligence",
+    "authors": [
+      "Pablo de los Riscos",
+      "Fernando J. Corbacho",
+      "Michael A. Arbib"
+    ],
+    "published_date": "2026-03-30",
+    "updated_date": "2026-07-01",
+    "summary": "AGI has become the Holly Grail of AI with the promise of level intelligence and the major Tech companies around the world are investing unprecedented amounts of resources in its pursuit. Yet, there does not exist a single formal definition and only some empirical AGI benchmarking frameworks currently exist. The main purpose of this paper is to develop a general, algebraic and category theoretic framework for describing, comparing and analysing different possible AGI architectures. Thus, this Category theoretic formalization would also allow to compare different possible candidate AGI architectures, such as, RL, Universal AI, Active Inference, CRL, Schema based Learning, etc. It will allow to unambiguously expose their commonalities and differences, and what is even more important, expose areas for future research. From the applied Category theoretic point of view, we take as inspiration Machines in a Category to provide a modern view of AGI Architectures in a Category. More specifically, this first position paper provides, on one hand, a first exercise on RL, Causal RL and SBL Architectures in a Category, and on the other hand, it is a first step on a broader research program that seeks to provide a unified formal foundation for AGI systems, integrating architectural structure, informational organization, agent realization, agent and environment interaction, behavioural development over time, and the empirical evaluation of properties. This framework is also intended to support the definition of architectural properties, both syntactic and informational, as well as semantic properties of agents and their assessment in environments with explicitly characterized features. We claim that Category Theory and AGI will have a very symbiotic relation.",
+    "arxiv_url": "http://arxiv.org/abs/2603.28906v4",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "Structural Enforcement of Statistical Rigor in AI-Driven Discovery: A Functional Architecture",
+    "authors": [
+      "Karen Sargsyan"
+    ],
+    "published_date": "2025-11-10",
+    "updated_date": "2026-07-01",
+    "summary": "AI-Scientist systems risk manufacturing spurious discoveries through uncontrolled multiple testing. We present a functional architecture that enforces statistical rigor at two levels: a Haskell embedded domain-specific language (the Research monad) that makes it impossible to test a hypothesis without updating the error budget, and a declarative scaffold, backed by an OS-level sandbox, that makes validation data physically absent from the environment in which LLM-generated code runs. We ground the design in a machine-checked Lean~4 formalization of LORD++ online false-discovery-rate (FDR) control: we derive its error budget and prove both marginal and full FDR control, then close the gap to the implementation by verifying the budget's wealth invariant over IEEE~754 arithmetic in SPARK/Ada. To our knowledge this is the first verified chain from theorem to floating-point implementation for an online FDR procedure. In simulation, the architecture holds the false discovery rate near 1\\% against a 5\\% target, where a naive approach reaches 41\\%. In end-to-end case studies, a valid test avoids the false discoveries a flawed one produces, yet still finds real effects when the data allow. An adversarial evaluation confirms that generated code cannot read the held-out data even when given its exact path.",
+    "arxiv_url": "http://arxiv.org/abs/2511.06701v3",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "A Category Theory Account of AI Identity",
+    "authors": [
+      "Andrea Ferrario"
+    ],
+    "published_date": "2026-06-30",
+    "updated_date": "2026-06-30",
+    "summary": "Artificial intelligence (AI) systems are routinely modified after deployment through retraining and changes in their environments. These transformations raise a metaphysical question: under what conditions does an AI system remain the same system over time or across deployments? Earlier work formulates synchronic and diachronic identity propositionally, by relating identity within a fixed AI system type to equality of trustworthiness levels. Such criteria specify when identity statements are true, but leave implicit the structure of the states compared, the transformations connecting them, and the temporal organization of persistence.   We develop a category-theoretic formalization of AI identity. An AI system type is specified by a datum consisting of a techno-function, a trustworthiness profile, and a trustworthiness-level function. Profile-relative states are connected by admissible lifecycle paths, which are restricted to trustworthiness-level-preserving transformations and quotiented to obtain a reachability category. Temporally admissible functors represent AI system histories, while time-synchronous natural transformations compare realized histories. The formalization yields two categorical interpretations of the earlier AI identity criteria. A weak interpretation recovers identity as equality of trustworthiness level. A strong interpretation requires mutual trustworthiness-preserving reachability, expressed through state isomorphism or natural isomorphism of realized histories. Category theory therefore replaces a single AI identity relation with a structured hierarchy of diachronic and synchronic criteria. The resulting framework identifies identity-related preconditions for transferring responsible-AI claims, evidence, and governance procedures across versions or deployments, without treating categorical identity as sufficient by itself for such transfer.",
+    "arxiv_url": "http://arxiv.org/abs/2607.00220v1",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+    "authors": [
+      "Sameer Malik",
+      "Ayush Singh",
+      "Amar Prakash Azad"
+    ],
+    "published_date": "2026-06-30",
+    "updated_date": "2026-06-30",
+    "summary": "Policy-grounded document review requires determining whether a target document complies with organization-specific policies, guidelines, or playbooks. While large language models can assist with policy interpretation and document analysis, end-to-end prompting leaves the applied policy logic implicit, making compliance decisions difficult to inspect, update, and test. We present PolicyGuard, a neuro-symbolic framework for policy-grounded document compliance review. PolicyGuard converts organizational policy guidance into an executable review engine consisting of typed relational logic rules and atom-level extraction questions. During review, LLMs answer these local questions using retrieved document evidence, and a symbolic evaluator applies the formal rules to detect non-compliance. We instantiate and evaluate PolicyGuard on company-specific NDA compliance review, where contract clauses must be checked against organization-specific negotiation policies. By separating policy formalization, local document interpretation, and symbolic compliance evaluation, PolicyGuard makes document review more explicit, maintainable, and systematically testable.",
+    "arxiv_url": "http://arxiv.org/abs/2606.32004v1",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "Nazrin: An Atomic Neural Proof Automation Tactic in Lean 4",
+    "authors": [
+      "Leni Aniva",
+      "Iori Oikawa",
+      "David Dill",
+      "Clark Barrett"
+    ],
+    "published_date": "2026-02-21",
+    "updated_date": "2026-06-30",
+    "summary": "In Machine-Assisted Theorem Proving, a theorem proving agent searches for a sequence of expressions and tactics that can prove a statement in a proof assistant. In this work, we introduce several novel concepts and capabilities to address obstacles faced by machine-assisted theorem proving. We first present a set of \\textbf{atomic tactics}, a small finite set of tactics capable of proving any provable statement in Lean. We then introduce a \\textbf{transposing atomization} algorithm which turns arbitrary proof expressions into a series of atomic tactics. We next introduce the \\textbf{ExprGraph} data structure, which provides a succinct representation for Lean expressions. Finally, we present the \\textbf{Nazrin Prover}, short for \\textbf{N}eural \\textbf{A}tomi\\textbf{z}e\\textbf{r} for \\textbf{In}habitation Problems, a graph neural network-based theorem proving agent using atomic tactics and ExprGraph. Nazrin circumvents many challenges faced by existing proving agents by exclusively dispatching atomic tactics, and it is robust enough to both train and evaluate on consumer-grade hardware. We demonstrate the potential of tools like Nazrin using theorems from Lean's standard library and from Mathlib.",
+    "arxiv_url": "http://arxiv.org/abs/2602.18767v3",
+    "matched_keywords": [
+      "theorem proving",
+      "proof assistant",
+      "Lean 4",
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "A Computational Toolkit for Engagement and Scalable Assessment in a Large Logic Course",
+    "authors": [
+      "Stephen M. Watt"
+    ],
+    "published_date": "2026-06-01",
+    "updated_date": "2026-06-30",
+    "summary": "Large required courses in theoretical computer science face two related challenges: helping students engage with abstract material and supporting reliable student assessment at scale. This paper describes Logicat, a lightweight computational toolkit developed for CS 245, Logic and Computation, at the University of Waterloo. The course is required for undergraduate computer science students and serves a large annual cohort.   The main pedagogical objective is to help students concretize the ideas they encounter in lectures and assignments. Handwritten formulas and proof steps do not give students immediate correctness feedback. This can slow their development of confidence in formal reasoning and makes assessment harder to apply consistently at scale. Logicat addresses this by allowing students to manipulate formulas, transformations, clauses, valuations, and proof steps as computational objects in Racket, building directly on their Scheme/Racket experience from the first-year curriculum. Logicat provides tools for parsing and displaying formulas, applying equivalence transformations, converting to normal forms, simplifying formulas, working with valuations, applying resolution rules, running a Davis-Putnam style procedure, and verifying formal deduction steps. The system is lighter than a general proof assistant such as Coq or Lean and uses notation aligned with the course. It exposes composable functions students can invoke individually or use to program their own automations.   The paper presents the design rationale, system organization, and planned course integration of Logicat as a practical model for using computational tools to support engagement, conceptual concreteness, and more consistent assessment in large formalreasoning courses.",
+    "arxiv_url": "http://arxiv.org/abs/2606.02367v2",
+    "matched_keywords": [
+      "proof assistant",
+      "Coq"
+    ]
+  },
+  {
+    "title": "Labelled Sequent Calculi for Propositional Team Logics",
+    "authors": [
+      "Fausto Barbero",
+      "Marianna Girlando",
+      "Valentin Müller",
+      "Fan Yang"
+    ],
+    "published_date": "2026-06-30",
+    "updated_date": "2026-06-30",
+    "summary": "Team semantics is a general framework where formulas are not interpreted with respect to a single point of evaluation, but with respect to sets of such points. Team semantics is used in dependence logic, to reason about dependencies between variables, and in inquisitive logic, to formalize the meaning of questions. We provide sound and complete labelled sequent calculi for four logics based on team semantics: basic inquisitive logic, propositional intuitionistic dependence logic, and their respective extensions with tensor disjunction. For technical reasons, we restrict ourselves to languages with finitely many propositional atoms. The rules of weakening, contraction and cut are shown to be admissible in each of our calculi. In the last part of the paper, we present terminating proof search procedures for variants of our proof systems, in which labels have a simplified structure.",
+    "arxiv_url": "http://arxiv.org/abs/2606.31860v1",
+    "matched_keywords": [
+      "proof search"
+    ]
+  },
+  {
+    "title": "Formally Solving Answer-Construction Problems in Lean",
+    "authors": [
+      "Jialiang Sun",
+      "Yuzhi Tang",
+      "Ao Li",
+      "Chris J. Maddison",
+      "Kuldeep S. Meel"
+    ],
+    "published_date": "2025-05-24",
+    "updated_date": "2026-06-30",
+    "summary": "Large language models (LLMs) have achieved remarkable progress in formal mathematical reasoning. Mathematical competition problems fall into two broad types: theorem-proving problems ask for a proof of a fully specified statement, whereas answer-construction problems ask the solver to construct an answer object and prove that it satisfies the stated specification. Existing mathematical reasoning engines mainly target theorem-proving problems, yet answer-construction problems remain less studied. This setting is challenging because model capabilities are misaligned, with general LLMs better suited to answer construction and prover LLMs better suited to proof generation, and because Lean proof checking alone does not rule out inadmissible circular witnesses. To close this gap, we introduce Enumerate-Conjecture-Prove (ECP), a neuro-symbolic framework for solving answer-construction problems in Lean. ECP uses general LLMs to perform bounded enumeration and construct candidate answers, and invokes prover LLMs to produce machine-checked proofs. ECP introduces admissibility checking to ensure that each answer is canonical and does not involve a circular argument. On answer-construction problems from PutnamBench and autoformalized MathArena, ECP formally solves 17/346 PutnamBench instances and 18/75 MathArena instances with admissible answers and proofs, outperforming LLM baselines at aligned inference budgets.",
+    "arxiv_url": "http://arxiv.org/abs/2505.18492v6",
+    "matched_keywords": [
+      "machine-checked proof"
+    ]
+  },
+  {
+    "title": "Polymorphism Meets DHOL",
+    "authors": [
+      "Rhea Ranalter",
+      "Florian Rabe",
+      "Cezary Kaliszyk"
+    ],
+    "published_date": "2026-04-30",
+    "updated_date": "2026-06-30",
+    "summary": "DHOL is an extensional, classical logic that equips the well-known higher-order logic (HOL) with dependent types. This allows for concise encodings of important domains like size-bounded data structures, category theory, or proof theory. Automation support is obtained by translating DHOL to HOL, for which powerful modern automated theorem provers are available. However, a critically missing feature of DHOL is polymorphism. We develop the syntax and semantics of polymorphic DHOL and extend the translation accordingly. We implement the translation in the logic-embedding tool and evaluate it on a range of TPTP formalizations. The logic-embedding tool, together with an off-the-shelf HOL theorem prover easily creates a PDHOL theorem prover for experimenting.",
+    "arxiv_url": "http://arxiv.org/abs/2605.00295v2",
+    "matched_keywords": [
+      "automated theorem",
+      "formalization"
+    ]
+  },
+  {
+    "title": "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
+    "authors": [
+      "Ke Zhang",
+      "Patricio Gallardo Candela",
+      "Sudhir Murthy",
+      "Yi Xie",
+      "Zhi Wang",
+      "Maziar Raissi"
+    ],
+    "published_date": "2026-06-30",
+    "updated_date": "2026-06-30",
+    "summary": "Theorem-proving benchmarks evaluate proof search against fixed formal statements, but natural-language-to-Lean formalization must generate the formal statement itself. In this setting, compilation is only a validity check: a Lean declaration may type-check while omitting hypotheses, changing domains, or expressing a vacuous claim. We study faithful statement formalization as both an evaluation problem and a bottleneck-attribution problem. On a 400-entry graduate-level benchmark spanning real analysis, complex analysis, topology, and algebra, our protocol combines Lean compilation, cross-model semantic judging, and human expert calibration. The resulting picture is different from compile-rate evaluation: a full tool-augmented agent reaches 89.5% compilation but only 60.5% consensus faithfulness, exposing a 29.0-point compile-pass but consensus-unfaithful gap. Targeted human audits support the metric as a conservative decision boundary: across available case-level audits, 96.0% of consensus-positive outputs are human-confirmed faithful, while 82.4% of compile-pass consensus-negative outputs are human-confirmed semantic failures. Under this metric, existing one-shot formalizer models and prover-oriented Lean models remain low, suggesting that formal validity, proof-oriented Lean competence, and faithful statement generation should be reported separately. We then use a full $2^3$ factorial design to decompose three recurring interventions in formalization pipelines: parametric expert drafting, Mathlib/context search, and Lean elaboration feedback. Elaboration feedback is the largest validity intervention, but it also exposes a larger compile-pass semantic-failure bucket; search mainly improves grounding and selectivity; and fine-tuned drafting is largely substitutable in this tool stack once feedback and grounding are available.",
+    "arxiv_url": "http://arxiv.org/abs/2606.31002v1",
+    "matched_keywords": [
+      "proof search",
+      "formalization",
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "Containment Verification: AI Safety Guarantees Independent of Alignment",
+    "authors": [
+      "Royce Moon",
+      "Lav R. Varshney"
+    ],
+    "published_date": "2026-05-09",
+    "updated_date": "2026-06-29",
+    "summary": "Agentic frameworks are the software layer through which AI agents act in the world. Existing safety methods intervene on the model and therefore remain conditional on unverifiable properties of learned behavior. We introduce containment verification, which locates safety guarantees in the agentic framework itself. Under havoc oracle semantics, the AI is modeled as an unconstrained oracle over the framework's typed action space, and the verified containment layer must enforce the boundary policy for every typed action value the AI can emit. For boundary-enforceable properties, expressed over modeled boundary events, action arguments, and state, we prove a universal guarantee by forward-simulation refinement and mechanize it in Dafny. We instantiate the paradigm by verifying PocketFlow, a minimalist agentic LLM framework, and use an agentic synthesis pipeline to generate the specification, operational model, and refinement proof under an information barrier against tautological specifications. To our knowledge, this is the first deductive formal verification of an agentic framework. The guarantee is independent of alignment because it quantifies over the framework's typed action boundary rather than over model behavior.",
+    "arxiv_url": "http://arxiv.org/abs/2605.09045v2",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "A Lean 4 Formalization of Scott's \\emph{Continuous Lattices} (1972)",
+    "authors": [
+      "Lars Warren Ericson"
+    ],
+    "published_date": "2026-06-29",
+    "updated_date": "2026-06-29",
+    "summary": "We present a complete machine-checked formalization of Dana Scott's landmark 1972 paper \\emph{Continuous Lattices} \\textbf{[Sco72]}, carried out in Lean 4 against mathlib and including the March 1972 Milner correction in \\textbf{[Sco72]} (pp.~135--136).   Scott's paper develops a model for \\(λ\\)-calculus from a topological starting point. He defines \\emph{injective} \\(T_0\\)-spaces -- those with a strong extension property for continuous maps -- and shows that they are exactly the \\emph{continuous lattices}: complete lattices whose Scott topology is determined by the order via the way-below relation (\\(\\ll\\)). On this foundation he studies projections, retractions, products, function spaces, and inverse limits. The capstone (Theorem 4.4) constructs an inverse limit \\(D_\\infty\\) of function-space approximants and proves \\(D_\\infty \\cong [D_\\infty \\to D_\\infty]\\), yielding a purely mathematical model for Church's untyped \\(λ\\)-calculus.   Our development formalizes \\textbf{43 numbered results} from Scott's Sections 1--4 (Propositions, Corollaries, Lemmas, and Theorems), each as a sorry-free Lean theorem, together with supporting infrastructure (step functions, the \\(\\Uparrow a\\) basis of Scott opens, Milner's coarser-than-Scott hypothesis, the function-space tower, and the \\(i_\\infty\\)/\\(j_\\infty\\) pair). The formalization is \\textbf{classical} (uses \\texttt{Classical.choice} transitively) and follows Scott's proof dependency order. Where the Lean proof required choices not visible in the original -- or where dead ends were encountered -- we record detailed notes in Section 5. All proofs check with the standard footprint \\(\\texttt{[propext, Classical.choice, Quot.sound]}\\).",
+    "arxiv_url": "http://arxiv.org/abs/2606.30782v1",
+    "matched_keywords": [
+      "formalization",
+      "Lean 4",
+      "Mathlib"
+    ]
+  },
+  {
+    "title": "Transformer Architectures as Complete Bayes Processes: A Formal Proof in the Measure-Theoretic Kernel Framework",
+    "authors": [
+      "Haobo Yang"
+    ],
+    "published_date": "2026-06-29",
+    "updated_date": "2026-06-29",
+    "summary": "We present a complete formal proof that transformer architectures, when their internal update mechanisms satisfy a Bayes joint-distribution condition, implement exact Bayesian posterior inference. Working within the measure-theoretic kernel framework, we define a hierarchy of abstractions -- from the core Bayesian transformer, through semantic transformers with explicit update kernels, to full transformer blocks with QKV/attention/residual/MLP pipelines, and finally multilayer stacks -- and prove at each level that the Bayes joint semantics implies the update kernel equals the posterior almost everywhere. For the block-level architecture, we derive the explicit Bayes formula through Radon-Nikodym differentiation and prove its normalization. We additionally prove that the softmax attention mechanism induces a valid probability distribution over keys, establishing the bridge between the abstract kernel framework and concrete attention implementations. The framework makes no architectural assumptions beyond the Markov kernel structure and exposes explicit conditions under which a transformer block is provably Bayesian. In essence, when this joint distribution condition is satisfied, the forward computation of a Transformer is formally equivalent to a rigorous Bayesian posterior update.",
+    "arxiv_url": "http://arxiv.org/abs/2606.30440v1",
+    "matched_keywords": [
+      "formal proof"
+    ]
+  },
+  {
+    "title": "Security Engineering in IIIf, Part II -- Shadowing the IIIf",
+    "authors": [
+      "Florian Kammüller"
+    ],
+    "published_date": "2024-12-14",
+    "updated_date": "2026-06-29",
+    "summary": "In this paper, we extend the process of Security Engineering for the Isabelle Insider and Infrastructure framework (IIIf) by introducing Information Flow Security (IFC). To formalize the absence of information flows to lower levels, we use a concept of a ``Shadow'' inspired by Morgan. We relate it to the classical notion of Noninterference (NI) formalised in the IIIf. Apart from being an elegant concept, Morgan's concept of a shadow is interesting because it addresses a phenomenon called the ``refinement paradox'': information flow security is known to be not preserved by specification refinements in general. We use the formalisation of shadow and its equivalence to NI to exhibit conditions for a secure refinement for IIIf. As a running example to illustrate the problem, the concepts and the solution, we use an example of a flightradar system specification.",
+    "arxiv_url": "http://arxiv.org/abs/2412.10949v2",
+    "matched_keywords": [
+      "Isabelle"
+    ]
+  },
+  {
+    "title": "Discovering New Theorems via LLMs with In-Context Proof Learning in Lean",
+    "authors": [
+      "Kazumi Kasaura",
+      "Naoto Onda",
+      "Yuta Oriike",
+      "Masaya Taniguchi",
+      "Akiyoshi Sannai",
+      "Sho Sonoda"
+    ],
+    "published_date": "2025-09-16",
+    "updated_date": "2026-06-29",
+    "summary": "Large Language Models (LLMs) have demonstrated significant promise in formal theorem proving. In this study, we investigate the ability of LLMs to discover novel theorems and produce verified proofs. We propose a pipeline called Conjecturing-Proving Loop (CPL), which iteratively generates mathematical conjectures and attempts to prove them in Lean 4. A key feature of CPL is that each iteration conditions the LLM on previously generated theorems and their formal proofs, enabling parameter-free improvement of proof strategies via in-context learning. We provide both theoretical and experimental evidence that CPL increases the discovery rate of hard-to-prove theorems compared to frameworks that generate statements and proofs simultaneously. Moreover, our experiments show that reusing the LLM's own formally verified outputs as context consistently improves subsequent proof success, demonstrating the effectiveness of self-generated in-context learning for neural theorem proving. The source code is available at https://github.com/auto-res/ConjecturingProvingLoop.",
+    "arxiv_url": "http://arxiv.org/abs/2509.14274v4",
+    "matched_keywords": [
+      "theorem proving",
+      "formal proof",
+      "Lean 4",
+      "neural theorem",
+      "verified proof"
+    ]
+  },
+  {
+    "title": "Kofola 1.0: A Modular Approach to ω-Regular Complementation and Inclusion Checking (Technical Report)",
+    "authors": [
+      "Ondrej Alexaj",
+      "Vojtěch Havlena",
+      "Lukáš Holík",
+      "Ondřej Lengál",
+      "Yong Li",
+      "Nicolas Mazzocchi"
+    ],
+    "published_date": "2026-05-14",
+    "updated_date": "2026-06-29",
+    "summary": "We present Kofola, an efficient tool for complementation and inclusion checking of Büchi automata, two central tasks in automata-theoretic verification with applications in model checking, monitoring, and theorem proving. Kofola implements a state-of-the-art modular complementation framework that decomposes the input automaton into strongly connected components and applies to each component a complementation algorithm tailored to its structural properties. Building on this modular construction, Kofola also provides modular inclusion checking with new heuristics. A key ingredient is a new on-the-fly emptiness-checking algorithm for the simple generalized Rabin pair condition produced by our complementation, allowing the search to terminate as soon as the explored state space suffices. Empirical evaluation shows that Kofola is highly competitive with state-of-the-art complementation and inclusion-checking tools: it is the most robust tool in our evaluation and often outperforms competitors by several orders of magnitude on benchmarks from practical applications.",
+    "arxiv_url": "http://arxiv.org/abs/2605.15390v2",
+    "matched_keywords": [
+      "theorem proving"
+    ]
+  },
+  {
+    "title": "From Coalgebraic Determinization to Belief Construction for Partial Observability",
+    "authors": [
+      "Mayuko Kori",
+      "Kazuki Watanabe"
+    ],
+    "published_date": "2026-04-28",
+    "updated_date": "2026-06-29",
+    "summary": "The belief construction is a fundamental technique for transforming partially observable systems to fully observable ones while preserving the relevant semantics. It plays a central role in the analysis of partially observable systems, in particular partially observable Markov decision processes (POMDPs), which is a central model in artificial intelligence and formal verification. In this paper, we develop a coalgebraic framework for the belief construction. To handle observations categorically, we lift a monad to slice categories and introduce a belief decomposition that reorganizes states according to their observations. This allows us to introduce a coalgebraic generalization of the belief construction, obtained by combining the belief decomposition with the coalgebraic determinization of Silva, Bonchi, Bonsangue, and Rutten. In this framework, we show that the semantics of a partially observable system coincides with that of the corresponding belief coalgebra. We then study when the latter further agrees with the semantics of its fully observable counterpart, and use this to identify conditions under which the semantics of a partially observable system coincides with that of the corresponding fully observable belief system. As consequences, we recover the standard equivalence between POMDPs and belief MDPs, and obtain a new equivalence result for weighted transition systems with the semimodule monad.",
+    "arxiv_url": "http://arxiv.org/abs/2604.25355v3",
+    "matched_keywords": [
+      "formal verification"
+    ]
+  },
+  {
+    "title": "Toward Secure and Reliable PDDL Formalization of Large Language Models with Planner-in-the-Loop Feedback",
+    "authors": [
+      "Jiamei Jiang",
+      "Jiajing Zhang",
+      "Feifei Mo",
+      "Linjing Li",
+      "Daniel Zeng"
+    ],
+    "published_date": "2026-06-29",
+    "updated_date": "2026-06-29",
+    "summary": "Planning often requires symbolic specifications that are both executable and verifiable. For large language models deployed in autonomous or decision-support systems, failures in such formalization may lead to unverifiable decisions, execution failures, or unsafe downstream behavior. We present NL-PDDL-Bench, a multi-domain benchmark for natural-language-to-PDDL specification construction with planner-verified executability and controlled difficulty scaling by object count. We further propose a planner-in-the-loop framework that uses validator and planner diagnostics to revise non-executable specifications through localized edits. Building on this infrastructure, we develop a planner-grounded optimization recipe that combines parameter-efficient Low-Rank Adaptation supervised fine-tuning, offline planner-derived preference pairs for Direct Preference Optimization, and inference-time planner-in-the-loop repair, without requiring online planner calls during training. We also provide a unified evaluation suite for parseability, solvability, specification similarity, and outcome-aware plan-level consistency against planner references. Experiments on representative model families show substantial gains in planner success and plan-level agreement, with improved robustness under difficulty scaling and cross-domain variation. These results highlight the value of externally verifiable formalization for reliable deployment of LLMs in safety- or security-sensitive planning systems. Code and data are available at: https://github.com/ibasicplan/NL-PDDL-Bench",
+    "arxiv_url": "http://arxiv.org/abs/2606.29700v1",
+    "matched_keywords": [
+      "formalization"
+    ]
+  },
+  {
+    "title": "A Machine-Verified Proof of a Quantum-Optimization Conjecture",
+    "authors": [
+      "Uri Kol",
+      "Maor Ben-Shahar",
+      "Kfir Sulimany",
+      "Dirk Englund"
+    ],
+    "published_date": "2026-06-29",
+    "updated_date": "2026-06-29",
+    "summary": "We report a machine-verified resolution of a problem open for over a decade in quantum optimization: the Farhi, Goldstone and Gutmann (FGG) conjecture that depth-$p$ Quantum Approximate Optimization Algorithm (QAOA) on the ring of disagrees attains approximation ratio $(2p+1)/(2p+2)$ exactly. We found the proof using a large language model, Claude Fable 5, and verified its correctness end-to-end by the Lean 4 proof assistant. Our methodology includes several ingredients: building on a substantial Lean library of quantum information, we formalized the QAOA components and the known parts of the problem, and reduced the conjecture to a single open mathematical statement. The model was then handed the library and our agentic toolkit, and tasked with closing that gap by constructing a proof in Lean. The resulting process is a feedback loop between the model's natural-language reasoning and Lean's mechanical verification, which converged to a machine-verified proof. Human verification is required only for the structural scaffolding - that the formal statement faithfully encodes the intended claim - while the proof itself is supplied by the model and certified mechanically by Lean. The proof is nevertheless striking - the model uncovered a hidden dynamical symmetry of the problem and exploited it, borrowing tools and machinery from an adjacent field to turn a hard existence problem into an explicit construction. This work paves the way for resolving open conjectures in quantum information science and beyond.",
+    "arxiv_url": "http://arxiv.org/abs/2606.29687v1",
+    "matched_keywords": [
+      "proof assistant",
+      "Lean 4",
+      "verified proof"
+    ]
+  },
+  {
+    "title": "ScAle: Attention Head Scaling as a Minimal Adapter for Spatial Reasoning in Vision Language Models",
+    "authors": [
+      "Rahul Chowdhury",
+      "Timothy A Rupprecht",
+      "Xuan Shen",
+      "Pu Zhao",
+      "Yanzhi Wang"
+    ],
+    "published_date": "2026-06-28",
+    "updated_date": "2026-06-28",
+    "summary": "Spatial reasoning remains a persistent challenge for many vision language models (VLMs), and improving it typically requires fine-tuning with substantial additional parameters. Our preliminary analysis reveals that rescaling activations in selected transformer layers-without modifying pretrained weights-can significantly influence downstream performance. Motivated by this observation, we propose ScAle, an ultra-lightweight adaptation method that learns a small set of scalar coefficients to modulate last-token attention and MLP activations in a fully frozen backbone. We evaluate our method on the synthetic spatial reasoning benchmark SpatialEval and on real-world VQA datasets (COCOQA and VGQA) across multiple model families. Our method, ScAle, achieves up to 134.1% relative accuracy gains using only 1K trainable parameters without requiring millions of trainable parameters as in standard PEFT methods such as LoRA. Despite its extreme compactness, our approach recovers a substantial fraction of standard PEFT performance while preserving strong non-spatial VQA accuracy. These results demonstrate that bounded activation reweighting provides a simple, architecture-agnostic, and highly parameter-efficient alternative for adapting pretrained VLMs.",
+    "arxiv_url": "http://arxiv.org/abs/2606.29579v1",
+    "matched_keywords": [
+      "Coq"
+    ]
+  },
+  {
+    "title": "Faults in Our Formal Benchmarking: Dataset Defects and Evaluation Failures in Lean Theorem Proving",
+    "authors": [
+      "Pawan Sasanka Ammanamanchi",
+      "Siddharth Bhat",
+      "Stella Biderman"
+    ],
+    "published_date": "2026-06-28",
+    "updated_date": "2026-06-28",
+    "summary": "Benchmarks for LLM-assisted theorem proving in Lean are often treated as intrinsically reliable because every solved instance comes with a machine-checked proof. However, the kernel only checks that a proof establishes a \\emph{formal} statement; it does not verify that the statement faithfully encodes the intended informal problem, nor that evaluation harnesses are robust to trivial or adversarial solutions. We audit five widely used Lean theorem-proving benchmarks and their forks, using corpus-scale static checkers to surface 4,833 findings, including 398 mechanically certified issues such as counterexamples, vacuous theorems, and unsound axioms. We also document semantic defects such as missing hypotheses, problem simplification, incomplete or incorrect translations, and Lean-specific specification hazards. Beyond dataset construction, we survey evaluation-time failure modes and show, on corrected subsets, that defects can both inflate and deflate reported prover scores. We propose a fault taxonomy, a suite of automated checkers and recall-oriented semantic audit prompts, and release standards to guide the creation of formal math datasets and to make evaluation more reproducible and trustworthy. Our checkers, audit prompts, and corrected dataset snapshots are available at https://github.com/Shashi456/atp-checkers.",
+    "arxiv_url": "http://arxiv.org/abs/2606.29493v1",
+    "matched_keywords": [
+      "theorem proving",
+      "machine-checked proof"
+    ]
+  }
+]

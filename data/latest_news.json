@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "title": "Reap: Decoding Monte Carlo Tree Search in Lean 4",
+    "link": "https://frenzymath.com/news/reaper-1/",
+    "published_date": "2026-06-26",
+    "summary": "Native Monte Carlo Tree Search implementation in Lean 4.",
+    "source_name": "FrenzyMath (AI4M Team, BICMR@PKU)",
+    "source_feed": "https://frenzymath.com/rss.xml",
+    "matched_keywords": [
+      "lean 4"
+    ]
+  }
+]

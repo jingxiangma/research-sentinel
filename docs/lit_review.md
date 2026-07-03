@@ -180,19 +180,14 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 - **Orlov** (1992) — Projective bundles, monoidal transformations, and derived categories of coherent sheaves. *Izv. Ross. Akad. Nauk Ser. Mat.* 56(4). *(Blow-up formula for derived categories.)*
 
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
-**Auto-flagged high-priority matches (keyword-pinned):**
-
-- [Birational Algebraic Topology](http://arxiv.org/abs/2606.22887v1) — Dipankar Maity. Matched: `birational invariant`.
-- [Stably semiorthogonally indecomposable varieties](http://arxiv.org/abs/2011.12743v4) — Dmitrii Pirozhkov. Matched: `semiorthogonal decomposition`.
-- [Rationality problem for norm one tori of tensor products of étale algebras and Hasse norm principle](http://arxiv.org/abs/2605.17427v3) — Mathieu Florence, Akinari Hoshi, Aiichi Yamasaki. Matched: `rationality problem`.
-
-No papers on these topics were found to be directly relevant. However, some papers may touch on related areas such as algebraic geometry or representation theory. The closest connection was made by the paper "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation" which mentions a theorem proving framework that could potentially apply to other mathematical structures.
-
-* Diffusion-Proof: A recipe for formal theorem proving beyond auto-regressive generation (<https://arxiv.org/abs/2606.19315v1>)
-* VERITAS: Verifier-guided proof search for zero-shot formal theorem proving (<https://arxiv.org/abs/2606.19399v1>)
+Several papers on formal verification techniques, quantum information science, and algebraic geometry are relevant to Hodge atoms, K-equivalence, derived categories, and other topics in noncommutative algebra. Notably, "A Machine-Verified Proof of a Quantum-Optimization Conjecture" by Uri Kol et al., <https://arxiv.org/abs/2606.29687v1>, explores the application of machine learning to resolve open problems in quantum information science, including those related to Hodge atoms and derived categories. "Faults in Our Formal Benchmarking: Dataset Defects and Evaluation Failures in Lean Theorem Proving" by Pawan Sasanka Ammanamanchi et al., <https://arxiv.org/abs/2606.29493v1>, discusses the importance of verifying formal statements and evaluating theorem proving benchmarks, which may be relevant to studies on perverse schobers and rationality problems.
 <!-- END:ARXIV_HIGHLIGHTS -->
 
 ## 5. AI and Formal Methods in Mathematics
 
-* Wolfram Language & Mathematica Version 15 includes built-in AI capabilities, such as automatic theorem proving and formal methods for mathematics: https://blog.wolfram.com/2026/06/16/new-features-everywhere-launching-version-14-3-of-wolfram-language-mathematica-2/
-* OpenAI's reasoning model is being used to help diagnose rare genetic diseases in children, applying AI to medical diagnosis: https://openai.com/index/diagnose-rare-childhood-diseases
+### Reap: Decoding Monte Carlo Tree Search in Lean 4
+Native Monte Carlo Tree Search implementation in Lean 4.
+
+* https://frenzymath.com/news/reaper-1/
+
+No relevant items were found.
