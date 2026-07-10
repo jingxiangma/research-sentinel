@@ -180,14 +180,15 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 - **Orlov** (1992) — Projective bundles, monoidal transformations, and derived categories of coherent sheaves. *Izv. Ross. Akad. Nauk Ser. Mat.* 56(4). *(Blow-up formula for derived categories.)*
 
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
-Several papers on formal verification techniques, quantum information science, and algebraic geometry are relevant to Hodge atoms, K-equivalence, derived categories, and other topics in noncommutative algebra. Notably, "A Machine-Verified Proof of a Quantum-Optimization Conjecture" by Uri Kol et al., <https://arxiv.org/abs/2606.29687v1>, explores the application of machine learning to resolve open problems in quantum information science, including those related to Hodge atoms and derived categories. "Faults in Our Formal Benchmarking: Dataset Defects and Evaluation Failures in Lean Theorem Proving" by Pawan Sasanka Ammanamanchi et al., <https://arxiv.org/abs/2606.29493v1>, discusses the importance of verifying formal statements and evaluating theorem proving benchmarks, which may be relevant to studies on perverse schobers and rationality problems.
+**Auto-flagged high-priority matches (keyword-pinned):**
+
+- [Perverse schobers, stability conditions and quadratic differentials I](http://arxiv.org/abs/2303.18249v6) — Merlin Christ, Fabian Haiden, Yu Qiu. Matched: `Stability Condition`, `perverse schober`.
+- [Exceptional collections for canonical stacks of log del Pezzo surfaces with $rac13(1,1)$ singularities](http://arxiv.org/abs/2606.18238v3) — Alex Junior Gomez Saltachin. Matched: `semiorthogonal decomposition`, `exceptional collection`.
+
+Unfortunately, none of the papers appear to be directly relevant to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse schobers, the noncommutative minimal model program, or rationality problems.
 <!-- END:ARXIV_HIGHLIGHTS -->
 
 ## 5. AI and Formal Methods in Mathematics
-
-### Reap: Decoding Monte Carlo Tree Search in Lean 4
-Native Monte Carlo Tree Search implementation in Lean 4.
-
-* https://frenzymath.com/news/reaper-1/
-
-No relevant items were found.
+- Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory (A deep learning-based approach to fact-graph memory that enables reasoning agents to learn from mathematical knowledge graphs) <https://frenzymath.com/news/danus/>
+- [Formal theorem proving](https://en.wikipedia.org/wiki/Formal_theorem_proving)
+- Lean 4 <https://leanprover.github.io/>
