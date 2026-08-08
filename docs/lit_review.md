@@ -182,13 +182,14 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
 **Auto-flagged high-priority matches (keyword-pinned):**
 
-- [Perverse schobers, stability conditions and quadratic differentials I](http://arxiv.org/abs/2303.18249v6) — Merlin Christ, Fabian Haiden, Yu Qiu. Matched: `Stability Condition`, `perverse schober`.
-- [Exceptional collections for canonical stacks of log del Pezzo surfaces with $rac13(1,1)$ singularities](http://arxiv.org/abs/2606.18238v3) — Alex Junior Gomez Saltachin. Matched: `semiorthogonal decomposition`, `exceptional collection`.
+- [The Lichtenbaum-Quillen dimension of complex varieties](http://arxiv.org/abs/2312.06930v4) — Nicolas Addington, Elden Elmanto. Matched: `semi-orthogonal decomposition`, `birational invariant`.
 
-Unfortunately, none of the papers appear to be directly relevant to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse schobers, the noncommutative minimal model program, or rationality problems.
+Several papers on formalization techniques appear to be indirectly relevant to topics such as K-equivalence and rationality problems. Specifically, [MechGeo: Autoformalizing and Proving Euclidean Geometry in Lean 4](http://arxiv.org/abs/2608.02295v1) by Shen et al. is related to formalization of mathematical structures and could be applicable to derived categories. [Isabelle/STARK: A Formalization of zk-STARK in Isabelle/HOL](http://arxiv.org/abs/2608.01965v1) by Marmsoler is relevant to formalizing cryptographic protocols, which may intersect with rationality problems.
 <!-- END:ARXIV_HIGHLIGHTS -->
 
 ## 5. AI and Formal Methods in Mathematics
-- Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory (A deep learning-based approach to fact-graph memory that enables reasoning agents to learn from mathematical knowledge graphs) <https://frenzymath.com/news/danus/>
-- [Formal theorem proving](https://en.wikipedia.org/wiki/Formal_theorem_proving)
-- Lean 4 <https://leanprover.github.io/>
+
+* Archon Horizon Announcement https://frenzymath.com/news/archon-horizon/
+* Rethlas helps disprove two major conjectures about Kazhdan–Lusztig polynomials of matroids https://frenzymath.com/news/matroid-kl/
+* Ten advances in mathematics and theoretical computer science https://openai.com/index/ten-advances-in-mathematics
+* Accelerating scientific discovery with ChatGPT for Academic Researchers https://openai.com/index/chatgpt-for-academic-researchers
