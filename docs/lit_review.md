@@ -182,14 +182,20 @@ All papers cited in this review with arXiv links, sorted from most to least rece
 <!-- BEGIN:ARXIV_HIGHLIGHTS -->
 **Auto-flagged high-priority matches (keyword-pinned):**
 
-- [The Lichtenbaum-Quillen dimension of complex varieties](http://arxiv.org/abs/2312.06930v4) — Nicolas Addington, Elden Elmanto. Matched: `semi-orthogonal decomposition`, `birational invariant`.
+- [Birational Algebraic Topology](http://arxiv.org/abs/2606.22887v2) — Dipankar Maity. Matched: `birational invariant`.
 
-Several papers on formalization techniques appear to be indirectly relevant to topics such as K-equivalence and rationality problems. Specifically, [MechGeo: Autoformalizing and Proving Euclidean Geometry in Lean 4](http://arxiv.org/abs/2608.02295v1) by Shen et al. is related to formalization of mathematical structures and could be applicable to derived categories. [Isabelle/STARK: A Formalization of zk-STARK in Isabelle/HOL](http://arxiv.org/abs/2608.01965v1) by Marmsoler is relevant to formalizing cryptographic protocols, which may intersect with rationality problems.
+Unfortunately, none of these papers appear to be directly relevant to Hodge atoms, K-equivalence, derived categories, quantum D-modules, perverse schobers, or the noncommutative minimal model program. However, *Topological Semantics for Scoped Computational Paths* by Arthur Freitas Ramos et al., <https://arxiv.org/abs/2608.04228v2>, discusses topological semantics and a quotient arrow space, which may have some indirect connections to these areas of study.
 <!-- END:ARXIV_HIGHLIGHTS -->
 
 ## 5. AI and Formal Methods in Mathematics
+### Lean 4 formalization with Codex or Claude Code
+Archon Horizon Announcement: An open-source, workspace-first orchestration system for long-running Lean 4 formalization with Codex or Claude Code.
 
-* Archon Horizon Announcement https://frenzymath.com/news/archon-horizon/
-* Rethlas helps disprove two major conjectures about Kazhdan–Lusztig polynomials of matroids https://frenzymath.com/news/matroid-kl/
-* Ten advances in mathematics and theoretical computer science https://openai.com/index/ten-advances-in-mathematics
-* Accelerating scientific discovery with ChatGPT for Academic Researchers https://openai.com/index/chatgpt-for-academic-researchers
+### AI reasoning and spatial reasoning
+MindTopo reveals VLMs’ spatial reasoning abilities: A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/
+
+### Formal theorem proving
+A digestion of the proof of Sendov’s conjecture: Concerns the following conjecture of Sendov, as well as its strengthening by Phelps–Rodriguez: Conjecture 1 (Sendov’s conjecture) Let , and let be a degree polynomial with all zeroes in the unit disk. Then for every zero of , there exists a critical point of with . https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/
+
+### AI-generated proofs
+Palomar – a registry of Lean verified mathematics: In recent months there has been a proliferation of AI-generated proofs of various old and new results, some of which have been formalized in the proof assistant language Lean.

@@ -1,5 +1,30 @@
 [
   {
+    "title": "Palomar – a registry of Lean verified mathematics",
+    "link": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
+    "published_date": "2026-08-19",
+    "summary": "In recent months there has been a proliferation of AI-generated proofs of various old and new results, some of which have been formalized in the proof assistant language Lean. However, checking that a given Lean repository actually proves the claimed statement is somewhat non-trivial, especially for an audience which is not expert in the use [&#8230;]",
+    "source_name": "Terence Tao — What's New",
+    "source_feed": "https://terrytao.wordpress.com/feed/",
+    "matched_keywords": [
+      "math",
+      "mathematics",
+      "proof assistant"
+    ]
+  },
+  {
+    "title": "A digestion of the proof of Sendov’s conjecture",
+    "link": "https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/",
+    "published_date": "2026-08-12",
+    "summary": "This post concerns the following conjecture of Sendov, as well as its strengthening by Phelps&#8211;Rodriguez: Conjecture 1 (Sendov&#8217;s conjecture) Let , and let be a degree polynomial with all zeroes in the unit disk. Then for every zero of , there exists a critical point of with . Conjecture 2 (Phelps&#8211;Rodriguez conjecture) Let , and [&#8230;]",
+    "source_name": "Terence Tao — What's New",
+    "source_feed": "https://terrytao.wordpress.com/feed/",
+    "matched_keywords": [
+      "proof",
+      "conjecture"
+    ]
+  },
+  {
     "title": "Archon Horizon Announcement",
     "link": "https://frenzymath.com/news/archon-horizon/",
     "published_date": "2026-08-07",
@@ -12,37 +37,14 @@
     ]
   },
   {
-    "title": "Rethlas helps disprove two major conjectures about Kazhdan–Lusztig polynomials of matroids",
-    "link": "https://frenzymath.com/news/matroid-kl/",
-    "published_date": "2026-08-05",
-    "summary": "Ronnie Cheng and Shurui Liu show that, over every finite field, there exist representable matroids whose Kazhdan–Lusztig polynomials are not unimodal.",
-    "source_name": "FrenzyMath (AI4M Team, BICMR@PKU)",
-    "source_feed": "https://frenzymath.com/rss.xml",
+    "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+    "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+    "published_date": "2026-08-12",
+    "summary": "<p>A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning.</p> <p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/\">MindTopo reveals VLMs&#8217; spatial reasoning abilities</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+    "source_name": "Microsoft Research Blog",
+    "source_feed": "https://www.microsoft.com/en-us/research/feed/",
     "matched_keywords": [
-      "conjecture"
-    ]
-  },
-  {
-    "title": "Ten advances in mathematics and theoretical computer science",
-    "link": "https://openai.com/index/ten-advances-in-mathematics",
-    "published_date": "2026-08-01",
-    "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-    "source_name": "OpenAI Blog",
-    "source_feed": "https://openai.com/blog/rss.xml",
-    "matched_keywords": [
-      "math",
-      "mathematics"
-    ]
-  },
-  {
-    "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-    "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-    "published_date": "2026-07-29",
-    "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-    "source_name": "OpenAI Blog",
-    "source_feed": "https://openai.com/blog/rss.xml",
-    "matched_keywords": [
-      "scientific discovery"
+      "reasoning"
     ]
   }
 ]
